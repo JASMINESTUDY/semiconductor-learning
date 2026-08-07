@@ -1,0 +1,1469 @@
+{
+  "module_name": "Memory Technologies",
+  "topics": [
+{
+  "id": 56,
+  "title": "Volatile vs Non-Volatile Memory",
+  "content": "Memory is a semiconductor device used to store digital information for processing, computation, communication, and data retention. Memory plays a critical role in CPUs, GPUs, smartphones, personal computers, servers, artificial intelligence systems, embedded electronics, and automotive applications. All memory technologies can be broadly classified into two main categories: Volatile Memory and Non-Volatile Memory. The key difference between these categories is whether data can be retained when power is removed. Volatile Memory loses its stored information when electrical power is removed. Data exists only while power is supplied and disappears when the system shuts down. Because of its high speed and low latency, volatile memory is primarily used for active computing tasks and temporary data storage. The two most important volatile memories are SRAM and DRAM. SRAM (Static Random Access Memory) is commonly used in CPU and GPU caches because of its extremely fast access speed, low latency, and high endurance. However, SRAM has lower density and higher cost per bit. DRAM (Dynamic Random Access Memory) is used as system main memory because it offers higher density and lower cost than SRAM. DRAM stores data as electrical charge in capacitors and requires periodic refresh operations to maintain stored information. Non-Volatile Memory (NVM) retains stored data even when power is removed. Data remains available after shutdown, power interruptions, and transportation. This property makes non-volatile memory suitable for long-term data storage, firmware storage, boot code, operating systems, and user files. Common examples include NAND Flash, NOR Flash, and ROM. NAND Flash is widely used in SSDs, memory cards, USB drives, smartphones, and data centers because it offers high storage density and low cost per bit. NOR Flash is commonly used for firmware storage because it supports fast random-read access and execute-in-place capability. ROM stores permanent instructions that are written during manufacturing. Memory hierarchy is an important concept in computer architecture. Different memory technologies provide different trade-offs among speed, capacity, power consumption, cost, endurance, and persistence. Modern systems therefore use multiple memory types simultaneously. CPU registers and SRAM caches provide the fastest access, DRAM serves as main memory, NAND Flash provides persistent storage, and HDDs offer mass storage. As memory gets closer to the processor, speed increases while capacity decreases and cost rises. Volatile memory provides fast data access and very high rewrite endurance but loses data without power. Non-volatile memory provides persistent storage and larger capacity but is generally slower and may have limited write endurance. Modern computing systems rely on both categories working together. Emerging memory technologies such as MRAM, ReRAM, PCM, and FeRAM seek to combine the speed of volatile memory with the persistence of non-volatile memory. The long-term industry goal is to develop a universal memory that combines SRAM speed, DRAM density, NAND Flash persistence, low power consumption, and high endurance within a single technology. Although significant progress has been made, no existing memory technology has yet achieved all these characteristics simultaneously.",
+  "keywords": [
+    {
+      "english": "Memory",
+      "chinese": "記憶體"
+    },
+    {
+      "english": "Volatile Memory",
+      "chinese": "揮發性記憶體"
+    },
+    {
+      "english": "Non-Volatile Memory (NVM)",
+      "chinese": "非揮發性記憶體"
+    },
+    {
+      "english": "SRAM",
+      "chinese": "靜態隨機存取記憶體"
+    },
+    {
+      "english": "DRAM",
+      "chinese": "動態隨機存取記憶體"
+    },
+    {
+      "english": "NAND Flash",
+      "chinese": "NAND快閃記憶體"
+    },
+    {
+      "english": "NOR Flash",
+      "chinese": "NOR快閃記憶體"
+    },
+    {
+      "english": "ROM",
+      "chinese": "唯讀記憶體"
+    },
+    {
+      "english": "Data Retention",
+      "chinese": "資料保存"
+    },
+    {
+      "english": "Memory Hierarchy",
+      "chinese": "記憶體階層"
+    },
+    {
+      "english": "Main Memory",
+      "chinese": "主記憶體"
+    },
+    {
+      "english": "Cache Memory",
+      "chinese": "快取記憶體"
+    },
+    {
+      "english": "Firmware",
+      "chinese": "韌體"
+    },
+    {
+      "english": "SSD",
+      "chinese": "固態硬碟"
+    },
+    {
+      "english": "Endurance",
+      "chinese": "耐久度"
+    },
+    {
+      "english": "Program/Erase Cycle",
+      "chinese": "寫入抹除循環"
+    },
+    {
+      "english": "MRAM",
+      "chinese": "磁阻式記憶體"
+    },
+    {
+      "english": "ReRAM",
+      "chinese": "阻變式記憶體"
+    },
+    {
+      "english": "PCM",
+      "chinese": "相變化記憶體"
+    },
+    {
+      "english": "Universal Memory",
+      "chinese": "通用記憶體"
+    }
+  ],
+  "summary": [
+    "Memory technologies are broadly divided into volatile and non-volatile categories.",
+    "Volatile memory loses stored data when power is removed.",
+    "SRAM and DRAM are the most common volatile memories.",
+    "Non-volatile memory retains data even without power.",
+    "NAND Flash, NOR Flash, and ROM are common non-volatile memories.",
+    "SRAM provides the highest speed and is commonly used for cache.",
+    "DRAM offers a balance of speed, density, and cost for system memory.",
+    "NAND Flash provides high-density persistent storage for SSDs and mobile devices.",
+    "Modern computing systems rely on both volatile and non-volatile memory technologies.",
+    "Emerging memories such as MRAM, ReRAM, and PCM aim to combine the advantages of both memory categories."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. ______ memory loses its contents when power is removed.",
+      "answer": "Volatile"
+    },
+    {
+      "question": "2. ______ memory retains data after power is removed.",
+      "answer": "Non-Volatile"
+    },
+    {
+      "question": "3. SRAM and DRAM are examples of ______ memory.",
+      "answer": "Volatile"
+    },
+    {
+      "question": "4. NAND Flash is a type of ______-volatile memory.",
+      "answer": "Non"
+    },
+    {
+      "question": "5. DRAM requires periodic ______ to maintain stored data.",
+      "answer": "Refresh"
+    },
+    {
+      "question": "6. SRAM is commonly used for CPU ______.",
+      "answer": "Cache"
+    },
+    {
+      "question": "7. NAND Flash is widely used in ______ drives.",
+      "answer": "SSD"
+    },
+    {
+      "question": "8. NOR Flash is commonly used for ______ storage.",
+      "answer": "Firmware"
+    },
+    {
+      "question": "9. MRAM and ReRAM are examples of ______ memory technologies.",
+      "answer": "Emerging"
+    },
+    {
+      "question": "10. The ultimate goal is to create a ______ memory that combines speed, density, and persistence.",
+      "answer": "Universal"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. What is the main difference between volatile and non-volatile memory?",
+      "answer": "Volatile memory loses data when power is removed, while non-volatile memory retains stored information even without power."
+    },
+    {
+      "question": "2. Why is volatile memory used for active computing tasks?",
+      "answer": "Volatile memory provides extremely fast read and write access, low latency, and high endurance, making it ideal for active processor operations."
+    },
+    {
+      "question": "3. How do SRAM and DRAM differ?",
+      "answer": "SRAM is faster and does not require refresh operations but has lower density and higher cost, while DRAM offers higher density and lower cost but requires periodic refreshing."
+    },
+    {
+      "question": "4. Why is DRAM commonly used as main system memory?",
+      "answer": "DRAM provides an effective balance of speed, storage density, and cost, making it practical for large-capacity system memory."
+    },
+    {
+      "question": "5. Why is NAND Flash widely used for SSDs and storage devices?",
+      "answer": "NAND Flash offers high storage density, low cost per bit, non-volatile data retention, and good scalability for large-capacity storage applications."
+    },
+    {
+      "question": "6. What is the advantage of NOR Flash over NAND Flash?",
+      "answer": "NOR Flash supports fast random access and execute-in-place functionality, making it suitable for firmware and boot-code storage."
+    },
+    {
+      "question": "7. Why do modern systems use a memory hierarchy?",
+      "answer": "No single memory technology optimizes speed, capacity, cost, power, and persistence simultaneously, so different memory types are combined to achieve overall system efficiency."
+    },
+    {
+      "question": "8. What role does non-volatile memory play in a computer system?",
+      "answer": "Non-volatile memory stores operating systems, firmware, applications, and user data that must be retained after power is removed."
+    },
+    {
+      "question": "9. What are the goals of emerging memory technologies such as MRAM, ReRAM, and PCM?",
+      "answer": "These technologies aim to combine the speed of RAM with the persistence, density, and lower power characteristics of Flash memory."
+    },
+    {
+      "question": "10. What is meant by a universal memory?",
+      "answer": "A universal memory is a theoretical memory technology that combines SRAM speed, DRAM density, Flash persistence, low power consumption, and high endurance in a single device."
+    }
+  ]
+},
+{
+  "id": 57,
+  "title": "DRAM",
+  "content": "DRAM (Dynamic Random Access Memory) is a type of volatile semiconductor memory that stores data as electrical charge inside microscopic capacitors. DRAM is the most widely used memory technology for system main memory in personal computers, servers, smartphones, gaming systems, cloud infrastructure, artificial intelligence platforms, and high-performance computing systems. The term 'Dynamic' refers to the fact that stored charge continuously leaks away, requiring periodic refresh operations to maintain data integrity. DRAM occupies a critical position in the memory hierarchy by providing a balance between performance, capacity, density, and cost. A standard DRAM cell uses a 1T1C architecture consisting of one transistor and one capacitor. The capacitor stores electrical charge representing a logic value, while the transistor acts as an access switch controlled by the word line. A charged capacitor typically represents a logic 1, while a discharged capacitor represents a logic 0. Because the stored charge gradually leaks through various mechanisms, every DRAM cell must be periodically refreshed. Refresh operations restore the charge before information is lost. DRAM access is organized through rows and columns. When data is requested, a memory controller activates a row, transfers cell information to sense amplifiers, and then selects the requested column. Unlike SRAM, DRAM read operations are destructive because reading disturbs the stored charge. Therefore, data must be restored immediately after each read operation. Sense amplifiers play a critical role by detecting tiny voltage differences and regenerating the original data. Modern DRAM devices are organized into banks, bank groups, rows, columns, and memory arrays to improve performance and parallelism. Performance is typically characterized by capacity, bandwidth, latency, power consumption, and reliability. Important timing parameters include CAS Latency (CL), tRCD, tRP, and tRAS. Over the years, DRAM technology has evolved from SDR SDRAM to DDR, DDR2, DDR3, DDR4, and DDR5 generations. DDR memory transfers data on both rising and falling clock edges, significantly increasing bandwidth. DDR5 provides higher transfer rates, increased capacity, improved power management, and enhanced parallelism compared with previous generations. Specialized DRAM products include LPDDR for mobile applications and GDDR for graphics processing units. LPDDR focuses on low power consumption for smartphones and tablets, while GDDR emphasizes extremely high bandwidth for graphics and AI workloads. Major DRAM manufacturers include Samsung, SK hynix, and Micron. DRAM scaling has become increasingly difficult because shrinking capacitor sizes reduce stored charge and worsen retention characteristics. Engineers address these challenges through advanced capacitor structures, process innovations, and error mitigation techniques. Reliability concerns include soft errors caused by radiation, data retention failures, disturbance effects, and RowHammer attacks. Error Correcting Code (ECC) memory is commonly used in servers and data centers to improve reliability by detecting and correcting bit errors. DRAM remains indispensable because it provides significantly higher density and lower cost per bit than SRAM while delivering much better performance than storage technologies such as NAND Flash. Modern AI systems, cloud computing platforms, and high-performance computing environments depend heavily on DRAM and advanced memory technologies to process massive datasets efficiently.",
+  "keywords": [
+    {
+      "english": "DRAM (Dynamic Random Access Memory)",
+      "chinese": "動態隨機存取記憶體"
+    },
+    {
+      "english": "Volatile Memory",
+      "chinese": "揮發性記憶體"
+    },
+    {
+      "english": "1T1C Cell",
+      "chinese": "一電晶體一電容單元"
+    },
+    {
+      "english": "Capacitor",
+      "chinese": "電容"
+    },
+    {
+      "english": "Transistor",
+      "chinese": "電晶體"
+    },
+    {
+      "english": "Refresh",
+      "chinese": "刷新"
+    },
+    {
+      "english": "Sense Amplifier",
+      "chinese": "感測放大器"
+    },
+    {
+      "english": "Row",
+      "chinese": "列"
+    },
+    {
+      "english": "Column",
+      "chinese": "欄"
+    },
+    {
+      "english": "Memory Controller",
+      "chinese": "記憶體控制器"
+    },
+    {
+      "english": "SDRAM",
+      "chinese": "同步動態記憶體"
+    },
+    {
+      "english": "DDR",
+      "chinese": "雙倍資料速率"
+    },
+    {
+      "english": "DDR5",
+      "chinese": "第五代DDR"
+    },
+    {
+      "english": "LPDDR",
+      "chinese": "低功耗DDR"
+    },
+    {
+      "english": "GDDR",
+      "chinese": "圖形記憶體DDR"
+    },
+    {
+      "english": "Bandwidth",
+      "chinese": "頻寬"
+    },
+    {
+      "english": "Latency",
+      "chinese": "延遲"
+    },
+    {
+      "english": "ECC Memory",
+      "chinese": "錯誤更正記憶體"
+    },
+    {
+      "english": "RowHammer",
+      "chinese": "列衝擊效應"
+    },
+    {
+      "english": "Main Memory",
+      "chinese": "主記憶體"
+    }
+  ],
+  "summary": [
+    "DRAM is a volatile memory technology that stores data using capacitors.",
+    "A DRAM cell typically uses a 1T1C structure consisting of one transistor and one capacitor.",
+    "DRAM requires periodic refresh because stored charge gradually leaks away.",
+    "DRAM provides a balance of speed, density, and cost, making it ideal for main memory.",
+    "Sense amplifiers detect and restore tiny charges stored in DRAM cells.",
+    "DRAM is organized into rows and columns for efficient memory access.",
+    "DDR, LPDDR, and GDDR are major DRAM families serving different applications.",
+    "ECC memory improves DRAM reliability through error detection and correction.",
+    "RowHammer is an important reliability and security issue in modern DRAM systems.",
+    "DRAM is essential for PCs, servers, smartphones, AI accelerators, and HPC systems."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. DRAM stands for Dynamic Random Access ______.",
+      "answer": "Memory"
+    },
+    {
+      "question": "2. DRAM is a ______ memory and loses data when power is removed.",
+      "answer": "Volatile"
+    },
+    {
+      "question": "3. A standard DRAM cell uses a ______T1C architecture.",
+      "answer": "1"
+    },
+    {
+      "question": "4. DRAM stores data using electrical charge in a ______.",
+      "answer": "Capacitor"
+    },
+    {
+      "question": "5. DRAM requires periodic ______ to maintain stored data.",
+      "answer": "Refresh"
+    },
+    {
+      "question": "6. Reading DRAM is considered a ______ read operation.",
+      "answer": "Destructive"
+    },
+    {
+      "question": "7. A ______ amplifier detects small voltage differences in DRAM.",
+      "answer": "Sense"
+    },
+    {
+      "question": "8. DDR stands for Double Data ______.",
+      "answer": "Rate"
+    },
+    {
+      "question": "9. ECC memory provides error detection and ______.",
+      "answer": "Correction"
+    },
+    {
+      "question": "10. DRAM is commonly used as a computer's main ______.",
+      "answer": "Memory"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why does DRAM require periodic refresh operations?",
+      "answer": "DRAM stores data as electrical charge in capacitors, and the charge naturally leaks away over time. Refresh operations restore the charge before data is lost."
+    },
+    {
+      "question": "2. Why is DRAM used as main system memory instead of SRAM?",
+      "answer": "DRAM provides much higher density and lower cost per bit than SRAM, making it practical to build large-capacity memory systems."
+    },
+    {
+      "question": "3. What role do sense amplifiers play in DRAM?",
+      "answer": "Sense amplifiers detect the extremely small voltage differences stored in DRAM cells, amplify the signals, and restore data after read operations."
+    },
+    {
+      "question": "4. What is the purpose of the transistor in a 1T1C DRAM cell?",
+      "answer": "The transistor acts as an access switch that connects the capacitor to the bitline during read and write operations."
+    },
+    {
+      "question": "5. Why are DRAM read operations considered destructive?",
+      "answer": "Reading a DRAM cell disturbs and partially discharges the stored charge, so the original data must be restored immediately after the read operation."
+    },
+    {
+      "question": "6. What are the major challenges facing future DRAM scaling?",
+      "answer": "Key challenges include capacitor scaling, increased leakage current, retention limitations, rising manufacturing costs, and reliability concerns such as RowHammer."
+    },
+    {
+      "question": "7. How does DDR technology improve memory performance?",
+      "answer": "DDR transfers data on both the rising and falling edges of the clock signal, effectively doubling data transfer bandwidth compared with single data rate memory."
+    },
+    {
+      "question": "8. What is the difference between DDR, LPDDR, and GDDR?",
+      "answer": "DDR is used for general system memory, LPDDR is optimized for low-power mobile devices, and GDDR is optimized for maximum bandwidth in graphics and AI applications."
+    },
+    {
+      "question": "9. Why is ECC memory important in enterprise and server systems?",
+      "answer": "ECC memory can detect and correct bit errors, improving data integrity, system reliability, and availability in mission-critical applications."
+    },
+    {
+      "question": "10. Why is DRAM critical for AI and high-performance computing systems?",
+      "answer": "AI and HPC workloads require large memory capacity and high bandwidth to process massive datasets efficiently, making DRAM a fundamental system component."
+    }
+  ]
+},
+{
+  "id": 58,
+  "title": "SRAM",
+  "content": "SRAM (Static Random Access Memory) is a type of volatile semiconductor memory that stores data using bistable latch circuits constructed from transistors. Unlike DRAM, which stores data as electrical charge in capacitors, SRAM stores data as stable logic states within transistor-based flip-flop circuits. As long as power is supplied, the stored information remains valid without requiring refresh operations. The term 'Static' refers to this ability to hold data continuously while power is present. SRAM is the fastest mainstream semiconductor memory technology and is widely used in CPU caches, GPU caches, AI accelerators, networking equipment, routers, switches, embedded systems, and high-performance computing platforms. The primary advantage of SRAM is its extremely low access latency and fast read/write performance. A standard SRAM cell typically uses a 6T architecture consisting of six transistors. Four transistors form two cross-coupled inverters that create a bistable latch, while two additional access transistors connect the cell to bit lines during read and write operations. This structure allows SRAM to store data without refresh but requires significantly more silicon area than DRAM. SRAM stores one bit of information per cell. Logic values are maintained through positive feedback in the latch circuit, ensuring that data remains stable as long as power is supplied. During a write operation, data is forced onto the bit lines and transferred into the cell through the access transistors. During a read operation, the stored value slightly alters the voltage on precharged bit lines, and sense amplifiers detect the resulting difference. Unlike DRAM, SRAM read operations are non-destructive and do not require data restoration after reading. SRAM is commonly organized into rows and columns within memory arrays. Performance is characterized by latency, access time, power consumption, density, area efficiency, and stability. SRAM provides much lower latency than DRAM, making it ideal for processor cache memory. Modern processors use multiple levels of SRAM cache, including L1, L2, and L3 caches, to reduce expensive accesses to external DRAM. L1 cache is the smallest and fastest, while L3 cache is larger and typically shared among processor cores. Many System-on-Chip (SoC) devices include Embedded SRAM (eSRAM) integrated directly onto the chip to provide local high-speed memory. SRAM is particularly important in AI accelerators and GPUs because it supports high-bandwidth data movement and low-latency access to frequently used information. Compared with DRAM, SRAM offers higher speed, lower latency, no refresh overhead, and simpler access mechanisms. However, SRAM suffers from lower density, larger cell size, higher cost per bit, and greater silicon area requirements. As semiconductor technologies continue to scale, SRAM faces challenges including leakage current, cell stability, process variation, read stability, write margin reduction, and noise susceptibility. Modern SRAM designs use advanced FinFET technologies, optimized layouts, power-saving techniques, and error mitigation methods to address these challenges. Reliability concerns include soft errors caused by radiation, read disturb effects, write failures, and reduced noise margins at advanced process nodes. Despite these challenges, SRAM remains indispensable for modern computing because processor performance increasingly depends on rapid access to frequently used data. As AI, cloud computing, high-performance computing, and networking workloads continue to grow, SRAM remains a fundamental technology enabling high-speed memory access and efficient system operation.",
+  "keywords": [
+    {
+      "english": "SRAM (Static Random Access Memory)",
+      "chinese": "靜態隨機存取記憶體"
+    },
+    {
+      "english": "Volatile Memory",
+      "chinese": "揮發性記憶體"
+    },
+    {
+      "english": "6T SRAM Cell",
+      "chinese": "六電晶體SRAM單元"
+    },
+    {
+      "english": "Cross-Coupled Inverter",
+      "chinese": "交叉耦合反相器"
+    },
+    {
+      "english": "Access Transistor",
+      "chinese": "存取電晶體"
+    },
+    {
+      "english": "Cache Memory",
+      "chinese": "快取記憶體"
+    },
+    {
+      "english": "L1 Cache",
+      "chinese": "第一級快取"
+    },
+    {
+      "english": "L2 Cache",
+      "chinese": "第二級快取"
+    },
+    {
+      "english": "L3 Cache",
+      "chinese": "第三級快取"
+    },
+    {
+      "english": "Embedded SRAM (eSRAM)",
+      "chinese": "嵌入式SRAM"
+    },
+    {
+      "english": "Sense Amplifier",
+      "chinese": "感測放大器"
+    },
+    {
+      "english": "Bit Line",
+      "chinese": "位元線"
+    },
+    {
+      "english": "Word Line",
+      "chinese": "字線"
+    },
+    {
+      "english": "Memory Hierarchy",
+      "chinese": "記憶體階層"
+    },
+    {
+      "english": "Latency",
+      "chinese": "延遲"
+    },
+    {
+      "english": "Leakage Current",
+      "chinese": "漏電流"
+    },
+    {
+      "english": "Static Power",
+      "chinese": "靜態功耗"
+    },
+    {
+      "english": "Noise Margin",
+      "chinese": "雜訊容限"
+    },
+    {
+      "english": "Read Stability",
+      "chinese": "讀取穩定性"
+    },
+    {
+      "english": "Write Margin",
+      "chinese": "寫入裕度"
+    }
+  ],
+  "summary": [
+    "SRAM is a volatile memory that stores data using transistor-based latch circuits.",
+    "The standard SRAM cell uses a 6T structure consisting of six transistors.",
+    "SRAM does not require refresh operations because it stores data statically.",
+    "SRAM provides lower latency and higher speed than DRAM.",
+    "SRAM is significantly less dense and more expensive per bit than DRAM.",
+    "SRAM is primarily used for CPU, GPU, and AI accelerator cache memory.",
+    "SRAM read operations are non-destructive, unlike DRAM reads.",
+    "L1, L2, and L3 caches are typically implemented using SRAM technology.",
+    "Leakage power, stability, and scaling are major SRAM design challenges.",
+    "SRAM is a critical technology for achieving high processor performance in modern computing systems."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. SRAM stands for Static Random Access ______.",
+      "answer": "Memory"
+    },
+    {
+      "question": "2. SRAM is a ______ memory and loses data when power is removed.",
+      "answer": "Volatile"
+    },
+    {
+      "question": "3. A typical SRAM cell uses ______ transistors.",
+      "answer": "Six"
+    },
+    {
+      "question": "4. SRAM stores data using transistor-based ______ circuits.",
+      "answer": "Latch"
+    },
+    {
+      "question": "5. SRAM requires ______ refresh operations.",
+      "answer": "No"
+    },
+    {
+      "question": "6. SRAM is commonly used for CPU ______ memory.",
+      "answer": "Cache"
+    },
+    {
+      "question": "7. SRAM read operations are ______-destructive.",
+      "answer": "Non"
+    },
+    {
+      "question": "8. L1, L2, and L3 are levels of ______ memory.",
+      "answer": "Cache"
+    },
+    {
+      "question": "9. Embedded SRAM is often abbreviated as ______.",
+      "answer": "eSRAM"
+    },
+    {
+      "question": "10. SRAM provides lower ______ than DRAM.",
+      "answer": "Latency"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why does SRAM not require refresh operations?",
+      "answer": "SRAM stores data using bistable transistor latch circuits rather than capacitor charge. As long as power is supplied, the stored logic state remains stable without periodic refresh."
+    },
+    {
+      "question": "2. Why is SRAM faster than DRAM?",
+      "answer": "SRAM uses transistor-based storage that can be accessed directly without refresh operations, capacitor sensing, or charge restoration, resulting in lower latency and faster response times."
+    },
+    {
+      "question": "3. Why is SRAM primarily used for cache rather than main memory?",
+      "answer": "SRAM offers exceptional performance but requires significantly more silicon area per bit, making it more expensive and less dense than DRAM. Therefore it is used where speed is most critical."
+    },
+    {
+      "question": "4. What is the function of the six transistors in a typical 6T SRAM cell?",
+      "answer": "Four transistors form two cross-coupled inverters that store data as a bistable latch, while two access transistors connect the cell to bit lines during read and write operations."
+    },
+    {
+      "question": "5. What are the roles of L1, L2, and L3 cache in a processor?",
+      "answer": "These SRAM-based cache levels store frequently accessed instructions and data close to the processor, reducing latency and minimizing slower DRAM accesses."
+    },
+    {
+      "question": "6. What is Embedded SRAM (eSRAM)?",
+      "answer": "Embedded SRAM is SRAM integrated directly onto a system-on-chip to provide high-speed local memory for processors, controllers, and specialized hardware blocks."
+    },
+    {
+      "question": "7. What are the primary challenges in SRAM scaling?",
+      "answer": "Major challenges include leakage current, cell stability, transistor variation, area reduction, power consumption, read disturb effects, and maintaining reliable noise margins."
+    },
+    {
+      "question": "8. How does SRAM support AI processors and modern GPUs?",
+      "answer": "SRAM provides ultra-fast local storage, high bandwidth, and low-latency access for frequently used data, improving computational efficiency and reducing DRAM traffic."
+    },
+    {
+      "question": "9. What reliability concerns affect SRAM technology?",
+      "answer": "Reliability concerns include soft errors caused by radiation, read stability issues, write failures, leakage current, and reduced noise margins at advanced technology nodes."
+    },
+    {
+      "question": "10. Why is SRAM considered essential in modern computing systems?",
+      "answer": "SRAM provides the high-speed cache memory required to bridge the performance gap between processors and DRAM, enabling efficient execution of modern workloads."
+    }
+  ]
+},
+{
+  "id": 59,
+  "title": "NAND Flash",
+  "content": "NAND Flash Memory is a type of non-volatile semiconductor memory that retains stored data even when power is removed. NAND Flash is the dominant storage memory technology used in SSDs, smartphones, USB flash drives, memory cards, embedded systems, cloud data centers, and AI storage infrastructure. Unlike DRAM and SRAM, NAND Flash provides persistent storage and does not require continuous power to maintain information. The name 'NAND' originates from the NAND-like arrangement of memory cells connected in series strings. The name 'Flash' refers to the ability to erase large groups of memory cells simultaneously. NAND Flash became the preferred storage technology because it offers high storage density, low cost per bit, low power consumption, shock resistance, and scalability. A NAND Flash memory cell is typically based on a floating-gate transistor or charge-trap transistor. Data is stored by trapping electrons inside an insulated storage layer, which changes the transistor threshold voltage. Different threshold voltage levels represent stored data values. NAND Flash operations consist of reading, programming, and erasing. Reading detects the threshold voltage of a cell. Programming injects electrons into the storage layer using mechanisms such as Fowler-Nordheim tunneling. Erasing removes stored charge. Unlike DRAM, NAND Flash cannot overwrite data directly. Data is programmed at the page level and erased at the block level. NAND Flash is organized hierarchically into cells, strings, pages, blocks, planes, and dies. A page is the smallest readable and programmable unit, while a block is the smallest erasable unit. One of the most important developments in NAND technology is the use of multiple bits per cell. Single-Level Cell (SLC) stores one bit per cell and offers the highest speed, endurance, and reliability. Multi-Level Cell (MLC) stores two bits per cell. Triple-Level Cell (TLC) stores three bits per cell and has become the mainstream technology in consumer SSDs. Quad-Level Cell (QLC) stores four bits per cell and maximizes storage density but provides lower endurance and write performance. As more bits are stored in each cell, density increases and cost decreases, but reliability, endurance, and speed are reduced. NAND Flash has limited Program/Erase (P/E) cycle endurance because repeated programming and erasing gradually damage the tunnel oxide layer. To overcome these limitations, flash controllers employ Error Correction Code (ECC), Wear Leveling, Bad Block Management, Over-Provisioning, and Garbage Collection. Wear leveling distributes writes across memory cells to prevent premature wear. ECC detects and corrects bit errors. Bad block management isolates defective memory blocks. The Flash Translation Layer (FTL) maps logical addresses from the host system to physical NAND locations and manages controller operations. Traditional planar NAND scaling eventually encountered physical limitations due to shrinking cell dimensions, increased leakage, cell-to-cell interference, and reliability degradation. To continue density growth, the industry transitioned to 3D NAND, which vertically stacks memory cells in multiple layers. Modern products may contain more than one hundred stacked layers. 3D NAND significantly improves density, scalability, and cost efficiency while maintaining acceptable reliability. NAND Flash performance is typically evaluated using capacity, throughput, latency, endurance, retention time, and reliability. Compared with NOR Flash, NAND provides higher density, lower cost per bit, and faster write performance, making it ideal for mass storage applications. NAND Flash forms the foundation of modern SSD storage systems and plays a critical role in cloud computing, consumer electronics, mobile devices, artificial intelligence infrastructure, and enterprise data centers.",
+  "keywords": [
+    {
+      "english": "NAND Flash",
+      "chinese": "NAND快閃記憶體"
+    },
+    {
+      "english": "Non-Volatile Memory (NVM)",
+      "chinese": "非揮發性記憶體"
+    },
+    {
+      "english": "Floating Gate",
+      "chinese": "浮動閘極"
+    },
+    {
+      "english": "Charge Trap",
+      "chinese": "電荷捕獲層"
+    },
+    {
+      "english": "Threshold Voltage",
+      "chinese": "臨界電壓"
+    },
+    {
+      "english": "Program/Erase Cycle (P/E Cycle)",
+      "chinese": "寫入抹除循環"
+    },
+    {
+      "english": "Page",
+      "chinese": "頁"
+    },
+    {
+      "english": "Block",
+      "chinese": "區塊"
+    },
+    {
+      "english": "SLC (Single-Level Cell)",
+      "chinese": "單層儲存單元"
+    },
+    {
+      "english": "MLC (Multi-Level Cell)",
+      "chinese": "多層儲存單元"
+    },
+    {
+      "english": "TLC (Triple-Level Cell)",
+      "chinese": "三層儲存單元"
+    },
+    {
+      "english": "QLC (Quad-Level Cell)",
+      "chinese": "四層儲存單元"
+    },
+    {
+      "english": "Wear Leveling",
+      "chinese": "平均抹寫"
+    },
+    {
+      "english": "Error Correction Code (ECC)",
+      "chinese": "錯誤更正碼"
+    },
+    {
+      "english": "Flash Translation Layer (FTL)",
+      "chinese": "快閃轉換層"
+    },
+    {
+      "english": "Garbage Collection",
+      "chinese": "垃圾回收"
+    },
+    {
+      "english": "Bad Block Management",
+      "chinese": "壞區塊管理"
+    },
+    {
+      "english": "3D NAND",
+      "chinese": "3D NAND快閃記憶體"
+    },
+    {
+      "english": "SSD (Solid-State Drive)",
+      "chinese": "固態硬碟"
+    },
+    {
+      "english": "Data Retention",
+      "chinese": "資料保存"
+    }
+  ],
+  "summary": [
+    "NAND Flash is a non-volatile memory technology that retains data without power.",
+    "NAND Flash stores data using floating-gate or charge-trap transistor technology.",
+    "Data is organized into pages and blocks, with programming at the page level and erasing at the block level.",
+    "SLC, MLC, TLC, and QLC store increasing numbers of bits per cell.",
+    "Higher bits per cell increase density but reduce endurance and performance.",
+    "NAND Flash has limited Program/Erase cycle endurance.",
+    "Wear leveling, garbage collection, and bad block management extend NAND lifespan.",
+    "ECC is essential for maintaining NAND Flash reliability.",
+    "3D NAND enables higher storage density through vertical cell stacking.",
+    "NAND Flash is the foundation of SSDs, smartphones, memory cards, and modern storage systems."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. NAND Flash is a ______-volatile memory technology.",
+      "answer": "Non"
+    },
+    {
+      "question": "2. NAND Flash stores data using a ______ gate transistor.",
+      "answer": "Floating"
+    },
+    {
+      "question": "3. The smallest programmable unit in NAND Flash is a ______.",
+      "answer": "Page"
+    },
+    {
+      "question": "4. The smallest erasable unit in NAND Flash is a ______.",
+      "answer": "Block"
+    },
+    {
+      "question": "5. SLC stores ______ bit per cell.",
+      "answer": "One"
+    },
+    {
+      "question": "6. TLC stores ______ bits per cell.",
+      "answer": "Three"
+    },
+    {
+      "question": "7. QLC stores ______ bits per cell.",
+      "answer": "Four"
+    },
+    {
+      "question": "8. ECC stands for Error Correction ______.",
+      "answer": "Code"
+    },
+    {
+      "question": "9. Wear ______ distributes writes across memory blocks.",
+      "answer": "Leveling"
+    },
+    {
+      "question": "10. Modern NAND storage primarily uses ______ NAND technology.",
+      "answer": "3D"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is NAND Flash considered non-volatile memory?",
+      "answer": "NAND Flash stores electrons in floating-gate or charge-trap structures, allowing information to remain intact even when power is removed."
+    },
+    {
+      "question": "2. Why are data writes and erases handled differently in NAND Flash?",
+      "answer": "NAND Flash can program data at the page level, but erase operations must be performed on larger blocks because of the underlying memory architecture."
+    },
+    {
+      "question": "3. What is the role of the floating gate in a NAND Flash cell?",
+      "answer": "The floating gate stores trapped electrons that modify the transistor threshold voltage, representing the stored digital information."
+    },
+    {
+      "question": "4. What trade-offs exist between SLC, MLC, TLC, and QLC NAND?",
+      "answer": "As more bits are stored per cell, storage density increases and cost decreases, but endurance, reliability, and write performance generally decline."
+    },
+    {
+      "question": "5. Why are ECC and wear leveling critical for NAND Flash reliability?",
+      "answer": "NAND cells gradually degrade through program/erase cycling. ECC corrects bit errors while wear leveling distributes writes to prevent premature block failures."
+    },
+    {
+      "question": "6. What is the purpose of the Flash Translation Layer (FTL)?",
+      "answer": "FTL maps logical addresses to physical NAND locations and manages wear leveling, garbage collection, and bad block handling."
+    },
+    {
+      "question": "7. Why does NAND Flash have limited endurance?",
+      "answer": "Repeated program and erase operations gradually damage the tunnel oxide layer, reducing cell reliability and eventually causing failures."
+    },
+    {
+      "question": "8. Why did the industry transition from planar NAND to 3D NAND?",
+      "answer": "Planar NAND encountered scaling limitations such as leakage, cell interference, and density constraints. 3D NAND increases density by stacking memory cells vertically."
+    },
+    {
+      "question": "9. What is the purpose of garbage collection in NAND Flash storage?",
+      "answer": "Garbage collection consolidates valid data, frees unused blocks, and prepares memory for future write operations, improving performance and efficiency."
+    },
+    {
+      "question": "10. Why is NAND Flash important for modern computing systems?",
+      "answer": "NAND Flash provides high-capacity, low-cost, non-volatile storage that enables SSDs, smartphones, cloud infrastructure, AI systems, and enterprise data storage."
+    }
+  ]
+},
+{
+  "id": 60,
+  "title": "NOR Flash",
+  "content": "NOR Flash Memory is a type of non-volatile semiconductor memory that retains stored data even when power is removed. Similar to NAND Flash, NOR Flash stores information using floating-gate or charge-trap transistor technology, but its cell architecture and access method are significantly different. NOR Flash is optimized for fast random-access read operations, firmware storage, boot code storage, embedded systems, industrial controllers, automotive electronics, networking equipment, and microcontroller applications. One of the most important characteristics of NOR Flash is its ability to support Execute-In-Place (XIP), allowing processors to execute code directly from memory without first copying it into RAM. This capability significantly reduces boot time, lowers memory requirements, and simplifies system design. NOR Flash derives its name from the parallel connection of memory cells that resembles the structure of a NOR logic gate. Unlike NAND Flash, which connects cells in series strings, NOR Flash provides direct access to individual memory locations, enabling low-latency random reads. A NOR Flash memory cell typically consists of a floating-gate or charge-trap transistor. Data is stored as electrical charge trapped in the floating gate, which alters the transistor threshold voltage. Reading data involves measuring the threshold voltage of the cell, while programming injects charge using Fowler-Nordheim tunneling or hot-electron injection. Erasing removes stored charge and is typically performed at the sector or block level. NOR Flash is organized into cells, words, sectors, blocks, and dies. A sector represents the smallest erase unit, while a block contains multiple sectors. Compared with NAND Flash, NOR Flash offers superior random-read performance and direct code execution but sacrifices density and cost efficiency. NOR Flash has lower storage density, larger cell size, slower write speed, and higher cost per bit than NAND Flash. However, it provides excellent read reliability, long data retention, and predictable access latency. Firmware storage is one of the most important NOR Flash applications. Modern systems commonly store BIOS, UEFI firmware, bootloaders, embedded operating systems, device drivers, and system configuration data in NOR Flash. During system startup, processors often fetch instructions directly from NOR Flash before other memory systems become available. Modern NOR Flash devices frequently use serial interfaces such as SPI, Quad SPI (QSPI), and Octal SPI (OSPI), minimizing pin count and reducing system complexity. NOR Flash is widely used in automotive systems, industrial automation, IoT devices, networking equipment, consumer electronics, and embedded controllers where reliable firmware storage and fast startup are essential. Reliability considerations include program/erase endurance, data retention, read disturb effects, and bit errors. Modern NOR Flash devices may integrate Error Correction Code (ECC) mechanisms to ensure long-term reliability. Although NAND Flash dominates mass-storage applications due to its higher density and lower cost, NOR Flash remains the preferred technology for firmware storage and direct code execution because of its fast random-access capability and Execute-In-Place support.",
+  "keywords": [
+    {
+      "english": "NOR Flash",
+      "chinese": "NOR快閃記憶體"
+    },
+    {
+      "english": "Non-Volatile Memory (NVM)",
+      "chinese": "非揮發性記憶體"
+    },
+    {
+      "english": "Floating Gate",
+      "chinese": "浮動閘極"
+    },
+    {
+      "english": "Charge Trap",
+      "chinese": "電荷捕獲層"
+    },
+    {
+      "english": "Threshold Voltage",
+      "chinese": "臨界電壓"
+    },
+    {
+      "english": "Execute-In-Place (XIP)",
+      "chinese": "直接執行"
+    },
+    {
+      "english": "Firmware",
+      "chinese": "韌體"
+    },
+    {
+      "english": "Bootloader",
+      "chinese": "開機載入程式"
+    },
+    {
+      "english": "BIOS",
+      "chinese": "基本輸入輸出系統"
+    },
+    {
+      "english": "UEFI",
+      "chinese": "統一可延伸韌體介面"
+    },
+    {
+      "english": "Sector",
+      "chinese": "磁區"
+    },
+    {
+      "english": "Block",
+      "chinese": "區塊"
+    },
+    {
+      "english": "SPI Flash",
+      "chinese": "SPI快閃記憶體"
+    },
+    {
+      "english": "QSPI Flash",
+      "chinese": "四線SPI快閃記憶體"
+    },
+    {
+      "english": "Octal SPI (OSPI)",
+      "chinese": "八線SPI介面"
+    },
+    {
+      "english": "Program/Erase Cycle",
+      "chinese": "寫入抹除循環"
+    },
+    {
+      "english": "Data Retention",
+      "chinese": "資料保存"
+    },
+    {
+      "english": "Read Disturb",
+      "chinese": "讀取干擾"
+    },
+    {
+      "english": "ECC",
+      "chinese": "錯誤更正碼"
+    },
+    {
+      "english": "Embedded System",
+      "chinese": "嵌入式系統"
+    }
+  ],
+  "summary": [
+    "NOR Flash is a non-volatile memory that retains data without power.",
+    "NOR Flash is optimized for fast random-access read operations.",
+    "NOR Flash stores data using floating-gate or charge-trap transistor technology.",
+    "Execute-In-Place (XIP) is one of the most important advantages of NOR Flash.",
+    "NOR Flash is widely used for firmware, bootloaders, BIOS, and embedded software storage.",
+    "NOR Flash has lower density and higher cost per bit than NAND Flash.",
+    "Serial NOR Flash using SPI, QSPI, and OSPI interfaces is widely adopted in modern systems.",
+    "NOR Flash offers long data retention and high read reliability.",
+    "NOR Flash is commonly used in automotive, industrial, networking, and embedded applications.",
+    "NOR Flash remains the preferred memory technology for code storage and system boot operations."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. NOR Flash is a ______-volatile memory technology.",
+      "answer": "Non"
+    },
+    {
+      "question": "2. NOR Flash is optimized for fast ______ read access.",
+      "answer": "Random"
+    },
+    {
+      "question": "3. XIP stands for Execute-In-______.",
+      "answer": "Place"
+    },
+    {
+      "question": "4. NOR Flash commonly stores ______ and boot code.",
+      "answer": "Firmware"
+    },
+    {
+      "question": "5. Cells in NOR Flash are connected in ______.",
+      "answer": "Parallel"
+    },
+    {
+      "question": "6. NOR Flash typically uses ______ gate transistor technology.",
+      "answer": "Floating"
+    },
+    {
+      "question": "7. SPI stands for Serial Peripheral ______.",
+      "answer": "Interface"
+    },
+    {
+      "question": "8. A small erase unit in NOR Flash is called a ______.",
+      "answer": "Sector"
+    },
+    {
+      "question": "9. NOR Flash has lower ______ than NAND Flash.",
+      "answer": "Density"
+    },
+    {
+      "question": "10. Firmware stored in NOR Flash remains available after power ______.",
+      "answer": "Loss"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is NOR Flash preferred for firmware storage?",
+      "answer": "NOR Flash provides fast random-read access and supports Execute-In-Place (XIP), allowing processors to execute code directly from memory without first copying it into RAM."
+    },
+    {
+      "question": "2. What is the main difference between NOR Flash and NAND Flash?",
+      "answer": "NOR Flash is optimized for random access and direct code execution, while NAND Flash is optimized for high-density storage and sequential data access."
+    },
+    {
+      "question": "3. What is Execute-In-Place (XIP) and why is it important?",
+      "answer": "XIP allows a processor to execute firmware directly from NOR Flash memory, reducing boot time, lowering RAM requirements, and simplifying system architecture."
+    },
+    {
+      "question": "4. How is data stored in a NOR Flash memory cell?",
+      "answer": "Data is stored by trapping electrical charge in a floating-gate or charge-trap structure, which changes the transistor threshold voltage and represents logical data states."
+    },
+    {
+      "question": "5. Why is NOR Flash commonly used in embedded and automotive systems?",
+      "answer": "These systems require reliable firmware storage, long retention time, high read reliability, deterministic access behavior, and fast startup capability."
+    },
+    {
+      "question": "6. What role does NOR Flash play during system boot?",
+      "answer": "NOR Flash stores bootloaders and startup firmware that the processor accesses immediately after power-on to initialize hardware and load operating software."
+    },
+    {
+      "question": "7. What are the advantages of Serial NOR Flash interfaces such as SPI, QSPI, and OSPI?",
+      "answer": "These interfaces reduce pin count, lower system cost, simplify PCB routing, decrease package size, and provide higher communication bandwidth."
+    },
+    {
+      "question": "8. What are the main limitations of NOR Flash compared with NAND Flash?",
+      "answer": "NOR Flash has lower storage density, larger cell size, slower write speed, and higher cost per bit, making it less suitable for large-capacity storage."
+    },
+    {
+      "question": "9. What reliability concerns affect NOR Flash devices?",
+      "answer": "Major reliability concerns include limited program/erase endurance, charge leakage, read disturb effects, data retention degradation, and bit errors over long operating periods."
+    },
+    {
+      "question": "10. Why does NAND Flash dominate SSD storage while NOR Flash does not?",
+      "answer": "NAND Flash provides significantly higher storage density and lower cost per bit, making it economically suitable for large-capacity SSDs, whereas NOR Flash is optimized for firmware and code storage."
+    }
+  ]
+},
+{
+  "id": 61,
+  "title": "ROM and Firmware",
+  "content": "ROM (Read-Only Memory) is a type of non-volatile memory used to permanently store information that must remain available even when power is removed. Traditionally, ROM contained fixed data programmed during manufacturing and could not be modified during normal operation. ROM is used to store boot code, startup instructions, hardware initialization routines, system configuration data, and low-level control software. When a device is powered on, volatile memories such as SRAM and DRAM contain no valid data, so the processor requires instructions from a non-volatile source to begin operation. ROM provides these essential startup instructions. Over time, ROM technology evolved into several forms including Mask ROM, PROM, EPROM, EEPROM, and Flash Memory. Mask ROM is programmed during manufacturing and cannot be modified. PROM can be programmed once after fabrication. EPROM can be erased using ultraviolet light and reprogrammed. EEPROM supports electrical erasure and rewriting, while Flash memory provides higher density and easier reprogramming. Today, many systems use NOR Flash or embedded Flash instead of traditional ROM because firmware can be updated after deployment. Firmware is specialized software stored in non-volatile memory that provides low-level control of electronic hardware. Firmware acts as the bridge between hardware and higher-level software such as operating systems and applications. It is often the first software executed when a system powers on. Examples include BIOS and UEFI firmware in personal computers, SSD controller firmware, automotive ECU firmware, router firmware, smartphone firmware, and embedded microcontroller code. During the boot process, a processor starts execution from a predefined memory address, retrieves firmware from ROM, EEPROM, or Flash memory, initializes system hardware, configures memory and peripherals, and eventually loads the operating system or application software. A bootloader is a specialized firmware component that performs these startup tasks and loads additional software. NOR Flash is commonly used for firmware storage because it supports Execute-In-Place (XIP), allowing processors to execute code directly from memory without copying it to RAM. Firmware can be updated throughout a product's lifetime to add features, fix bugs, improve reliability, and address cybersecurity vulnerabilities. Many modern systems support Over-the-Air (OTA) firmware updates that allow remote upgrades through network connections. Firmware security has become increasingly important because firmware operates at a privileged hardware level. Security mechanisms include Secure Boot, cryptographic signatures, firmware encryption, trusted execution environments, and hardware Root of Trust architectures. Many embedded systems rely entirely on firmware to perform control functions without a traditional operating system. Firmware is also embedded within semiconductor devices such as SSD controllers, network processors, GPUs, memory modules, and microcontrollers. Reliability requirements for ROM and firmware storage include long data retention, protection against corruption, support for firmware recovery, endurance for repeated updates, and error correction mechanisms. Modern reprogrammable firmware storage technologies provide flexibility that allows manufacturers to maintain, improve, and secure products throughout their lifecycle. ROM provides the hardware storage mechanism, while firmware provides the software intelligence that enables systems to boot, initialize hardware, ensure security, and operate correctly.",
+  "keywords": [
+    {
+      "english": "ROM (Read-Only Memory)",
+      "chinese": "唯讀記憶體"
+    },
+    {
+      "english": "Firmware",
+      "chinese": "韌體"
+    },
+    {
+      "english": "Mask ROM",
+      "chinese": "光罩唯讀記憶體"
+    },
+    {
+      "english": "PROM",
+      "chinese": "可程式化唯讀記憶體"
+    },
+    {
+      "english": "EPROM",
+      "chinese": "可抹除可程式化唯讀記憶體"
+    },
+    {
+      "english": "EEPROM",
+      "chinese": "電子可抹除可程式化唯讀記憶體"
+    },
+    {
+      "english": "Flash Memory",
+      "chinese": "快閃記憶體"
+    },
+    {
+      "english": "Bootloader",
+      "chinese": "開機載入程式"
+    },
+    {
+      "english": "BIOS",
+      "chinese": "基本輸入輸出系統"
+    },
+    {
+      "english": "UEFI",
+      "chinese": "統一可延伸韌體介面"
+    },
+    {
+      "english": "Secure Boot",
+      "chinese": "安全開機"
+    },
+    {
+      "english": "Execute-In-Place (XIP)",
+      "chinese": "直接執行"
+    },
+    {
+      "english": "Non-Volatile Memory",
+      "chinese": "非揮發性記憶體"
+    },
+    {
+      "english": "OTA Update",
+      "chinese": "無線更新"
+    },
+    {
+      "english": "Root of Trust",
+      "chinese": "信任根"
+    },
+    {
+      "english": "Hardware Initialization",
+      "chinese": "硬體初始化"
+    },
+    {
+      "english": "Power-On Self-Test (POST)",
+      "chinese": "開機自我測試"
+    },
+    {
+      "english": "Embedded System",
+      "chinese": "嵌入式系統"
+    },
+    {
+      "english": "Firmware Upgrade",
+      "chinese": "韌體升級"
+    },
+    {
+      "english": "Data Retention",
+      "chinese": "資料保存"
+    }
+  ],
+  "summary": [
+    "ROM is a non-volatile memory technology used to store permanent system instructions.",
+    "Firmware is software stored in non-volatile memory that controls hardware operation.",
+    "ROM is hardware, while firmware is software.",
+    "Modern firmware is commonly stored in NOR Flash, EEPROM, or embedded Flash memory.",
+    "Firmware is responsible for hardware initialization and system boot processes.",
+    "BIOS and UEFI are common firmware implementations in personal computers.",
+    "Bootloaders load operating systems and application software during startup.",
+    "Execute-In-Place (XIP) allows processors to run code directly from NOR Flash.",
+    "Firmware updates enable bug fixes, security improvements, and new features after deployment.",
+    "Firmware security mechanisms such as Secure Boot and Root of Trust are critical for protecting modern electronic systems."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. ROM stands for Read-Only ______.",
+      "answer": "Memory"
+    },
+    {
+      "question": "2. ROM is a ______-volatile memory technology.",
+      "answer": "Non"
+    },
+    {
+      "question": "3. Firmware is a type of ______ stored in non-volatile memory.",
+      "answer": "Software"
+    },
+    {
+      "question": "4. BIOS and UEFI are examples of system ______.",
+      "answer": "Firmware"
+    },
+    {
+      "question": "5. A ______ loads the operating system during startup.",
+      "answer": "Bootloader"
+    },
+    {
+      "question": "6. EEPROM can be electrically ______ and reprogrammed.",
+      "answer": "Erased"
+    },
+    {
+      "question": "7. XIP stands for Execute-In-______.",
+      "answer": "Place"
+    },
+    {
+      "question": "8. Secure ______ verifies software authenticity during startup.",
+      "answer": "Boot"
+    },
+    {
+      "question": "9. OTA updates allow firmware upgrades over a ______ connection.",
+      "answer": "Network"
+    },
+    {
+      "question": "10. Firmware is responsible for hardware ______ during system startup.",
+      "answer": "Initialization"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. What is the difference between ROM and Firmware?",
+      "answer": "ROM is a physical non-volatile memory technology used for storage, while firmware is the software stored inside ROM, Flash memory, EEPROM, or similar devices that controls hardware operation."
+    },
+    {
+      "question": "2. Why is ROM necessary during system startup?",
+      "answer": "When power is applied, volatile memories contain no valid information. ROM provides the startup instructions required to initialize hardware and begin the boot process."
+    },
+    {
+      "question": "3. What are the major types of ROM technologies?",
+      "answer": "The main ROM technologies include Mask ROM, PROM, EPROM, EEPROM, and Flash Memory, each offering different levels of programmability and flexibility."
+    },
+    {
+      "question": "4. What role does firmware play in a computer or embedded device?",
+      "answer": "Firmware initializes hardware, configures peripherals, manages low-level system functions, provides device control, and loads the operating system or application software."
+    },
+    {
+      "question": "5. What is a bootloader and why is it important?",
+      "answer": "A bootloader is a specialized firmware program that initializes the system and loads the operating system kernel or application software during startup."
+    },
+    {
+      "question": "6. Why has Flash memory largely replaced traditional ROM in modern systems?",
+      "answer": "Flash memory can be reprogrammed after manufacturing, allowing firmware updates, bug fixes, security patches, and new features without replacing hardware."
+    },
+    {
+      "question": "7. What is Execute-In-Place (XIP)?",
+      "answer": "XIP allows processors to execute firmware instructions directly from NOR Flash memory without first copying the code into RAM, reducing boot time and memory requirements."
+    },
+    {
+      "question": "8. Why are OTA firmware updates important?",
+      "answer": "OTA updates allow manufacturers to remotely deploy bug fixes, security improvements, performance enhancements, and new functionality throughout a product's lifecycle."
+    },
+    {
+      "question": "9. Why is firmware security critical in modern electronic systems?",
+      "answer": "Firmware operates at a highly privileged level and controls hardware resources. A compromised firmware image can bypass operating-system protections and affect the entire system."
+    },
+    {
+      "question": "10. What technologies are commonly used to protect firmware integrity?",
+      "answer": "Common protection mechanisms include Secure Boot, cryptographic signatures, firmware encryption, trusted execution environments, Root of Trust architectures, and integrity verification systems."
+    }
+  ]
+},
+{
+  "id": 62,
+  "title": "HBM Memory",
+  "content": "HBM (High Bandwidth Memory) is an advanced DRAM technology designed to provide extremely high memory bandwidth while reducing power consumption and package footprint. Unlike traditional DDR memory modules that are mounted separately on a printed circuit board, HBM vertically stacks multiple DRAM dies and connects them through Through-Silicon Vias (TSVs). These memory stacks are placed very close to processors using advanced packaging technologies such as silicon interposers and 2.5D integration. HBM was developed to overcome the memory bandwidth bottleneck known as the 'Memory Wall,' where processor performance improves faster than memory bandwidth. Modern AI accelerators, GPUs, high-performance computing systems, cloud servers, networking processors, and supercomputers require massive memory bandwidth to process large datasets efficiently. HBM addresses this challenge by using a very wide memory interface instead of extremely high clock frequencies. A typical HBM stack provides a 1024-bit interface, which is significantly wider than traditional DDR memory channels. The HBM architecture consists of multiple DRAM dies stacked vertically on top of a base logic die. TSV technology creates vertical electrical connections through the silicon dies, enabling high-speed communication between layers while minimizing signal path length. The base logic die controls memory access, manages communication, and interfaces with the external processor. Most HBM solutions are integrated using a silicon interposer, a specialized substrate containing extremely dense wiring that connects the processor and memory stacks. This approach is known as 2.5D packaging. Examples include TSMC CoWoS, Intel EMIB, and Samsung I-Cube technologies. HBM has evolved through multiple generations including HBM1, HBM2, HBM2E, HBM3, and HBM3E, with each generation delivering higher bandwidth, larger capacity, and improved power efficiency. HBM3 and HBM3E are widely used in modern AI accelerators and advanced GPUs. HBM performance is primarily measured by bandwidth, capacity, power efficiency, and latency. While latency improvements are moderate, bandwidth improvements are dramatic compared with DDR memory. HBM provides significantly higher bandwidth and better energy efficiency because of the short interconnect distances and wide interface architecture. Modern AI workloads such as large language models, generative AI, machine learning training, and inference require constant access to enormous amounts of data. HBM supplies the memory bandwidth necessary to keep AI processors fully utilized. Major HBM suppliers include SK hynix, Samsung, and Micron. Manufacturing HBM is highly complex because it requires TSV formation, wafer thinning, precision die stacking, advanced packaging, thermal management, and yield optimization. Reliability considerations include TSV defects, thermal stress, signal integrity challenges, mechanical stress, and package-level reliability. Despite these challenges, HBM has become one of the most strategically important memory technologies in the semiconductor industry and serves as a key enabler for AI computing, data centers, high-performance computing, advanced GPUs, and future semiconductor systems.",
+  "keywords": [
+    {
+      "english": "High Bandwidth Memory (HBM)",
+      "chinese": "高頻寬記憶體"
+    },
+    {
+      "english": "DRAM",
+      "chinese": "動態隨機存取記憶體"
+    },
+    {
+      "english": "Through-Silicon Via (TSV)",
+      "chinese": "矽穿孔導通技術"
+    },
+    {
+      "english": "Silicon Interposer",
+      "chinese": "矽中介層"
+    },
+    {
+      "english": "2.5D Packaging",
+      "chinese": "2.5D封裝"
+    },
+    {
+      "english": "CoWoS",
+      "chinese": "晶圓上晶片基板封裝"
+    },
+    {
+      "english": "Logic Die",
+      "chinese": "邏輯晶片"
+    },
+    {
+      "english": "Memory Stack",
+      "chinese": "記憶體堆疊"
+    },
+    {
+      "english": "Bandwidth",
+      "chinese": "頻寬"
+    },
+    {
+      "english": "Latency",
+      "chinese": "延遲"
+    },
+    {
+      "english": "HBM2",
+      "chinese": "第二代HBM"
+    },
+    {
+      "english": "HBM2E",
+      "chinese": "增強版HBM2"
+    },
+    {
+      "english": "HBM3",
+      "chinese": "第三代HBM"
+    },
+    {
+      "english": "HBM3E",
+      "chinese": "增強版HBM3"
+    },
+    {
+      "english": "HBM4",
+      "chinese": "第四代HBM"
+    },
+    {
+      "english": "AI Accelerator",
+      "chinese": "AI加速器"
+    },
+    {
+      "english": "GPU",
+      "chinese": "圖形處理器"
+    },
+    {
+      "english": "High Performance Computing (HPC)",
+      "chinese": "高效能運算"
+    },
+    {
+      "english": "Memory Wall",
+      "chinese": "記憶體牆"
+    },
+    {
+      "english": "Advanced Packaging",
+      "chinese": "先進封裝"
+    }
+  ],
+  "summary": [
+    "HBM is an advanced DRAM technology designed for extremely high bandwidth applications.",
+    "HBM stacks multiple DRAM dies vertically using TSV technology.",
+    "HBM is commonly integrated with processors through silicon interposers and 2.5D packaging.",
+    "The primary goal of HBM is to overcome memory bandwidth limitations.",
+    "HBM uses very wide memory interfaces instead of extremely high clock frequencies.",
+    "HBM is widely used in AI accelerators, GPUs, HPC systems, and data centers.",
+    "HBM provides significantly higher bandwidth and better power efficiency than traditional DDR memory.",
+    "HBM depends heavily on advanced packaging technologies such as TSV, CoWoS, and silicon interposers.",
+    "HBM3 and HBM3E are key technologies powering modern generative AI infrastructure.",
+    "HBM has become one of the most strategically important memory technologies in the semiconductor industry."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. HBM stands for High ______ Memory.",
+      "answer": "Bandwidth"
+    },
+    {
+      "question": "2. HBM is based on ______ memory technology.",
+      "answer": "DRAM"
+    },
+    {
+      "question": "3. DRAM dies in HBM are connected using ______ technology.",
+      "answer": "TSV"
+    },
+    {
+      "question": "4. HBM typically uses a silicon ______ to connect memory and processor.",
+      "answer": "Interposer"
+    },
+    {
+      "question": "5. The primary purpose of HBM is to increase memory ______.",
+      "answer": "Bandwidth"
+    },
+    {
+      "question": "6. HBM is widely used in AI accelerators and ______.",
+      "answer": "GPUs"
+    },
+    {
+      "question": "7. TSV stands for Through-Silicon ______.",
+      "answer": "Via"
+    },
+    {
+      "question": "8. CoWoS is a type of advanced ______ technology.",
+      "answer": "Packaging"
+    },
+    {
+      "question": "9. HBM uses a very ______ memory interface.",
+      "answer": "Wide"
+    },
+    {
+      "question": "10. HBM helps overcome the ______ wall problem.",
+      "answer": "Memory"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why was HBM developed instead of simply increasing DDR memory frequency?",
+      "answer": "Increasing memory frequency raises power consumption, signal integrity challenges, and PCB complexity. HBM achieves much greater bandwidth by using a very wide interface and advanced packaging technologies."
+    },
+    {
+      "question": "2. What is the role of TSV technology in HBM?",
+      "answer": "TSVs provide vertical electrical connections through silicon dies, enabling stacked DRAM structures, shorter signal paths, lower power consumption, and higher bandwidth communication."
+    },
+    {
+      "question": "3. What is the function of the base logic die in an HBM stack?",
+      "answer": "The base logic die manages memory access, data routing, communication between DRAM layers, and interfacing between the memory stack and the processor."
+    },
+    {
+      "question": "4. Why is a silicon interposer important in HBM systems?",
+      "answer": "A silicon interposer provides thousands of high-density interconnections between the processor and HBM stacks, enabling ultra-wide data paths and high-speed communication."
+    },
+    {
+      "question": "5. How does HBM differ from traditional DDR memory?",
+      "answer": "HBM uses vertically stacked memory dies, TSVs, and extremely wide interfaces to deliver higher bandwidth and better power efficiency, while DDR relies on external memory modules and narrower interfaces."
+    },
+    {
+      "question": "6. Why is HBM especially important for AI and HPC workloads?",
+      "answer": "AI training, inference, and HPC applications process massive datasets that require extremely high memory bandwidth. HBM helps eliminate memory bottlenecks and improves processor utilization."
+    },
+    {
+      "question": "7. What advanced packaging technologies are commonly associated with HBM?",
+      "answer": "Common technologies include TSVs, silicon interposers, 2.5D packaging, CoWoS, EMIB, and other advanced heterogeneous integration solutions."
+    },
+    {
+      "question": "8. What are the major manufacturing challenges of HBM?",
+      "answer": "Challenges include TSV fabrication, wafer thinning, precision die stacking, yield management, advanced packaging complexity, and thermal control."
+    },
+    {
+      "question": "9. What reliability concerns must be addressed in HBM products?",
+      "answer": "Important concerns include TSV defects, thermal stress, signal integrity degradation, mechanical stress between stacked dies, and package-level reliability issues."
+    },
+    {
+      "question": "10. Why has HBM become strategically important in the semiconductor industry?",
+      "answer": "HBM is a key enabling technology for AI accelerators, advanced GPUs, cloud infrastructure, and future high-performance computing systems, making it critical for modern semiconductor competitiveness."
+    }
+  ]
+},
+{
+  "id": 63,
+  "title": "HDD vs SSD",
+  "content": "HDD (Hard Disk Drive) and SSD (Solid-State Drive) are the two primary non-volatile storage technologies used in modern computing systems. Both are designed for long-term data storage and retain information even when power is removed. They store operating systems, applications, user files, databases, multimedia content, cloud data, and AI datasets. The fundamental difference lies in how information is stored. HDDs use magnetic recording on rotating platters, whereas SSDs use semiconductor-based NAND Flash memory. HDD technology is electromechanical and consists of spinning magnetic platters, spindle motors, actuator arms, read/write heads, and controller electronics. Data is stored by changing magnetic orientations on platter surfaces and accessed by physically moving the read/write head to the correct location. Because mechanical motion is required, HDDs experience higher latency and slower random access performance. SSDs are fully electronic storage devices that use NAND Flash memory cells to store electrical charge. SSDs contain NAND Flash chips, controllers, firmware, DRAM cache in some models, and power management circuitry. Data is managed through the Flash Translation Layer (FTL), which performs logical-to-physical address mapping, wear leveling, garbage collection, and bad block management. Since SSDs contain no moving parts, they provide significantly lower latency, faster random access, higher throughput, lower power consumption, and improved shock resistance. HDD performance is limited by rotational speed and seek time. Common spindle speeds include 5400 RPM, 7200 RPM, 10000 RPM, and 15000 RPM. SSD performance depends on NAND Flash technology, controller design, interface bandwidth, and firmware optimization. Modern SSDs are available in SATA and NVMe versions. SATA SSDs use the SATA interface and provide speeds around several hundred MB/s, while NVMe SSDs use PCIe interfaces and can achieve transfer rates exceeding multiple GB/s. HDDs remain attractive because of their low cost per gigabyte and extremely high storage capacities. They are commonly used for backups, archiving, surveillance systems, and cloud cold storage. SSDs are preferred for operating systems, gaming, enterprise applications, databases, AI workloads, and high-performance computing because of their superior responsiveness and throughput. SSD reliability differs from HDD reliability. HDDs are vulnerable to mechanical wear, shock damage, head crashes, spindle failures, and actuator problems. SSDs avoid mechanical failures but are limited by NAND Flash Program/Erase cycle endurance and long-term charge retention characteristics. To improve reliability, SSD controllers implement ECC, wear leveling, bad block management, over-provisioning, and garbage collection. Enterprise storage systems frequently combine SSDs and HDDs to balance performance, capacity, reliability, and cost. Modern AI and cloud infrastructures often use storage hierarchies where HBM and DRAM provide active memory, SSDs provide fast storage, and HDDs provide economical large-capacity archival storage. HDD technology continues evolving through CMR, SMR, and HAMR recording techniques, while SSD technology advances through higher-density NAND, QLC storage, PCIe Gen5/Gen6 interfaces, and more sophisticated controllers. Both technologies remain important because they serve different storage requirements within modern computing ecosystems.",
+  "keywords": [
+    {
+      "english": "Hard Disk Drive (HDD)",
+      "chinese": "傳統硬碟"
+    },
+    {
+      "english": "Solid-State Drive (SSD)",
+      "chinese": "固態硬碟"
+    },
+    {
+      "english": "NAND Flash",
+      "chinese": "NAND快閃記憶體"
+    },
+    {
+      "english": "Magnetic Recording",
+      "chinese": "磁性記錄"
+    },
+    {
+      "english": "Platter",
+      "chinese": "磁碟盤片"
+    },
+    {
+      "english": "Read/Write Head",
+      "chinese": "讀寫磁頭"
+    },
+    {
+      "english": "Spindle Motor",
+      "chinese": "主軸馬達"
+    },
+    {
+      "english": "SSD Controller",
+      "chinese": "SSD控制器"
+    },
+    {
+      "english": "Flash Translation Layer (FTL)",
+      "chinese": "快閃轉換層"
+    },
+    {
+      "english": "Wear Leveling",
+      "chinese": "平均抹寫"
+    },
+    {
+      "english": "Error Correction Code (ECC)",
+      "chinese": "錯誤更正碼"
+    },
+    {
+      "english": "SATA",
+      "chinese": "序列ATA介面"
+    },
+    {
+      "english": "NVMe",
+      "chinese": "非揮發性記憶體高速介面"
+    },
+    {
+      "english": "PCIe",
+      "chinese": "高速周邊介面"
+    },
+    {
+      "english": "TBW (Terabytes Written)",
+      "chinese": "總寫入量"
+    },
+    {
+      "english": "DWPD (Drive Writes Per Day)",
+      "chinese": "每日完整寫入次數"
+    },
+    {
+      "english": "CMR",
+      "chinese": "傳統磁記錄"
+    },
+    {
+      "english": "SMR",
+      "chinese": "疊瓦式磁記錄"
+    },
+    {
+      "english": "HAMR",
+      "chinese": "熱輔助磁記錄"
+    },
+    {
+      "english": "Data Retention",
+      "chinese": "資料保存"
+    }
+  ],
+  "summary": [
+    "HDD and SSD are both non-volatile storage technologies used for permanent data storage.",
+    "HDD stores data magnetically on rotating platters, while SSD stores data electronically using NAND Flash.",
+    "SSDs provide significantly lower latency and higher performance than HDDs.",
+    "HDDs offer lower cost per gigabyte and larger capacities.",
+    "SSDs contain no moving parts, improving shock resistance and reducing noise.",
+    "NVMe SSDs provide much higher performance than SATA SSDs.",
+    "SSD endurance is limited by NAND Flash Program/Erase cycles.",
+    "HDD reliability is primarily affected by mechanical wear and component failures.",
+    "Modern data centers frequently combine SSDs for performance and HDDs for archival storage.",
+    "HDDs and SSDs remain complementary technologies that balance performance, capacity, and cost."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. HDD stands for Hard Disk ______.",
+      "answer": "Drive"
+    },
+    {
+      "question": "2. SSD stands for Solid-State ______.",
+      "answer": "Drive"
+    },
+    {
+      "question": "3. HDD stores data using ______ recording.",
+      "answer": "Magnetic"
+    },
+    {
+      "question": "4. SSD stores data using ______ Flash memory.",
+      "answer": "NAND"
+    },
+    {
+      "question": "5. HDDs contain rotating ______.",
+      "answer": "Platters"
+    },
+    {
+      "question": "6. NVMe SSDs typically use the ______ interface.",
+      "answer": "PCIe"
+    },
+    {
+      "question": "7. SSD controllers perform wear ______ operations.",
+      "answer": "Leveling"
+    },
+    {
+      "question": "8. TBW stands for Terabytes ______.",
+      "answer": "Written"
+    },
+    {
+      "question": "9. HDD latency is typically measured in ______.",
+      "answer": "Milliseconds"
+    },
+    {
+      "question": "10. SSD latency is typically measured in ______.",
+      "answer": "Microseconds"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are SSDs faster than HDDs?",
+      "answer": "SSDs access data electronically without moving parts, while HDDs require physical head movement and platter rotation. This significantly reduces latency and improves read/write performance."
+    },
+    {
+      "question": "2. What is the fundamental difference between HDD and SSD storage mechanisms?",
+      "answer": "HDDs store data magnetically on rotating platters, whereas SSDs store data electronically using NAND Flash memory cells."
+    },
+    {
+      "question": "3. Why do HDDs still remain important despite SSD growth?",
+      "answer": "HDDs offer significantly lower cost per gigabyte and much larger capacities, making them ideal for backup systems, archival storage, surveillance data, and cloud cold-storage applications."
+    },
+    {
+      "question": "4. What is the difference between SATA SSD and NVMe SSD?",
+      "answer": "SATA SSDs use the SATA interface and provide moderate performance, while NVMe SSDs use the PCIe interface and deliver much higher bandwidth and lower latency."
+    },
+    {
+      "question": "5. What functions does the Flash Translation Layer (FTL) perform in an SSD?",
+      "answer": "FTL handles logical-to-physical address mapping, wear leveling, garbage collection, bad block management, and overall NAND Flash management."
+    },
+    {
+      "question": "6. Why do SSDs require wear leveling and ECC?",
+      "answer": "NAND Flash cells degrade with repeated Program/Erase cycles. Wear leveling distributes writes evenly while ECC detects and corrects bit errors to improve reliability."
+    },
+    {
+      "question": "7. What are the primary reliability concerns for HDDs and SSDs?",
+      "answer": "HDDs are affected by mechanical failures such as head crashes and motor wear, while SSDs are affected by NAND endurance limits, retention aging, and flash-cell degradation."
+    },
+    {
+      "question": "8. How are SSDs and HDDs typically used together in enterprise storage systems?",
+      "answer": "SSDs are used for high-performance workloads such as databases, virtualization, and AI processing, while HDDs provide low-cost, high-capacity storage for backup and archival data."
+    },
+    {
+      "question": "9. What performance metrics are commonly used to evaluate SSD endurance?",
+      "answer": "Common endurance metrics include TBW (Terabytes Written) and DWPD (Drive Writes Per Day), which quantify the expected write lifespan of an SSD."
+    },
+    {
+      "question": "10. Why are SSDs preferred for modern operating systems and AI workloads?",
+      "answer": "SSDs provide extremely fast boot times, low latency, high random-access performance, improved responsiveness, and better throughput, making them ideal for modern computing workloads."
+    }
+  ]
+}
+  ]
+}

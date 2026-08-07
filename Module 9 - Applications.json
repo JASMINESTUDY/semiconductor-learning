@@ -1,0 +1,1835 @@
+{
+  "module_name": "Applications",
+  "topics": [
+  {
+  "id": 71,
+  "title": "Consumer Electronics",
+  "content": "Consumer Electronics (CE) are electronic devices designed for everyday use by consumers for communication, entertainment, productivity, health monitoring, smart-home functions, and personal convenience. Consumer electronics represent one of the largest markets for semiconductor technologies and drive innovation in processors, memory, sensors, displays, wireless communication, batteries, and artificial intelligence. Examples include smartphones, tablets, laptops, desktops, smart TVs, game consoles, smart watches, wireless earbuds, smart speakers, AR/VR headsets, fitness trackers, and smart-home devices. The evolution of consumer electronics has progressed from analog systems built with vacuum tubes and discrete components to highly integrated digital platforms powered by advanced semiconductor technologies. Modern consumer devices combine computing, sensing, communication, storage, multimedia processing, and AI capabilities into compact form factors. At the center of most consumer electronics is a processor subsystem. Modern products commonly use a System-on-Chip (SoC) that integrates CPU cores, GPU cores, NPUs, memory controllers, image processors, security engines, and connectivity hardware onto a single chip. This high level of integration reduces power consumption, board size, manufacturing cost, and system complexity. Memory systems are also critical. DRAM provides working memory for active applications, NAND Flash provides permanent storage, and SRAM is used for high-speed cache memories. Display technology is another major component of consumer electronics. LCD, OLED, and emerging MicroLED technologies are used to provide visual interfaces. Display quality is commonly measured through resolution, brightness, refresh rate, contrast ratio, color accuracy, and power efficiency. Modern consumer products also contain extensive sensor systems that allow devices to interact intelligently with users and their environments. Common sensors include accelerometers, gyroscopes, magnetometers, proximity sensors, ambient-light sensors, image sensors, microphones, biometric sensors, and environmental sensors. Connectivity technologies are essential because most consumer electronics operate as part of connected ecosystems. Common communication technologies include Wi-Fi, Bluetooth, NFC, USB, GPS, and cellular networks such as 4G and 5G. Power management is a fundamental design consideration because many consumer products are battery powered. Power Management ICs (PMICs) regulate voltage, manage charging, monitor battery health, and optimize energy efficiency. Artificial Intelligence has become a major differentiating technology within consumer electronics. AI features include voice assistants, face recognition, computational photography, recommendation systems, speech recognition, translation, content personalization, and on-device AI processing. Dedicated NPUs increasingly perform AI inference directly on devices to improve privacy, reduce latency, and reduce cloud dependence. Imaging systems are among the most sophisticated subsystems in modern consumer electronics. Camera sensors, Image Signal Processors (ISPs), AI engines, and advanced software work together to provide high-quality photography, video recording, image enhancement, object detection, and augmented reality experiences. Audio systems have also become highly advanced through DSPs, Active Noise Cancellation (ANC), voice processing, and spatial audio technologies. Security is increasingly important because consumer devices store sensitive personal information. Security features include Secure Boot, hardware encryption, Trusted Execution Environments (TEE), biometric authentication, and secure key storage. Consumer electronics manufacturers must balance performance, battery life, size, reliability, cost, security, and user experience while producing products in extremely high volumes. Major technology trends include Edge AI, wearable computing, AR/VR platforms, smart-home ecosystems, sustainable design, and increasingly intelligent connected devices. Consumer electronics remain one of the most influential application areas for semiconductor innovation and continue driving advancements across computing, communication, AI, sensors, memory, and display technologies.",
+  "keywords": [
+    {
+      "english": "Consumer Electronics (CE)",
+      "chinese": "消費性電子產品"
+    },
+    {
+      "english": "System-on-Chip (SoC)",
+      "chinese": "系統單晶片"
+    },
+    {
+      "english": "CPU",
+      "chinese": "中央處理器"
+    },
+    {
+      "english": "GPU",
+      "chinese": "圖形處理器"
+    },
+    {
+      "english": "NPU",
+      "chinese": "神經網路處理器"
+    },
+    {
+      "english": "DRAM",
+      "chinese": "動態隨機存取記憶體"
+    },
+    {
+      "english": "NAND Flash",
+      "chinese": "NAND快閃記憶體"
+    },
+    {
+      "english": "OLED",
+      "chinese": "有機發光二極體"
+    },
+    {
+      "english": "LCD",
+      "chinese": "液晶顯示器"
+    },
+    {
+      "english": "MicroLED",
+      "chinese": "微型發光二極體"
+    },
+    {
+      "english": "Sensor",
+      "chinese": "感測器"
+    },
+    {
+      "english": "Accelerometer",
+      "chinese": "加速度計"
+    },
+    {
+      "english": "Gyroscope",
+      "chinese": "陀螺儀"
+    },
+    {
+      "english": "ISP (Image Signal Processor)",
+      "chinese": "影像訊號處理器"
+    },
+    {
+      "english": "Wi-Fi",
+      "chinese": "無線網路"
+    },
+    {
+      "english": "Bluetooth",
+      "chinese": "藍牙"
+    },
+    {
+      "english": "NFC",
+      "chinese": "近場通訊"
+    },
+    {
+      "english": "PMIC (Power Management IC)",
+      "chinese": "電源管理晶片"
+    },
+    {
+      "english": "Biometric Authentication",
+      "chinese": "生物辨識驗證"
+    },
+    {
+      "english": "Edge AI",
+      "chinese": "邊緣人工智慧"
+    }
+  ],
+  "summary": [
+    "Consumer electronics are devices designed for everyday consumer use, including smartphones, TVs, PCs, wearables, and smart-home products.",
+    "Modern consumer electronics rely heavily on semiconductor technologies.",
+    "SoCs integrate CPU, GPU, NPU, memory controllers, and connectivity functions into a single chip.",
+    "DRAM, NAND Flash, and SRAM play essential roles in consumer-device performance.",
+    "Sensors enable motion detection, environmental sensing, imaging, and biometric authentication.",
+    "Connectivity technologies such as Wi-Fi, Bluetooth, NFC, and 5G enable connected user experiences.",
+    "AI has become a major feature in consumer electronics through voice assistants, photography, security, and personalization.",
+    "Displays, cameras, and battery life remain key competitive differentiators.",
+    "Security technologies such as Secure Boot, encryption, and biometrics are critical in modern devices.",
+    "Consumer electronics continue driving innovation in semiconductors, AI, wireless communication, and edge computing."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. CE stands for Consumer ______.",
+      "answer": "Electronics"
+    },
+    {
+      "question": "2. A SoC stands for System-on-______.",
+      "answer": "Chip"
+    },
+    {
+      "question": "3. DRAM is typically used as ______ memory.",
+      "answer": "Working"
+    },
+    {
+      "question": "4. NAND Flash is used for permanent ______.",
+      "answer": "Storage"
+    },
+    {
+      "question": "5. OLED stands for Organic Light Emitting ______.",
+      "answer": "Diode"
+    },
+    {
+      "question": "6. Wi-Fi and Bluetooth are examples of ______ technologies.",
+      "answer": "Connectivity"
+    },
+    {
+      "question": "7. A PMIC is responsible for ______ management.",
+      "answer": "Power"
+    },
+    {
+      "question": "8. ISP stands for Image Signal ______.",
+      "answer": "Processor"
+    },
+    {
+      "question": "9. NPUs accelerate ______ workloads.",
+      "answer": "AI"
+    },
+    {
+      "question": "10. Biometric systems commonly use fingerprint or ______ recognition.",
+      "answer": "Facial"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are SoCs important in modern consumer electronics?",
+      "answer": "SoCs integrate CPU, GPU, NPU, memory controllers, connectivity modules, and other functions into a single chip, reducing cost, power consumption, board size, and system complexity while improving performance."
+    },
+    {
+      "question": "2. Why has AI become a key differentiator in consumer devices?",
+      "answer": "AI enables advanced features such as voice assistants, image enhancement, face recognition, recommendation systems, translation, speech recognition, and personalized user experiences."
+    },
+    {
+      "question": "3. Why are power management and battery life critical in consumer electronics?",
+      "answer": "Most consumer devices are portable and battery powered. Efficient power management improves battery life, usability, user satisfaction, and overall product competitiveness."
+    },
+    {
+      "question": "4. How do sensors enhance consumer-electronics functionality?",
+      "answer": "Sensors allow devices to detect motion, orientation, environmental conditions, user presence, biometric information, and other real-world inputs that enable intelligent and interactive features."
+    },
+    {
+      "question": "5. What role do Image Signal Processors (ISPs) play in modern devices?",
+      "answer": "ISPs process raw camera data and perform noise reduction, color correction, image enhancement, HDR processing, autofocus calculations, and computational photography functions."
+    },
+    {
+      "question": "6. Why is connectivity a fundamental requirement for modern consumer electronics?",
+      "answer": "Connectivity technologies such as Wi-Fi, Bluetooth, NFC, and cellular networks allow devices to communicate, access cloud services, synchronize data, and participate in connected ecosystems."
+    },
+    {
+      "question": "7. Why are security technologies increasingly important in consumer devices?",
+      "answer": "Modern devices store personal, financial, biometric, and communication data that must be protected through encryption, secure boot, trusted execution environments, and authentication mechanisms."
+    },
+    {
+      "question": "8. How does Edge AI benefit consumer electronics?",
+      "answer": "Edge AI enables local AI processing with lower latency, improved privacy, reduced cloud dependence, lower bandwidth usage, and faster user experiences."
+    },
+    {
+      "question": "9. What are the major design challenges facing consumer-electronics manufacturers?",
+      "answer": "Manufacturers must balance performance, battery life, cost, thermal management, security, reliability, product size, and rapid market-driven innovation cycles."
+    },
+    {
+      "question": "10. Why are consumer electronics important to the semiconductor industry?",
+      "answer": "Consumer electronics represent one of the largest semiconductor markets and drive innovation in processors, memory, sensors, displays, connectivity technologies, AI acceleration, and manufacturing processes."
+    }
+  ]
+},
+{
+  "id": 72,
+  "title": "Smartphones and Mobile SoCs",
+  "content": "A smartphone is a highly integrated mobile computing device that combines communication, computing, imaging, multimedia, connectivity, positioning, sensors, and artificial intelligence into a portable battery-powered platform. Smartphones have evolved from simple communication devices into powerful personal computing systems capable of running advanced applications, performing AI processing, supporting mobile gaming, providing high-quality photography, enabling digital payments, and maintaining constant connectivity. At the center of every smartphone is a Mobile SoC (System-on-Chip), which integrates most of the major computing and communication functions onto a single semiconductor chip. Mobile SoCs are designed to provide high performance while maintaining low power consumption, compact size, and long battery life. A modern Mobile SoC typically contains several specialized processing engines. The CPU executes operating systems, applications, and system-management tasks. Most smartphone CPUs are based on ARM architectures and use heterogeneous multicore designs. One common approach is ARM big.LITTLE architecture, which combines high-performance cores for demanding workloads with efficiency cores for background processing and energy savings. The GPU accelerates graphics rendering, gaming, user-interface processing, and multimedia tasks. Popular mobile GPU architectures include Apple GPU, Qualcomm Adreno, ARM Mali, and ARM Immortalis. Modern GPUs also contribute to AI and image-processing workloads. The NPU (Neural Processing Unit) is a dedicated AI accelerator used for machine-learning inference, voice recognition, computational photography, language processing, and on-device generative AI. Examples include Apple Neural Engine, Qualcomm Hexagon NPU, and MediaTek APU. Mobile SoCs also include DSPs (Digital Signal Processors), which efficiently process audio, voice, sensor fusion, and communication signals while consuming less power than CPUs. Another important subsystem is the ISP (Image Signal Processor), which processes raw camera data and performs functions such as noise reduction, autofocus, HDR, white balance correction, image enhancement, and video processing. Modern smartphone photography relies heavily on ISP and AI capabilities. The memory subsystem of a smartphone includes LPDDR memory technologies such as LPDDR4X, LPDDR5, and LPDDR5X, which provide high bandwidth while minimizing power consumption. Permanent storage is provided through NAND Flash using standards such as UFS 3.1 and UFS 4.0. Cache memory is used throughout the processor hierarchy to improve performance and reduce access latency. Communication is one of the defining functions of smartphones. Mobile SoCs integrate cellular modems that support technologies such as 4G LTE and 5G NR. Modern integrated modems improve power efficiency, reduce board complexity, and enable high-speed wireless communication. Additional connectivity technologies include Wi-Fi, Bluetooth, NFC, USB, and GNSS systems such as GPS, Galileo, GLONASS, and BeiDou. Smartphones contain some of the most advanced camera systems found in consumer electronics. These systems combine CMOS image sensors, ISPs, AI engines, and advanced software algorithms to support portrait photography, night mode, computational photography, video stabilization, object recognition, and augmented reality applications. Artificial Intelligence has become a major workload in smartphones. AI is used for voice assistants, face recognition, translation, camera enhancement, predictive text, recommendation systems, speech processing, and local large-language-model execution. Dedicated NPUs allow these functions to execute efficiently on-device without requiring continuous cloud access. Power management is critical because smartphones are battery-powered systems. PMICs regulate voltages, manage charging, control power distribution, monitor battery health, and support Dynamic Voltage and Frequency Scaling (DVFS) to optimize performance and efficiency. Security is another essential aspect of smartphone architecture. Security features include Secure Boot, Trusted Execution Environments (TEE), secure enclaves, hardware encryption engines, secure key storage, and biometric authentication systems such as fingerprint and facial recognition. The dominant smartphone operating systems are Android and iOS, both of which manage hardware resources, application execution, security, memory management, and user interaction. Major Mobile SoC vendors include Qualcomm Snapdragon, Apple A-Series, MediaTek Dimensity, Samsung Exynos, and Google Tensor. Future smartphone development is being driven by on-device AI, advanced NPUs, generative AI capabilities, improved camera technologies, 5G and future 6G connectivity, and increasingly integrated semiconductor designs. Smartphones and Mobile SoCs represent some of the most advanced mass-produced semiconductor systems and continue to drive innovation across computing, AI, communications, imaging, and consumer electronics.",
+  "keywords": [
+    {
+      "english": "Smartphone",
+      "chinese": "智慧型手機"
+    },
+    {
+      "english": "Mobile SoC (System-on-Chip)",
+      "chinese": "行動系統單晶片"
+    },
+    {
+      "english": "CPU",
+      "chinese": "中央處理器"
+    },
+    {
+      "english": "GPU",
+      "chinese": "圖形處理器"
+    },
+    {
+      "english": "NPU",
+      "chinese": "神經網路處理器"
+    },
+    {
+      "english": "DSP",
+      "chinese": "數位訊號處理器"
+    },
+    {
+      "english": "ISP (Image Signal Processor)",
+      "chinese": "影像訊號處理器"
+    },
+    {
+      "english": "big.LITTLE Architecture",
+      "chinese": "大小核架構"
+    },
+    {
+      "english": "LPDDR",
+      "chinese": "低功耗DDR記憶體"
+    },
+    {
+      "english": "UFS (Universal Flash Storage)",
+      "chinese": "通用快閃儲存"
+    },
+    {
+      "english": "5G NR",
+      "chinese": "第五代行動通訊新無線技術"
+    },
+    {
+      "english": "Cellular Modem",
+      "chinese": "行動通訊數據機"
+    },
+    {
+      "english": "Wi-Fi",
+      "chinese": "無線網路"
+    },
+    {
+      "english": "Bluetooth",
+      "chinese": "藍牙"
+    },
+    {
+      "english": "NFC",
+      "chinese": "近場通訊"
+    },
+    {
+      "english": "GNSS",
+      "chinese": "全球導航衛星系統"
+    },
+    {
+      "english": "PMIC",
+      "chinese": "電源管理晶片"
+    },
+    {
+      "english": "Secure Boot",
+      "chinese": "安全開機"
+    },
+    {
+      "english": "Trusted Execution Environment (TEE)",
+      "chinese": "可信執行環境"
+    },
+    {
+      "english": "Apple Neural Engine",
+      "chinese": "Apple神經引擎"
+    }
+  ],
+  "summary": [
+    "Smartphones are highly integrated mobile computing platforms combining communication, computing, imaging, AI, and connectivity.",
+    "Mobile SoCs integrate CPU, GPU, NPU, ISP, DSP, modem, memory controllers, and security engines on a single chip.",
+    "ARM-based architectures dominate smartphone processors.",
+    "big.LITTLE architectures balance performance and power efficiency using performance and efficiency cores.",
+    "NPUs enable efficient on-device AI processing such as voice recognition, computational photography, and generative AI.",
+    "ISPs play a critical role in smartphone camera quality and image processing.",
+    "LPDDR memory and UFS storage provide high performance while minimizing power consumption.",
+    "5G modems enable high-speed wireless connectivity for modern mobile applications.",
+    "Security features such as Secure Boot, TEE, and secure enclaves protect sensitive user data.",
+    "Smartphones continue driving innovation in AI, wireless communication, semiconductor integration, and edge computing."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. A smartphone SoC stands for System-on-______.",
+      "answer": "Chip"
+    },
+    {
+      "question": "2. Most modern smartphone processors are based on the ______ architecture.",
+      "answer": "ARM"
+    },
+    {
+      "question": "3. The ______ processes graphics and gaming workloads.",
+      "answer": "GPU"
+    },
+    {
+      "question": "4. The ______ accelerates AI inference tasks.",
+      "answer": "NPU"
+    },
+    {
+      "question": "5. big.LITTLE combines performance cores and ______ cores.",
+      "answer": "Efficiency"
+    },
+    {
+      "question": "6. ISP stands for Image Signal ______.",
+      "answer": "Processor"
+    },
+    {
+      "question": "7. LPDDR is a low-power type of ______ memory.",
+      "answer": "DRAM"
+    },
+    {
+      "question": "8. UFS is commonly used as smartphone ______ storage.",
+      "answer": "Flash"
+    },
+    {
+      "question": "9. 5G NR stands for New ______.",
+      "answer": "Radio"
+    },
+    {
+      "question": "10. TEE stands for Trusted Execution ______.",
+      "answer": "Environment"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is SoC integration critical in smartphones?",
+      "answer": "Integrating CPU, GPU, NPU, ISP, modem, memory controllers, and other functions onto a single chip reduces size, power consumption, latency, and manufacturing cost while improving performance and battery life."
+    },
+    {
+      "question": "2. Why do smartphone processors use big.LITTLE architectures?",
+      "answer": "Different workloads require different performance levels. Performance cores handle demanding applications while efficiency cores perform lighter tasks using less power, improving battery life."
+    },
+    {
+      "question": "3. Why is the ISP crucial to smartphone photography?",
+      "answer": "The ISP processes raw sensor data and performs HDR processing, noise reduction, autofocus, color correction, image enhancement, and computational photography functions that directly affect image quality."
+    },
+    {
+      "question": "4. What role does the NPU play in modern smartphones?",
+      "answer": "The NPU accelerates AI workloads such as face recognition, voice assistants, translation, computational photography, image enhancement, and on-device generative AI while consuming less power than CPUs or GPUs."
+    },
+    {
+      "question": "5. Why is LPDDR memory used in smartphones?",
+      "answer": "LPDDR memory provides high bandwidth while minimizing power consumption, making it suitable for battery-powered mobile devices."
+    },
+    {
+      "question": "6. What is the function of the cellular modem in a smartphone?",
+      "answer": "The modem enables wireless communication with cellular networks, supporting voice calls, messaging, internet access, and 4G/5G connectivity."
+    },
+    {
+      "question": "7. How does AI improve smartphone camera systems?",
+      "answer": "AI enables scene recognition, portrait effects, image enhancement, object tracking, night photography, video stabilization, and computational photography features."
+    },
+    {
+      "question": "8. Why is power management important in smartphone design?",
+      "answer": "Smartphones rely on batteries, so efficient power management extends battery life, reduces heat generation, and improves user experience."
+    },
+    {
+      "question": "9. What security mechanisms are commonly used in smartphones?",
+      "answer": "Common mechanisms include Secure Boot, Trusted Execution Environments, secure enclaves, encryption engines, fingerprint authentication, facial recognition, and secure key storage."
+    },
+    {
+      "question": "10. What are the biggest design challenges for smartphone SoCs?",
+      "answer": "Major challenges include balancing performance, battery life, thermal management, AI processing, camera quality, security, wireless connectivity, and manufacturing cost within a compact mobile device."
+    }
+  ]
+},
+{
+  "id": 73,
+  "title": "Communications and 5G",
+  "content": "Communications systems are technologies that enable the transmission of information between devices, users, networks, and machines. Modern communication systems support voice, data, video, internet access, cloud services, IoT connectivity, industrial networking, autonomous systems, and global digital infrastructure. Communication technologies form the foundation of the modern connected world by allowing billions of devices to exchange information reliably and efficiently. Examples include cellular networks, Wi-Fi, Bluetooth, fiber-optic communications, satellite networks, and IoT connectivity platforms. Mobile communications have evolved through multiple generations. First-generation (1G) systems supported analog voice communication. Second-generation (2G) networks introduced digital communications and SMS services. Third-generation (3G) systems enabled mobile internet access and multimedia capabilities. Fourth-generation (4G LTE) networks provided broadband mobile connectivity suitable for video streaming, cloud applications, and mobile platforms. Fifth-generation (5G) networks represent a significant advancement designed to support enhanced mobile broadband, ultra-reliable low-latency communication, and massive machine-type communications. 5G is a cellular communication standard developed by the 3GPP organization. The primary goals of 5G include higher data throughput, lower latency, improved reliability, greater spectral efficiency, increased user capacity, and support for large numbers of connected devices. Three major service categories define 5G. Enhanced Mobile Broadband (eMBB) focuses on high-speed internet access, 4K and 8K video streaming, cloud gaming, and immersive applications. Ultra-Reliable Low-Latency Communication (URLLC) supports mission-critical applications requiring fast response and highly reliable communication, such as industrial automation, robotics, remote surgery, and autonomous driving. Massive Machine-Type Communications (mMTC) enables large-scale IoT deployments involving millions of connected devices. A typical 5G network architecture consists of User Equipment (UE), the Radio Access Network (RAN), and the 5G Core (5GC). User Equipment includes smartphones, tablets, IoT devices, industrial systems, and vehicles. The RAN provides wireless access through base stations, radio units, and antenna systems. The 5G Core manages authentication, mobility, security, session management, policy control, and data routing. The 5G Core is highly virtualized and cloud-native compared with earlier mobile network architectures. 5G utilizes multiple frequency bands to achieve different coverage and capacity objectives. Low-band spectrum offers wide coverage and strong building penetration but lower throughput. Mid-band spectrum, often operating around 3.5 GHz, provides a balance between coverage and capacity and is widely used in commercial deployments. Millimeter-wave (mmWave) frequencies above 24 GHz provide extremely high bandwidth and data rates but have shorter communication range and reduced obstacle penetration. Several advanced technologies enable 5G performance improvements. Orthogonal Frequency Division Multiplexing (OFDM) divides radio channels into multiple orthogonal subcarriers to improve spectral efficiency and interference management. Massive MIMO (Multiple Input Multiple Output) uses dozens or hundreds of antennas simultaneously to increase network capacity, coverage, and spectral efficiency. Beamforming focuses wireless energy toward specific users rather than broadcasting uniformly, improving signal strength and reducing interference. Network slicing enables multiple virtual networks to coexist on the same physical infrastructure, allowing operators to create customized services for consumer broadband, industrial automation, healthcare, or public safety. Modern 5G systems increasingly integrate with edge computing, where computational resources are placed closer to users and devices. This reduces latency and improves support for real-time AI applications, industrial automation, robotics, autonomous vehicles, augmented reality, and virtual reality. Semiconductor technologies are essential in 5G systems. Key components include cellular modems, RF front-end modules, power amplifiers, filters, antenna tuning systems, baseband processors, signal processors, and power management circuits. The RF front-end manages radio signal transmission and reception. Baseband processors perform modulation, coding, channel estimation, and communication protocol processing. Smartphones integrate many of these functions within highly advanced mobile SoCs. 5G enables a wide range of applications beyond smartphones. Smart cities use 5G for traffic management, infrastructure monitoring, and public services. Industrial automation uses 5G for machine connectivity, predictive maintenance, and factory control. Healthcare applications include telemedicine, remote monitoring, and connected medical equipment. Transportation systems utilize Vehicle-to-Everything (V2X) communication for safety and traffic optimization. Security remains a critical aspect of modern communication networks. 5G introduces stronger authentication, enhanced encryption, subscriber privacy protection, secure network slicing, and improved security architectures. Despite its advantages, 5G faces challenges including infrastructure costs, spectrum availability, power consumption, deployment complexity, coverage limitations in some frequency bands, and cybersecurity concerns. Research is already underway toward 6G technologies, which are expected to provide AI-native networking, integrated sensing, global connectivity, terabit-per-second data rates, and even lower latency. Communications and 5G technologies serve as foundational infrastructure for cloud computing, IoT, Industry 4.0, autonomous systems, artificial intelligence, smart cities, and the expanding digital economy.",
+  "keywords": [
+    {
+      "english": "5G (Fifth Generation)",
+      "chinese": "第五代行動通訊"
+    },
+    {
+      "english": "3GPP",
+      "chinese": "第三代合作夥伴計畫"
+    },
+    {
+      "english": "eMBB",
+      "chinese": "增強型行動寬頻"
+    },
+    {
+      "english": "URLLC",
+      "chinese": "超可靠低延遲通訊"
+    },
+    {
+      "english": "mMTC",
+      "chinese": "大規模機器類通訊"
+    },
+    {
+      "english": "User Equipment (UE)",
+      "chinese": "使用者設備"
+    },
+    {
+      "english": "Radio Access Network (RAN)",
+      "chinese": "無線接取網路"
+    },
+    {
+      "english": "5G Core (5GC)",
+      "chinese": "5G核心網路"
+    },
+    {
+      "english": "OFDM",
+      "chinese": "正交分頻多工"
+    },
+    {
+      "english": "MIMO",
+      "chinese": "多輸入多輸出"
+    },
+    {
+      "english": "Massive MIMO",
+      "chinese": "大規模MIMO"
+    },
+    {
+      "english": "Beamforming",
+      "chinese": "波束成形"
+    },
+    {
+      "english": "Network Slicing",
+      "chinese": "網路切片"
+    },
+    {
+      "english": "Millimeter Wave (mmWave)",
+      "chinese": "毫米波"
+    },
+    {
+      "english": "Cellular Modem",
+      "chinese": "行動通訊數據機"
+    },
+    {
+      "english": "RF Front-End (RFFE)",
+      "chinese": "射頻前端"
+    },
+    {
+      "english": "Baseband Processor",
+      "chinese": "基頻處理器"
+    },
+    {
+      "english": "Edge Computing",
+      "chinese": "邊緣運算"
+    },
+    {
+      "english": "V2X (Vehicle-to-Everything)",
+      "chinese": "車聯萬物通訊"
+    },
+    {
+      "english": "6G",
+      "chinese": "第六代行動通訊"
+    }
+  ],
+  "summary": [
+    "Communication systems enable information exchange between devices, users, and networks.",
+    "5G is the fifth-generation mobile communication standard that provides higher speed, lower latency, and greater network capacity.",
+    "The three major 5G service categories are eMBB, URLLC, and mMTC.",
+    "5G architecture consists of User Equipment, Radio Access Network, and the 5G Core.",
+    "Low-band, mid-band, and mmWave spectrum offer different tradeoffs between coverage and data throughput.",
+    "Massive MIMO and beamforming significantly improve network capacity and signal quality.",
+    "Network slicing enables multiple virtual networks to operate on shared physical infrastructure.",
+    "Edge computing combined with 5G supports low-latency applications such as industrial automation and autonomous systems.",
+    "RF front-end modules, modems, and baseband processors are critical semiconductor technologies in 5G systems.",
+    "5G is a foundational technology for IoT, smart cities, Industry 4.0, cloud computing, and future digital ecosystems."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. 5G stands for Fifth Generation Mobile ______.",
+      "answer": "Network"
+    },
+    {
+      "question": "2. eMBB stands for Enhanced Mobile ______.",
+      "answer": "Broadband"
+    },
+    {
+      "question": "3. URLLC stands for Ultra-Reliable Low-______ Communication.",
+      "answer": "Latency"
+    },
+    {
+      "question": "4. mMTC focuses on massive machine-type ______.",
+      "answer": "Communications"
+    },
+    {
+      "question": "5. RAN stands for Radio Access ______.",
+      "answer": "Network"
+    },
+    {
+      "question": "6. MIMO stands for Multiple Input Multiple ______.",
+      "answer": "Output"
+    },
+    {
+      "question": "7. ______ directs radio signals toward specific users.",
+      "answer": "Beamforming"
+    },
+    {
+      "question": "8. mmWave generally operates above ______ GHz.",
+      "answer": "24"
+    },
+    {
+      "question": "9. OFDM stands for Orthogonal Frequency Division ______.",
+      "answer": "Multiplexing"
+    },
+    {
+      "question": "10. Network ______ allows multiple virtual networks on the same physical infrastructure.",
+      "answer": "Slicing"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is Massive MIMO important in 5G networks?",
+      "answer": "Massive MIMO uses large numbers of antennas simultaneously to serve multiple users, improving capacity, spectral efficiency, signal quality, coverage, and overall network performance."
+    },
+    {
+      "question": "2. What advantages does 5G provide compared to 4G?",
+      "answer": "5G provides higher data rates, lower latency, higher network capacity, stronger reliability, network slicing capabilities, and support for advanced applications such as industrial automation and autonomous systems."
+    },
+    {
+      "question": "3. Why is beamforming critical for mmWave communication?",
+      "answer": "mmWave signals suffer from higher propagation losses and weaker penetration through obstacles. Beamforming concentrates radio energy toward users, improving signal strength and communication reliability."
+    },
+    {
+      "question": "4. How does network slicing benefit different industries?",
+      "answer": "Network slicing allows operators to create customized virtual networks optimized for specific applications such as consumer broadband, healthcare, industrial automation, public safety, and autonomous transportation."
+    },
+    {
+      "question": "5. Why is edge computing often combined with 5G deployments?",
+      "answer": "Edge computing reduces the distance data must travel, lowering latency and improving responsiveness for applications such as robotics, autonomous vehicles, smart manufacturing, AI inference, and AR/VR."
+    },
+    {
+      "question": "6. What are the functions of the 5G Core network?",
+      "answer": "The 5G Core handles authentication, mobility management, security, policy control, session management, and data routing while supporting cloud-native network services."
+    },
+    {
+      "question": "7. What are the differences between low-band, mid-band, and mmWave spectrum?",
+      "answer": "Low-band provides wide coverage but lower speed, mid-band balances coverage and throughput, and mmWave provides extremely high speeds but shorter range and weaker building penetration."
+    },
+    {
+      "question": "8. What role does the RF front-end play in a 5G system?",
+      "answer": "The RF front-end manages radio signal transmission and reception using components such as power amplifiers, filters, switches, antenna matching circuits, and low-noise amplifiers."
+    },
+    {
+      "question": "9. Why is 5G important for IoT and Industry 4.0?",
+      "answer": "5G provides massive device connectivity, low latency, high reliability, and flexible network management, enabling smart factories, industrial automation, predictive maintenance, and large-scale IoT deployments."
+    },
+    {
+      "question": "10. What challenges are associated with deploying 5G networks?",
+      "answer": "Major challenges include infrastructure investment costs, spectrum allocation, energy consumption, deployment complexity, coverage limitations, cybersecurity concerns, and integration with existing network infrastructure."
+    }
+  ]
+},
+{
+  "id": 74,
+  "title": "Automotive Electronics",
+  "content": "Automotive Electronics refers to the electronic systems, semiconductor devices, sensors, communication networks, controllers, and software that enable modern vehicle functionality. Early automobiles relied primarily on mechanical and hydraulic systems, but modern vehicles depend extensively on electronics to control propulsion, safety, comfort, connectivity, infotainment, energy management, and driver-assistance functions. Electronics now represent a significant portion of total vehicle value and are one of the primary drivers of innovation within the automotive industry. Modern automotive architectures are organized into multiple functional domains including powertrain, chassis, body electronics, infotainment, connectivity, battery management, Advanced Driver Assistance Systems (ADAS), and autonomous-driving platforms. These domains communicate through vehicle networks and are coordinated by embedded controllers. The fundamental building block of automotive electronics is the Electronic Control Unit (ECU). An ECU is a dedicated embedded computer responsible for controlling a specific vehicle subsystem. Examples include Engine Control Units, Transmission Control Units, Airbag Controllers, Battery Management Systems, Body Control Modules, and Infotainment Controllers. Modern vehicles may contain dozens or even over one hundred ECUs depending on complexity and level of automation. Automotive systems use several types of processors. Microcontroller Units (MCUs) are widely used because of their real-time response, reliability, and cost efficiency. MPUs run infotainment systems and digital cockpits. GPUs enable advanced graphical interfaces, while NPUs and AI accelerators support computer vision, driver monitoring, ADAS, and autonomous-driving workloads. Communication networks are essential because modern vehicles contain many distributed electronic systems. CAN (Controller Area Network) is the most widely used automotive communication protocol due to its reliability and real-time performance. LIN (Local Interconnect Network) is used for lower-speed body electronics applications. FlexRay provides deterministic communication for safety-critical systems, while Automotive Ethernet supports high-bandwidth applications such as cameras, radar, LiDAR, centralized vehicle architectures, and software-defined vehicles. Powertrain electronics control propulsion systems. In internal-combustion vehicles, Engine Control Modules manage fuel injection, ignition timing, emissions control, turbocharging, and engine diagnostics. In electric vehicles, critical systems include Battery Management Systems (BMS), motor controllers, inverters, onboard chargers, and DC-DC converters. The BMS monitors battery state-of-charge, state-of-health, thermal conditions, and cell balancing to ensure safety and performance. Vehicle safety systems are among the most important automotive applications. Examples include airbags, Anti-Lock Braking Systems (ABS), Electronic Stability Control (ESC), Tire Pressure Monitoring Systems (TPMS), occupant monitoring systems, and collision avoidance systems. These technologies reduce accident risk and improve passenger protection. Advanced Driver Assistance Systems (ADAS) extend vehicle safety through adaptive cruise control, lane-keeping assistance, blind-spot monitoring, automatic emergency braking, parking assistance, and driver-monitoring systems. ADAS relies heavily on sensors including cameras, radar, ultrasonic sensors, LiDAR, accelerometers, gyroscopes, and environmental monitoring devices. Sensor data is processed by high-performance computing platforms and AI algorithms to interpret vehicle surroundings and support decision making. Connectivity has become increasingly important. Modern vehicles include 4G and 5G connectivity, Wi-Fi, Bluetooth, GNSS positioning systems, cloud integration, and Vehicle-to-Everything (V2X) communication. Connected vehicles can receive Over-the-Air (OTA) software updates, access cloud services, support remote diagnostics, and participate in intelligent transportation systems. Infotainment systems provide navigation, media streaming, voice assistants, smartphone integration, digital instrument clusters, and passenger services. Many infotainment platforms utilize Linux, Android Automotive, Apple CarPlay, and Android Auto technologies. Functional safety is critical because electronic failures can directly affect human safety. ISO 26262 is the international standard governing automotive functional safety. Safety risks are classified using Automotive Safety Integrity Levels (ASIL), ranging from ASIL A to ASIL D, with ASIL D representing the highest safety requirements. Automotive cybersecurity has also become a major industry priority. Security technologies include Secure Boot, Hardware Security Modules (HSMs), encryption, intrusion detection systems, secure communication protocols, authentication mechanisms, and secure OTA updates. As vehicles become increasingly connected and software-driven, cybersecurity protection becomes essential. A major industry trend is the transition toward Software-Defined Vehicles (SDVs), where vehicle capabilities are largely controlled through software platforms rather than hardware changes. SDVs allow feature upgrades, remote updates, new services, personalization, and continuous improvement throughout the vehicle lifecycle. Automotive semiconductors must meet requirements that are often stricter than those of consumer electronics, including high reliability, long operational life, wide temperature ranges, functional safety compliance, and long-term product availability. Future automotive innovation is being driven by electrification, centralized vehicle computing, advanced AI systems, ADAS expansion, autonomous driving, connectivity, and software-defined architectures. Automotive electronics have transformed vehicles from mechanical transportation systems into intelligent, connected, software-driven computing platforms.",
+  "keywords": [
+    {
+      "english": "Automotive Electronics",
+      "chinese": "汽車電子"
+    },
+    {
+      "english": "ECU (Electronic Control Unit)",
+      "chinese": "電子控制單元"
+    },
+    {
+      "english": "CAN Bus",
+      "chinese": "控制器區域網路"
+    },
+    {
+      "english": "LIN",
+      "chinese": "區域互連網路"
+    },
+    {
+      "english": "FlexRay",
+      "chinese": "FlexRay車用網路"
+    },
+    {
+      "english": "Automotive Ethernet",
+      "chinese": "車用乙太網路"
+    },
+    {
+      "english": "Powertrain",
+      "chinese": "動力系統"
+    },
+    {
+      "english": "Battery Management System (BMS)",
+      "chinese": "電池管理系統"
+    },
+    {
+      "english": "Inverter",
+      "chinese": "逆變器"
+    },
+    {
+      "english": "ADAS",
+      "chinese": "先進駕駛輔助系統"
+    },
+    {
+      "english": "Radar",
+      "chinese": "雷達"
+    },
+    {
+      "english": "LiDAR",
+      "chinese": "光達"
+    },
+    {
+      "english": "Camera Sensor",
+      "chinese": "影像感測器"
+    },
+    {
+      "english": "ABS",
+      "chinese": "防鎖死煞車系統"
+    },
+    {
+      "english": "ESC",
+      "chinese": "電子穩定控制系統"
+    },
+    {
+      "english": "ISO 26262",
+      "chinese": "汽車功能安全標準"
+    },
+    {
+      "english": "ASIL",
+      "chinese": "汽車安全完整性等級"
+    },
+    {
+      "english": "V2X",
+      "chinese": "車聯萬物通訊"
+    },
+    {
+      "english": "Software-Defined Vehicle (SDV)",
+      "chinese": "軟體定義車輛"
+    },
+    {
+      "english": "Hardware Security Module (HSM)",
+      "chinese": "硬體安全模組"
+    }
+  ],
+  "summary": [
+    "Automotive electronics control nearly every major vehicle function, from powertrain operation to infotainment and safety.",
+    "ECUs are embedded computers that manage specific vehicle subsystems.",
+    "CAN, LIN, FlexRay, and Automotive Ethernet are primary vehicle communication networks.",
+    "Modern vehicles use MCUs, MPUs, GPUs, and NPUs depending on application requirements.",
+    "ADAS systems rely on cameras, radar, LiDAR, and AI processing to improve safety.",
+    "Battery Management Systems and inverter control are critical components in electric vehicles.",
+    "ISO 26262 and ASIL frameworks govern automotive functional safety.",
+    "Cybersecurity technologies such as Secure Boot and HSMs are becoming increasingly important.",
+    "Software-Defined Vehicles are shifting vehicle innovation from hardware-centric to software-centric development.",
+    "Automotive electronics are a major driver of semiconductor demand and future vehicle innovation."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. ECU stands for Electronic Control ______.",
+      "answer": "Unit"
+    },
+    {
+      "question": "2. CAN stands for Controller Area ______.",
+      "answer": "Network"
+    },
+    {
+      "question": "3. BMS stands for Battery Management ______.",
+      "answer": "System"
+    },
+    {
+      "question": "4. ADAS stands for Advanced Driver Assistance ______.",
+      "answer": "Systems"
+    },
+    {
+      "question": "5. LiDAR is commonly used for environmental ______.",
+      "answer": "Mapping"
+    },
+    {
+      "question": "6. ABS helps prevent wheel ______ during braking.",
+      "answer": "Lockup"
+    },
+    {
+      "question": "7. ISO ______ is the primary automotive functional safety standard.",
+      "answer": "26262"
+    },
+    {
+      "question": "8. ASIL-D represents the ______ automotive safety level.",
+      "answer": "Highest"
+    },
+    {
+      "question": "9. V2X stands for Vehicle-to-______ communication.",
+      "answer": "Everything"
+    },
+    {
+      "question": "10. SDV stands for Software-Defined ______.",
+      "answer": "Vehicle"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are ECUs considered the foundation of modern automotive electronics?",
+      "answer": "ECUs provide dedicated control over vehicle functions such as engine management, transmission control, airbags, battery management, body electronics, and infotainment systems, enabling reliable and real-time vehicle operation."
+    },
+    {
+      "question": "2. Why is CAN Bus still widely used in vehicles?",
+      "answer": "CAN Bus offers reliability, fault tolerance, low implementation cost, and deterministic communication behavior, making it suitable for many automotive control applications."
+    },
+    {
+      "question": "3. Why is functional safety critical in automotive electronics?",
+      "answer": "Electronic failures can directly affect vehicle control and passenger safety. Standards such as ISO 26262 help identify risks and ensure systems are designed to operate safely under fault conditions."
+    },
+    {
+      "question": "4. How do ADAS systems improve vehicle safety?",
+      "answer": "ADAS systems use cameras, radar, LiDAR, ultrasonic sensors, and AI algorithms to detect hazards, maintain lane position, monitor blind spots, and assist braking or steering to reduce accident risk."
+    },
+    {
+      "question": "5. Why is the Battery Management System essential in electric vehicles?",
+      "answer": "The BMS monitors battery health, charge level, temperature, and cell balancing to maximize safety, efficiency, battery lifespan, and driving range."
+    },
+    {
+      "question": "6. What advantages does Automotive Ethernet provide compared with traditional vehicle networks?",
+      "answer": "Automotive Ethernet provides much higher bandwidth, making it suitable for cameras, LiDAR, centralized computing architectures, autonomous-driving systems, and software-defined vehicles."
+    },
+    {
+      "question": "7. Why is cybersecurity becoming increasingly important in vehicles?",
+      "answer": "Connected vehicles exchange large amounts of data and support OTA updates, cloud services, and wireless communication, creating potential cybersecurity risks that must be mitigated."
+    },
+    {
+      "question": "8. What role does V2X communication play in modern transportation systems?",
+      "answer": "V2X allows vehicles to communicate with other vehicles, infrastructure, pedestrians, and networks to improve safety, traffic efficiency, and situational awareness."
+    },
+    {
+      "question": "9. What is a Software-Defined Vehicle (SDV)?",
+      "answer": "A Software-Defined Vehicle is a vehicle whose features and functions are primarily controlled and updated through software, enabling OTA upgrades, personalization, and continuous improvement."
+    },
+    {
+      "question": "10. Why are automotive semiconductors subject to stricter requirements than consumer electronics?",
+      "answer": "Automotive components must operate reliably for many years under extreme temperatures and safety-critical conditions while meeting functional safety, reliability, cybersecurity, and long-term availability requirements."
+    }
+  ]
+},
+{
+  "id": 75,
+  "title": "Autonomous Driving",
+  "content": "Autonomous Driving refers to the capability of a vehicle to perceive its surroundings, make driving decisions, and control vehicle motion with limited or no human intervention. Autonomous vehicles combine sensors, artificial intelligence, high-performance computing, control systems, communication technologies, and vehicle actuators to perform driving tasks safely and efficiently. The primary goals of autonomous driving are improving road safety, reducing human error, increasing transportation efficiency, enhancing accessibility, and reducing driving workload. Autonomous driving is one of the most complex applications of semiconductors, robotics, machine learning, computer vision, and automotive electronics. The development of autonomous driving has progressed from traditional manual driving to driver assistance systems, partially automated systems, highly automated vehicles, and the long-term vision of fully autonomous vehicles. The Society of Automotive Engineers (SAE) defines six levels of driving automation ranging from Level 0 (no automation) to Level 5 (full automation). Level 1 includes driver-assistance functions such as adaptive cruise control. Level 2 supports simultaneous steering and speed control but still requires constant driver supervision. Level 3 provides conditional automation in specific situations. Level 4 enables high automation within defined operational domains, while Level 5 represents complete automation in all driving conditions without human involvement. Autonomous driving systems operate using a continuous processing pipeline consisting of perception, localization, prediction, planning, and control. Perception enables the vehicle to understand its environment by detecting and classifying objects such as vehicles, pedestrians, bicycles, traffic signs, traffic lights, road markings, and obstacles. Localization determines the precise position of the vehicle within its environment, often requiring lane-level or centimeter-level accuracy. Prediction estimates the likely future behavior of surrounding vehicles, pedestrians, and other road users. Planning determines safe and efficient driving actions, while control systems execute steering, braking, and acceleration commands. Autonomous vehicles rely on a diverse sensor suite. Cameras provide rich visual information for lane detection, traffic-sign recognition, and object classification. Radar measures distance, speed, and relative motion while maintaining effectiveness in adverse weather conditions. LiDAR (Light Detection and Ranging) uses laser pulses to create detailed three-dimensional maps of the environment. Ultrasonic sensors provide short-range obstacle detection, commonly used for parking assistance. GNSS technologies such as GPS, Galileo, GLONASS, and BeiDou provide global positioning information. Inertial Measurement Units (IMUs) containing accelerometers and gyroscopes measure vehicle motion and orientation. Because no individual sensor is perfect, autonomous vehicles use sensor fusion to combine data from cameras, radar, LiDAR, GNSS, IMUs, and other sensors. Sensor fusion improves accuracy, reliability, robustness, and environmental awareness. High-Definition (HD) maps further enhance situational awareness by providing detailed information about lane geometry, road structures, traffic signs, intersections, and other roadway features. Artificial Intelligence is a core technology in autonomous driving. Deep learning and computer vision algorithms perform object detection, classification, tracking, semantic segmentation, scene understanding, and behavior prediction. AI models help the vehicle interpret sensor data and make driving decisions in complex traffic environments. High-performance computing platforms process the large volume of sensor data required for autonomous operation. These systems often integrate CPUs, GPUs, NPUs, AI accelerators, and safety microcontrollers. Modern autonomous-driving platforms may deliver hundreds or thousands of TOPS (Tera Operations Per Second) to support real-time AI processing. Path planning algorithms determine the optimal driving route and maneuver strategy while balancing safety, efficiency, comfort, traffic regulations, and environmental conditions. Vehicle control systems convert planning decisions into physical actions through steering systems, throttle control, braking systems, and powertrain actuators. Connectivity technologies also support autonomous driving. Vehicle-to-Everything (V2X) communication enables information exchange between vehicles, infrastructure, pedestrians, and cloud services. Vehicle-to-Vehicle (V2V) communication improves awareness of nearby traffic, while Vehicle-to-Infrastructure (V2I) communication interacts with traffic lights, road systems, and smart-city infrastructure. Safety is the highest priority in autonomous driving. ISO 26262 defines functional-safety requirements for automotive electronics, while Automotive Safety Integrity Levels (ASIL) classify safety risks. Autonomous systems often use redundant sensors, redundant computing platforms, fail-operational architectures, and continuous diagnostics to maintain safe operation in the presence of faults. Cybersecurity is equally important because connected vehicles may be vulnerable to attack. Security mechanisms include secure boot, encryption, authentication, intrusion detection systems, and secure software updates. Despite significant progress, autonomous driving faces challenges such as adverse weather conditions, sensor limitations, rare edge cases, complex urban environments, regulatory approval, public trust, computational requirements, and cybersecurity risks. Robotaxis and autonomous trucking represent some of the leading commercial applications of Level 4 automation. Future advancements are expected to include improved AI models, better sensor fusion, more powerful automotive AI accelerators, expanded V2X communication, centralized vehicle computing architectures, and software-defined vehicle platforms. Autonomous driving represents one of the most transformative technologies in transportation and is expected to play a major role in the future of mobility.",
+  "keywords": [
+    {
+      "english": "Autonomous Driving",
+      "chinese": "自動駕駛"
+    },
+    {
+      "english": "ADAS",
+      "chinese": "先進駕駛輔助系統"
+    },
+    {
+      "english": "SAE Levels",
+      "chinese": "SAE自動化等級"
+    },
+    {
+      "english": "Perception",
+      "chinese": "感知"
+    },
+    {
+      "english": "Localization",
+      "chinese": "定位"
+    },
+    {
+      "english": "Sensor Fusion",
+      "chinese": "感測器融合"
+    },
+    {
+      "english": "Camera",
+      "chinese": "攝影機"
+    },
+    {
+      "english": "Radar",
+      "chinese": "雷達"
+    },
+    {
+      "english": "LiDAR",
+      "chinese": "光達"
+    },
+    {
+      "english": "Ultrasonic Sensor",
+      "chinese": "超音波感測器"
+    },
+    {
+      "english": "GNSS",
+      "chinese": "全球導航衛星系統"
+    },
+    {
+      "english": "IMU",
+      "chinese": "慣性測量單元"
+    },
+    {
+      "english": "HD Map",
+      "chinese": "高精地圖"
+    },
+    {
+      "english": "Object Detection",
+      "chinese": "物件偵測"
+    },
+    {
+      "english": "Path Planning",
+      "chinese": "路徑規劃"
+    },
+    {
+      "english": "Vehicle Control",
+      "chinese": "車輛控制"
+    },
+    {
+      "english": "V2X",
+      "chinese": "車聯萬物通訊"
+    },
+    {
+      "english": "ISO 26262",
+      "chinese": "汽車功能安全標準"
+    },
+    {
+      "english": "ASIL",
+      "chinese": "汽車安全完整性等級"
+    },
+    {
+      "english": "Robotaxi",
+      "chinese": "自動駕駛計程車"
+    }
+  ],
+  "summary": [
+    "Autonomous driving enables vehicles to perceive, decide, and act with limited or no human intervention.",
+    "SAE defines six levels of driving automation from Level 0 to Level 5.",
+    "Autonomous systems rely on perception, localization, prediction, planning, and control pipelines.",
+    "Cameras, radar, LiDAR, ultrasonic sensors, GNSS, and IMUs provide environmental and positioning data.",
+    "Sensor fusion improves accuracy and reliability by combining information from multiple sensors.",
+    "AI and deep learning are essential for object detection, classification, tracking, and behavior prediction.",
+    "HD maps and precise localization support safe navigation and lane-level positioning.",
+    "Path planning and control systems convert AI decisions into steering, braking, and acceleration commands.",
+    "Functional safety, redundancy, cybersecurity, and reliability are critical requirements.",
+    "Autonomous driving is a major application of AI, high-performance computing, sensors, and automotive electronics."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Autonomous driving enables vehicles to operate with limited or no human ______.",
+      "answer": "Intervention"
+    },
+    {
+      "question": "2. SAE defines ______ levels of driving automation from Level 0 to Level 5.",
+      "answer": "Six"
+    },
+    {
+      "question": "3. LiDAR stands for Light Detection and ______.",
+      "answer": "Ranging"
+    },
+    {
+      "question": "4. ______ combines data from multiple sensors to improve reliability.",
+      "answer": "Sensor Fusion"
+    },
+    {
+      "question": "5. HD maps provide detailed information about lanes and road ______.",
+      "answer": "Geometry"
+    },
+    {
+      "question": "6. The ______ stage determines where the vehicle should go next.",
+      "answer": "Planning"
+    },
+    {
+      "question": "7. GNSS is primarily used for vehicle ______.",
+      "answer": "Positioning"
+    },
+    {
+      "question": "8. V2V stands for Vehicle-to-______ communication.",
+      "answer": "Vehicle"
+    },
+    {
+      "question": "9. ISO ______ is the main automotive functional safety standard.",
+      "answer": "26262"
+    },
+    {
+      "question": "10. Robotaxis are commonly associated with Level ______ autonomous driving.",
+      "answer": "4"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is sensor fusion essential in autonomous driving?",
+      "answer": "No single sensor performs perfectly under all conditions. Sensor fusion combines the strengths of cameras, radar, LiDAR, GNSS, and IMUs to improve accuracy, reliability, robustness, and environmental awareness."
+    },
+    {
+      "question": "2. Why is localization more difficult than ordinary GPS navigation?",
+      "answer": "Autonomous vehicles require centimeter-level positioning accuracy for lane keeping and safe maneuvering. Standard consumer GPS accuracy is often insufficient, especially in urban environments and areas with signal obstruction."
+    },
+    {
+      "question": "3. What role does AI play in autonomous driving?",
+      "answer": "AI processes sensor data to detect objects, classify road users, understand traffic scenes, predict future behavior, and support safe driving decisions through deep learning and computer vision algorithms."
+    },
+    {
+      "question": "4. Why are functional safety and redundancy critical in autonomous vehicles?",
+      "answer": "Failures in sensors, processors, communication systems, or software can directly affect vehicle safety. Redundant architectures and functional safety mechanisms ensure continued safe operation during faults."
+    },
+    {
+      "question": "5. What role do HD maps play in autonomous driving?",
+      "answer": "HD maps provide highly detailed road information including lane boundaries, traffic signs, intersections, and road geometry, supporting precise localization and navigation."
+    },
+    {
+      "question": "6. How do radar and LiDAR complement each other?",
+      "answer": "Radar provides reliable distance and speed measurements under adverse weather conditions, while LiDAR delivers accurate three-dimensional environmental mapping with high spatial resolution."
+    },
+    {
+      "question": "7. What is the purpose of path planning in autonomous vehicles?",
+      "answer": "Path planning determines safe and efficient driving maneuvers such as lane changes, turns, obstacle avoidance, and route following while balancing safety, comfort, and traffic rules."
+    },
+    {
+      "question": "8. How does V2X communication benefit autonomous driving?",
+      "answer": "V2X enables vehicles to exchange information with other vehicles, infrastructure, and connected systems, improving situational awareness, safety, and traffic efficiency."
+    },
+    {
+      "question": "9. Why do autonomous vehicles require high-performance computing platforms?",
+      "answer": "Autonomous vehicles must process massive amounts of sensor data and execute complex AI algorithms in real time, requiring powerful CPUs, GPUs, NPUs, and AI accelerators."
+    },
+    {
+      "question": "10. What are the biggest challenges preventing widespread Level 5 autonomous driving?",
+      "answer": "Major challenges include rare edge cases, adverse weather conditions, sensor reliability, computational demands, cybersecurity risks, regulatory approval, public acceptance, and achieving safe operation in all driving environments."
+    }
+  ]
+},
+{
+  "id": 76,
+  "title": "Industrial Automation",
+  "content": "Industrial Automation is the use of control systems, sensors, actuators, computers, communication networks, and software to operate industrial processes with minimal human intervention. The primary objectives of industrial automation are increasing productivity, improving product quality, enhancing safety, reducing operational costs, improving reliability, and optimizing resource utilization. Industrial automation is widely used in manufacturing, energy production, oil and gas processing, chemical plants, pharmaceuticals, food and beverage production, logistics, warehousing, transportation, and utility infrastructures. The evolution of industrial automation began with manual production systems, followed by mechanized production powered by electric motors and machinery. Later, electronic control systems enabled automated production lines and computer-controlled manufacturing. Today, industrial automation has entered the Industry 4.0 era, integrating Industrial Internet of Things (IIoT), Artificial Intelligence, Cloud Computing, Edge Computing, Robotics, Advanced Analytics, and Digital Twins into intelligent cyber-physical production systems. A modern industrial automation architecture typically consists of four layers: the field layer, control layer, supervisory layer, and enterprise layer. The field layer interacts directly with physical equipment through sensors and actuators. Sensors measure temperature, pressure, flow, vibration, humidity, position, speed, and other process variables. Actuators convert electrical control signals into physical actions using motors, valves, relays, pneumatic systems, and hydraulic systems. The control layer performs real-time process control. The most common industrial controller is the Programmable Logic Controller (PLC), a rugged industrial computer designed for deterministic operation, high reliability, and harsh environments. PLCs are used in assembly lines, packaging equipment, material handling systems, and machine automation. Industrial PCs (IPCs), embedded controllers, motion controllers, and real-time computing systems are also widely used. A typical PLC contains a CPU, memory, input/output modules, communication interfaces, and industrial software executing control logic. PLC programming commonly follows IEC 61131-3 standards and utilizes Ladder Logic, Function Block Diagrams, Structured Text, and Sequential Function Charts. The supervisory layer consists of Human-Machine Interfaces (HMI) and Supervisory Control and Data Acquisition (SCADA) systems. HMIs provide graphical interfaces that allow operators to view process conditions, control equipment, acknowledge alarms, and monitor performance. SCADA systems collect operational data, supervise distributed industrial assets, provide centralized monitoring, and support remote control. The enterprise layer integrates Manufacturing Execution Systems (MES) and Enterprise Resource Planning (ERP) systems. MES coordinates production scheduling, product tracking, quality control, and manufacturing operations, while ERP manages business functions such as inventory, procurement, finance, and supply-chain management. Modern factories increasingly integrate enterprise systems with automation platforms to improve operational visibility and decision making. Industrial automation depends heavily on communication networks. Common industrial communication protocols include Modbus, Profibus, Profinet, Ethernet/IP, EtherCAT, DeviceNet, CANopen, and OPC UA. These protocols enable reliable communication among controllers, sensors, actuators, robots, and supervisory systems. OPC UA has become particularly important because it provides vendor-independent interoperability and secure data exchange. Industrial control systems typically operate using either open-loop or closed-loop control. Open-loop systems do not use feedback from the controlled process. Closed-loop systems continuously measure output conditions and adjust control actions accordingly. One of the most important control algorithms in industrial automation is the PID controller, which combines proportional, integral, and derivative control actions to minimize process errors. PID controllers are widely used in temperature regulation, motor control, pressure control, flow regulation, and process automation. Motion control is another essential area of industrial automation. Motion control systems are used in CNC machines, semiconductor manufacturing equipment, packaging machinery, robotics, conveyor systems, and assembly automation. These systems typically utilize servo motors, servo drives, motion controllers, encoders, and feedback systems to achieve precise positioning and velocity control. Machine vision has become a critical technology in modern factories. Machine vision systems combine cameras, lighting, processors, AI software, and image-analysis algorithms for automatic inspection, defect detection, quality control, measurement, object recognition, barcode reading, and sorting operations. Industrial robots are widely deployed for welding, painting, assembly, packaging, palletizing, material handling, and automation of repetitive tasks. Industry 4.0 represents the ongoing digital transformation of manufacturing. Key enabling technologies include IIoT, AI, cloud computing, edge computing, predictive analytics, digital twins, autonomous systems, and advanced robotics. Industrial IoT connects machines, sensors, production assets, and control systems to enable real-time monitoring and data collection. Predictive maintenance uses sensor data, machine learning, and analytics to identify equipment issues before failures occur, reducing downtime and maintenance costs. A Digital Twin is a virtual representation of a physical asset, process, or factory used for simulation, optimization, diagnostics, and performance analysis. Safety is a critical requirement in industrial automation. Functional safety standards such as IEC 61508, IEC 62061, and ISO 13849 define requirements for protecting workers and preventing hazardous equipment failures. Safety systems include emergency stops, safety PLCs, safety relays, safety sensors, and machine-protection systems. As factories become more connected, cybersecurity is increasingly important. Industrial cybersecurity measures include network segmentation, access control, industrial firewalls, secure communication protocols, intrusion detection systems, and compliance with standards such as IEC 62443. Industrial automation relies heavily on semiconductors including MCUs, industrial processors, PLC CPUs, sensors, communication controllers, AI accelerators, power semiconductors, and embedded computing platforms. Future trends include AI-driven automation, autonomous factories, collaborative robots (cobots), Edge AI, industrial digital twins, 5G industrial networks, and increasingly intelligent self-optimizing manufacturing systems. Industrial automation forms the foundation of Industry 4.0 and modern smart factories.",
+  "keywords": [
+    {
+      "english": "Industrial Automation",
+      "chinese": "工業自動化"
+    },
+    {
+      "english": "PLC (Programmable Logic Controller)",
+      "chinese": "可程式化邏輯控制器"
+    },
+    {
+      "english": "IPC (Industrial PC)",
+      "chinese": "工業電腦"
+    },
+    {
+      "english": "HMI (Human-Machine Interface)",
+      "chinese": "人機介面"
+    },
+    {
+      "english": "SCADA",
+      "chinese": "監控與資料採集系統"
+    },
+    {
+      "english": "MES (Manufacturing Execution System)",
+      "chinese": "製造執行系統"
+    },
+    {
+      "english": "ERP (Enterprise Resource Planning)",
+      "chinese": "企業資源規劃"
+    },
+    {
+      "english": "PID Controller",
+      "chinese": "PID控制器"
+    },
+    {
+      "english": "Sensor",
+      "chinese": "感測器"
+    },
+    {
+      "english": "Actuator",
+      "chinese": "致動器"
+    },
+    {
+      "english": "Servo Motor",
+      "chinese": "伺服馬達"
+    },
+    {
+      "english": "Machine Vision",
+      "chinese": "機器視覺"
+    },
+    {
+      "english": "Industrial Robot",
+      "chinese": "工業機器人"
+    },
+    {
+      "english": "IIoT (Industrial Internet of Things)",
+      "chinese": "工業物聯網"
+    },
+    {
+      "english": "Industry 4.0",
+      "chinese": "工業4.0"
+    },
+    {
+      "english": "Predictive Maintenance",
+      "chinese": "預測性維護"
+    },
+    {
+      "english": "Digital Twin",
+      "chinese": "數位分身"
+    },
+    {
+      "english": "OPC UA",
+      "chinese": "OPC統一架構"
+    },
+    {
+      "english": "EtherCAT",
+      "chinese": "EtherCAT工業乙太網路"
+    },
+    {
+      "english": "IEC 61508",
+      "chinese": "功能安全標準"
+    }
+  ],
+  "summary": [
+    "Industrial Automation uses control systems, sensors, actuators, and software to automate industrial processes.",
+    "PLCs are the most widely used controllers in industrial automation due to reliability and real-time performance.",
+    "HMI and SCADA systems provide monitoring, visualization, and centralized process control.",
+    "Industrial communication networks such as Modbus, Profinet, EtherNet/IP, EtherCAT, and OPC UA connect automation systems.",
+    "Sensors collect operational data while actuators execute control decisions.",
+    "PID controllers are fundamental closed-loop control algorithms used throughout industry.",
+    "Machine vision and industrial robotics improve productivity, precision, and product quality.",
+    "Industry 4.0 integrates IIoT, AI, cloud computing, edge computing, and digital twins into manufacturing.",
+    "Predictive maintenance uses sensor data and analytics to reduce downtime and maintenance costs.",
+    "Industrial automation is a critical application area for semiconductors, embedded systems, AI, networking, and control engineering."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. PLC stands for Programmable Logic ______.",
+      "answer": "Controller"
+    },
+    {
+      "question": "2. SCADA stands for Supervisory Control and Data ______.",
+      "answer": "Acquisition"
+    },
+    {
+      "question": "3. HMI stands for Human-Machine ______.",
+      "answer": "Interface"
+    },
+    {
+      "question": "4. PID stands for Proportional, Integral, and ______.",
+      "answer": "Derivative"
+    },
+    {
+      "question": "5. ______ convert electrical commands into physical actions.",
+      "answer": "Actuators"
+    },
+    {
+      "question": "6. EtherCAT is commonly used for high-speed ______ control.",
+      "answer": "Motion"
+    },
+    {
+      "question": "7. IIoT stands for Industrial Internet of ______.",
+      "answer": "Things"
+    },
+    {
+      "question": "8. A Digital ______ is a virtual representation of a physical asset.",
+      "answer": "Twin"
+    },
+    {
+      "question": "9. Predictive maintenance aims to predict equipment ______ before it occurs.",
+      "answer": "Failure"
+    },
+    {
+      "question": "10. IEC ______ is a major functional safety standard used in industrial automation.",
+      "answer": "61508"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are PLCs the foundation of industrial automation?",
+      "answer": "PLCs provide deterministic operation, high reliability, ruggedness, and real-time control capabilities that are essential for industrial environments and machine automation."
+    },
+    {
+      "question": "2. Why is closed-loop control preferred in industrial systems?",
+      "answer": "Closed-loop systems continuously measure actual output and adjust control signals, enabling higher accuracy, stability, and disturbance rejection compared to open-loop systems."
+    },
+    {
+      "question": "3. How does Industry 4.0 differ from traditional factory automation?",
+      "answer": "Industry 4.0 extends automation by integrating IIoT, AI, cloud computing, edge computing, digital twins, advanced analytics, and connected systems to create intelligent and adaptive factories."
+    },
+    {
+      "question": "4. Why is predictive maintenance valuable for industrial operations?",
+      "answer": "Predictive maintenance identifies potential equipment failures before they occur, reducing downtime, lowering maintenance costs, extending equipment life, and improving production efficiency."
+    },
+    {
+      "question": "5. What role do machine vision and AI play in industrial automation?",
+      "answer": "Machine vision and AI enable automated inspection, defect detection, measurement, object recognition, process optimization, and quality control at speeds and accuracy levels difficult to achieve manually."
+    },
+    {
+      "question": "6. What is the purpose of SCADA systems?",
+      "answer": "SCADA systems collect operational data, monitor industrial processes, provide centralized supervision, generate alarms, and support remote control of distributed assets."
+    },
+    {
+      "question": "7. Why is OPC UA important in Industry 4.0 environments?",
+      "answer": "OPC UA provides secure, platform-independent, and vendor-neutral communication that allows interoperability between different industrial devices and software systems."
+    },
+    {
+      "question": "8. How do sensors and actuators work together in automation systems?",
+      "answer": "Sensors collect information about process conditions, while actuators execute physical actions based on controller decisions to maintain desired system behavior."
+    },
+    {
+      "question": "9. Why is functional safety critical in industrial environments?",
+      "answer": "Industrial equipment can create hazards to people, machines, and facilities. Functional safety systems help ensure safe operation and prevent dangerous failures."
+    },
+    {
+      "question": "10. What future technologies are expected to transform industrial automation?",
+      "answer": "Key future technologies include AI-driven automation, Edge AI, collaborative robots, autonomous factories, digital twins, predictive analytics, IIoT platforms, and private 5G industrial networks."
+    }
+  ]
+},
+{
+  "id": 77,
+  "title": "Robotics",
+  "content": "Robotics is an interdisciplinary field that combines mechanical engineering, electronics, computer engineering, control systems, artificial intelligence, sensors, and software to design, build, and operate robots capable of performing physical tasks autonomously or semi-autonomously. A robot is a programmable machine that can sense its environment, process information, make decisions, and perform actions through actuators and control systems. Robotics is one of the most important application areas for semiconductors because modern robots rely heavily on processors, sensors, communication systems, AI accelerators, and power electronics. Robots are widely used in manufacturing, logistics, healthcare, agriculture, defense, warehouses, service industries, research laboratories, and space exploration. Robotics has evolved from simple fixed-motion industrial machines to intelligent systems capable of perception, navigation, decision making, and human collaboration. Early robots executed repetitive pre-programmed tasks with little environmental awareness. Modern robots use advanced sensing, AI, machine vision, and autonomous navigation to operate in dynamic environments. Most robotic systems consist of several major subsystems: sensors, controllers, decision-making software, actuators, and a mechanical structure. The mechanical structure includes frames, links, joints, and end effectors. Links and joints create the robot's kinematic structure, while end effectors such as grippers, welding tools, vacuum pickups, and surgical instruments interact directly with the environment. Sensors provide environmental awareness and feedback. Position sensors such as encoders measure joint movement and orientation. Force and torque sensors monitor interaction forces. Vision sensors, including cameras and stereo vision systems, support object recognition, inspection, navigation, and scene understanding. LiDAR sensors create three-dimensional maps of surroundings. Inertial Measurement Units (IMUs) combine accelerometers and gyroscopes to measure motion and orientation. Proximity sensors such as ultrasonic and infrared sensors help detect nearby objects. Sensor information is processed by robot control systems. Actuators convert electrical control signals into physical movement. Electric motors are the most common actuators used in robots because they provide efficient and precise motion. Servo motors provide closed-loop position control and are widely used in industrial robots. Stepper motors support incremental positioning applications. Pneumatic actuators use compressed air for fast motion, while hydraulic actuators provide high force output for heavy-duty robotic systems. Robot controllers function as the brain of the robot. Controllers process sensor data, execute control algorithms, perform motion planning, coordinate actuators, monitor safety functions, and manage communication. Depending on complexity, controllers may use MCUs, MPUs, CPUs, GPUs, NPUs, and specialized robotics processors. Modern robots increasingly use heterogeneous computing platforms combining traditional processing with AI acceleration. A key characteristic of robots is Degrees of Freedom (DOF), which describe the number of independent movements available. Industrial robotic arms commonly use six degrees of freedom, enabling motion in three-dimensional space along with orientation control through roll, pitch, and yaw movements. Higher DOF systems provide greater flexibility but increase computational complexity. Kinematics is the study of robot motion without considering forces. Forward kinematics calculates the end-effector position based on known joint positions, while inverse kinematics determines the joint movements required to reach a desired target position. Dynamics studies forces, torques, inertia, and acceleration, enabling precise control and stable robot operation. Motion planning algorithms determine how robots move between locations while avoiding obstacles, minimizing energy consumption, and achieving task objectives efficiently. Computer vision has become a core technology in robotics. Vision systems perform object detection, object tracking, pose estimation, scene understanding, defect inspection, and navigation. Artificial Intelligence further enhances robotic capabilities through machine learning, object recognition, speech processing, autonomous navigation, behavior prediction, path optimization, and human-robot interaction. AI allows robots to adapt to changing environments and perform tasks that were previously difficult to automate. Autonomous Mobile Robots (AMRs) are mobile robots capable of navigating dynamic environments without fixed guide paths. AMRs use sensors, mapping technologies, and navigation algorithms to move independently. By contrast, Automated Guided Vehicles (AGVs) typically follow predefined routes using markers, magnetic strips, or fixed infrastructure. A fundamental technology for mobile robots is Simultaneous Localization and Mapping (SLAM), which allows robots to create maps of unknown environments while determining their own location within those maps. Industrial robots represent the largest robotics market and are widely used for welding, painting, assembly, packaging, machine tending, and material handling. Collaborative Robots (Cobots) are specifically designed to operate safely alongside human workers using force-limiting mechanisms, safety monitoring, and collision-detection systems. Service robots extend robotics applications beyond manufacturing into cleaning, hospitality, healthcare, delivery, security, and personal-assistance tasks. Medical robotics includes robotic surgery systems, rehabilitation devices, teleoperation platforms, and hospital logistics robots. Drone robotics, also known as Unmanned Aerial Vehicles (UAVs), support inspection, mapping, agriculture, delivery, surveillance, and scientific research. Human-Robot Interaction (HRI) focuses on communication and collaboration between humans and robots through voice, gestures, touch, vision, and intelligent interfaces. Robotics systems often communicate through Ethernet, Wi-Fi, Bluetooth, 5G, and industrial communication protocols, enabling remote monitoring, cloud robotics, fleet management, and distributed automation. Safety is a critical requirement in robotics. Standards such as ISO 10218 and ISO/TS 15066 define safety requirements for industrial robots and collaborative robots. Safety mechanisms include emergency stops, safety PLCs, light curtains, safety sensors, collision monitoring, and protective barriers. Modern robotics relies heavily on semiconductors including MCUs, CPUs, GPUs, NPUs, sensors, communication ICs, power semiconductors, and AI accelerators. Future robotics trends include humanoid robots, advanced AI-driven systems, Edge AI robotics, swarm robotics, cloud robotics, robot learning, and increasingly autonomous machines. Robotics combines physical and digital technologies to create intelligent systems that improve productivity, safety, precision, efficiency, and automation across many industries.",
+  "keywords": [
+    {
+      "english": "Robotics",
+      "chinese": "機器人技術"
+    },
+    {
+      "english": "Robot Controller",
+      "chinese": "機器人控制器"
+    },
+    {
+      "english": "Sensor",
+      "chinese": "感測器"
+    },
+    {
+      "english": "Actuator",
+      "chinese": "致動器"
+    },
+    {
+      "english": "Servo Motor",
+      "chinese": "伺服馬達"
+    },
+    {
+      "english": "End Effector",
+      "chinese": "末端執行器"
+    },
+    {
+      "english": "Degrees of Freedom (DOF)",
+      "chinese": "自由度"
+    },
+    {
+      "english": "Forward Kinematics",
+      "chinese": "正向運動學"
+    },
+    {
+      "english": "Inverse Kinematics",
+      "chinese": "逆向運動學"
+    },
+    {
+      "english": "Dynamics",
+      "chinese": "動力學"
+    },
+    {
+      "english": "Motion Planning",
+      "chinese": "運動規劃"
+    },
+    {
+      "english": "Computer Vision",
+      "chinese": "電腦視覺"
+    },
+    {
+      "english": "Artificial Intelligence (AI)",
+      "chinese": "人工智慧"
+    },
+    {
+      "english": "Autonomous Mobile Robot (AMR)",
+      "chinese": "自主移動機器人"
+    },
+    {
+      "english": "Automated Guided Vehicle (AGV)",
+      "chinese": "自動導引車"
+    },
+    {
+      "english": "SLAM",
+      "chinese": "同步定位與地圖建立"
+    },
+    {
+      "english": "Collaborative Robot (Cobot)",
+      "chinese": "協作機器人"
+    },
+    {
+      "english": "Human-Robot Interaction (HRI)",
+      "chinese": "人機互動"
+    },
+    {
+      "english": "LiDAR",
+      "chinese": "光達"
+    },
+    {
+      "english": "ISO 10218",
+      "chinese": "工業機器人安全標準"
+    }
+  ],
+  "summary": [
+    "Robotics combines mechanics, electronics, control systems, software, sensors, and AI to create intelligent machines.",
+    "Every robot contains sensors, controllers, actuators, and a mechanical structure.",
+    "Sensors provide environmental awareness, while actuators generate physical movement.",
+    "Degrees of Freedom (DOF) determine a robot's motion flexibility.",
+    "Kinematics and dynamics are fundamental concepts for robot motion control.",
+    "Computer vision and AI enable robots to recognize objects, understand environments, and make decisions.",
+    "SLAM allows robots to simultaneously map environments and determine their position.",
+    "AMRs navigate autonomously, while AGVs typically follow predefined routes.",
+    "Cobots are designed to safely collaborate with human workers.",
+    "Robotics is a major application area for semiconductors, AI accelerators, sensing technologies, and embedded systems."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. A robot uses ______ to perceive its environment.",
+      "answer": "Sensors"
+    },
+    {
+      "question": "2. ______ convert control signals into physical movement.",
+      "answer": "Actuators"
+    },
+    {
+      "question": "3. DOF stands for Degrees of ______.",
+      "answer": "Freedom"
+    },
+    {
+      "question": "4. ______ kinematics calculates the required joint positions to reach a target position.",
+      "answer": "Inverse"
+    },
+    {
+      "question": "5. SLAM stands for Simultaneous Localization and ______.",
+      "answer": "Mapping"
+    },
+    {
+      "question": "6. AMR stands for Autonomous Mobile ______.",
+      "answer": "Robot"
+    },
+    {
+      "question": "7. A ______ is the tool attached to a robot arm that interacts with objects.",
+      "answer": "End Effector"
+    },
+    {
+      "question": "8. Cobots are designed to work safely alongside ______.",
+      "answer": "Humans"
+    },
+    {
+      "question": "9. LiDAR generates three-dimensional environmental ______.",
+      "answer": "Maps"
+    },
+    {
+      "question": "10. ISO ______ is a major industrial robot safety standard.",
+      "answer": "10218"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is sensor fusion important in robotics?",
+      "answer": "No single sensor can provide complete and reliable information under all conditions. Sensor fusion combines data from cameras, LiDAR, IMUs, encoders, and other sensors to improve accuracy, reliability, and environmental awareness."
+    },
+    {
+      "question": "2. Why is inverse kinematics a fundamental robotics problem?",
+      "answer": "Robots must determine how each joint should move to position the end effector at a desired location. Inverse kinematics solves this calculation and is essential for robot control."
+    },
+    {
+      "question": "3. How do AI and computer vision improve robot capabilities?",
+      "answer": "AI and computer vision allow robots to identify objects, understand scenes, make decisions, navigate autonomously, interact with humans, and adapt to changing environments."
+    },
+    {
+      "question": "4. What is the difference between an AMR and an AGV?",
+      "answer": "AGVs typically follow fixed paths using markers or predefined routes, whereas AMRs use sensors, mapping, SLAM, and navigation algorithms to move dynamically through changing environments."
+    },
+    {
+      "question": "5. Why are safety standards critical in robotics?",
+      "answer": "Robots can operate with significant force, speed, and autonomy. Safety standards and protection mechanisms help prevent injuries, equipment damage, and hazardous operating conditions."
+    },
+    {
+      "question": "6. What role do actuators play in robotic systems?",
+      "answer": "Actuators convert control signals into physical movement, enabling robots to perform positioning, manipulation, locomotion, and interaction tasks."
+    },
+    {
+      "question": "7. Why are Degrees of Freedom important in robot design?",
+      "answer": "Degrees of Freedom define the number of independent movements available to a robot and directly affect flexibility, reachability, dexterity, and task capability."
+    },
+    {
+      "question": "8. What is the purpose of SLAM in mobile robotics?",
+      "answer": "SLAM enables a robot to simultaneously build a map of an unknown environment and determine its own position within that map for autonomous navigation."
+    },
+    {
+      "question": "9. Why are Cobots becoming increasingly popular in industry?",
+      "answer": "Cobots can safely work alongside humans, are easier to deploy, require less safety infrastructure, and provide flexible automation for changing production environments."
+    },
+    {
+      "question": "10. What technologies are driving the future of robotics?",
+      "answer": "Major technologies include AI, Edge AI, advanced sensors, computer vision, humanoid robotics, cloud robotics, swarm robotics, autonomous navigation, and high-performance semiconductor platforms."
+    }
+  ]
+},
+{
+  "id": 78,
+  "title": "Medical Electronics",
+  "content": "Medical Electronics is the application of electronic systems, semiconductors, sensors, embedded computing, signal processing, communication technologies, and software in healthcare and medical devices. Medical electronics supports diagnosis, patient monitoring, treatment, rehabilitation, healthcare automation, and remote healthcare services. Modern healthcare relies heavily on electronic devices to improve diagnostic accuracy, treatment effectiveness, patient outcomes, healthcare accessibility, and operational efficiency. Medical electronics is one of the most demanding semiconductor application fields because devices must satisfy strict requirements for accuracy, reliability, safety, cybersecurity, and regulatory compliance. The evolution of medical electronics progressed from traditional diagnostic methods based mainly on physician observation to electronic instrumentation, digital healthcare, connected healthcare, and AI-driven smart healthcare systems. Modern healthcare devices integrate sensors, signal acquisition circuits, embedded processors, communication technologies, cloud platforms, and artificial intelligence. Most medical electronic systems follow a common architecture consisting of biomedical sensors, signal acquisition, signal processing, embedded computing, user interfaces, communication systems, and data storage. Biomedical sensors measure physiological parameters and convert biological information into electrical signals for analysis. Common biomedical sensors include temperature sensors, pressure sensors, optical sensors, bioelectrical sensors, and chemical sensors. Bioelectrical sensing forms the foundation of many diagnostic systems. Electrocardiograms (ECG) measure the electrical activity of the heart. Electroencephalograms (EEG) measure brain activity. Electromyograms (EMG) measure muscle activity. Optical sensors are used in pulse oximeters, heart-rate monitors, and wearable health devices. Chemical sensors support glucose monitoring, oxygen measurement, and biomarker detection. Physiological signals are often extremely small and vulnerable to noise and interference. Signal acquisition systems therefore use amplification, filtering, isolation circuits, and Analog-to-Digital Converters (ADCs) to prepare signals for digital processing. Signal quality directly affects clinical accuracy and reliability. Medical signal processing applies noise reduction, feature extraction, pattern recognition, classification, and AI-based analysis to transform sensor data into meaningful clinical information. Digital Signal Processors (DSPs) are frequently used in advanced medical equipment because of their ability to process physiological signals efficiently in real time. Patient monitoring systems continuously track vital signs such as heart rate, blood pressure, oxygen saturation, respiratory rate, body temperature, and cardiac rhythms. These systems are widely deployed in hospitals, intensive care units, emergency departments, ambulances, operating rooms, and home healthcare environments. Diagnostic devices help identify and evaluate medical conditions. ECG systems assist with cardiac diagnosis and arrhythmia detection. EEG systems support neurological evaluation and epilepsy diagnosis. EMG systems evaluate neuromuscular function. Ultrasound systems use acoustic waves for imaging and are commonly used in cardiology, obstetrics, and internal-organ examinations. Endoscopy systems use miniature cameras and electronic imaging technologies to inspect internal body structures. Medical imaging is one of the most technologically advanced areas of medical electronics. X-ray systems use ionizing radiation to produce images of bones and internal structures. Computed Tomography (CT) generates detailed cross-sectional images using X-rays and computer reconstruction algorithms. Magnetic Resonance Imaging (MRI) uses strong magnetic fields and radio-frequency signals to generate highly detailed soft-tissue images. Ultrasound imaging uses sound waves to provide real-time visualization without ionizing radiation. Positron Emission Tomography (PET) provides functional imaging that reveals metabolic activity and biological processes. These imaging systems rely on sophisticated sensors, signal processing, high-performance computing, and visualization technologies. Therapeutic medical devices actively treat patients rather than simply collect information. Examples include pacemakers, implantable cardioverter defibrillators (ICDs), infusion pumps, neurostimulators, radiation therapy systems, ventilators, dialysis machines, and pain-management devices. Implantable medical devices operate inside the human body and require ultra-low power consumption, high reliability, long operating life, miniaturization, biocompatibility, and strict safety controls. Wearable medical devices represent one of the fastest-growing healthcare segments. Examples include smartwatches, fitness trackers, wearable ECG systems, continuous glucose monitors (CGMs), smart patches, and remote patient-monitoring devices. Wearables enable continuous health monitoring, preventive care, early disease detection, and improved management of chronic conditions. Telemedicine and remote healthcare solutions leverage communication technologies such as Bluetooth, Wi-Fi, cellular networks, cloud platforms, and mobile applications to support remote consultation, remote diagnostics, patient monitoring, and healthcare delivery beyond traditional hospitals. Artificial Intelligence is transforming medical electronics. AI applications include medical image analysis, disease detection, diagnostic assistance, clinical decision support, predictive analytics, patient monitoring, drug discovery, and workflow automation. AI models assist healthcare professionals by identifying patterns that may be difficult to detect manually and improving diagnostic consistency. Medical robotics is another important application area. Medical robots support robotic surgery, rehabilitation, teleoperation, hospital logistics, patient assistance, and laboratory automation. Surgical robots provide highly precise instrument control and minimally invasive procedures. Connectivity has become an essential component of modern medical devices. Medical Internet of Things (IoMT) systems enable real-time data sharing, integration with Electronic Health Records (EHRs), cloud analytics, and coordinated care across healthcare systems. Cybersecurity is a major concern because connected medical devices may directly affect patient safety. Protection mechanisms include encryption, authentication, secure boot, access control, network security, software validation, and secure firmware updates. Medical devices must comply with strict regulatory and safety requirements. Important standards include IEC 60601 for medical electrical equipment safety, ISO 14971 for medical risk management, FDA regulations in the United States, and MDR regulations in Europe. Medical electronic systems rely on sensors, MCUs, MPUs, DSPs, AI accelerators, memory devices, analog front-end circuits, wireless communication ICs, and power-management systems. Future trends include AI-assisted diagnostics, personalized medicine, advanced remote monitoring, smart implantable devices, medical digital twins, AI-powered imaging systems, intelligent wearables, and increasingly connected healthcare ecosystems. Medical electronics directly contributes to earlier diagnosis, better monitoring, more effective treatment, and improved patient outcomes, making it one of the most impactful application areas for semiconductors and advanced electronics.",
+  "keywords": [
+    {
+      "english": "Medical Electronics",
+      "chinese": "醫療電子"
+    },
+    {
+      "english": "Biomedical Sensor",
+      "chinese": "生醫感測器"
+    },
+    {
+      "english": "ECG (Electrocardiogram)",
+      "chinese": "心電圖"
+    },
+    {
+      "english": "EEG (Electroencephalogram)",
+      "chinese": "腦電圖"
+    },
+    {
+      "english": "EMG (Electromyogram)",
+      "chinese": "肌電圖"
+    },
+    {
+      "english": "Pulse Oximeter",
+      "chinese": "血氧儀"
+    },
+    {
+      "english": "ADC (Analog-to-Digital Converter)",
+      "chinese": "類比數位轉換器"
+    },
+    {
+      "english": "Medical Imaging",
+      "chinese": "醫學影像"
+    },
+    {
+      "english": "X-Ray",
+      "chinese": "X光"
+    },
+    {
+      "english": "CT (Computed Tomography)",
+      "chinese": "電腦斷層掃描"
+    },
+    {
+      "english": "MRI (Magnetic Resonance Imaging)",
+      "chinese": "磁振造影"
+    },
+    {
+      "english": "Ultrasound",
+      "chinese": "超音波"
+    },
+    {
+      "english": "Pacemaker",
+      "chinese": "心律調節器"
+    },
+    {
+      "english": "Defibrillator",
+      "chinese": "去顫器"
+    },
+    {
+      "english": "Infusion Pump",
+      "chinese": "輸液幫浦"
+    },
+    {
+      "english": "Wearable Device",
+      "chinese": "穿戴式裝置"
+    },
+    {
+      "english": "Telemedicine",
+      "chinese": "遠距醫療"
+    },
+    {
+      "english": "Medical Robotics",
+      "chinese": "醫療機器人"
+    },
+    {
+      "english": "IEC 60601",
+      "chinese": "醫療電氣設備安全標準"
+    },
+    {
+      "english": "ISO 14971",
+      "chinese": "醫療風險管理標準"
+    }
+  ],
+  "summary": [
+    "Medical electronics applies electronics, sensors, computing, and communication technologies to healthcare applications.",
+    "Biomedical sensors measure physiological signals such as heart activity, brain activity, muscle activity, blood pressure, and oxygen saturation.",
+    "ECG, EEG, and EMG are important diagnostic tools based on bioelectrical signal measurement.",
+    "Medical imaging systems such as X-ray, CT, MRI, Ultrasound, and PET are major applications of advanced electronics.",
+    "Patient monitoring systems provide continuous observation of vital signs in hospitals and at home.",
+    "Therapeutic devices such as pacemakers, defibrillators, infusion pumps, and neurostimulators actively treat patients.",
+    "Wearable medical devices support continuous monitoring and preventive healthcare.",
+    "AI increasingly assists medical imaging analysis, diagnosis, monitoring, and clinical decision support.",
+    "Medical devices must meet strict safety, regulatory, reliability, and cybersecurity requirements.",
+    "Medical electronics is one of the most important semiconductor application fields because it directly impacts patient care and human health."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. ECG stands for Electro______.",
+      "answer": "Cardiogram"
+    },
+    {
+      "question": "2. EEG measures ______ activity.",
+      "answer": "Brain"
+    },
+    {
+      "question": "3. EMG is used to measure ______ activity.",
+      "answer": "Muscle"
+    },
+    {
+      "question": "4. ADC stands for Analog-to-Digital ______.",
+      "answer": "Converter"
+    },
+    {
+      "question": "5. MRI uses strong magnetic fields and radio-frequency ______.",
+      "answer": "Signals"
+    },
+    {
+      "question": "6. A ______ monitors oxygen saturation in the blood.",
+      "answer": "Pulse Oximeter"
+    },
+    {
+      "question": "7. Pacemakers are examples of ______ medical devices.",
+      "answer": "Implantable"
+    },
+    {
+      "question": "8. Telemedicine enables ______ healthcare services.",
+      "answer": "Remote"
+    },
+    {
+      "question": "9. IEC ______ is an important medical electrical safety standard.",
+      "answer": "60601"
+    },
+    {
+      "question": "10. AI is increasingly used for medical image ______.",
+      "answer": "Analysis"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are biomedical sensors fundamental to medical electronics?",
+      "answer": "Biomedical sensors convert physiological signals into electrical signals that can be measured, analyzed, and used for diagnosis, monitoring, and treatment. Without accurate sensing, modern healthcare devices cannot function effectively."
+    },
+    {
+      "question": "2. Why is medical imaging considered one of the most advanced areas of medical electronics?",
+      "answer": "Medical imaging combines sophisticated sensors, signal processing, high-performance computing, and visualization technologies to provide detailed information about the human body for diagnosis and treatment planning."
+    },
+    {
+      "question": "3. How is AI transforming medical electronics?",
+      "answer": "AI improves medical image analysis, patient-monitoring interpretation, disease prediction, clinical decision support, workflow automation, and diagnostic accuracy across many healthcare applications."
+    },
+    {
+      "question": "4. Why do medical devices require stricter safety and regulatory standards than many other electronic products?",
+      "answer": "Medical-device failures may directly affect patient health or life. Therefore, medical systems must meet rigorous requirements for safety, reliability, validation, cybersecurity, risk management, and regulatory compliance."
+    },
+    {
+      "question": "5. What are the key benefits of wearable devices and telemedicine?",
+      "answer": "Wearables and telemedicine enable continuous health monitoring, early disease detection, remote patient care, improved healthcare accessibility, reduced hospital visits, and better management of chronic diseases."
+    },
+    {
+      "question": "6. What is the role of ADCs in medical electronics?",
+      "answer": "ADCs convert analog physiological signals into digital data that can be processed, analyzed, stored, and displayed by medical computing systems."
+    },
+    {
+      "question": "7. Why are implantable medical devices challenging to design?",
+      "answer": "Implantable devices require ultra-low power consumption, long battery life, miniaturization, biocompatibility, high reliability, and strict safety controls while operating inside the human body."
+    },
+    {
+      "question": "8. How do patient monitoring systems improve healthcare outcomes?",
+      "answer": "Continuous monitoring allows early detection of physiological changes, faster intervention, improved safety, and better management of critical or chronic conditions."
+    },
+    {
+      "question": "9. Why is cybersecurity important for connected medical devices?",
+      "answer": "Cybersecurity protects patient data, medical records, device functionality, and patient safety from unauthorized access, tampering, malware, and cyberattacks."
+    },
+    {
+      "question": "10. What technologies are expected to shape the future of medical electronics?",
+      "answer": "Key technologies include AI-assisted diagnostics, intelligent wearables, medical digital twins, smart implantable devices, remote monitoring platforms, advanced medical robotics, and personalized healthcare systems."
+    }
+  ]
+},
+{
+  "id": 79,
+  "title": "AI and Data Centers",
+  "content": "AI and Data Centers represent one of the fastest-growing application areas for semiconductors and high-performance computing. A data center is a facility that houses computing, storage, networking, power, and cooling infrastructure used to process, store, and distribute digital information. Artificial Intelligence workloads have dramatically increased demand for data-center infrastructure because AI training and inference require enormous computational resources. Modern AI data centers support applications such as large language models, generative AI, recommendation systems, cloud services, scientific computing, business analytics, and machine learning platforms. Data-center evolution has progressed from traditional enterprise computing environments focused on databases, transaction processing, and web hosting to cloud data centers based on virtualization and large-scale resource sharing. Today, AI data centers integrate GPUs, AI accelerators, high-speed networking, advanced cooling technologies, and large memory systems optimized for machine-learning workloads. AI workloads generally fall into two categories. AI training involves creating and optimizing machine-learning models using massive datasets and extensive computation. AI inference uses trained models to generate predictions and responses in real-world applications. Training typically requires far more computing power than inference, while inference often prioritizes low latency and scalability. Modern AI models continue to grow in size from millions of parameters to billions and even trillions of parameters. As model size increases, computing, memory, networking, storage, and power requirements grow significantly. A modern AI data center consists of compute infrastructure, memory systems, storage systems, networking infrastructure, power systems, and cooling systems. Compute infrastructure includes CPUs, GPUs, and AI accelerators. CPUs remain critical for operating systems, resource management, and general-purpose processing. GPUs have become the dominant processors for AI training because they provide massive parallel-processing capabilities that efficiently accelerate neural-network computations. Specialized AI accelerators such as Google's TPU, NPUs, and custom AI ASICs further improve efficiency and performance for machine-learning workloads. AI computing relies heavily on parallel processing techniques. Data parallelism distributes datasets across multiple processors running identical models. Model parallelism distributes portions of a large model across multiple computing devices. Distributed computing combines thousands of nodes into a coordinated computing system capable of solving extremely large AI problems. Memory systems are critical because AI models require rapid movement of enormous amounts of data. DRAM provides active working memory, while High Bandwidth Memory (HBM) delivers extremely high memory bandwidth directly integrated with AI accelerators. Technologies such as HBM3 and HBM3E have become essential components of modern AI hardware platforms. Storage systems maintain training datasets, model checkpoints, user data, logs, and application information. Data centers commonly use SSDs for high-performance storage and HDDs for lower-cost bulk storage. Object storage systems provide scalable cloud-based storage for AI datasets and large volumes of unstructured data. Networking infrastructure is equally important. AI clusters require high-speed communication between processors, servers, storage devices, and data-center systems. Technologies such as Ethernet and InfiniBand provide high-bandwidth, low-latency communication. Network topologies such as Fat Tree and Spine-Leaf architectures help optimize communication efficiency at scale. AI clusters consist of interconnected servers containing CPUs, GPUs, accelerators, memory, storage, and networking equipment that work together as unified computing platforms. Some AI clusters contain thousands or even tens of thousands of accelerators operating simultaneously. Cloud computing plays a major role in AI deployment by providing scalable access to computing resources through platforms such as Azure, AWS, and Google Cloud. AI-as-a-Service offerings allow organizations to use advanced AI capabilities without building their own infrastructure. Power consumption is one of the largest challenges facing AI data centers. GPUs, networking equipment, storage systems, and cooling infrastructure consume substantial amounts of electricity. Modern AI facilities may require hundreds of megawatts of power. As performance increases, energy efficiency becomes increasingly important. Cooling systems are essential because AI hardware generates large amounts of heat. Traditional air cooling uses fans and airflow management, while liquid cooling provides significantly higher thermal efficiency. Advanced approaches include direct-to-chip liquid cooling and immersion cooling technologies that improve heat removal and system reliability. Software infrastructure coordinates hardware resources and manages workloads. Virtualization, containers, Kubernetes orchestration platforms, distributed computing frameworks, and AI development environments such as TensorFlow and PyTorch enable efficient deployment and resource utilization. Security is critical because AI data centers store valuable data, intellectual property, and AI models. Security mechanisms include encryption, identity and access management, network security, physical security, authentication, and monitoring systems. Sustainability has become a major design goal. Data-center operators increasingly adopt renewable energy sources, efficient processors, advanced cooling systems, and carbon-reduction strategies to reduce environmental impact. AI data centers drive demand for advanced semiconductors including GPUs, CPUs, AI accelerators, HBM memory, networking chips, optical interconnects, power-management ICs, and advanced packaging technologies. Future trends include larger AI models, more powerful accelerators, chiplet architectures, 3D packaging, optical networking, higher-bandwidth memory technologies, and more energy-efficient AI infrastructure. AI and Data Centers form the computational backbone of modern cloud services, scientific research, internet platforms, and generative AI systems, making them one of the most important drivers of semiconductor innovation.",
+  "keywords": [
+    {
+      "english": "Data Center",
+      "chinese": "資料中心"
+    },
+    {
+      "english": "Artificial Intelligence (AI)",
+      "chinese": "人工智慧"
+    },
+    {
+      "english": "AI Training",
+      "chinese": "AI訓練"
+    },
+    {
+      "english": "AI Inference",
+      "chinese": "AI推論"
+    },
+    {
+      "english": "Large Language Model (LLM)",
+      "chinese": "大型語言模型"
+    },
+    {
+      "english": "CPU",
+      "chinese": "中央處理器"
+    },
+    {
+      "english": "GPU",
+      "chinese": "圖形處理器"
+    },
+    {
+      "english": "AI Accelerator",
+      "chinese": "AI加速器"
+    },
+    {
+      "english": "TPU",
+      "chinese": "張量處理器"
+    },
+    {
+      "english": "ASIC",
+      "chinese": "特定應用積體電路"
+    },
+    {
+      "english": "High Bandwidth Memory (HBM)",
+      "chinese": "高頻寬記憶體"
+    },
+    {
+      "english": "DRAM",
+      "chinese": "動態隨機存取記憶體"
+    },
+    {
+      "english": "SSD",
+      "chinese": "固態硬碟"
+    },
+    {
+      "english": "InfiniBand",
+      "chinese": "InfiniBand高速網路"
+    },
+    {
+      "english": "Ethernet",
+      "chinese": "乙太網路"
+    },
+    {
+      "english": "AI Cluster",
+      "chinese": "AI叢集"
+    },
+    {
+      "english": "Cloud Computing",
+      "chinese": "雲端運算"
+    },
+    {
+      "english": "Liquid Cooling",
+      "chinese": "液冷技術"
+    },
+    {
+      "english": "Distributed Computing",
+      "chinese": "分散式運算"
+    },
+    {
+      "english": "Data Parallelism",
+      "chinese": "資料平行化"
+    }
+  ],
+  "summary": [
+    "AI data centers provide the computing infrastructure for training and running modern AI models.",
+    "AI workloads are divided into training and inference, each with different performance requirements.",
+    "GPUs are the dominant processors for large-scale AI workloads due to their massive parallel-processing capabilities.",
+    "AI accelerators such as TPUs and custom ASICs provide optimized AI performance and efficiency.",
+    "HBM has become a critical technology because AI performance is highly dependent on memory bandwidth.",
+    "Distributed computing, data parallelism, and model parallelism allow AI workloads to scale across thousands of processors.",
+    "AI clusters combine CPUs, GPUs, networking, storage, and software into large-scale computing systems.",
+    "High-speed networking technologies such as Ethernet and InfiniBand are essential for AI infrastructure.",
+    "Power consumption and cooling are among the biggest challenges facing modern AI data centers.",
+    "AI and Data Centers are major drivers of demand for advanced semiconductors, memory technologies, networking chips, and cloud infrastructure."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. AI ______ creates or updates machine-learning models.",
+      "answer": "Training"
+    },
+    {
+      "question": "2. AI ______ uses trained models to generate predictions or outputs.",
+      "answer": "Inference"
+    },
+    {
+      "question": "3. GPUs are widely used because they provide massive ______ processing.",
+      "answer": "Parallel"
+    },
+    {
+      "question": "4. HBM stands for High Bandwidth ______.",
+      "answer": "Memory"
+    },
+    {
+      "question": "5. A TPU is a ______ Processing Unit.",
+      "answer": "Tensor"
+    },
+    {
+      "question": "6. InfiniBand is commonly used in AI ______.",
+      "answer": "Clusters"
+    },
+    {
+      "question": "7. Data ______ replicates the same model across multiple processors.",
+      "answer": "Parallelism"
+    },
+    {
+      "question": "8. Liquid ______ improves heat removal in AI servers.",
+      "answer": "Cooling"
+    },
+    {
+      "question": "9. SSD stands for Solid State ______.",
+      "answer": "Drive"
+    },
+    {
+      "question": "10. AI clusters may contain thousands of ______ working together.",
+      "answer": "Accelerators"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are GPUs preferred over CPUs for AI training?",
+      "answer": "GPUs contain thousands of parallel processing cores that can execute large matrix and tensor operations simultaneously, making them significantly more efficient for neural-network training than traditional CPUs."
+    },
+    {
+      "question": "2. Why is HBM important for modern AI accelerators?",
+      "answer": "AI models require moving vast amounts of data between processors and memory. HBM provides extremely high memory bandwidth, reducing bottlenecks and allowing accelerators to achieve higher performance."
+    },
+    {
+      "question": "3. Why do large AI models require distributed computing?",
+      "answer": "Modern foundation models may contain billions or trillions of parameters that cannot fit within a single processor or server. Distributed computing allows workloads, memory, and computation to be shared across many systems."
+    },
+    {
+      "question": "4. Why are power consumption and cooling major challenges in AI data centers?",
+      "answer": "High-performance GPUs and AI accelerators consume substantial amounts of energy and generate significant heat. Effective power delivery and cooling systems are required to maintain reliability and performance."
+    },
+    {
+      "question": "5. How are AI data centers different from traditional enterprise data centers?",
+      "answer": "Traditional data centers focused mainly on databases, web services, and business applications running on CPUs, while AI data centers are optimized for machine learning using GPUs, AI accelerators, HBM, distributed computing, and specialized networking."
+    },
+    {
+      "question": "6. What is the difference between AI training and AI inference?",
+      "answer": "Training creates and optimizes machine-learning models using large datasets and compute resources, while inference uses trained models to generate predictions, decisions, or responses in production environments."
+    },
+    {
+      "question": "7. Why are high-speed networks important in AI clusters?",
+      "answer": "AI workloads require constant communication among processors and servers. High-speed networks reduce latency, improve scalability, and increase overall cluster efficiency."
+    },
+    {
+      "question": "8. What role do AI accelerators such as TPUs and ASICs play?",
+      "answer": "AI accelerators are specialized processors designed to execute machine-learning operations more efficiently than general-purpose CPUs, providing higher performance and lower power consumption."
+    },
+    {
+      "question": "9. Why is liquid cooling becoming more common in AI data centers?",
+      "answer": "Modern AI hardware generates more heat than traditional air-cooling systems can efficiently manage. Liquid cooling improves thermal performance, energy efficiency, and hardware density."
+    },
+    {
+      "question": "10. What semiconductor technologies are most critical for AI data centers?",
+      "answer": "Key technologies include GPUs, CPUs, AI accelerators, HBM memory, networking chips, optical interconnects, power-management ICs, advanced packaging technologies, and high-speed storage controllers."
+    }
+  ]
+},
+{
+  "id": 80,
+  "title": "Defense and Aerospace",
+  "content": "Defense and Aerospace refers to the application of electronics, semiconductors, sensors, embedded systems, communication technologies, navigation systems, computing platforms, and specialized software in military, aviation, space, surveillance, and national-security systems. These applications are among the most technologically advanced electronic systems ever developed because they must operate reliably under extreme environmental conditions while maintaining high performance, safety, security, and mission-critical functionality. Defense and aerospace systems often drive innovation in radar technology, satellite communications, navigation, artificial intelligence, autonomous systems, high-performance computing, secure communications, and advanced semiconductors. Unlike consumer electronics, defense and aerospace systems must tolerate extreme temperatures, vibration, shock, radiation exposure, electromagnetic interference, high-altitude operation, and long deployment lifetimes. Reliability and fault tolerance are often more important than cost. Major defense and aerospace domains include military systems, commercial aviation, satellites, spacecraft, launch vehicles, intelligence platforms, surveillance systems, and space exploration programs. Modern defense and aerospace systems are built around integrated electronic architectures consisting of sensors, signal-processing systems, communication networks, navigation systems, mission computers, guidance systems, and control systems. Avionics refers to the electronic systems used in aircraft and spacecraft. Avionics functions include flight control, navigation, communication, monitoring, mission management, collision avoidance, and aircraft diagnostics. Flight Management Systems (FMS) assist pilots with route planning, fuel optimization, navigation management, and aircraft performance calculations. Modern aircraft commonly use Fly-by-Wire (FBW) systems, where pilot control inputs are converted into electronic signals that are processed by flight-control computers rather than direct mechanical linkages. Navigation systems are critical for aircraft, spacecraft, missiles, and military vehicles. Global Navigation Satellite Systems (GNSS) such as GPS, Galileo, GLONASS, and BeiDou provide positioning, navigation, and timing services. Inertial Navigation Systems (INS) use accelerometers and gyroscopes to determine position and motion without relying on external signals. Integrated GNSS/INS systems combine the strengths of both technologies, offering improved accuracy and resilience in environments where satellite signals may be degraded or unavailable. Radar is one of the most important technologies in defense and aerospace. Radar systems use radio waves to detect, range, track, identify, and monitor objects. Applications include air defense, battlefield surveillance, aircraft navigation, weather monitoring, missile guidance, maritime surveillance, and air-traffic control. Phased-array radar systems use multiple antenna elements to electronically steer radar beams without physically moving antennas. Active Electronically Scanned Array (AESA) radar systems represent one of the most advanced radar technologies, providing multi-target tracking, rapid beam steering, enhanced reliability, and improved resistance to electronic interference. Electronic Warfare (EW) involves the control and exploitation of the electromagnetic spectrum. Electronic Support (ES) focuses on detecting and analyzing electromagnetic signals. Electronic Attack (EA) includes jamming and deception techniques used to disrupt adversary systems. Electronic Protection (EP) protects friendly systems from interference and electronic threats. Communication systems are fundamental to defense and aerospace operations. Tactical communication systems provide secure battlefield connectivity, while Satellite Communication (SATCOM) systems support long-range communications for military operations, aviation, maritime systems, and space missions. Modern communication systems use encryption, authentication, anti-jamming technologies, frequency hopping, and secure networking protocols to protect information. Satellites are among the most sophisticated aerospace systems. Communication satellites provide internet, television, military communications, and global connectivity. Earth-observation satellites support weather forecasting, environmental monitoring, agriculture, disaster management, and intelligence gathering. Navigation satellite constellations provide positioning services worldwide. Reconnaissance satellites collect surveillance and intelligence information. Space electronics face unique challenges because spacecraft operate in radiation-rich environments. Radiation effects such as Single Event Upsets (SEUs) and Total Ionizing Dose (TID) can damage semiconductor devices and affect system operation. Radiation-hardened electronics are specifically designed to tolerate these harsh conditions and are widely used in satellites, deep-space probes, military spacecraft, and strategic systems. Defense systems depend heavily on advanced sensors. Radar sensors provide long-range detection and tracking. Infrared (IR) sensors detect heat signatures and support missile warning, target tracking, and night vision systems. Electro-optical (EO) sensors capture visible imagery for reconnaissance and targeting. Sonar systems use acoustic waves for underwater navigation and submarine detection. Laser sensors are used for target designation, rangefinding, mapping, and guidance. Sensor fusion combines information from multiple sensors to improve situational awareness and decision making. Missile systems utilize sophisticated navigation, guidance, control, and sensing technologies. Common guidance methods include inertial guidance, radar guidance, infrared guidance, laser guidance, and GNSS-assisted guidance. Unmanned systems have become increasingly important in defense applications. Unmanned Aerial Vehicles (UAVs), Unmanned Ground Vehicles (UGVs), and Unmanned Underwater Vehicles (UUVs) support reconnaissance, logistics, surveillance, inspection, monitoring, and other missions. Artificial Intelligence is becoming an increasingly important technology in defense and aerospace. AI applications include target recognition, threat assessment, mission planning, autonomous navigation, predictive maintenance, sensor fusion, and decision-support systems. Aerospace control systems manage aircraft flight, spacecraft attitude control, missile guidance, vehicle stabilization, and autonomous operation. High-reliability computing platforms are required because failures can jeopardize missions or human lives. These systems often use redundant architectures, fault-tolerant computing, safety-certified software, and ruggedized hardware. Cybersecurity is also a critical requirement because defense systems are frequent targets of cyberattacks. Security technologies include encryption, secure boot, authentication, intrusion detection, key management, and secure communications. Defense and aerospace systems must comply with strict standards and certification requirements, including DO-178C for airborne software, DO-254 for airborne electronic hardware, MIL-STD military standards, and various aerospace safety regulations. Semiconductor technologies used in defense and aerospace include CPUs, DSPs, GPUs, FPGAs, AI accelerators, RF components, radiation-hardened ICs, sensors, communication chips, and power electronics. Future trends include AI-enabled mission systems, autonomous platforms, advanced space programs, hypersonic vehicles, next-generation radar systems, military satellite networks, and increasingly intelligent sensor-fusion architectures. Defense and aerospace applications remain major drivers of innovation in advanced semiconductors, communications, computing, sensing, navigation, and high-reliability electronics.",
+  "keywords": [
+    {
+      "english": "Defense Electronics",
+      "chinese": "國防電子"
+    },
+    {
+      "english": "Aerospace Electronics",
+      "chinese": "航太電子"
+    },
+    {
+      "english": "Avionics",
+      "chinese": "航空電子設備"
+    },
+    {
+      "english": "Fly-by-Wire (FBW)",
+      "chinese": "線傳飛控系統"
+    },
+    {
+      "english": "Flight Management System (FMS)",
+      "chinese": "飛行管理系統"
+    },
+    {
+      "english": "Radar",
+      "chinese": "雷達"
+    },
+    {
+      "english": "AESA Radar",
+      "chinese": "主動電子掃描陣列雷達"
+    },
+    {
+      "english": "Phased Array Radar",
+      "chinese": "相位陣列雷達"
+    },
+    {
+      "english": "Electronic Warfare (EW)",
+      "chinese": "電子作戰"
+    },
+    {
+      "english": "SATCOM",
+      "chinese": "衛星通訊"
+    },
+    {
+      "english": "GNSS",
+      "chinese": "全球導航衛星系統"
+    },
+    {
+      "english": "Inertial Navigation System (INS)",
+      "chinese": "慣性導航系統"
+    },
+    {
+      "english": "Radiation-Hardened Electronics",
+      "chinese": "抗輻射電子元件"
+    },
+    {
+      "english": "FPGA",
+      "chinese": "現場可程式化閘陣列"
+    },
+    {
+      "english": "UAV",
+      "chinese": "無人機"
+    },
+    {
+      "english": "UGV",
+      "chinese": "無人地面載具"
+    },
+    {
+      "english": "UUV",
+      "chinese": "無人水下載具"
+    },
+    {
+      "english": "DO-178C",
+      "chinese": "航空軟體認證標準"
+    },
+    {
+      "english": "DO-254",
+      "chinese": "航空電子硬體認證標準"
+    },
+    {
+      "english": "MIL-STD",
+      "chinese": "軍用標準"
+    }
+  ],
+  "summary": [
+    "Defense and aerospace systems require extremely high reliability, safety, security, and performance.",
+    "Avionics systems provide flight control, navigation, communication, and mission management capabilities.",
+    "GPS/GNSS and INS are commonly integrated to provide accurate and robust navigation.",
+    "Radar, especially AESA radar, is a core sensing technology in modern defense systems.",
+    "Electronic Warfare includes electronic support, electronic attack, and electronic protection operations.",
+    "Satellites support communications, navigation, weather monitoring, surveillance, and intelligence gathering.",
+    "Space electronics require radiation-hardened components to survive harsh space environments.",
+    "AI is increasingly used for target recognition, autonomous navigation, threat detection, and predictive maintenance.",
+    "Cybersecurity and functional safety are critical because failures can directly impact mission success and national security.",
+    "Defense and aerospace remain major drivers of innovation in sensors, RF systems, high-reliability computing, communications, and advanced semiconductors."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Radar stands for Radio Detection and ______.",
+      "answer": "Ranging"
+    },
+    {
+      "question": "2. AESA stands for Active Electronically Scanned ______.",
+      "answer": "Array"
+    },
+    {
+      "question": "3. INS stands for Inertial Navigation ______.",
+      "answer": "System"
+    },
+    {
+      "question": "4. Fly-by-Wire converts pilot inputs into electronic ______.",
+      "answer": "Signals"
+    },
+    {
+      "question": "5. SATCOM stands for Satellite ______.",
+      "answer": "Communication"
+    },
+    {
+      "question": "6. ______-hardened electronics are designed to survive space radiation.",
+      "answer": "Radiation"
+    },
+    {
+      "question": "7. Electronic Attack typically involves ______ and deception techniques.",
+      "answer": "Jamming"
+    },
+    {
+      "question": "8. UAV stands for Unmanned Aerial ______.",
+      "answer": "Vehicle"
+    },
+    {
+      "question": "9. DO-178C is a certification standard for aircraft ______.",
+      "answer": "Software"
+    },
+    {
+      "question": "10. FPGA stands for Field Programmable Gate ______.",
+      "answer": "Array"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are radiation-hardened electronics necessary in aerospace systems?",
+      "answer": "Space environments expose electronics to ionizing radiation that can damage semiconductor devices and cause operational failures. Radiation-hardened electronics are specifically designed to maintain reliability under these conditions."
+    },
+    {
+      "question": "2. Why are GPS and INS commonly integrated together?",
+      "answer": "GNSS provides accurate positioning but may suffer from signal loss, interference, or jamming. INS operates independently of external signals but accumulates drift over time. Combining them improves navigation accuracy and reliability."
+    },
+    {
+      "question": "3. Why has AESA radar become a key technology in modern defense systems?",
+      "answer": "AESA radar supports rapid electronic beam steering, multi-target tracking, improved reliability, enhanced detection performance, and greater resistance to electronic interference compared to traditional radar systems."
+    },
+    {
+      "question": "4. How is AI transforming defense and aerospace applications?",
+      "answer": "AI supports automated target recognition, threat analysis, mission planning, predictive maintenance, sensor fusion, autonomous navigation, and decision support, improving operational effectiveness and situational awareness."
+    },
+    {
+      "question": "5. What role does Electronic Warfare play in modern military operations?",
+      "answer": "Electronic Warfare controls and exploits the electromagnetic spectrum through signal detection, jamming, deception, and protection measures to support military objectives and degrade adversary capabilities."
+    },
+    {
+      "question": "6. Why are satellites important for defense and aerospace missions?",
+      "answer": "Satellites support communication, navigation, surveillance, intelligence gathering, weather monitoring, reconnaissance, and global connectivity for both civilian and military operations."
+    },
+    {
+      "question": "7. What advantages does Fly-by-Wire provide over mechanical flight controls?",
+      "answer": "Fly-by-Wire reduces aircraft weight, improves flight stability, enhances safety, enables advanced control laws, and allows computers to assist in maintaining safe aircraft operation."
+    },
+    {
+      "question": "8. Why are FPGAs widely used in defense and aerospace electronics?",
+      "answer": "FPGAs provide flexibility, reconfigurability, real-time processing capability, and long-term adaptability, making them suitable for mission-critical systems with evolving requirements."
+    },
+    {
+      "question": "9. Why is cybersecurity critical in defense and aerospace systems?",
+      "answer": "These systems often control mission-critical assets and handle sensitive information. Cyberattacks can compromise operations, safety, intelligence, and national security."
+    },
+    {
+      "question": "10. Why are standards such as DO-178C and DO-254 important?",
+      "answer": "These standards help ensure that airborne software and hardware meet rigorous requirements for safety, reliability, validation, traceability, and certification before being deployed in mission-critical applications."
+    }
+  ]
+}
+  ]
+}

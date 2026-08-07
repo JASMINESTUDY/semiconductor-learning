@@ -1,0 +1,2201 @@
+{
+  "module_name": "Wafer Fabrication",
+  "topics": [
+   {
+  "id": 27,
+  "title": "Introduction to Foundry Services",
+  "content": "A semiconductor foundry is a company that manufactures integrated circuits (ICs) for customers but does not usually design the chips itself. Foundries specialize in wafer fabrication and provide manufacturing services to Fabless semiconductor companies, IDMs, research organizations, startups, and system companies. The foundry business model has become one of the most important developments in the semiconductor industry because it allows chip design companies to focus on innovation while outsourcing manufacturing to specialized fabrication facilities. Modern semiconductor manufacturing requires enormous investments in facilities, equipment, process development, and engineering expertise. As a result, only a small number of companies can operate advanced semiconductor foundries. A foundry is responsible for transforming a completed chip design into physical silicon devices. Foundry responsibilities include process technology development, wafer fabrication, yield optimization, process control, manufacturing support, and quality assurance. Foundries do not typically create the customer's chip architecture or RTL design. Instead, customers provide the final design and layout database while the foundry manufactures the wafers. Three common semiconductor business models exist: Fabless, Foundry, and IDM. Fabless companies focus on chip design and outsource manufacturing. Foundries focus on manufacturing services. IDMs perform both design and manufacturing. A typical foundry engagement includes process selection, PDK access, chip design and verification, tape-out, wafer fabrication, and manufacturing delivery. Foundries provide Process Design Kits (PDKs) containing design rules, device models, standard cell libraries, and technology files required for chip development. Foundries support both mature nodes such as 180nm, 90nm, and 28nm, and advanced nodes such as 7nm, 5nm, 3nm, and 2nm. To reduce prototype costs, foundries often provide Multi-Project Wafer (MPW) services, allowing multiple customer designs to share a single wafer run. Major foundries include TSMC, Samsung Foundry, GlobalFoundries, UMC, SMIC, and Intel Foundry. The foundry model enables semiconductor innovation by allowing design companies to leverage advanced manufacturing technologies without building their own fabrication facilities.",
+  "keywords": [
+    {
+      "english": "Foundry",
+      "chinese": "晶圓代工廠"
+    },
+    {
+      "english": "Semiconductor Foundry",
+      "chinese": "半導體晶圓代工"
+    },
+    {
+      "english": "Fabless",
+      "chinese": "無晶圓廠"
+    },
+    {
+      "english": "IDM (Integrated Device Manufacturer)",
+      "chinese": "整合元件製造商"
+    },
+    {
+      "english": "Wafer Fabrication",
+      "chinese": "晶圓製造"
+    },
+    {
+      "english": "Process Node",
+      "chinese": "製程節點"
+    },
+    {
+      "english": "Process Design Kit (PDK)",
+      "chinese": "製程設計套件"
+    },
+    {
+      "english": "Tape-Out",
+      "chinese": "流片"
+    },
+    {
+      "english": "GDSII",
+      "chinese": "GDSII版圖格式"
+    },
+    {
+      "english": "OASIS",
+      "chinese": "OASIS版圖格式"
+    },
+    {
+      "english": "Multi-Project Wafer (MPW)",
+      "chinese": "多專案晶圓"
+    },
+    {
+      "english": "Wafer Run",
+      "chinese": "晶圓生產批次"
+    },
+    {
+      "english": "Standard Cell Library",
+      "chinese": "標準元件庫"
+    },
+    {
+      "english": "Design Rules",
+      "chinese": "設計規則"
+    },
+    {
+      "english": "Yield",
+      "chinese": "良率"
+    },
+    {
+      "english": "Advanced Node",
+      "chinese": "先進製程"
+    },
+    {
+      "english": "Mature Node",
+      "chinese": "成熟製程"
+    },
+    {
+      "english": "Advanced Packaging",
+      "chinese": "先進封裝"
+    },
+    {
+      "english": "Manufacturing Service",
+      "chinese": "製造服務"
+    },
+    {
+      "english": "Technology Platform",
+      "chinese": "製程平台"
+    }
+  ],
+  "summary": [
+    "A semiconductor foundry manufactures chips designed by customers.",
+    "Foundries focus on wafer fabrication rather than chip design.",
+    "The Fabless-Foundry model enables specialization within the semiconductor industry.",
+    "Foundries provide PDKs that allow customers to design manufacturable chips.",
+    "Process node selection affects performance, power, and manufacturing cost.",
+    "Tape-Out is the transition from chip design to manufacturing.",
+    "MPW programs reduce prototype costs by sharing wafer space among multiple customers.",
+    "TSMC, Samsung Foundry, and Intel Foundry are major foundry providers.",
+    "Advanced process nodes support high-performance applications such as AI and smartphones.",
+    "Foundry services are essential for enabling modern semiconductor innovation and production."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. A semiconductor ______ manufactures chips for customers.",
+      "answer": "Foundry"
+    },
+    {
+      "question": "2. Fabless companies focus on chip ______ rather than manufacturing.",
+      "answer": "Design"
+    },
+    {
+      "question": "3. IDM stands for Integrated Device ______.",
+      "answer": "Manufacturer"
+    },
+    {
+      "question": "4. A PDK stands for Process Design ______.",
+      "answer": "Kit"
+    },
+    {
+      "question": "5. Customers submit a design to the foundry during ______-Out.",
+      "answer": "Tape"
+    },
+    {
+      "question": "6. MPW stands for Multi-Project ______.",
+      "answer": "Wafer"
+    },
+    {
+      "question": "7. Foundries manufacture chips on silicon ______.",
+      "answer": "Wafers"
+    },
+    {
+      "question": "8. 3nm and 2nm are considered ______ process nodes.",
+      "answer": "Advanced"
+    },
+    {
+      "question": "9. TSMC is the world's largest dedicated semiconductor ______.",
+      "answer": "Foundry"
+    },
+    {
+      "question": "10. Foundries provide manufacturing services and process ______.",
+      "answer": "Technology"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why did the Fabless-Foundry model become successful?",
+      "answer": "Because semiconductor manufacturing became extremely expensive and complex, making specialization more efficient than having every company build its own fabrication facilities."
+    },
+    {
+      "question": "2. What advantages do Fabless companies gain by using foundry services?",
+      "answer": "They can focus on design innovation, reduce capital expenditure, shorten development cycles, and access advanced manufacturing technologies."
+    },
+    {
+      "question": "3. What role does a foundry play after a customer completes chip design?",
+      "answer": "The foundry converts the layout database into physical silicon through wafer fabrication and manufacturing processes."
+    },
+    {
+      "question": "4. Why is a PDK critical to semiconductor design?",
+      "answer": "The PDK contains process rules, device models, libraries, and verification data required to design chips that can be successfully manufactured."
+    },
+    {
+      "question": "5. What factors influence process node selection?",
+      "answer": "Performance, power consumption, area, cost, production volume, reliability, and product application requirements."
+    },
+    {
+      "question": "6. Why are MPW programs valuable for startups and universities?",
+      "answer": "They significantly reduce prototype costs by allowing multiple customers to share a wafer fabrication run."
+    },
+    {
+      "question": "7. How do mature and advanced nodes differ?",
+      "answer": "Mature nodes prioritize cost, reliability, and longevity, while advanced nodes prioritize performance, density, and power efficiency."
+    },
+    {
+      "question": "8. Why are only a few companies capable of operating leading-edge foundries?",
+      "answer": "Advanced foundries require enormous capital investment, sophisticated equipment, highly specialized engineering talent, and years of process development."
+    },
+    {
+      "question": "9. How has the foundry model changed the semiconductor industry?",
+      "answer": "It enabled thousands of Fabless companies to develop chips without owning fabrication plants, accelerating innovation and competition."
+    },
+    {
+      "question": "10. Why are foundries considered the backbone of the semiconductor supply chain?",
+      "answer": "Because they transform chip designs into physical semiconductor devices and provide the manufacturing infrastructure that supports the entire industry."
+    }
+  ]
+},
+{
+  "id": 28,
+  "title": "Thin Film Deposition",
+  "content": "Thin Film Deposition is the process of depositing very thin layers of material onto a semiconductor wafer surface. Modern integrated circuits are built by repeatedly adding, patterning, modifying, and removing thin material layers. As a result, deposition is one of the most frequently used processes in semiconductor manufacturing. A modern semiconductor device may contain dozens or even hundreds of thin-film layers. These layers are used to form transistors, gates, dielectrics, interconnects, contacts, isolation structures, and protective coatings. Deposition is a fundamental building block of semiconductor fabrication because nearly every device structure requires carefully controlled material layers. A thin film is a layer of material deposited on a wafer surface. Film thickness may range from a few atomic layers to several micrometers. Thin films may be conductive, semiconductive, or insulating depending on their function in the integrated circuit. Common materials include silicon dioxide (SiO2), silicon nitride (SiN), polysilicon, tungsten, and copper. Thin films provide electrical insulation, transistor gate formation, signal routing, and device protection. Thin film deposition technologies are generally divided into physical deposition and chemical deposition methods. Physical Vapor Deposition (PVD) transfers material physically from a source onto the wafer. A common PVD method is sputtering, where plasma ions strike a target material and eject atoms that are deposited onto the wafer. Chemical Vapor Deposition (CVD) forms films through chemical reactions occurring on the wafer surface, producing high-quality and highly uniform films. Atomic Layer Deposition (ALD) is an advanced process that deposits material one atomic layer at a time, providing exceptional thickness control, conformality, and uniformity. Epitaxy (EPI) is a specialized deposition process that grows crystalline layers matching the crystal structure of the underlying substrate. Important film properties include thickness, uniformity, conformality, purity, and stress. These properties directly impact transistor performance, reliability, and manufacturing yield. As semiconductor devices continue to scale to advanced process nodes, technologies such as ALD, advanced CVD, and epitaxy have become increasingly important for building complex three-dimensional transistor structures such as FinFETs and Gate-All-Around (GAA) devices.",
+  "keywords": [
+    {
+      "english": "Thin Film Deposition",
+      "chinese": "薄膜沉積"
+    },
+    {
+      "english": "Thin Film",
+      "chinese": "薄膜"
+    },
+    {
+      "english": "Deposition",
+      "chinese": "沉積"
+    },
+    {
+      "english": "Wafer",
+      "chinese": "晶圓"
+    },
+    {
+      "english": "Physical Vapor Deposition (PVD)",
+      "chinese": "物理氣相沉積"
+    },
+    {
+      "english": "Sputtering",
+      "chinese": "濺鍍"
+    },
+    {
+      "english": "Evaporation",
+      "chinese": "蒸鍍"
+    },
+    {
+      "english": "Chemical Vapor Deposition (CVD)",
+      "chinese": "化學氣相沉積"
+    },
+    {
+      "english": "Atomic Layer Deposition (ALD)",
+      "chinese": "原子層沉積"
+    },
+    {
+      "english": "Epitaxy (EPI)",
+      "chinese": "外延成長"
+    },
+    {
+      "english": "Silicon Dioxide (SiO2)",
+      "chinese": "二氧化矽"
+    },
+    {
+      "english": "Silicon Nitride (SiN)",
+      "chinese": "氮化矽"
+    },
+    {
+      "english": "Polysilicon",
+      "chinese": "多晶矽"
+    },
+    {
+      "english": "Copper (Cu)",
+      "chinese": "銅"
+    },
+    {
+      "english": "Tungsten (W)",
+      "chinese": "鎢"
+    },
+    {
+      "english": "Titanium Nitride (TiN)",
+      "chinese": "氮化鈦"
+    },
+    {
+      "english": "Dielectric",
+      "chinese": "介電層"
+    },
+    {
+      "english": "Conformality",
+      "chinese": "覆蓋均勻性"
+    },
+    {
+      "english": "Uniformity",
+      "chinese": "均勻性"
+    },
+    {
+      "english": "Film Thickness",
+      "chinese": "薄膜厚度"
+    }
+  ],
+  "summary": [
+    "Thin film deposition adds material layers onto semiconductor wafers.",
+    "Modern chips contain dozens or hundreds of thin-film layers.",
+    "Thin films can serve as conductors, semiconductors, or insulators.",
+    "PVD deposits material through physical processes such as sputtering.",
+    "CVD uses chemical reactions to form thin films.",
+    "ALD provides atomic-level thickness control and excellent conformality.",
+    "Epitaxy grows crystalline layers that match the wafer crystal structure.",
+    "Film thickness, uniformity, and purity directly affect device performance.",
+    "Common deposited materials include SiO2, SiN, polysilicon, tungsten, and copper.",
+    "Advanced nodes rely heavily on ALD and other advanced deposition technologies."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Thin film deposition adds material ______ onto a wafer.",
+      "answer": "Layers"
+    },
+    {
+      "question": "2. PVD stands for Physical Vapor ______.",
+      "answer": "Deposition"
+    },
+    {
+      "question": "3. A common PVD technique is called ______.",
+      "answer": "Sputtering"
+    },
+    {
+      "question": "4. CVD stands for Chemical Vapor ______.",
+      "answer": "Deposition"
+    },
+    {
+      "question": "5. ALD deposits material one atomic ______ at a time.",
+      "answer": "Layer"
+    },
+    {
+      "question": "6. Epitaxy grows ______ layers on a wafer.",
+      "answer": "Crystalline"
+    },
+    {
+      "question": "7. Silicon dioxide is commonly used as an ______ material.",
+      "answer": "Insulating"
+    },
+    {
+      "question": "8. Copper is widely used for chip ______.",
+      "answer": "Interconnects"
+    },
+    {
+      "question": "9. Film ______ measures how evenly the film is distributed across the wafer.",
+      "answer": "Uniformity"
+    },
+    {
+      "question": "10. Advanced FinFET and GAA structures often rely on ______ for precise deposition.",
+      "answer": "ALD"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is thin film deposition considered a fundamental semiconductor manufacturing process?",
+      "answer": "Because almost every semiconductor structure, including transistors, interconnects, and insulating layers, requires deposited material layers."
+    },
+    {
+      "question": "2. What is the difference between deposition and etching?",
+      "answer": "Deposition adds material to a wafer, while etching removes material from selected regions."
+    },
+    {
+      "question": "3. Why are multiple thin films needed in modern ICs?",
+      "answer": "Different films perform different functions such as insulation, conduction, transistor formation, protection, and signal routing."
+    },
+    {
+      "question": "4. What advantages does CVD offer over some physical deposition methods?",
+      "answer": "CVD generally provides better uniformity, coverage, and film quality across complex wafer structures."
+    },
+    {
+      "question": "5. Why is ALD increasingly important for advanced process nodes?",
+      "answer": "ALD provides atomic-scale thickness control and excellent conformality required for nanoscale 3D structures."
+    },
+    {
+      "question": "6. How does sputtering work in a PVD process?",
+      "answer": "Plasma ions strike a target material, ejecting atoms that are deposited onto the wafer surface."
+    },
+    {
+      "question": "7. Why is film uniformity important?",
+      "answer": "Variations in film thickness can affect transistor performance, reliability, and manufacturing yield."
+    },
+    {
+      "question": "8. How is epitaxy different from conventional deposition?",
+      "answer": "Epitaxy grows crystalline layers that continue the crystal structure of the underlying substrate."
+    },
+    {
+      "question": "9. What challenges do advanced nodes create for deposition technologies?",
+      "answer": "Smaller dimensions and complex 3D structures require tighter thickness control, better conformality, and higher film quality."
+    },
+    {
+      "question": "10. How does thin film deposition contribute to semiconductor scaling?",
+      "answer": "It enables precise material engineering at nanometer and atomic scales, allowing transistors to continue shrinking while maintaining performance and reliability."
+    }
+  ]
+},
+{
+  "id": 29,
+  "title": "Photolithography Basics",
+  "content": "Photolithography is the process used to transfer circuit patterns from a mask onto a semiconductor wafer using light. It is one of the most critical processes in semiconductor manufacturing because it defines where transistors, contacts, vias, and interconnects will be formed. Photolithography functions similarly to photographic printing. A pattern stored on a photomask is projected onto a light-sensitive material called photoresist, which is coated on the wafer surface. The developed photoresist then serves as a temporary pattern for subsequent processes such as etching, ion implantation, or deposition. Modern semiconductor manufacturing requires multiple photolithography cycles, and advanced chips may undergo dozens of lithography steps during fabrication. A typical photolithography process includes wafer preparation, photoresist coating through spin coating, soft bake, mask alignment, UV exposure, post-exposure bake, development, and hard bake. Photoresist is a light-sensitive material used to record the circuit pattern. Positive photoresist removes exposed regions during development, while negative photoresist retains exposed regions. A photomask contains the circuit pattern that is transferred onto the wafer. It typically consists of a transparent quartz substrate and a patterned chromium layer. Resolution refers to the smallest feature size that can be printed and is influenced by exposure wavelength, optical system capability, and process technology. Alignment and overlay control ensure that each lithography layer is accurately positioned relative to previous layers. Critical Dimension (CD) refers to the width of printed features such as transistor gates, contacts, and interconnects. Precise control of resolution, CD, and alignment is essential for device performance, reliability, and manufacturing yield. Modern lithography systems consist of a light source, optics, reticle, wafer stage, and alignment systems. As transistor dimensions continue to shrink, photolithography remains one of the most important and technically demanding processes in semiconductor manufacturing.",
+  "keywords": [
+    {
+      "english": "Photolithography",
+      "chinese": "微影製程"
+    },
+    {
+      "english": "Lithography",
+      "chinese": "曝光製程"
+    },
+    {
+      "english": "Photoresist",
+      "chinese": "光阻"
+    },
+    {
+      "english": "Positive Photoresist",
+      "chinese": "正光阻"
+    },
+    {
+      "english": "Negative Photoresist",
+      "chinese": "負光阻"
+    },
+    {
+      "english": "Photomask",
+      "chinese": "光罩"
+    },
+    {
+      "english": "Reticle",
+      "chinese": "光罩版"
+    },
+    {
+      "english": "Exposure",
+      "chinese": "曝光"
+    },
+    {
+      "english": "Development",
+      "chinese": "顯影"
+    },
+    {
+      "english": "Spin Coating",
+      "chinese": "旋轉塗佈"
+    },
+    {
+      "english": "Soft Bake",
+      "chinese": "預烘烤"
+    },
+    {
+      "english": "Hard Bake",
+      "chinese": "硬烘烤"
+    },
+    {
+      "english": "Post-Exposure Bake (PEB)",
+      "chinese": "曝光後烘烤"
+    },
+    {
+      "english": "Ultraviolet (UV) Light",
+      "chinese": "紫外光"
+    },
+    {
+      "english": "Alignment",
+      "chinese": "對位"
+    },
+    {
+      "english": "Overlay",
+      "chinese": "疊對精度"
+    },
+    {
+      "english": "Critical Dimension (CD)",
+      "chinese": "關鍵尺寸"
+    },
+    {
+      "english": "Resolution",
+      "chinese": "解析度"
+    },
+    {
+      "english": "Wafer Stage",
+      "chinese": "晶圓平台"
+    },
+    {
+      "english": "Rayleigh's Equation",
+      "chinese": "瑞利方程式"
+    }
+  ],
+  "summary": [
+    "Photolithography transfers circuit patterns onto semiconductor wafers using light.",
+    "Photoresist is a light-sensitive material used to create temporary patterns.",
+    "A typical lithography process includes coating, exposure, development, and baking.",
+    "Positive photoresist removes exposed regions, while negative photoresist keeps exposed regions.",
+    "Photomasks contain circuit patterns used during exposure.",
+    "Resolution determines the smallest printable feature size.",
+    "Alignment and overlay accuracy are critical for multilayer devices.",
+    "Critical Dimension (CD) control directly affects chip performance.",
+    "Modern chips require many lithography cycles and mask layers.",
+    "Photolithography is one of the most important technologies enabling semiconductor scaling."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Photolithography transfers circuit ______ onto a wafer.",
+      "answer": "Patterns"
+    },
+    {
+      "question": "2. A light-sensitive material used in lithography is called ______.",
+      "answer": "Photoresist"
+    },
+    {
+      "question": "3. Photoresist is applied using a process called spin ______.",
+      "answer": "Coating"
+    },
+    {
+      "question": "4. UV light is used during the ______ step.",
+      "answer": "Exposure"
+    },
+    {
+      "question": "5. A ______ contains the circuit pattern used for exposure.",
+      "answer": "Photomask"
+    },
+    {
+      "question": "6. In positive photoresist, the ______ regions are removed during development.",
+      "answer": "Exposed"
+    },
+    {
+      "question": "7. The process of removing selected photoresist areas is called ______.",
+      "answer": "Development"
+    },
+    {
+      "question": "8. CD stands for Critical ______.",
+      "answer": "Dimension"
+    },
+    {
+      "question": "9. Overlay refers to lithography layer ______ accuracy.",
+      "answer": "Alignment"
+    },
+    {
+      "question": "10. Smaller feature sizes require higher lithography ______.",
+      "answer": "Resolution"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is photolithography considered one of the most important semiconductor manufacturing processes?",
+      "answer": "Because it defines the patterns that determine transistor locations, interconnects, contacts, and device structures throughout the chip."
+    },
+    {
+      "question": "2. What role does photoresist play in lithography?",
+      "answer": "Photoresist temporarily records the pattern transferred from the photomask and protects selected regions during later processing steps."
+    },
+    {
+      "question": "3. Why are multiple lithography steps required during chip fabrication?",
+      "answer": "Each semiconductor layer requires its own pattern, and advanced chips contain many different device and interconnect layers."
+    },
+    {
+      "question": "4. What is the difference between positive and negative photoresist?",
+      "answer": "Positive photoresist removes exposed regions during development, while negative photoresist keeps exposed regions and removes unexposed areas."
+    },
+    {
+      "question": "5. Why is photomask quality important?",
+      "answer": "Any defect or pattern error on the mask can be transferred repeatedly onto wafers, affecting manufacturing yield and device performance."
+    },
+    {
+      "question": "6. Why is alignment critical in semiconductor manufacturing?",
+      "answer": "Every new layer must precisely match previous layers. Misalignment can cause electrical failures or significant yield loss."
+    },
+    {
+      "question": "7. What factors influence lithography resolution?",
+      "answer": "Exposure wavelength, numerical aperture, optical system quality, and process control all affect printable feature size."
+    },
+    {
+      "question": "8. Why is Critical Dimension (CD) control important?",
+      "answer": "Variations in feature size can affect transistor speed, leakage current, power consumption, and circuit reliability."
+    },
+    {
+      "question": "9. What challenges occur as process nodes continue to shrink?",
+      "answer": "Manufacturers face increasing difficulties in maintaining resolution, overlay accuracy, pattern fidelity, and process consistency."
+    },
+    {
+      "question": "10. How does photolithography enable semiconductor scaling?",
+      "answer": "It allows increasingly smaller and denser features to be patterned, supporting higher transistor density, improved performance, and lower power consumption."
+    }
+  ]
+},
+{
+  "id": 30,
+  "title": "Photomasks",
+  "content": "A Photomask is a high-precision template used in photolithography to transfer circuit patterns onto semiconductor wafers. Photomasks contain the geometric patterns that define transistors, contacts, vias, metal interconnects, and other device structures. During lithography, light passes through selected regions of the photomask and projects the pattern onto photoresist-coated wafers. The photomask acts as the blueprint that determines the final circuit geometry of the integrated circuit. Because every transistor and interconnect is defined by lithography, photomasks play a critical role in semiconductor manufacturing. The semiconductor design flow eventually produces a layout database. A typical flow is RTL Design → Physical Design → GDSII/OASIS → Photomask → Wafer Fabrication. After tape-out, the layout database is sent to the foundry, which converts the layout into photomasks used during manufacturing. Any error in the mask can be replicated across thousands of wafers and millions of chips. In modern semiconductor manufacturing, the terms photomask and reticle are often used interchangeably. Technically, a photomask refers to the patterned mask itself, while a reticle is the mask used in projection lithography systems. A typical photomask consists of a transparent quartz substrate, an opaque chromium layer, and additional protective or reflective layers for advanced applications. The chromium pattern defines which regions receive exposure. Each semiconductor layer typically requires its own photomask. The complete collection of masks needed to fabricate a chip is called a mask set. Advanced chips may require 50 to 100 or more masks. Common mask types include Binary Masks, Phase Shift Masks (PSM), and EUV Masks. Phase Shift Masks improve imaging performance through phase manipulation, while EUV Masks use reflective structures and are essential for advanced process nodes. Optical Proximity Correction (OPC) is used to compensate for optical distortions by intentionally modifying mask features to improve pattern accuracy and critical dimension control. Mask defects such as particles, pattern errors, and repair defects can significantly reduce manufacturing yield. Therefore, extensive mask inspection and repair procedures are performed before production. Photomasks are among the most expensive components in semiconductor manufacturing, especially at advanced nodes where EUV masks and complex OPC techniques are required. Photomasks are essential because they transform chip layout data into physical semiconductor structures and directly impact pattern fidelity, yield, and device performance.",
+  "keywords": [
+    {
+      "english": "Photomask",
+      "chinese": "光罩"
+    },
+    {
+      "english": "Reticle",
+      "chinese": "光罩版"
+    },
+    {
+      "english": "Mask Set",
+      "chinese": "光罩組"
+    },
+    {
+      "english": "Quartz Substrate",
+      "chinese": "石英基板"
+    },
+    {
+      "english": "Chromium Layer",
+      "chinese": "鉻金屬層"
+    },
+    {
+      "english": "Lithography",
+      "chinese": "微影製程"
+    },
+    {
+      "english": "Photoresist",
+      "chinese": "光阻"
+    },
+    {
+      "english": "GDSII",
+      "chinese": "GDSII版圖格式"
+    },
+    {
+      "english": "OASIS",
+      "chinese": "OASIS版圖格式"
+    },
+    {
+      "english": "Binary Mask",
+      "chinese": "二元光罩"
+    },
+    {
+      "english": "Phase Shift Mask (PSM)",
+      "chinese": "相移光罩"
+    },
+    {
+      "english": "EUV Mask",
+      "chinese": "EUV光罩"
+    },
+    {
+      "english": "Optical Proximity Correction (OPC)",
+      "chinese": "光學鄰近效應修正"
+    },
+    {
+      "english": "Critical Dimension (CD)",
+      "chinese": "關鍵尺寸"
+    },
+    {
+      "english": "Mask Inspection",
+      "chinese": "光罩檢測"
+    },
+    {
+      "english": "Mask Repair",
+      "chinese": "光罩修復"
+    },
+    {
+      "english": "Pattern Fidelity",
+      "chinese": "圖形保真度"
+    },
+    {
+      "english": "Defect Density",
+      "chinese": "缺陷密度"
+    },
+    {
+      "english": "Yield",
+      "chinese": "良率"
+    },
+    {
+      "english": "Semiconductor Layout",
+      "chinese": "半導體版圖"
+    }
+  ],
+  "summary": [
+    "Photomasks transfer circuit patterns onto wafers during lithography.",
+    "Photomasks are created from chip layout databases such as GDSII and OASIS.",
+    "Quartz substrates and chromium patterns form the basic structure of a mask.",
+    "Modern chips require a complete mask set containing many individual masks.",
+    "Reticles are used in projection lithography systems.",
+    "OPC improves pattern accuracy by compensating for optical distortions.",
+    "Mask defects can significantly reduce yield and device reliability.",
+    "Mask inspection and repair are critical manufacturing activities.",
+    "EUV masks are more complex and expensive than traditional masks.",
+    "Photomasks are essential for converting semiconductor designs into physical silicon structures."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. A ______ transfers circuit patterns onto a wafer during lithography.",
+      "answer": "Photomask"
+    },
+    {
+      "question": "2. Chip layouts are commonly delivered in ______II or OASIS format.",
+      "answer": "GDS"
+    },
+    {
+      "question": "3. A photomask typically contains a quartz substrate and a ______ layer.",
+      "answer": "Chromium"
+    },
+    {
+      "question": "4. The complete collection of masks required for a chip is called a mask ______.",
+      "answer": "Set"
+    },
+    {
+      "question": "5. Modern stepper systems commonly use a ______ for exposure.",
+      "answer": "Reticle"
+    },
+    {
+      "question": "6. OPC stands for Optical Proximity ______.",
+      "answer": "Correction"
+    },
+    {
+      "question": "7. ______ masks use phase manipulation to improve imaging performance.",
+      "answer": "Phase Shift"
+    },
+    {
+      "question": "8. EUV masks are primarily ______ rather than transmissive.",
+      "answer": "Reflective"
+    },
+    {
+      "question": "9. Mask ______ is used to identify contamination and pattern defects.",
+      "answer": "Inspection"
+    },
+    {
+      "question": "10. Photomask defects can negatively affect manufacturing ______.",
+      "answer": "Yield"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are photomasks critical to semiconductor manufacturing?",
+      "answer": "Because they contain the geometric patterns that define transistor structures, interconnects, contacts, and every other feature on the chip."
+    },
+    {
+      "question": "2. How does a photomask connect chip design to wafer fabrication?",
+      "answer": "The chip layout database is converted into photomasks, which are then used during lithography to transfer patterns onto wafers."
+    },
+    {
+      "question": "3. What is the difference between a photomask and a photoresist?",
+      "answer": "A photomask contains the circuit pattern, while photoresist is the light-sensitive material on the wafer that receives the pattern."
+    },
+    {
+      "question": "4. Why does an advanced semiconductor device require many masks?",
+      "answer": "Different fabrication layers require different patterns, so each layer generally needs its own photomask."
+    },
+    {
+      "question": "5. What is OPC and why is it necessary?",
+      "answer": "OPC compensates for optical distortions during lithography, improving pattern accuracy and critical dimension control."
+    },
+    {
+      "question": "6. Why are mask defects so serious?",
+      "answer": "A single defect can be transferred repeatedly onto wafers and affect large numbers of chips, reducing yield and reliability."
+    },
+    {
+      "question": "7. Why are EUV masks more complicated than conventional masks?",
+      "answer": "EUV lithography uses reflective optics and advanced multilayer structures, making mask design and manufacturing much more challenging."
+    },
+    {
+      "question": "8. Why are photomasks becoming more expensive?",
+      "answer": "Shrinking feature sizes require tighter tolerances, more OPC, more inspections, and increasingly complex mask fabrication technologies."
+    },
+    {
+      "question": "9. What role does mask inspection play in production?",
+      "answer": "It identifies defects before manufacturing begins, helping prevent costly yield losses and process failures."
+    },
+    {
+      "question": "10. Why are photomasks considered strategic assets in semiconductor manufacturing?",
+      "answer": "Because they directly determine device geometry, process capability, yield, and the successful realization of advanced semiconductor designs."
+    }
+  ]
+},
+{
+  "id": 31,
+  "title": "Etching Process",
+  "content": "Etching is the process of selectively removing material from a semiconductor wafer to create the desired device structures. After photolithography transfers a pattern onto the photoresist layer, etching removes exposed portions of the underlying material while protected regions remain unchanged. Etching is one of the most important pattern transfer processes in semiconductor manufacturing because it converts lithographic images into physical structures on the wafer. Modern integrated circuits require hundreds of etching operations throughout the fabrication process. Etching is used to form transistor gates, contact holes, vias, isolation structures, metal interconnect patterns, and memory cell structures. Without etching, semiconductor patterns could not be physically created. The photoresist created during photolithography acts as a temporary protective mask during etching. Regions covered by photoresist remain intact while exposed regions are removed. Etching processes are generally divided into Wet Etching and Dry Etching. Wet etching uses liquid chemicals to dissolve materials through chemical reactions. Common chemicals include hydrofluoric acid for silicon dioxide and phosphoric acid for silicon nitride. Wet etching is relatively simple and cost-effective but offers less dimensional control. Dry etching uses reactive gases and plasma to remove material. It provides much higher precision and is the dominant technology for advanced semiconductor manufacturing. Plasma etching uses ions, electrons, and reactive radicals generated within a plasma chamber to remove material. Reactive Ion Etching (RIE) combines chemical reactions with physical ion bombardment to achieve highly directional material removal and excellent profile control. Etching behavior can be classified as isotropic or anisotropic. Isotropic etching removes material equally in all directions and often creates undercutting effects. Anisotropic etching removes material primarily in one direction, producing vertical sidewalls required for modern transistor structures. Important etching parameters include etch rate, selectivity, uniformity, and profile control. Selectivity measures how quickly one material is etched relative to another and helps protect underlying layers. Manufacturers often use controlled over-etching to ensure complete material removal despite wafer variations. Common etching challenges include under-etching, over-etch damage, profile distortion, and microloading effects, where etch rates vary according to local pattern density. Advanced semiconductor structures such as FinFETs, Gate-All-Around (GAA) transistors, and 3D NAND memories depend heavily on highly precise plasma etching technologies capable of nanoscale dimensional control.",
+  "keywords": [
+    {
+      "english": "Etching",
+      "chinese": "蝕刻"
+    },
+    {
+      "english": "Wet Etching",
+      "chinese": "濕式蝕刻"
+    },
+    {
+      "english": "Dry Etching",
+      "chinese": "乾式蝕刻"
+    },
+    {
+      "english": "Plasma Etching",
+      "chinese": "電漿蝕刻"
+    },
+    {
+      "english": "Reactive Ion Etching (RIE)",
+      "chinese": "反應式離子蝕刻"
+    },
+    {
+      "english": "Photoresist",
+      "chinese": "光阻"
+    },
+    {
+      "english": "Pattern Transfer",
+      "chinese": "圖形轉移"
+    },
+    {
+      "english": "Selectivity",
+      "chinese": "選擇比"
+    },
+    {
+      "english": "Etch Rate",
+      "chinese": "蝕刻速率"
+    },
+    {
+      "english": "Over-Etch",
+      "chinese": "過度蝕刻"
+    },
+    {
+      "english": "Under-Etch",
+      "chinese": "蝕刻不足"
+    },
+    {
+      "english": "Isotropic Etching",
+      "chinese": "等向性蝕刻"
+    },
+    {
+      "english": "Anisotropic Etching",
+      "chinese": "非等向性蝕刻"
+    },
+    {
+      "english": "Plasma",
+      "chinese": "電漿"
+    },
+    {
+      "english": "Reactive Radicals",
+      "chinese": "反應自由基"
+    },
+    {
+      "english": "Sidewall Profile",
+      "chinese": "側壁輪廓"
+    },
+    {
+      "english": "Critical Dimension (CD)",
+      "chinese": "關鍵尺寸"
+    },
+    {
+      "english": "Microloading Effect",
+      "chinese": "微載入效應"
+    },
+    {
+      "english": "FinFET",
+      "chinese": "鰭式電晶體"
+    },
+    {
+      "english": "Gate-All-Around (GAA)",
+      "chinese": "環繞閘極"
+    }
+  ],
+  "summary": [
+    "Etching selectively removes material from a semiconductor wafer.",
+    "Etching transfers lithography patterns into physical device structures.",
+    "Photoresist protects selected regions during etching.",
+    "Wet etching uses liquid chemicals, while dry etching uses plasma and reactive gases.",
+    "Plasma etching and RIE are widely used in advanced semiconductor manufacturing.",
+    "Anisotropic etching provides better dimensional control than isotropic etching.",
+    "Etch selectivity determines how one material is removed relative to another.",
+    "Profile control, etch rate, and uniformity are important process parameters.",
+    "Common challenges include under-etching, over-etch damage, and microloading effects.",
+    "Advanced devices such as FinFETs and GAA transistors rely heavily on precise dry etching technologies."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Etching is used to ______ material from a wafer.",
+      "answer": "Remove"
+    },
+    {
+      "question": "2. Photoresist acts as a protective ______ during etching.",
+      "answer": "Mask"
+    },
+    {
+      "question": "3. Wet etching uses liquid ______ to remove material.",
+      "answer": "Chemicals"
+    },
+    {
+      "question": "4. Dry etching commonly uses ______ and reactive gases.",
+      "answer": "Plasma"
+    },
+    {
+      "question": "5. RIE stands for Reactive Ion ______.",
+      "answer": "Etching"
+    },
+    {
+      "question": "6. Etching that removes material equally in all directions is called ______ etching.",
+      "answer": "Isotropic"
+    },
+    {
+      "question": "7. Etching with directional removal is called ______ etching.",
+      "answer": "Anisotropic"
+    },
+    {
+      "question": "8. Etch ______ describes how quickly material is removed.",
+      "answer": "Rate"
+    },
+    {
+      "question": "9. ______ measures how one material is etched relative to another.",
+      "answer": "Selectivity"
+    },
+    {
+      "question": "10. Modern FinFET and GAA devices require highly precise ______ etching.",
+      "answer": "Dry"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is etching considered a fundamental semiconductor manufacturing process?",
+      "answer": "Because it converts lithographic patterns into permanent physical structures required to create transistors, contacts, and interconnects."
+    },
+    {
+      "question": "2. What is the relationship between photolithography and etching?",
+      "answer": "Photolithography creates the temporary pattern in photoresist, while etching transfers that pattern into the underlying material."
+    },
+    {
+      "question": "3. What are the main differences between wet and dry etching?",
+      "answer": "Wet etching uses liquid chemicals and is generally simpler, while dry etching uses plasma processes that provide better precision and dimensional control."
+    },
+    {
+      "question": "4. Why is Reactive Ion Etching widely used in advanced semiconductor fabrication?",
+      "answer": "Because it combines chemical reactions and ion bombardment to achieve highly directional etching and precise profile control."
+    },
+    {
+      "question": "5. What is the importance of etch selectivity?",
+      "answer": "Selectivity allows one material to be removed while minimizing damage to surrounding or underlying layers."
+    },
+    {
+      "question": "6. Why is anisotropic etching important for advanced devices?",
+      "answer": "It creates vertical sidewalls and precise dimensions needed for high-density transistor structures."
+    },
+    {
+      "question": "7. What problems can occur if etching is insufficient or excessive?",
+      "answer": "Under-etching can leave unwanted material, while over-etching can damage underlying structures and affect device performance."
+    },
+    {
+      "question": "8. What is the microloading effect?",
+      "answer": "It is a phenomenon where etch rates vary across different pattern densities, potentially causing dimensional variations."
+    },
+    {
+      "question": "9. Why has dry etching become dominant at advanced process nodes?",
+      "answer": "Because nanoscale features require precise dimensional control, high aspect ratio structures, and superior anisotropic behavior."
+    },
+    {
+      "question": "10. How does etching contribute to semiconductor scaling?",
+      "answer": "It enables the precise fabrication of increasingly smaller and more complex structures, supporting higher transistor density and improved device performance."
+    }
+  ]
+},
+{
+  "id": 32,
+  "title": "Doping and Ion Implantation",
+  "content": "Doping is the process of intentionally introducing impurity atoms into a semiconductor material to modify its electrical properties. Pure silicon has limited conductivity and is called intrinsic silicon. To create useful semiconductor devices, engineers add carefully controlled amounts of dopant atoms to form regions with different electrical characteristics. Doping is one of the most important processes in semiconductor manufacturing because it enables the formation of transistors, diodes, and other electronic devices. Modern integrated circuits contain billions of precisely doped regions that determine device functionality and performance. Intrinsic silicon is pure silicon without intentional impurities and has relatively low conductivity. Extrinsic silicon contains intentionally added dopants that improve conductivity and enable controlled electrical behavior. Dopants are classified into donor dopants and acceptor dopants. Donor dopants such as phosphorus, arsenic, and antimony contribute extra electrons and create N-type semiconductor material. Acceptor dopants such as boron and gallium create holes and produce P-type semiconductor material. N-type semiconductors have electrons as majority carriers, while P-type semiconductors have holes as majority carriers. Doping enables the formation of PN junctions, CMOS transistors, wells, source and drain regions, and other semiconductor structures. Modern semiconductor manufacturing primarily uses Ion Implantation to introduce dopants. In ion implantation, dopant atoms are ionized, accelerated by electric fields, focused into a beam, and implanted into the silicon substrate. This technique provides precise control of dopant concentration, depth, and placement. Two important implantation parameters are dose and energy. Implantation dose determines the number of ions introduced per unit area and controls carrier concentration. Implantation energy determines how deeply ions penetrate the substrate. Selective implantation is achieved using masking materials such as photoresist, silicon dioxide, and silicon nitride. Ion implantation forms PN junctions and enables channel engineering, which optimizes threshold voltage, leakage current, switching speed, and device reliability. However, implantation can damage the silicon crystal lattice by creating defects and disorder. Therefore, implanted wafers require annealing to repair crystal damage and activate the dopants by moving them into electrically active positions within the crystal structure. Doping and ion implantation are fundamental processes that enable modern CMOS technology, transistor scaling, and advanced semiconductor device fabrication.",
+  "keywords": [
+    {
+      "english": "Doping",
+      "chinese": "摻雜"
+    },
+    {
+      "english": "Dopant",
+      "chinese": "摻雜物"
+    },
+    {
+      "english": "Ion Implantation",
+      "chinese": "離子植入"
+    },
+    {
+      "english": "Intrinsic Silicon",
+      "chinese": "本徵矽"
+    },
+    {
+      "english": "Extrinsic Silicon",
+      "chinese": "摻雜矽"
+    },
+    {
+      "english": "N-Type Semiconductor",
+      "chinese": "N型半導體"
+    },
+    {
+      "english": "P-Type Semiconductor",
+      "chinese": "P型半導體"
+    },
+    {
+      "english": "Donor Dopant",
+      "chinese": "施體雜質"
+    },
+    {
+      "english": "Acceptor Dopant",
+      "chinese": "受體雜質"
+    },
+    {
+      "english": "Phosphorus (P)",
+      "chinese": "磷"
+    },
+    {
+      "english": "Arsenic (As)",
+      "chinese": "砷"
+    },
+    {
+      "english": "Boron (B)",
+      "chinese": "硼"
+    },
+    {
+      "english": "Carrier Concentration",
+      "chinese": "載子濃度"
+    },
+    {
+      "english": "Implantation Dose",
+      "chinese": "植入劑量"
+    },
+    {
+      "english": "Implantation Energy",
+      "chinese": "植入能量"
+    },
+    {
+      "english": "PN Junction",
+      "chinese": "PN接面"
+    },
+    {
+      "english": "Source and Drain",
+      "chinese": "源極與汲極"
+    },
+    {
+      "english": "Channel Engineering",
+      "chinese": "通道工程"
+    },
+    {
+      "english": "Dopant Activation",
+      "chinese": "摻雜活化"
+    },
+    {
+      "english": "Crystal Damage",
+      "chinese": "晶格損傷"
+    }
+  ],
+  "summary": [
+    "Doping modifies the electrical properties of silicon by introducing impurity atoms.",
+    "Pure silicon is called intrinsic silicon, while doped silicon is called extrinsic silicon.",
+    "Donor dopants create N-type semiconductor material.",
+    "Acceptor dopants create P-type semiconductor material.",
+    "Ion implantation is the primary method used to introduce dopants in modern semiconductor manufacturing.",
+    "Implantation dose controls dopant concentration.",
+    "Implantation energy determines dopant depth.",
+    "Selective masking allows dopants to be implanted only in desired regions.",
+    "Ion implantation creates crystal damage that must be repaired.",
+    "Annealing activates dopants and repairs implantation-induced defects."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Doping introduces impurity ______ into silicon.",
+      "answer": "Atoms"
+    },
+    {
+      "question": "2. Pure silicon without intentional impurities is called ______ silicon.",
+      "answer": "Intrinsic"
+    },
+    {
+      "question": "3. Phosphorus is a common ______ dopant.",
+      "answer": "Donor"
+    },
+    {
+      "question": "4. Boron is a common ______ dopant.",
+      "answer": "Acceptor"
+    },
+    {
+      "question": "5. N-type semiconductors have electrons as majority ______.",
+      "answer": "Carriers"
+    },
+    {
+      "question": "6. Ion implantation introduces dopants using accelerated ______.",
+      "answer": "Ions"
+    },
+    {
+      "question": "7. Implantation ______ controls how many ions are added per unit area.",
+      "answer": "Dose"
+    },
+    {
+      "question": "8. Implantation ______ determines penetration depth.",
+      "answer": "Energy"
+    },
+    {
+      "question": "9. A ______ junction is formed between P-type and N-type regions.",
+      "answer": "PN"
+    },
+    {
+      "question": "10. Annealing helps activate dopants and repair crystal ______.",
+      "answer": "Damage"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is doping necessary in semiconductor manufacturing?",
+      "answer": "Because pure silicon has limited conductivity. Doping allows engineers to control carrier concentrations and create functional semiconductor devices."
+    },
+    {
+      "question": "2. What is the difference between intrinsic and extrinsic silicon?",
+      "answer": "Intrinsic silicon is pure silicon, while extrinsic silicon contains intentionally introduced dopants that modify electrical behavior."
+    },
+    {
+      "question": "3. How do donor and acceptor dopants differ?",
+      "answer": "Donor dopants contribute electrons and create N-type material, while acceptor dopants create holes and form P-type material."
+    },
+    {
+      "question": "4. Why is ion implantation preferred in modern semiconductor manufacturing?",
+      "answer": "Because it provides precise control of dopant concentration, depth, location, and repeatability."
+    },
+    {
+      "question": "5. What is the significance of implantation dose?",
+      "answer": "Dose determines the number of dopant atoms introduced and directly affects electrical conductivity and device characteristics."
+    },
+    {
+      "question": "6. How does implantation energy affect device formation?",
+      "answer": "Higher implantation energy causes ions to penetrate deeper into the silicon substrate, changing the dopant profile."
+    },
+    {
+      "question": "7. Why are masks used during ion implantation?",
+      "answer": "Masks prevent ions from entering protected regions, allowing selective creation of source, drain, well, and channel structures."
+    },
+    {
+      "question": "8. What damage can ion implantation cause?",
+      "answer": "High-energy ions can disrupt the silicon crystal lattice, creating defects and reducing electrical performance."
+    },
+    {
+      "question": "9. Why is annealing performed after implantation?",
+      "answer": "Annealing repairs crystal damage and activates dopants by moving them into electrically active positions."
+    },
+    {
+      "question": "10. How does doping influence modern transistor performance?",
+      "answer": "Precise dopant engineering controls threshold voltage, leakage current, switching behavior, reliability, and overall device performance."
+    }
+    ]
+  },
+  {
+  "id": 33,
+  "title": "Annealing Process",
+  "content": "Annealing is a thermal processing technique used in semiconductor manufacturing to repair crystal damage, activate dopants, relieve stress, and improve material properties after fabrication processes. Annealing is most commonly performed after ion implantation because implanted ions disrupt the silicon crystal lattice and initially remain electrically inactive. By heating the wafer under carefully controlled conditions, annealing restores crystal quality and allows dopant atoms to occupy electrically active lattice positions. Without annealing, modern semiconductor devices would not achieve their required electrical performance. Several semiconductor fabrication processes introduce physical damage or non-ideal material conditions, including ion implantation, thin film deposition, plasma etching, and metallization. Annealing helps restore material quality and optimize device characteristics through dopant activation, crystal defect repair, stress reduction, improved electrical properties, and enhanced reliability. During ion implantation, high-energy ions can displace silicon atoms from lattice sites, create vacancies, generate interstitial defects, and disturb crystal structure. This damage can reduce carrier mobility and degrade device performance. Annealing repairs much of this implantation-induced damage. One of the primary purposes of annealing is dopant activation. After implantation, many dopants are not electrically active because they do not occupy proper lattice positions. Annealing allows dopants such as phosphorus and boron to move into electrically active sites where they can contribute free carriers. Annealing also causes dopant diffusion, which affects junction depth, channel profiles, and transistor performance. Process engineers must carefully balance activation and diffusion because excessive diffusion can negatively impact device scaling. Annealing is typically performed between approximately 600°C and 1200°C, with process duration ranging from milliseconds to minutes depending on the application. Common annealing methods include Furnace Annealing, Rapid Thermal Annealing (RTA), Spike Annealing, and Laser Annealing. Furnace Annealing provides high throughput and uniformity but may cause greater dopant diffusion. RTA uses high-intensity lamps to rapidly heat wafers, reducing unwanted diffusion while maintaining strong activation. Spike Annealing performs extremely short high-temperature cycles for improved junction control. Laser Annealing uses localized laser energy to enable ultra-shallow junction formation and advanced device scaling. An important concept is the thermal budget, which refers to the cumulative thermal exposure experienced by a wafer. Excessive thermal budget can increase dopant diffusion, process variability, and performance degradation. Annealing is widely used for source/drain activation, well formation, stress engineering, junction optimization, and contact resistance improvement. Successful annealing enables electrically active dopants, repaired crystal structures, controlled junctions, reliable transistor operation, and high manufacturing yield. It is one of the foundational thermal processes of modern CMOS fabrication.",
+  "keywords": [
+    {
+      "english": "Annealing",
+      "chinese": "退火"
+    },
+    {
+      "english": "Thermal Processing",
+      "chinese": "熱處理"
+    },
+    {
+      "english": "Dopant Activation",
+      "chinese": "摻雜活化"
+    },
+    {
+      "english": "Ion Implantation",
+      "chinese": "離子植入"
+    },
+    {
+      "english": "Crystal Damage",
+      "chinese": "晶格損傷"
+    },
+    {
+      "english": "Lattice Repair",
+      "chinese": "晶格修復"
+    },
+    {
+      "english": "Dopant Diffusion",
+      "chinese": "摻雜擴散"
+    },
+    {
+      "english": "Junction Formation",
+      "chinese": "接面形成"
+    },
+    {
+      "english": "Rapid Thermal Annealing (RTA)",
+      "chinese": "快速熱退火"
+    },
+    {
+      "english": "Furnace Annealing",
+      "chinese": "爐管退火"
+    },
+    {
+      "english": "Spike Annealing",
+      "chinese": "尖峰退火"
+    },
+    {
+      "english": "Laser Annealing",
+      "chinese": "雷射退火"
+    },
+    {
+      "english": "Thermal Budget",
+      "chinese": "熱預算"
+    },
+    {
+      "english": "Carrier Mobility",
+      "chinese": "載子遷移率"
+    },
+    {
+      "english": "Threshold Voltage",
+      "chinese": "臨界電壓"
+    },
+    {
+      "english": "Junction Depth",
+      "chinese": "接面深度"
+    },
+    {
+      "english": "Source/Drain Activation",
+      "chinese": "源極汲極活化"
+    },
+    {
+      "english": "Wafer Uniformity",
+      "chinese": "晶圓均勻性"
+    },
+    {
+      "english": "CMOS",
+      "chinese": "互補式金氧半"
+    },
+    {
+      "english": "Semiconductor Processing",
+      "chinese": "半導體製程"
+    }
+  ],
+  "summary": [
+    "Annealing is a thermal process used to improve semiconductor material quality.",
+    "Annealing is typically performed after ion implantation.",
+    "A primary purpose of annealing is dopant activation.",
+    "Annealing repairs crystal lattice damage caused by implantation.",
+    "Dopant diffusion occurs during annealing and must be carefully controlled.",
+    "Temperature and time determine annealing effectiveness.",
+    "RTA provides rapid heating with reduced dopant diffusion.",
+    "Thermal budget management is critical for advanced semiconductor nodes.",
+    "Annealing affects threshold voltage, junction depth, and device performance.",
+    "Modern CMOS technologies rely on advanced annealing techniques to achieve high performance and reliability."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Annealing is a ______ process used in semiconductor manufacturing.",
+      "answer": "Thermal"
+    },
+    {
+      "question": "2. Annealing is commonly performed after ion ______.",
+      "answer": "Implantation"
+    },
+    {
+      "question": "3. One primary purpose of annealing is dopant ______.",
+      "answer": "Activation"
+    },
+    {
+      "question": "4. Ion implantation can create crystal ______.",
+      "answer": "Damage"
+    },
+    {
+      "question": "5. During annealing, dopants may undergo ______.",
+      "answer": "Diffusion"
+    },
+    {
+      "question": "6. RTA stands for Rapid Thermal ______.",
+      "answer": "Annealing"
+    },
+    {
+      "question": "7. Excessive thermal exposure increases dopant ______.",
+      "answer": "Diffusion"
+    },
+    {
+      "question": "8. Thermal ______ refers to the cumulative thermal exposure of a wafer.",
+      "answer": "Budget"
+    },
+    {
+      "question": "9. Laser annealing uses ______ energy for localized heating.",
+      "answer": "Laser"
+    },
+    {
+      "question": "10. Annealing helps improve device performance and ______.",
+      "answer": "Reliability"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is annealing required after ion implantation?",
+      "answer": "Ion implantation damages the silicon crystal lattice and leaves many dopants electrically inactive. Annealing repairs the lattice and activates the dopants."
+    },
+    {
+      "question": "2. What is dopant activation?",
+      "answer": "It is the process of moving implanted dopant atoms into electrically active lattice positions so they can contribute free carriers."
+    },
+    {
+      "question": "3. How does annealing affect transistor performance?",
+      "answer": "Annealing influences carrier concentration, threshold voltage, junction depth, mobility, and device reliability."
+    },
+    {
+      "question": "4. What is the trade-off between dopant activation and diffusion?",
+      "answer": "Higher temperatures improve activation and defect repair but also increase dopant diffusion, which can degrade device scaling."
+    },
+    {
+      "question": "5. Why is Rapid Thermal Annealing widely used in advanced processes?",
+      "answer": "Because it provides strong dopant activation while minimizing unwanted dopant movement."
+    },
+    {
+      "question": "6. What is thermal budget and why is it important?",
+      "answer": "Thermal budget measures cumulative heat exposure. Excessive thermal budget can cause unwanted diffusion and process variability."
+    },
+    {
+      "question": "7. How does furnace annealing differ from RTA?",
+      "answer": "Furnace annealing uses longer heating cycles, while RTA uses short, high-temperature exposure for better profile control."
+    },
+    {
+      "question": "8. Why is laser annealing attractive for advanced nodes?",
+      "answer": "Laser annealing provides localized heating with minimal thermal impact on surrounding regions, supporting shallow junction formation."
+    },
+    {
+      "question": "9. What challenges arise when annealing advanced FinFET and GAA devices?",
+      "answer": "Manufacturers must achieve high activation while maintaining extremely shallow and precise dopant profiles."
+    },
+    {
+      "question": "10. Why is annealing considered a foundational semiconductor process?",
+      "answer": "Because modern semiconductor devices depend on activated dopants, repaired crystal structures, and carefully controlled electrical characteristics."
+    }
+  ]
+},
+{
+  "id": 34,
+  "title": "Chemical Mechanical Polishing (CMP)",
+  "content": "Chemical Mechanical Polishing (CMP) is a planarization process used in semiconductor manufacturing to create an extremely flat and smooth wafer surface. As multiple layers of materials are deposited, patterned, and etched during fabrication, the wafer surface becomes increasingly uneven. These surface variations can negatively affect subsequent lithography, deposition, and etching processes. CMP solves this problem by combining chemical reactions and mechanical polishing to remove excess material and achieve global wafer planarization. CMP is considered one of the most critical enabling technologies for modern multilevel interconnects and advanced semiconductor nodes. Without CMP, it would be impossible to manufacture today's highly complex integrated circuits. Semiconductor fabrication involves repeatedly building structures on top of previous layers. As layers accumulate, surface height variations increase, topography becomes more complex, lithography focus becomes difficult, and pattern accuracy degrades. CMP restores a flat surface before subsequent processing steps, improving lithography performance, pattern accuracy, process uniformity, and manufacturing yield. CMP removes material through a combination of chemical action and mechanical action. Chemical slurry reacts with wafer materials and softens the surface, while a polishing pad applies pressure and physically removes the softened material. A CMP system typically consists of a polishing pad, slurry, wafer carrier, cleaning system, and endpoint monitoring equipment. CMP is commonly used for silicon dioxide, copper, tungsten, and polysilicon layers. One of the most important applications is copper interconnect fabrication using the damascene process. In this process, trenches and vias are etched into dielectric layers, copper is deposited, and CMP removes excess copper from the wafer surface, leaving metal only in the desired regions. Key CMP parameters include removal rate, uniformity, selectivity, surface roughness, and endpoint detection. Improper CMP can introduce defects such as dishing, erosion, scratches, and particle contamination. As semiconductor technology scales to FinFET, Gate-All-Around (GAA), and advanced packaging technologies, CMP requirements become increasingly demanding. Precise planarization is essential for maintaining pattern fidelity, interconnect performance, device reliability, and manufacturing yield. CMP is therefore considered one of the foundational processes enabling modern semiconductor fabrication.",
+  "keywords": [
+    {
+      "english": "Chemical Mechanical Polishing (CMP)",
+      "chinese": "化學機械研磨"
+    },
+    {
+      "english": "Planarization",
+      "chinese": "平坦化"
+    },
+    {
+      "english": "Polishing Pad",
+      "chinese": "研磨墊"
+    },
+    {
+      "english": "Slurry",
+      "chinese": "研磨液"
+    },
+    {
+      "english": "Wafer Carrier",
+      "chinese": "晶圓載具"
+    },
+    {
+      "english": "Removal Rate",
+      "chinese": "去除速率"
+    },
+    {
+      "english": "Uniformity",
+      "chinese": "均勻性"
+    },
+    {
+      "english": "Selectivity",
+      "chinese": "選擇比"
+    },
+    {
+      "english": "Surface Roughness",
+      "chinese": "表面粗糙度"
+    },
+    {
+      "english": "Copper CMP",
+      "chinese": "銅研磨"
+    },
+    {
+      "english": "Tungsten CMP",
+      "chinese": "鎢研磨"
+    },
+    {
+      "english": "Silicon Dioxide (SiO2)",
+      "chinese": "二氧化矽"
+    },
+    {
+      "english": "Damascene Process",
+      "chinese": "鑲嵌製程"
+    },
+    {
+      "english": "Dishing",
+      "chinese": "凹陷效應"
+    },
+    {
+      "english": "Erosion",
+      "chinese": "侵蝕效應"
+    },
+    {
+      "english": "Scratch",
+      "chinese": "刮痕"
+    },
+    {
+      "english": "Particle Contamination",
+      "chinese": "顆粒污染"
+    },
+    {
+      "english": "Endpoint Detection",
+      "chinese": "終點偵測"
+    },
+    {
+      "english": "Interconnect",
+      "chinese": "金屬連線"
+    },
+    {
+      "english": "Wafer Planarity",
+      "chinese": "晶圓平坦度"
+    }
+  ],
+  "summary": [
+    "CMP is a planarization process that combines chemical and mechanical material removal.",
+    "CMP creates flat wafer surfaces required for advanced semiconductor fabrication.",
+    "Uneven wafer topography can negatively affect lithography and process accuracy.",
+    "The main CMP components are the polishing pad, slurry, and wafer carrier.",
+    "CMP is widely used for oxide, copper, tungsten, and polysilicon layers.",
+    "Copper interconnect fabrication heavily relies on CMP and damascene processes.",
+    "Removal rate, uniformity, selectivity, and surface roughness are critical CMP parameters.",
+    "Common CMP defects include dishing, erosion, scratches, and particle contamination.",
+    "Endpoint detection is important to prevent over-polishing and under-polishing.",
+    "Modern FinFET, GAA, and advanced interconnect technologies depend on precise CMP processes."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. CMP stands for Chemical Mechanical ______.",
+      "answer": "Polishing"
+    },
+    {
+      "question": "2. CMP is primarily used for wafer ______.",
+      "answer": "Planarization"
+    },
+    {
+      "question": "3. CMP combines chemical action and mechanical ______.",
+      "answer": "Polishing"
+    },
+    {
+      "question": "4. The chemical mixture used during CMP is called ______.",
+      "answer": "Slurry"
+    },
+    {
+      "question": "5. The component that physically polishes the wafer is the polishing ______.",
+      "answer": "Pad"
+    },
+    {
+      "question": "6. Copper interconnect fabrication often uses the ______ process.",
+      "answer": "Damascene"
+    },
+    {
+      "question": "7. Excessive copper removal may cause ______.",
+      "answer": "Dishing"
+    },
+    {
+      "question": "8. Large-area over-polishing may cause ______.",
+      "answer": "Erosion"
+    },
+    {
+      "question": "9. CMP must stop at the correct process ______.",
+      "answer": "Endpoint"
+    },
+    {
+      "question": "10. CMP helps achieve a ______ wafer surface.",
+      "answer": "Flat"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is CMP necessary in semiconductor manufacturing?",
+      "answer": "Because multiple fabrication steps create uneven wafer surfaces, and CMP restores the flatness required for accurate lithography and process control."
+    },
+    {
+      "question": "2. How does CMP differ from purely mechanical polishing?",
+      "answer": "CMP combines chemical reactions with mechanical abrasion, enabling more controlled material removal and better planarization."
+    },
+    {
+      "question": "3. What role does slurry play in CMP?",
+      "answer": "Slurry provides both reactive chemicals and abrasive particles that help remove material efficiently and uniformly."
+    },
+    {
+      "question": "4. Why is planarization important for advanced semiconductor nodes?",
+      "answer": "Advanced lithography requires highly flat surfaces to maintain focus accuracy, pattern fidelity, and dimensional control."
+    },
+    {
+      "question": "5. What is the damascene process and why does it require CMP?",
+      "answer": "The damascene process fills trenches and vias with copper, and CMP removes excess copper so that metal remains only in the desired structures."
+    },
+    {
+      "question": "6. What is dishing and how does it affect devices?",
+      "answer": "Dishing occurs when metal is excessively polished, creating recessed regions that can increase resistance and affect circuit performance."
+    },
+    {
+      "question": "7. Why is endpoint detection important?",
+      "answer": "Accurate endpoint detection prevents excessive material removal or insufficient polishing, improving yield and consistency."
+    },
+    {
+      "question": "8. What challenges does CMP face at advanced technology nodes?",
+      "answer": "Smaller dimensions require tighter control of uniformity, defect density, selectivity, and thickness variation."
+    },
+    {
+      "question": "9. How can CMP defects affect manufacturing yield?",
+      "answer": "Scratches, dishing, erosion, and contamination can create reliability issues, electrical failures, and reduced yield."
+    },
+    {
+      "question": "10. Why is CMP considered an enabling technology for modern IC fabrication?",
+      "answer": "Because multilayer transistors and interconnect structures require extremely flat surfaces that cannot be achieved without CMP."
+    }
+  ]
+},
+{
+  "id": 35,
+  "title": "Cleanroom and Contamination Control",
+  "content": "A Cleanroom is a highly controlled manufacturing environment designed to minimize contamination from particles, chemicals, microorganisms, and other airborne contaminants. Semiconductor manufacturing requires extremely clean conditions because modern device features are measured in nanometers. A single dust particle may be significantly larger than a transistor feature and can cause device failures or yield loss. Cleanrooms are therefore essential in wafer fabrication and are considered a foundational part of semiconductor manufacturing infrastructure. Manufacturing processes such as lithography, deposition, etching, ion implantation, CMP, and inspection all depend on strict contamination control. Semiconductor devices contain extremely small structures, and even microscopic contaminants can block circuit patterns, cause electrical shorts, create open circuits, introduce reliability problems, and reduce manufacturing yield. As technology nodes shrink, contamination requirements become increasingly strict. Contamination is any unwanted material that interferes with semiconductor fabrication and may originate from air, equipment, chemicals, personnel, or process materials. Contamination control focuses on preventing these materials from reaching wafers. Particle contamination includes dust, fibers, residues, and metal particles, while molecular contamination includes organic molecules, acid vapors, base vapors, and metallic contaminants. Advanced fabs monitor both particle and molecular contamination because they can affect lithography, etching, device performance, and long-term reliability. Cleanrooms are classified according to ISO 14644 standards based on airborne particle concentration. Lower ISO class numbers indicate cleaner environments. Advanced semiconductor processes often operate in ISO Class 1 to ISO Class 3 environments. Cleanrooms use HEPA and ULPA filtration systems to remove airborne particles. Laminar airflow ensures smooth and uniform air movement to prevent contaminants from settling on wafers. Human operators are a major contamination source, so workers wear specialized cleanroom garments called bunny suits, including hoods, masks, gloves, and boot covers. Wafer handling is often automated using robotic transport systems to minimize direct contact and contamination risk. Environmental control is equally important and includes temperature control, humidity control, vibration control, pressure control, and electrostatic discharge (ESD) management. Semiconductor fabs continuously monitor contamination using particle counters, air sampling systems, and wafer inspection tools. Effective contamination control directly improves yield, reliability, process consistency, and manufacturing efficiency. As advanced technologies such as FinFETs, Gate-All-Around (GAA) transistors, EUV lithography, and advanced packaging continue to scale, cleanroom requirements become even more demanding. Without cleanrooms and contamination control, modern semiconductor manufacturing would not be possible.",
+  "keywords": [
+    {
+      "english": "Cleanroom",
+      "chinese": "無塵室"
+    },
+    {
+      "english": "Contamination Control",
+      "chinese": "污染控制"
+    },
+    {
+      "english": "Particle Contamination",
+      "chinese": "粒子污染"
+    },
+    {
+      "english": "Molecular Contamination",
+      "chinese": "分子污染"
+    },
+    {
+      "english": "Airborne Molecular Contamination (AMC)",
+      "chinese": "空氣分子污染"
+    },
+    {
+      "english": "ISO 14644",
+      "chinese": "ISO 14644標準"
+    },
+    {
+      "english": "ISO Class",
+      "chinese": "無塵室等級"
+    },
+    {
+      "english": "HEPA Filter",
+      "chinese": "HEPA高效濾網"
+    },
+    {
+      "english": "ULPA Filter",
+      "chinese": "ULPA超高效濾網"
+    },
+    {
+      "english": "Laminar Airflow",
+      "chinese": "層流氣流"
+    },
+    {
+      "english": "Bunny Suit",
+      "chinese": "無塵衣"
+    },
+    {
+      "english": "Wafer Handling",
+      "chinese": "晶圓搬運"
+    },
+    {
+      "english": "Environmental Control",
+      "chinese": "環境控制"
+    },
+    {
+      "english": "Temperature Control",
+      "chinese": "溫度控制"
+    },
+    {
+      "english": "Humidity Control",
+      "chinese": "濕度控制"
+    },
+    {
+      "english": "Vibration Control",
+      "chinese": "振動控制"
+    },
+    {
+      "english": "Electrostatic Discharge (ESD)",
+      "chinese": "靜電放電"
+    },
+    {
+      "english": "Particle Counter",
+      "chinese": "粒子計數器"
+    },
+    {
+      "english": "Yield",
+      "chinese": "良率"
+    },
+    {
+      "english": "Semiconductor Fab",
+      "chinese": "晶圓廠"
+    }
+  ],
+  "summary": [
+    "Cleanrooms provide highly controlled environments for semiconductor manufacturing.",
+    "Semiconductor devices are highly sensitive to particle and molecular contamination.",
+    "A single contaminant particle can damage device structures and reduce yield.",
+    "ISO cleanroom classifications define allowable airborne particle concentrations.",
+    "HEPA and ULPA filters remove airborne contaminants from cleanroom air.",
+    "Laminar airflow helps prevent particles from settling on wafers.",
+    "Personnel are major contamination sources and must wear cleanroom garments.",
+    "Temperature, humidity, vibration, pressure, and ESD must be carefully controlled.",
+    "Automated wafer handling reduces contamination risks.",
+    "Effective contamination control is essential for high yield, reliability, and advanced semiconductor manufacturing."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. A ______ is a highly controlled environment used in semiconductor manufacturing.",
+      "answer": "Cleanroom"
+    },
+    {
+      "question": "2. Dust and fibers are examples of ______ contamination.",
+      "answer": "Particle"
+    },
+    {
+      "question": "3. AMC stands for Airborne Molecular ______.",
+      "answer": "Contamination"
+    },
+    {
+      "question": "4. ISO ______ is the standard commonly used for cleanroom classification.",
+      "answer": "14644"
+    },
+    {
+      "question": "5. HEPA stands for High-Efficiency Particulate ______.",
+      "answer": "Air"
+    },
+    {
+      "question": "6. ULPA filters provide extremely high air ______ efficiency.",
+      "answer": "Filtration"
+    },
+    {
+      "question": "7. Smooth directional airflow in a cleanroom is called ______ airflow.",
+      "answer": "Laminar"
+    },
+    {
+      "question": "8. Cleanroom workers commonly wear ______ suits.",
+      "answer": "Bunny"
+    },
+    {
+      "question": "9. ESD stands for Electrostatic ______.",
+      "answer": "Discharge"
+    },
+    {
+      "question": "10. Poor contamination control can reduce manufacturing ______.",
+      "answer": "Yield"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are cleanrooms essential for semiconductor manufacturing?",
+      "answer": "Because semiconductor structures are extremely small, and even tiny contaminants can cause defects, device failures, and yield loss."
+    },
+    {
+      "question": "2. What is the difference between particle contamination and molecular contamination?",
+      "answer": "Particle contamination involves physical particles such as dust or fibers, while molecular contamination involves airborne chemicals, vapors, and molecules that can affect processes and device reliability."
+    },
+    {
+      "question": "3. Why are advanced semiconductor nodes more sensitive to contamination?",
+      "answer": "Feature sizes become smaller, making device structures more vulnerable to defects caused by particles and chemical contamination."
+    },
+    {
+      "question": "4. How do HEPA and ULPA filters improve cleanroom performance?",
+      "answer": "They remove airborne particles from circulating air, helping maintain extremely low contamination levels."
+    },
+    {
+      "question": "5. What is the purpose of laminar airflow?",
+      "answer": "Laminar airflow moves air in a uniform direction, reducing turbulence and carrying contaminants away from sensitive process areas."
+    },
+    {
+      "question": "6. Why are personnel considered major contamination sources?",
+      "answer": "Humans continuously shed skin particles, hair, fibers, and moisture, all of which can contaminate wafers and equipment."
+    },
+    {
+      "question": "7. Why is automated wafer handling preferred in advanced fabs?",
+      "answer": "Automation reduces direct human interaction with wafers, minimizing contamination risk and improving consistency."
+    },
+    {
+      "question": "8. What environmental factors must be controlled in a cleanroom?",
+      "answer": "Temperature, humidity, vibration, pressure, airflow, and electrostatic charge must all be maintained within strict limits."
+    },
+    {
+      "question": "9. How does contamination affect semiconductor yield?",
+      "answer": "Contamination can create defective dies, process failures, reliability issues, and lower overall wafer yield."
+    },
+    {
+      "question": "10. Why is contamination control considered a strategic capability for advanced fabs?",
+      "answer": "Because achieving high yield at advanced nodes depends heavily on maintaining ultra-clean manufacturing environments and preventing defects throughout the production process."
+    }
+  ]
+},
+{
+  "id": 36,
+  "title": "EUV Lithography",
+  "content": "Extreme Ultraviolet (EUV) Lithography is an advanced semiconductor patterning technology that uses extremely short wavelength light to print very small features on silicon wafers. EUV lithography uses a wavelength of 13.5 nm, which is significantly shorter than the 193 nm wavelength used in conventional Deep Ultraviolet (DUV) lithography. The shorter wavelength enables significantly higher resolution and allows semiconductor manufacturers to continue shrinking transistor dimensions at advanced process nodes. EUV has become one of the most important technologies enabling modern semiconductor manufacturing at 7nm, 5nm, 3nm, and 2nm process nodes. Lithography resolution depends heavily on exposure wavelength. As transistor dimensions shrink, conventional DUV lithography faces increasing difficulties related to feature size reduction, overlay accuracy, mask complexity, and escalating process costs. To overcome these limitations, the semiconductor industry developed EUV lithography using a much shorter wavelength. DUV lithography often requires double, triple, or quadruple patterning techniques, which increase manufacturing complexity and cost. EUV allows many advanced patterns to be printed using fewer masks and fewer exposures. EUV light is generated using a process called Laser Produced Plasma (LPP). Tiny tin droplets are injected into a vacuum chamber and struck by a high-power laser. The resulting plasma emits EUV radiation at 13.5 nm. Because EUV radiation is strongly absorbed by air, glass, and most conventional optical materials, EUV systems cannot use traditional lenses. Instead, they use highly precise multilayer reflective mirrors to guide and focus light. The entire optical system operates inside a vacuum environment to prevent EUV energy loss. EUV photomasks are reflective rather than transmissive. They contain multilayer reflector structures, absorber patterns, and protective coatings. A pellicle is often placed above the mask to protect it from contamination while transmitting EUV radiation. One major advantage of EUV is the reduction of multiple-patterning requirements. By enabling higher resolution in a single exposure, EUV reduces mask count, lithography complexity, overlay errors, and process cost. However, EUV introduces challenges including source power generation, mask defects, photoresist sensitivity, stochastic defects, and extremely high equipment costs. The dominant supplier of EUV lithography systems is ASML, whose scanners are considered some of the most complex machines ever built. High-NA EUV, the next generation of EUV technology, increases numerical aperture to further improve resolution and support future semiconductor nodes below 2nm. EUV lithography is a key enabler of transistor scaling, higher device density, improved performance, lower power consumption, and continued advancement of Moore's Law.",
+  "keywords": [
+    {
+      "english": "Extreme Ultraviolet (EUV) Lithography",
+      "chinese": "極紫外光微影"
+    },
+    {
+      "english": "EUV",
+      "chinese": "極紫外光"
+    },
+    {
+      "english": "Deep Ultraviolet (DUV)",
+      "chinese": "深紫外光"
+    },
+    {
+      "english": "13.5 nm Wavelength",
+      "chinese": "13.5奈米波長"
+    },
+    {
+      "english": "Resolution",
+      "chinese": "解析度"
+    },
+    {
+      "english": "Laser Produced Plasma (LPP)",
+      "chinese": "雷射產生電漿"
+    },
+    {
+      "english": "Tin Droplet",
+      "chinese": "錫液滴"
+    },
+    {
+      "english": "Reflective Mirror",
+      "chinese": "反射鏡"
+    },
+    {
+      "english": "Vacuum System",
+      "chinese": "真空系統"
+    },
+    {
+      "english": "EUV Mask",
+      "chinese": "EUV光罩"
+    },
+    {
+      "english": "Reflective Mask",
+      "chinese": "反射式光罩"
+    },
+    {
+      "english": "Pellicle",
+      "chinese": "保護膜"
+    },
+    {
+      "english": "Multiple Patterning",
+      "chinese": "多重曝光"
+    },
+    {
+      "english": "Single Patterning",
+      "chinese": "單次曝光"
+    },
+    {
+      "english": "Numerical Aperture (NA)",
+      "chinese": "數值孔徑"
+    },
+    {
+      "english": "High-NA EUV",
+      "chinese": "高數值孔徑EUV"
+    },
+    {
+      "english": "Photoresist",
+      "chinese": "光阻"
+    },
+    {
+      "english": "Stochastic Defect",
+      "chinese": "隨機缺陷"
+    },
+    {
+      "english": "ASML",
+      "chinese": "艾司摩爾"
+    },
+    {
+      "english": "Semiconductor Scaling",
+      "chinese": "半導體微縮"
+    }
+  ],
+  "summary": [
+    "EUV lithography uses 13.5 nm wavelength light to pattern extremely small semiconductor features.",
+    "EUV was developed to overcome the scaling limitations of 193 nm DUV lithography.",
+    "EUV enables advanced process nodes such as 7nm, 5nm, 3nm, and 2nm.",
+    "EUV light is generated using laser-produced plasma from tin droplets.",
+    "EUV systems use reflective mirrors because EUV light cannot pass through conventional lenses.",
+    "EUV lithography operates in a vacuum environment due to strong EUV absorption by air.",
+    "EUV masks are reflective and more complex than traditional photomasks.",
+    "EUV reduces the need for costly multiple-patterning techniques.",
+    "High-NA EUV will support future generations of semiconductor scaling.",
+    "ASML is the leading supplier of EUV lithography systems worldwide."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. EUV stands for Extreme ______ Lithography.",
+      "answer": "Ultraviolet"
+    },
+    {
+      "question": "2. EUV uses a wavelength of ______ nm.",
+      "answer": "13.5"
+    },
+    {
+      "question": "3. DUV lithography commonly uses a wavelength of ______ nm.",
+      "answer": "193"
+    },
+    {
+      "question": "4. EUV light is generated using laser-produced ______.",
+      "answer": "Plasma"
+    },
+    {
+      "question": "5. EUV systems use reflective ______ instead of lenses.",
+      "answer": "Mirrors"
+    },
+    {
+      "question": "6. EUV exposure takes place inside a ______ environment.",
+      "answer": "Vacuum"
+    },
+    {
+      "question": "7. EUV masks are primarily ______ rather than transmissive.",
+      "answer": "Reflective"
+    },
+    {
+      "question": "8. A ______ protects the EUV mask from contamination.",
+      "answer": "Pellicle"
+    },
+    {
+      "question": "9. High-NA EUV uses a larger Numerical ______.",
+      "answer": "Aperture"
+    },
+    {
+      "question": "10. EUV helps reduce ______ patterning requirements.",
+      "answer": "Multiple"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why was EUV lithography developed?",
+      "answer": "Because conventional DUV lithography struggled to print increasingly smaller features required for advanced semiconductor nodes."
+    },
+    {
+      "question": "2. What advantage does the 13.5 nm wavelength provide?",
+      "answer": "Shorter wavelengths improve resolution and allow much smaller patterns to be printed on wafers."
+    },
+    {
+      "question": "3. Why can't EUV systems use traditional lenses?",
+      "answer": "EUV radiation is strongly absorbed by glass and most optical materials, making transmissive lenses ineffective."
+    },
+    {
+      "question": "4. Why must EUV lithography operate in vacuum?",
+      "answer": "Air absorbs EUV radiation very efficiently, so vacuum conditions are necessary to transport EUV light without significant losses."
+    },
+    {
+      "question": "5. What is the role of laser-produced plasma in EUV systems?",
+      "answer": "It generates the 13.5 nm EUV radiation used during wafer exposure."
+    },
+    {
+      "question": "6. How do EUV masks differ from traditional photomasks?",
+      "answer": "EUV masks use reflective multilayer structures, while conventional masks are primarily transmissive."
+    },
+    {
+      "question": "7. Why does EUV reduce the need for multiple patterning?",
+      "answer": "Its higher resolution allows more features to be printed in a single exposure, reducing mask count and process complexity."
+    },
+    {
+      "question": "8. What challenges are associated with EUV lithography?",
+      "answer": "Challenges include source power, mask defects, resist performance, stochastic defects, and extremely high equipment costs."
+    },
+    {
+      "question": "9. What is High-NA EUV?",
+      "answer": "A next-generation EUV technology that provides higher resolution and supports future semiconductor nodes below 2nm."
+    },
+    {
+      "question": "10. Why is EUV considered essential for continued semiconductor scaling?",
+      "answer": "Because it enables smaller transistor dimensions, higher density, and more efficient manufacturing at advanced technology nodes."
+    }
+  ]
+},
+{
+  "id": 37,
+  "title": "Yield and Yield Improvement",
+  "content": "Yield is the percentage of manufactured semiconductor devices that function correctly and meet all specified electrical, performance, and reliability requirements. Yield is one of the most important metrics in semiconductor manufacturing because it directly affects manufacturing cost, profitability, production efficiency, and product availability. A wafer may contain hundreds or thousands of dies, but not every die will be functional. Yield measures how many of those dies can be sold as working products. Improving yield is a continuous objective throughout semiconductor manufacturing because even small improvements can significantly reduce production costs and increase revenue. Yield is commonly calculated as Yield = (Good Dies / Total Dies) × 100%. Higher yield means more usable chips are produced from each wafer. Semiconductor wafers are expensive to manufacture due to equipment, materials, photomasks, utilities, packaging, and testing costs. Low yield increases the cost per functional chip and reduces profitability. Several yield metrics are used in the industry, including Wafer Yield, Die Yield, and Final Test Yield. Yield loss can result from particle contamination, process variations, equipment problems, material defects, and design-related issues. Defect Density is a key metric that measures the number of defects per unit area, often expressed as defects per square centimeter. Lower defect density generally leads to higher yield. Die size also affects yield because larger chips occupy more wafer area and have a higher probability of containing defects. Yield usually decreases as die size increases. When a new manufacturing process enters production, yield is often low initially. Through process optimization, equipment tuning, defect reduction, and manufacturing experience, yield gradually improves. This process is known as Yield Learning. The transition from low initial yield to stable high-volume manufacturing is called Yield Ramp. Common yield improvement strategies include process optimization, contamination reduction, equipment monitoring, defect inspection, root cause analysis, and Design for Manufacturability (DFM). Statistical Process Control (SPC) is widely used to monitor process stability by tracking parameters such as critical dimensions, overlay accuracy, film thickness, and electrical characteristics. Semiconductor yield losses may also occur due to parametric failures, where devices function but do not meet performance specifications such as timing, leakage current, or operating voltage requirements. As technology nodes continue to shrink and devices such as FinFETs, Gate-All-Around transistors, and advanced packaging become more complex, maintaining high yield becomes increasingly challenging. Yield improvement remains one of the most important objectives in semiconductor manufacturing because it directly reduces cost, improves profitability, enhances product quality, and supports successful high-volume production.",
+  "keywords": [
+    {
+      "english": "Yield",
+      "chinese": "良率"
+    },
+    {
+      "english": "Yield Improvement",
+      "chinese": "良率改善"
+    },
+    {
+      "english": "Die Yield",
+      "chinese": "晶粒良率"
+    },
+    {
+      "english": "Wafer Yield",
+      "chinese": "晶圓良率"
+    },
+    {
+      "english": "Final Test Yield",
+      "chinese": "最終測試良率"
+    },
+    {
+      "english": "Yield Learning",
+      "chinese": "良率學習"
+    },
+    {
+      "english": "Yield Ramp",
+      "chinese": "良率爬升"
+    },
+    {
+      "english": "Defect Density",
+      "chinese": "缺陷密度"
+    },
+    {
+      "english": "Process Variation",
+      "chinese": "製程變異"
+    },
+    {
+      "english": "Statistical Process Control (SPC)",
+      "chinese": "統計製程控制"
+    },
+    {
+      "english": "Defect Inspection",
+      "chinese": "缺陷檢測"
+    },
+    {
+      "english": "Design for Manufacturability (DFM)",
+      "chinese": "可製造性設計"
+    },
+    {
+      "english": "Parametric Yield",
+      "chinese": "參數良率"
+    },
+    {
+      "english": "Die Size",
+      "chinese": "晶粒尺寸"
+    },
+    {
+      "english": "Process Optimization",
+      "chinese": "製程最佳化"
+    },
+    {
+      "english": "Root Cause Analysis",
+      "chinese": "根本原因分析"
+    },
+    {
+      "english": "Process Monitoring",
+      "chinese": "製程監控"
+    },
+    {
+      "english": "Manufacturing Cost",
+      "chinese": "製造成本"
+    },
+    {
+      "english": "Reliability",
+      "chinese": "可靠度"
+    },
+    {
+      "english": "Semiconductor Fab",
+      "chinese": "晶圓廠"
+    }
+  ],
+  "summary": [
+    "Yield measures the percentage of manufactured chips that function correctly.",
+    "Higher yield directly reduces manufacturing cost per chip.",
+    "Defects, process variations, equipment issues, and material problems can reduce yield.",
+    "Defect density is a key factor affecting semiconductor yield.",
+    "Larger dies generally experience lower yield than smaller dies.",
+    "Yield learning improves yield over time as manufacturing processes mature.",
+    "Yield ramp is the transition from low initial yield to stable high-volume production.",
+    "SPC, defect inspection, and contamination control are important yield improvement tools.",
+    "Parametric failures can reduce yield even when devices are functionally operational.",
+    "Yield improvement is critical for profitability and advanced semiconductor manufacturing success."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Yield measures the percentage of ______ devices produced.",
+      "answer": "Functional"
+    },
+    {
+      "question": "2. Yield = Good Dies divided by ______ Dies multiplied by 100%.",
+      "answer": "Total"
+    },
+    {
+      "question": "3. One major cause of yield loss is particle ______.",
+      "answer": "Contamination"
+    },
+    {
+      "question": "4. Defect density is commonly measured in defects per ______.",
+      "answer": "cm²"
+    },
+    {
+      "question": "5. Larger ______ generally result in lower yield.",
+      "answer": "Dies"
+    },
+    {
+      "question": "6. The process of improving yield over time is called yield ______.",
+      "answer": "Learning"
+    },
+    {
+      "question": "7. SPC stands for Statistical Process ______.",
+      "answer": "Control"
+    },
+    {
+      "question": "8. DFM stands for Design for ______.",
+      "answer": "Manufacturability"
+    },
+    {
+      "question": "9. Yield ramp refers to the transition to high-volume ______.",
+      "answer": "Production"
+    },
+    {
+      "question": "10. Higher yield generally lowers manufacturing ______.",
+      "answer": "Cost"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is yield considered one of the most important metrics in semiconductor manufacturing?",
+      "answer": "Because yield directly affects production cost, profitability, manufacturing efficiency, and product availability."
+    },
+    {
+      "question": "2. Why do larger chips often have lower yield than smaller chips?",
+      "answer": "Larger dies occupy more wafer area and therefore have a higher probability of containing defects."
+    },
+    {
+      "question": "3. What factors most commonly reduce semiconductor yield?",
+      "answer": "Particle contamination, process variations, equipment issues, material defects, and design-related problems."
+    },
+    {
+      "question": "4. What is defect density and why is it important?",
+      "answer": "Defect density measures the number of defects per unit area and is a major predictor of die yield."
+    },
+    {
+      "question": "5. What is yield learning?",
+      "answer": "Yield learning is the continuous process of identifying failure mechanisms and improving manufacturing processes to increase yield over time."
+    },
+    {
+      "question": "6. How does contamination control improve yield?",
+      "answer": "It reduces particle-related defects that can cause electrical failures and unusable dies."
+    },
+    {
+      "question": "7. What role does SPC play in yield improvement?",
+      "answer": "SPC monitors process parameters and helps detect process shifts before they create significant yield loss."
+    },
+    {
+      "question": "8. What is parametric yield loss?",
+      "answer": "It occurs when a device functions but fails to meet required electrical or performance specifications."
+    },
+    {
+      "question": "9. Why is yield ramp critical for new semiconductor products?",
+      "answer": "Because successful yield ramping enables profitable high-volume production and timely product launches."
+    },
+    {
+      "question": "10. Why are yield improvements financially important?",
+      "answer": "Even small yield increases can significantly reduce manufacturing costs and increase revenue in high-volume semiconductor production."
+    }
+  ]
+},
+{
+  "id": 38,
+  "title": "Defect Analysis and Failure Analysis",
+  "content": "Defect Analysis (DA) and Failure Analysis (FA) are systematic engineering processes used to identify, characterize, diagnose, and eliminate defects and failures in semiconductor manufacturing. Although the terms are often used together, they serve different purposes. Defect Analysis focuses on identifying manufacturing defects and process-related issues, while Failure Analysis focuses on determining why a device or circuit fails electrically, functionally, or in terms of reliability. Both activities are essential for yield improvement, process optimization, root cause identification, product reliability, and quality assurance. Modern semiconductor devices contain billions of transistors with nanometer-scale features, making defect and failure analysis critical to successful manufacturing. A defect is any unintended physical abnormality introduced during manufacturing. Examples include particle contamination, pattern defects, missing structures, extra material, voids, cracks, scratches, and layer misalignment. A defect does not always cause failure, but it can reduce performance, reliability, or yield. A failure occurs when a device no longer meets functional, electrical, timing, power, or reliability specifications. Failures may be caused by manufacturing defects, material problems, design weaknesses, packaging issues, or long-term wear-out mechanisms. Defects are commonly classified as particle defects, pattern defects, structural defects, and electrical defects. Failure modes include open circuits, short circuits, leakage failures, and parametric failures. Semiconductor manufacturers use inspection systems to detect and classify defects during production. Optical inspection provides high-speed, non-destructive imaging, while electron beam inspection offers higher resolution for advanced nodes. Electrical failure analysis techniques such as fault isolation, signal tracing, and electrical characterization help locate failing regions of a chip. The primary goal of failure analysis is Root Cause Analysis (RCA), which determines what happened, why it happened, and how to prevent recurrence. After fault localization, engineers use physical analysis techniques including Optical Microscopy, Scanning Electron Microscopy (SEM), Focused Ion Beam (FIB), and Transmission Electron Microscopy (TEM). SEM provides high-resolution imaging of structures and defects. FIB enables precise cross-sectioning and defect localization. TEM allows atomic-scale imaging of crystal structures, interfaces, and failure mechanisms. A typical failure analysis workflow includes failure detection, electrical characterization, fault isolation, defect localization, physical analysis, root cause identification, and corrective action. Defect and failure analysis directly support yield learning, process optimization, contamination reduction, and reliability improvement. Reliability failure analysis investigates mechanisms such as electromigration, thermal stress, and Time-Dependent Dielectric Breakdown (TDDB). As semiconductor technologies evolve toward FinFETs, Gate-All-Around (GAA) transistors, EUV lithography, and 3D integration, defect analysis and failure analysis become increasingly important due to smaller geometries, more layers, and more complex failure mechanisms.",
+  "keywords": [
+    {
+      "english": "Defect Analysis (DA)",
+      "chinese": "缺陷分析"
+    },
+    {
+      "english": "Failure Analysis (FA)",
+      "chinese": "失效分析"
+    },
+    {
+      "english": "Defect",
+      "chinese": "缺陷"
+    },
+    {
+      "english": "Failure",
+      "chinese": "失效"
+    },
+    {
+      "english": "Root Cause Analysis (RCA)",
+      "chinese": "根本原因分析"
+    },
+    {
+      "english": "Defect Inspection",
+      "chinese": "缺陷檢測"
+    },
+    {
+      "english": "Optical Inspection",
+      "chinese": "光學檢測"
+    },
+    {
+      "english": "Electron Beam Inspection",
+      "chinese": "電子束檢測"
+    },
+    {
+      "english": "Fault Isolation",
+      "chinese": "故障定位"
+    },
+    {
+      "english": "Open Circuit",
+      "chinese": "開路"
+    },
+    {
+      "english": "Short Circuit",
+      "chinese": "短路"
+    },
+    {
+      "english": "Leakage Current",
+      "chinese": "漏電流"
+    },
+    {
+      "english": "Parametric Failure",
+      "chinese": "參數失效"
+    },
+    {
+      "english": "Scanning Electron Microscopy (SEM)",
+      "chinese": "掃描式電子顯微鏡"
+    },
+    {
+      "english": "Focused Ion Beam (FIB)",
+      "chinese": "聚焦離子束"
+    },
+    {
+      "english": "Transmission Electron Microscopy (TEM)",
+      "chinese": "穿透式電子顯微鏡"
+    },
+    {
+      "english": "Yield Learning",
+      "chinese": "良率學習"
+    },
+    {
+      "english": "Reliability Analysis",
+      "chinese": "可靠度分析"
+    },
+    {
+      "english": "Electromigration",
+      "chinese": "電遷移"
+    },
+    {
+      "english": "Time-Dependent Dielectric Breakdown (TDDB)",
+      "chinese": "時間依賴介電層崩潰"
+    }
+  ],
+  "summary": [
+    "Defect Analysis identifies manufacturing defects, while Failure Analysis identifies the causes of device failures.",
+    "Defects do not always cause failures, but failures often originate from defects.",
+    "Common defect categories include particle, pattern, structural, and electrical defects.",
+    "Common failure modes include opens, shorts, leakage, and parametric failures.",
+    "Inspection tools detect and classify defects during manufacturing.",
+    "Root Cause Analysis (RCA) aims to identify why failures occur and how to prevent them.",
+    "SEM, FIB, and TEM are important tools used in semiconductor failure analysis.",
+    "Fault isolation narrows down the location of failing circuitry.",
+    "Defect analysis supports yield improvement and process optimization.",
+    "Advanced semiconductor nodes require increasingly sophisticated analysis techniques due to smaller dimensions and more complex structures."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. ______ Analysis focuses on identifying manufacturing defects.",
+      "answer": "Defect"
+    },
+    {
+      "question": "2. A ______ occurs when a device does not meet required specifications.",
+      "answer": "Failure"
+    },
+    {
+      "question": "3. Dust and metal particles are examples of ______ defects.",
+      "answer": "Particle"
+    },
+    {
+      "question": "4. An unintended electrical connection is called a ______ circuit.",
+      "answer": "Short"
+    },
+    {
+      "question": "5. A broken electrical path is called an ______ circuit.",
+      "answer": "Open"
+    },
+    {
+      "question": "6. RCA stands for Root Cause ______.",
+      "answer": "Analysis"
+    },
+    {
+      "question": "7. SEM stands for Scanning Electron ______.",
+      "answer": "Microscopy"
+    },
+    {
+      "question": "8. FIB stands for Focused Ion ______.",
+      "answer": "Beam"
+    },
+    {
+      "question": "9. Leakage failures involve unwanted electrical ______.",
+      "answer": "Current"
+    },
+    {
+      "question": "10. Defect analysis contributes directly to manufacturing ______.",
+      "answer": "Yield"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are Defect Analysis and Failure Analysis important in semiconductor manufacturing?",
+      "answer": "Because they help identify the causes of yield loss, device failures, reliability issues, and process problems, enabling continuous improvement."
+    },
+    {
+      "question": "2. What is the difference between a defect and a failure?",
+      "answer": "A defect is a physical abnormality, while a failure occurs when a device no longer meets performance, functional, or reliability specifications."
+    },
+    {
+      "question": "3. Why do some defects not immediately cause failures?",
+      "answer": "Some defects may be electrically inactive or have minimal impact on circuit operation, although they may still affect long-term reliability."
+    },
+    {
+      "question": "4. What are the most common semiconductor failure modes?",
+      "answer": "Open circuits, short circuits, leakage failures, and parametric failures are among the most common failure mechanisms."
+    },
+    {
+      "question": "5. Why is root cause analysis critical?",
+      "answer": "Because solving symptoms is not sufficient. Root cause analysis identifies the true origin of a problem and helps prevent future recurrence."
+    },
+    {
+      "question": "6. How does SEM contribute to failure analysis?",
+      "answer": "SEM provides high-resolution imaging that allows engineers to inspect nanoscale defects, pattern abnormalities, and structural issues."
+    },
+    {
+      "question": "7. What role does FIB play in semiconductor analysis?",
+      "answer": "FIB enables precise material removal, cross-section preparation, defect localization, and detailed internal structure investigation."
+    },
+    {
+      "question": "8. Why is fault isolation performed before physical analysis?",
+      "answer": "Fault isolation reduces the search area, making defect localization faster, more efficient, and less expensive."
+    },
+    {
+      "question": "9. How does defect analysis support yield improvement?",
+      "answer": "By identifying recurring defect sources and enabling process corrections that reduce defect density and increase functional die count."
+    },
+    {
+      "question": "10. Why are advanced process nodes more difficult to analyze?",
+      "answer": "Because defect sizes are smaller, structures are more complex, layer counts are higher, and failure mechanisms become increasingly difficult to detect and characterize."
+    }
+  ]
+}
+  ]
+}

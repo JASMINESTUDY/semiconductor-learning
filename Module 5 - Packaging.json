@@ -1,0 +1,2241 @@
+{
+  "module_name": "Packaging",
+  "topics": [
+    {
+      "id": 39,
+      "title": "Traditional IC Packaging",
+      "content": "Traditional IC Packaging is the process of enclosing a fabricated semiconductor die inside a protective package and providing electrical connections between the silicon chip and the external system. After wafer fabrication is completed, the wafer is diced into individual dies. These dies cannot be directly mounted into most electronic systems because silicon is fragile and has no practical external connection interface. Packaging converts a bare die into a usable semiconductor component. Traditional packaging has been widely used for microcontrollers, power management ICs, analog ICs, sensors, memory devices, automotive semiconductors, and industrial electronics. The primary goals of IC packaging are mechanical protection, electrical connection, thermal dissipation, environmental protection, and ease of assembly. Packaging is often considered the bridge between semiconductor manufacturing and electronic system assembly. A bare silicon die is highly vulnerable to physical damage, moisture, contamination, electrical stress, and heat accumulation. Packaging protects the die and enables reliable operation throughout its lifetime. Packaging occurs after wafer fabrication and wafer testing, making it part of the semiconductor back-end process. The main functions of packaging include mechanical protection, electrical connectivity, thermal management, and environmental protection. A traditional package generally includes a silicon die, die attach material, lead frame or substrate, interconnection structure, and encapsulation material. Common die attach materials include epoxy, silver-filled adhesives, and solder. The lead frame provides mechanical support and signal routing. Electrical connections are commonly created through wire bonding, while encapsulation protects the die using molding compounds. The traditional packaging flow includes wafer testing, wafer dicing, die attach, interconnection, molding, package singulation, and final testing. Known Good Dies (KGD) are identified before packaging to avoid unnecessary packaging costs. Traditional packages often use lead frames because they offer low cost, high volume production capability, and mature manufacturing technology. Common package types include Dual In-Line Package (DIP), Small Outline Package (SOP), Quad Flat Package (QFP), Quad Flat No-Lead (QFN), and Plastic Leaded Chip Carrier (PLCC). Package selection depends on cost, pin count, thermal performance, package size, and reliability requirements. Packaging also influences electrical performance through resistance, capacitance, inductance, and signal integrity. Heat removal is another critical consideration, particularly for high-power devices. Reliability testing evaluates package performance under thermal cycling, humidity, and mechanical stress. Although advanced packaging technologies are increasingly used for high-performance computing applications, traditional IC packaging remains widely adopted because of its maturity, reliability, scalability, and cost effectiveness.",
+      "keywords": [
+        {
+          "english": "IC Packaging",
+          "chinese": "IC封裝"
+        },
+        {
+          "english": "Traditional Packaging",
+          "chinese": "傳統封裝"
+        },
+        {
+          "english": "Semiconductor Package",
+          "chinese": "半導體封裝"
+        },
+        {
+          "english": "Die",
+          "chinese": "晶粒"
+        },
+        {
+          "english": "Wafer Dicing",
+          "chinese": "晶圓切割"
+        },
+        {
+          "english": "Die Attach",
+          "chinese": "晶粒貼裝"
+        },
+        {
+          "english": "Lead Frame",
+          "chinese": "導線框架"
+        },
+        {
+          "english": "Encapsulation",
+          "chinese": "封膠"
+        },
+        {
+          "english": "Molding Compound",
+          "chinese": "模封材料"
+        },
+        {
+          "english": "Electrical Connectivity",
+          "chinese": "電氣連接"
+        },
+        {
+          "english": "Thermal Management",
+          "chinese": "熱管理"
+        },
+        {
+          "english": "Known Good Die (KGD)",
+          "chinese": "已知良品晶粒"
+        },
+        {
+          "english": "Dual In-Line Package (DIP)",
+          "chinese": "雙列直插封裝"
+        },
+        {
+          "english": "Small Outline Package (SOP)",
+          "chinese": "小外形封裝"
+        },
+        {
+          "english": "Quad Flat Package (QFP)",
+          "chinese": "四方扁平封裝"
+        },
+        {
+          "english": "Quad Flat No-Lead (QFN)",
+          "chinese": "四方無引腳封裝"
+        },
+        {
+          "english": "Plastic Leaded Chip Carrier (PLCC)",
+          "chinese": "塑膠晶片載體"
+        },
+        {
+          "english": "Signal Integrity",
+          "chinese": "訊號完整性"
+        },
+        {
+          "english": "Reliability Testing",
+          "chinese": "可靠度測試"
+        },
+        {
+          "english": "Back-End Process",
+          "chinese": "後段製程"
+        }
+      ],
+      "summary": [
+        "Traditional IC packaging converts a bare silicon die into a usable electronic component.",
+        "Packaging provides mechanical protection, electrical connectivity, thermal management, and environmental protection.",
+        "Packaging is part of the semiconductor back-end manufacturing process.",
+        "Typical packaging flow includes wafer test, dicing, die attach, interconnection, molding, and final test.",
+        "Lead frames are widely used in traditional semiconductor packages.",
+        "Common package types include DIP, SOP, QFP, QFN, and PLCC.",
+        "Packaging affects signal integrity, thermal performance, and device reliability.",
+        "Thermal management is critical for high-power semiconductor devices.",
+        "Reliability testing ensures packages survive environmental and operating stresses.",
+        "Traditional packaging remains important despite the rise of advanced packaging technologies."
+      ],
+      "quiz_short": [
+        {
+          "question": "1. IC packaging converts a bare silicon ______ into a usable electronic component.",
+          "answer": "Die"
+        },
+        {
+          "question": "2. Packaging belongs to the semiconductor ______-end manufacturing process.",
+          "answer": "Back"
+        },
+        {
+          "question": "3. Known Good Die is commonly abbreviated as ______.",
+          "answer": "KGD"
+        },
+        {
+          "question": "4. Wafer ______ separates a processed wafer into individual dies.",
+          "answer": "Dicing"
+        },
+        {
+          "question": "5. The structure commonly used for mechanical support and signal routing is called a ______ frame.",
+          "answer": "Lead"
+        },
+        {
+          "question": "6. The process of mounting a die onto a package structure is called die ______.",
+          "answer": "Attach"
+        },
+        {
+          "question": "7. Electrical connections in traditional packages are often created using wire ______.",
+          "answer": "Bonding"
+        },
+        {
+          "question": "8. QFN stands for Quad Flat No-______ package.",
+          "answer": "Lead"
+        },
+        {
+          "question": "9. Packaging helps improve heat dissipation through thermal ______.",
+          "answer": "Management"
+        },
+        {
+          "question": "10. Resistance, capacitance, and inductance influence package ______ integrity.",
+          "answer": "Signal"
+        }
+      ],
+      "quiz_long": [
+        {
+          "question": "1. Why is IC packaging necessary after wafer fabrication?",
+          "answer": "A bare silicon die is fragile and cannot be directly installed into electronic systems. Packaging provides protection, electrical connections, thermal dissipation, and environmental isolation."
+        },
+        {
+          "question": "2. What are the four primary functions of semiconductor packaging?",
+          "answer": "The four main functions are mechanical protection, electrical connectivity, thermal management, and environmental protection."
+        },
+        {
+          "question": "3. Why is Known Good Die (KGD) testing important before packaging?",
+          "answer": "Packaging is expensive. Identifying known good dies before assembly prevents defective dies from consuming packaging materials, equipment time, and testing resources."
+        },
+        {
+          "question": "4. What role does a lead frame play in traditional semiconductor packaging?",
+          "answer": "A lead frame provides mechanical support for the die and electrical pathways between the silicon chip and external package terminals."
+        },
+        {
+          "question": "5. What materials are commonly used for die attach and why are they important?",
+          "answer": "Epoxy, silver-filled adhesives, and solder are commonly used. They mechanically secure the die and help transfer heat away from the chip."
+        },
+        {
+          "question": "6. How do package types such as DIP, SOP, QFP, and QFN differ?",
+          "answer": "They differ in size, lead configuration, mounting style, thermal performance, and supported pin count. QFN generally offers better thermal and electrical performance than older leaded packages."
+        },
+        {
+          "question": "7. Why is thermal management critical in package design?",
+          "answer": "Semiconductor devices generate heat during operation. Effective thermal management prevents overheating, improves reliability, and maintains electrical performance."
+        },
+        {
+          "question": "8. How can packaging affect signal integrity?",
+          "answer": "Package interconnections introduce resistance, capacitance, and inductance that can distort signals, especially in high-speed or high-frequency applications."
+        },
+        {
+          "question": "9. What reliability challenges must a package withstand during its lifetime?",
+          "answer": "Packages must tolerate thermal cycling, humidity, vibration, mechanical stress, corrosion, and long operational lifetimes without failure."
+        },
+        {
+          "question": "10. Why has the semiconductor industry developed advanced packaging technologies beyond traditional packaging?",
+          "answer": "Traditional packaging has limitations in bandwidth, interconnect length, I/O density, power efficiency, and integration capability. Advanced packaging addresses these challenges for high-performance computing, AI accelerators, and advanced semiconductor systems."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Wire Bonding",
+      "content": "Wire Bonding is the most widely used semiconductor packaging interconnection technology for connecting a semiconductor die to its package. The process creates electrical connections between the bond pads on the silicon die and the package leads or substrate pads using extremely thin metal wires. Despite the emergence of advanced packaging technologies, wire bonding remains the dominant packaging method for a large portion of semiconductor products because of its low cost, high manufacturing maturity, high reliability, and excellent production throughput. Wire bonding is commonly used in microcontrollers, analog ICs, power devices, sensors, PMICs, and automotive semiconductors. The purpose of wire bonding is to provide signal connections, power delivery paths, and ground connections between the chip and the external system. A typical packaging flow includes wafer test, dicing, die attach, wire bonding, encapsulation, and final test. A wire bond consists of a first bond connected to the die pad, a wire loop, and a second bond connected to the package lead or substrate pad. Common bonding materials include gold wire, copper wire, silver alloy wire, and aluminum wire. Gold wire offers excellent corrosion resistance and reliability but is more expensive. Copper wire provides lower cost and better electrical conductivity, while aluminum wire is commonly used in power devices. The two major wire bonding methods are Ball Bonding and Wedge Bonding. Ball Bonding is the most common method and typically uses gold or copper wire. Wedge Bonding often uses aluminum wire and is suitable for power semiconductor applications. Modern wire bonding primarily uses Thermosonic Bonding, which combines heat, pressure, and ultrasonic energy to create strong metal-to-metal bonds. Wire loop formation is a critical aspect of package design because loop height, shape, length, and spacing affect reliability and electrical performance. Modern wire bonders use automated vision alignment systems, bonding heads, wire feed mechanisms, and process control systems to achieve high precision and throughput. Common wire bonding defects include Non-Stick on Pad (NSOP), Non-Stick on Lead (NSOL), lifted bonds, broken wires, wire sweep, and short circuits. Reliability concerns include corrosion, thermal cycling stress, electromigration, and mechanical fatigue. Wire bonding offers significant advantages including low cost, mature technology, high production volume capability, and proven reliability. However, it has limitations such as longer electrical interconnects, higher parasitic inductance, lower I/O density, and restricted scalability for advanced computing devices. These limitations contributed to the development of advanced interconnect technologies such as Flip Chip, Wafer Level Packaging, Fan-Out Packaging, 2.5D Packaging, and 3D Packaging. Despite these advancements, wire bonding remains one of the most important packaging technologies in the semiconductor industry.",
+      "keywords": [
+        {
+          "english": "Wire Bonding",
+          "chinese": "打線封裝"
+        },
+        {
+          "english": "Bond Pad",
+          "chinese": "焊墊"
+        },
+        {
+          "english": "Gold Wire (Au)",
+          "chinese": "金線"
+        },
+        {
+          "english": "Copper Wire (Cu)",
+          "chinese": "銅線"
+        },
+        {
+          "english": "Silver Alloy Wire",
+          "chinese": "銀合金線"
+        },
+        {
+          "english": "Aluminum Wire (Al)",
+          "chinese": "鋁線"
+        },
+        {
+          "english": "Ball Bonding",
+          "chinese": "球焊"
+        },
+        {
+          "english": "Wedge Bonding",
+          "chinese": "楔形焊接"
+        },
+        {
+          "english": "Thermosonic Bonding",
+          "chinese": "熱超音波焊接"
+        },
+        {
+          "english": "Ultrasonic Energy",
+          "chinese": "超音波能量"
+        },
+        {
+          "english": "Wire Loop",
+          "chinese": "打線迴路"
+        },
+        {
+          "english": "First Bond",
+          "chinese": "第一焊點"
+        },
+        {
+          "english": "Second Bond",
+          "chinese": "第二焊點"
+        },
+        {
+          "english": "Lead Frame",
+          "chinese": "導線框架"
+        },
+        {
+          "english": "Package Substrate",
+          "chinese": "封裝基板"
+        },
+        {
+          "english": "Non-Stick on Pad (NSOP)",
+          "chinese": "焊墊不黏著"
+        },
+        {
+          "english": "Non-Stick on Lead (NSOL)",
+          "chinese": "引腳不黏著"
+        },
+        {
+          "english": "Wire Sweep",
+          "chinese": "線偏移"
+        },
+        {
+          "english": "Electromigration",
+          "chinese": "電遷移"
+        },
+        {
+          "english": "Package Reliability",
+          "chinese": "封裝可靠度"
+        }
+      ],
+      "summary": [
+        "Wire bonding connects a semiconductor die to package leads or substrates using thin metal wires.",
+        "It is one of the most widely used semiconductor packaging technologies.",
+        "Common wire materials include gold, copper, silver alloy, and aluminum.",
+        "Ball bonding and wedge bonding are the two primary bonding methods.",
+        "Thermosonic bonding combines heat, force, and ultrasonic energy.",
+        "Wire loop design directly impacts package reliability and electrical performance.",
+        "Common defects include NSOP, NSOL, wire sweep, lifted bonds, and broken wires.",
+        "Wire bonding offers low cost, high reliability, and mature manufacturing processes.",
+        "Electrical parasitics and I/O limitations are key disadvantages of wire bonding.",
+        "Advanced packaging technologies were developed partly to overcome wire bonding limitations."
+      ],
+      "quiz_short": [
+        {
+          "question": "1. Wire bonding creates electrical connections using thin metal ______.",
+          "answer": "Wires"
+        },
+        {
+          "question": "2. The first bond is typically formed on the die ______.",
+          "answer": "Pad"
+        },
+        {
+          "question": "3. Gold, copper, silver alloy, and aluminum are common bonding ______.",
+          "answer": "Materials"
+        },
+        {
+          "question": "4. The most common wire bonding method is ______ bonding.",
+          "answer": "Ball"
+        },
+        {
+          "question": "5. ______ bonding is commonly used with aluminum wire.",
+          "answer": "Wedge"
+        },
+        {
+          "question": "6. Thermosonic bonding combines heat, pressure, and ______ energy.",
+          "answer": "Ultrasonic"
+        },
+        {
+          "question": "7. A controlled wire ______ is formed between two bond locations.",
+          "answer": "Loop"
+        },
+        {
+          "question": "8. NSOP stands for Non-Stick on ______.",
+          "answer": "Pad"
+        },
+        {
+          "question": "9. Wire movement during molding is called wire ______.",
+          "answer": "Sweep"
+        },
+        {
+          "question": "10. Wire bonding is part of the semiconductor ______ process.",
+          "answer": "Packaging"
+        }
+      ],
+      "quiz_long": [
+        {
+          "question": "1. Why is wire bonding still widely used despite advanced packaging technologies?",
+          "answer": "Because it offers low cost, proven reliability, high throughput, and mature manufacturing infrastructure."
+        },
+        {
+          "question": "2. What is the purpose of wire bonding in semiconductor packaging?",
+          "answer": "It provides electrical connections between the silicon die and the external package terminals."
+        },
+        {
+          "question": "3. What advantages does copper wire offer over gold wire?",
+          "answer": "Copper provides lower cost, better electrical conductivity, and improved thermal conductivity."
+        },
+        {
+          "question": "4. How do ball bonding and wedge bonding differ?",
+          "answer": "Ball bonding uses a free-air ball and is common for fine-pitch ICs, while wedge bonding uses a wedge tool and is common for power devices."
+        },
+        {
+          "question": "5. Why is thermosonic bonding commonly used?",
+          "answer": "It combines ultrasonic energy, force, and heat to create strong and reliable metal-to-metal bonds."
+        },
+        {
+          "question": "6. Why is wire loop control important?",
+          "answer": "Improper loop geometry can lead to shorts, wire sweep, reliability issues, and package failures."
+        },
+        {
+          "question": "7. What are the most common wire bond defects?",
+          "answer": "NSOP, NSOL, lifted bonds, broken wires, wire sweep, and short circuits."
+        },
+        {
+          "question": "8. How does wire bonding affect electrical performance?",
+          "answer": "Longer wire lengths introduce resistance and parasitic inductance that can degrade high-speed signals."
+        },
+        {
+          "question": "9. Why are reliability tests important for wire bonds?",
+          "answer": "They verify bond integrity under thermal cycling, humidity, current stress, and long-term operation."
+        },
+        {
+          "question": "10. Why has Flip Chip become popular in high-performance devices?",
+          "answer": "Because it provides shorter interconnect paths, lower parasitics, higher I/O density, and better overall performance than wire bonding."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Flip Chip Technology",
+      "content": "Flip Chip Technology is an advanced semiconductor packaging method in which a semiconductor die is mounted face-down onto a package substrate using an array of solder bumps. Unlike traditional wire bonding, which uses wires connected around the edge of the die, Flip Chip creates direct electrical connections through solder bumps distributed across the entire die surface. The die is flipped upside down before attachment, giving rise to the name Flip Chip. This technology has become one of the most important packaging methods for CPUs, GPUs, AI accelerators, networking chips, ASICs, and advanced mobile processors because it offers superior electrical, thermal, and mechanical performance. Flip Chip was developed to overcome the limitations of wire bonding, including long signal paths, higher parasitic inductance, limited I/O count, and reduced scalability. A typical Flip Chip package consists of a silicon die, solder bumps, package substrate, underfill material, and package body. The Flip Chip process begins with wafer bump formation, where solder bumps are created on the wafer bond pads. After wafer dicing, the die is flipped and precisely aligned to the substrate pads. A reflow process melts the solder bumps to form electrical and mechanical connections. Underfill material is then injected between the die and substrate to improve package reliability and reduce mechanical stress caused by thermal expansion mismatch. One of the key advantages of Flip Chip is area array interconnection. Unlike wire bonding, which only uses the die perimeter for connections, Flip Chip utilizes the entire die surface, allowing significantly higher I/O density and routing flexibility. This enables modern processors to support thousands of electrical connections. Flip Chip also offers major electrical advantages, including shorter signal paths, lower resistance, lower inductance, improved signal integrity, and better power delivery. Thermal performance is improved because heat can be efficiently removed through the backside of the die using heat spreaders and cooling solutions. Reliability considerations include solder joint fatigue, coefficient of thermal expansion (CTE) mismatch, underfill defects, and electromigration. Despite higher manufacturing costs and assembly complexity compared to wire bonding, Flip Chip has become the dominant packaging technology for high-performance semiconductor products. It also serves as the foundation for many advanced packaging technologies such as Wafer Level Packaging, Fan-Out Packaging, 2.5D packaging, CoWoS, chiplet-based systems, and 3D integration.",
+      "keywords": [
+        {
+          "english": "Flip Chip",
+          "chinese": "覆晶封裝"
+        },
+        {
+          "english": "Flip Chip Technology",
+          "chinese": "覆晶技術"
+        },
+        {
+          "english": "Solder Bump",
+          "chinese": "錫球凸塊"
+        },
+        {
+          "english": "Bump Pitch",
+          "chinese": "凸塊間距"
+        },
+        {
+          "english": "Wafer Bumping",
+          "chinese": "晶圓凸塊製程"
+        },
+        {
+          "english": "Area Array",
+          "chinese": "面陣列互連"
+        },
+        {
+          "english": "Package Substrate",
+          "chinese": "封裝基板"
+        },
+        {
+          "english": "Reflow",
+          "chinese": "回焊"
+        },
+        {
+          "english": "Underfill",
+          "chinese": "底部填充膠"
+        },
+        {
+          "english": "Die Placement",
+          "chinese": "晶粒貼裝"
+        },
+        {
+          "english": "Signal Integrity",
+          "chinese": "訊號完整性"
+        },
+        {
+          "english": "Parasitic Inductance",
+          "chinese": "寄生電感"
+        },
+        {
+          "english": "Electrical Performance",
+          "chinese": "電氣性能"
+        },
+        {
+          "english": "Thermal Management",
+          "chinese": "熱管理"
+        },
+        {
+          "english": "Heat Spreader",
+          "chinese": "散熱擴散板"
+        },
+        {
+          "english": "Solder Joint",
+          "chinese": "焊點"
+        },
+        {
+          "english": "CTE Mismatch",
+          "chinese": "熱膨脹係數不匹配"
+        },
+        {
+          "english": "Electromigration",
+          "chinese": "電遷移"
+        },
+        {
+          "english": "High I/O Density",
+          "chinese": "高輸入輸出密度"
+        },
+        {
+          "english": "Advanced Packaging",
+          "chinese": "先進封裝"
+        }
+      ],
+      "summary": [
+        "Flip Chip mounts the semiconductor die face-down onto a substrate using solder bumps.",
+        "It eliminates the need for long wire bond connections.",
+        "Solder bumps provide electrical, mechanical, and thermal connections.",
+        "Flip Chip supports much higher I/O density than wire bonding.",
+        "Area array interconnection utilizes the entire die surface for connections.",
+        "Underfill improves mechanical strength and package reliability.",
+        "Shorter interconnects reduce resistance, inductance, and signal delay.",
+        "Flip Chip offers superior thermal performance for high-power devices.",
+        "It is widely used in CPUs, GPUs, AI accelerators, and advanced semiconductor products.",
+        "Flip Chip serves as the foundation for many advanced packaging technologies."
+      ],
+      "quiz_short": [
+        {
+          "question": "1. Flip Chip connects the die to the substrate using solder ______.",
+          "answer": "Bumps"
+        },
+        {
+          "question": "2. The die is mounted ______-down during Flip Chip assembly.",
+          "answer": "Face"
+        },
+        {
+          "question": "3. Flip Chip uses an ______ array interconnection structure.",
+          "answer": "Area"
+        },
+        {
+          "question": "4. The wafer bump formation process creates solder ______.",
+          "answer": "Bumps"
+        },
+        {
+          "question": "5. Heat is used during the ______ process to create connections.",
+          "answer": "Reflow"
+        },
+        {
+          "question": "6. ______ material is injected between the die and substrate after attachment.",
+          "answer": "Underfill"
+        },
+        {
+          "question": "7. Flip Chip provides higher ______ density than wire bonding.",
+          "answer": "I/O"
+        },
+        {
+          "question": "8. Shorter interconnects help reduce parasitic ______.",
+          "answer": "Inductance"
+        },
+        {
+          "question": "9. Thermal expansion mismatch is commonly called ______ mismatch.",
+          "answer": "CTE"
+        },
+        {
+          "question": "10. Flip Chip is widely used in high-performance ______ and GPUs.",
+          "answer": "CPUs"
+        }
+      ],
+      "quiz_long": [
+        {
+          "question": "1. Why was Flip Chip technology developed?",
+          "answer": "Flip Chip was developed to overcome the limitations of wire bonding, including long signal paths, lower I/O density, higher parasitic inductance, and reduced electrical performance."
+        },
+        {
+          "question": "2. How does Flip Chip differ from wire bonding?",
+          "answer": "Wire bonding uses metal wires around the die perimeter, while Flip Chip uses solder bumps distributed across the entire die surface for direct connections."
+        },
+        {
+          "question": "3. What are the primary advantages of area array interconnection?",
+          "answer": "Area array interconnection increases I/O density, routing flexibility, bandwidth, and overall package performance by utilizing the entire die surface."
+        },
+        {
+          "question": "4. Why are solder bumps important in Flip Chip packaging?",
+          "answer": "Solder bumps provide electrical connections, mechanical attachment, and thermal conduction between the die and substrate."
+        },
+        {
+          "question": "5. What is the purpose of underfill material?",
+          "answer": "Underfill reduces stress caused by thermal expansion differences between the die and substrate, improving package reliability and solder joint durability."
+        },
+        {
+          "question": "6. Why does Flip Chip provide better electrical performance?",
+          "answer": "Shorter interconnect paths reduce resistance, inductance, signal delay, and parasitic effects, resulting in better signal integrity and power delivery."
+        },
+        {
+          "question": "7. Why is Flip Chip preferred for CPUs, GPUs, and AI accelerators?",
+          "answer": "These devices require very high I/O counts, high bandwidth, low latency, and efficient heat dissipation, all of which are supported by Flip Chip packaging."
+        },
+        {
+          "question": "8. What reliability challenges exist in Flip Chip packaging?",
+          "answer": "Major challenges include solder joint fatigue, CTE mismatch, underfill defects, and electromigration during long-term operation."
+        },
+        {
+          "question": "9. Why is thermal performance generally better in Flip Chip packages?",
+          "answer": "The package structure enables efficient heat transfer through the backside of the die and supports heat spreaders and advanced cooling solutions."
+        },
+        {
+          "question": "10. How does Flip Chip enable advanced packaging technologies?",
+          "answer": "Flip Chip provides the high-density interconnect foundation used in wafer-level packaging, fan-out packaging, 2.5D integration, chiplet architectures, CoWoS, and 3D packaging."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Wafer Level Packaging (WLP)",
+      "content": "Wafer Level Packaging (WLP) is a semiconductor packaging technology in which packaging processes are performed while devices are still part of the wafer, before the wafer is diced into individual chips. Unlike traditional packaging, where dies are first separated and then packaged individually, WLP completes most packaging operations at the wafer level. This approach reduces package size, improves electrical performance, and increases manufacturing efficiency. WLP is considered one of the earliest forms of advanced packaging and is widely used in smartphones, wearable devices, RF components, sensors, PMICs, and IoT products. WLP was developed to address the need for package miniaturization, lower profile designs, improved electrical performance, and reduced manufacturing complexity. The key difference between traditional packaging and WLP is that packaging occurs before wafer dicing rather than after. The most common form of WLP is Fan-In Wafer Level Packaging (FI-WLP), where all package connections remain within the die boundary. A typical WLP structure includes a silicon die, passivation layer, redistribution layer (RDL), under bump metallization (UBM), and solder bumps. The Redistribution Layer reroutes original bond pads to new bump locations, improving interconnection flexibility. Under Bump Metallization enhances bump adhesion, prevents metal diffusion, and improves reliability. Wafer bumping forms solder bumps, copper pillars, or micro-bumps on the wafer surface, creating the package's external interconnections. A typical WLP process flow includes wafer fabrication, passivation opening, RDL formation, UBM deposition, bump formation, wafer testing, and wafer dicing. WLP provides several electrical advantages, including shorter interconnections, lower resistance, lower inductance, reduced signal delay, and improved signal integrity. Because package size is nearly equal to die size, WLP is often classified as a Chip Scale Package (CSP). WLP also supports thinner and lighter packages, making it ideal for mobile electronics. Reliability considerations include thermal cycling, solder joint fatigue, moisture sensitivity, and mechanical stress. Although WLP offers excellent miniaturization and performance, conventional Fan-In WLP is limited by die size and I/O count because all connections must remain within the chip boundary. These limitations led to the development of Fan-Out Wafer Level Packaging. WLP became a critical foundation for modern advanced packaging technologies by introducing wafer-level processing, redistribution layers, and wafer-level interconnect formation.",
+      "keywords": [
+        {
+          "english": "Wafer Level Packaging (WLP)",
+          "chinese": "晶圓級封裝"
+        },
+        {
+          "english": "Fan-In WLP (FI-WLP)",
+          "chinese": "扇入型晶圓級封裝"
+        },
+        {
+          "english": "Chip Scale Package (CSP)",
+          "chinese": "晶片尺寸封裝"
+        },
+        {
+          "english": "Redistribution Layer (RDL)",
+          "chinese": "重佈線層"
+        },
+        {
+          "english": "Under Bump Metallization (UBM)",
+          "chinese": "凸塊下金屬層"
+        },
+        {
+          "english": "Wafer Bumping",
+          "chinese": "晶圓凸塊製程"
+        },
+        {
+          "english": "Solder Bump",
+          "chinese": "錫球凸塊"
+        },
+        {
+          "english": "Copper Pillar",
+          "chinese": "銅柱凸塊"
+        },
+        {
+          "english": "Micro-Bump",
+          "chinese": "微凸塊"
+        },
+        {
+          "english": "Passivation Layer",
+          "chinese": "鈍化層"
+        },
+        {
+          "english": "Die Size",
+          "chinese": "晶粒尺寸"
+        },
+        {
+          "english": "Signal Integrity",
+          "chinese": "訊號完整性"
+        },
+        {
+          "english": "Package Substrate",
+          "chinese": "封裝基板"
+        },
+        {
+          "english": "Thermal Cycling",
+          "chinese": "熱循環"
+        },
+        {
+          "english": "Solder Joint Fatigue",
+          "chinese": "焊點疲勞"
+        },
+        {
+          "english": "Electrical Performance",
+          "chinese": "電氣性能"
+        },
+        {
+          "english": "Package Miniaturization",
+          "chinese": "封裝微型化"
+        },
+        {
+          "english": "Mobile Devices",
+          "chinese": "行動裝置"
+        },
+        {
+          "english": "Semiconductor Packaging",
+          "chinese": "半導體封裝"
+        },
+        {
+          "english": "Advanced Packaging",
+          "chinese": "先進封裝"
+        }
+      ],
+      "summary": [
+        "WLP performs packaging processes at the wafer level before dicing.",
+        "WLP enables extremely small and thin package designs.",
+        "Fan-In WLP keeps all package connections within the die boundary.",
+        "Redistribution Layers (RDL) reroute chip I/O pads to new bump locations.",
+        "Under Bump Metallization (UBM) improves solder bump reliability.",
+        "WLP provides shorter interconnections and improved signal integrity.",
+        "WLP is commonly used in smartphones, sensors, and wearable devices.",
+        "Chip Scale Package (CSP) designs are nearly the same size as the die.",
+        "Conventional Fan-In WLP has limitations in I/O count and die size.",
+        "WLP serves as the foundation for more advanced packaging technologies."
+      ],
+      "quiz_short": [
+        {
+          "question": "1. WLP stands for Wafer Level ______.",
+          "answer": "Packaging"
+        },
+        {
+          "question": "2. In WLP, packaging processes are completed before wafer ______.",
+          "answer": "Dicing"
+        },
+        {
+          "question": "3. FI-WLP stands for ______-In Wafer Level Packaging.",
+          "answer": "Fan"
+        },
+        {
+          "question": "4. RDL stands for Redistribution ______.",
+          "answer": "Layer"
+        },
+        {
+          "question": "5. UBM stands for Under Bump ______.",
+          "answer": "Metallization"
+        },
+        {
+          "question": "6. Solder ______ provide external package connections.",
+          "answer": "Bumps"
+        },
+        {
+          "question": "7. A CSP package is approximately the same size as the ______.",
+          "answer": "Die"
+        },
+        {
+          "question": "8. WLP generally provides shorter interconnection ______.",
+          "answer": "Lengths"
+        },
+        {
+          "question": "9. Conventional WLP is often limited by ______ count.",
+          "answer": "I/O"
+        },
+        {
+          "question": "10. WLP is widely used in mobile and wearable ______.",
+          "answer": "Devices"
+        }
+      ],
+      "quiz_long": [
+        {
+          "question": "1. Why was Wafer Level Packaging developed?",
+          "answer": "WLP was developed to reduce package size, improve electrical performance, lower package profile, and increase packaging efficiency for portable electronic products."
+        },
+        {
+          "question": "2. How does WLP differ from traditional packaging?",
+          "answer": "Traditional packaging occurs after wafer dicing, while WLP performs most packaging operations before the wafer is diced into individual chips."
+        },
+        {
+          "question": "3. What is the role of the Redistribution Layer (RDL)?",
+          "answer": "RDL reroutes the original chip I/O pads to new locations, enabling more flexible bump placement and package design."
+        },
+        {
+          "question": "4. Why is Under Bump Metallization (UBM) important?",
+          "answer": "UBM improves solder bump adhesion, prevents diffusion, and enhances long-term package reliability."
+        },
+        {
+          "question": "5. What is Fan-In WLP?",
+          "answer": "Fan-In WLP is a WLP architecture where all external connections remain within the die area, resulting in a package size nearly equal to the chip size."
+        },
+        {
+          "question": "6. Why does WLP provide better electrical performance?",
+          "answer": "WLP reduces interconnect length, which lowers resistance, inductance, parasitic effects, and signal delay."
+        },
+        {
+          "question": "7. Why is WLP commonly used in smartphones and wearable devices?",
+          "answer": "Because it enables very small, thin, and lightweight packages while maintaining good electrical performance."
+        },
+        {
+          "question": "8. What reliability challenges must WLP packages overcome?",
+          "answer": "Major reliability concerns include thermal cycling, solder joint fatigue, moisture exposure, and mechanical stress."
+        },
+        {
+          "question": "9. What are the main limitations of conventional Fan-In WLP?",
+          "answer": "It is limited by die size and available I/O area because all connections must remain within the chip boundary."
+        },
+        {
+          "question": "10. Why is WLP considered a foundation for advanced packaging?",
+          "answer": "Many modern packaging technologies, including Fan-Out Packaging and advanced RDL-based packages, evolved from Wafer Level Packaging concepts."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Fan-In vs Fan-Out Packaging",
+      "content": "Fan-In Packaging and Fan-Out Packaging are two major categories of Wafer Level Packaging (WLP) technologies used to connect semiconductor dies to external systems. The primary difference between them is the location of the external input/output (I/O) connections relative to the die boundary. In Fan-In Packaging, all I/O connections remain within the physical footprint of the die. In Fan-Out Packaging, the connections are redistributed beyond the die boundary, creating additional routing space and supporting much higher I/O density. Fan-In Packaging was the original form of Wafer Level Packaging and is often referred to as Fan-In Wafer Level Packaging (FI-WLP). It keeps solder bumps within the die area, resulting in a package size nearly identical to the chip itself. Because of this compact structure, Fan-In packages are commonly classified as Chip Scale Packages (CSPs). Fan-In technology offers advantages such as small package size, thin profile, mature manufacturing processes, and relatively low cost. However, because all connections must fit within the die area, Fan-In Packaging faces limitations in I/O count, routing capability, and scalability for advanced semiconductor devices. As semiconductor devices became more complex and required additional I/O connections, Fan-Out Packaging was developed. Fan-Out redistributes chip connections beyond the original die footprint using additional redistribution layers (RDLs). A key innovation in Fan-Out Packaging is the reconstituted wafer process. Individual dies are first separated from the wafer and then embedded into a mold compound to create additional space around each chip. Redistribution layers are subsequently built across the reconstituted wafer, enabling signal routing outside the original die area. This structure significantly increases I/O density, routing flexibility, bandwidth, and power delivery capability. Fan-Out Packaging also offers improved electrical performance because shorter interconnects reduce resistance, inductance, and signal loss. Thermal performance is generally better due to lower thermal resistance and improved heat dissipation paths. While Fan-Out delivers superior performance, it is more complex and expensive to manufacture than Fan-In Packaging. Fan-In Packaging is commonly used for sensors, RF components, PMICs, MEMS devices, Bluetooth chips, and wearable electronics where I/O requirements are relatively low. Fan-Out Packaging is widely used for smartphone processors, application processors, advanced SoCs, AI accelerators, networking devices, and heterogeneous integration applications where high I/O density and performance are required. Technologies such as InFO, eWLB, and other advanced packaging solutions are based on Fan-Out principles. Together, Fan-In and Fan-Out Packaging represent important milestones in the evolution from traditional semiconductor packaging toward today's advanced packaging ecosystem.",
+      "keywords": [
+        {
+          "english": "Fan-In Packaging",
+          "chinese": "扇入型封裝"
+        },
+        {
+          "english": "Fan-Out Packaging",
+          "chinese": "扇出型封裝"
+        },
+        {
+          "english": "Fan-In Wafer Level Package (FI-WLP)",
+          "chinese": "扇入型晶圓級封裝"
+        },
+        {
+          "english": "Fan-Out Wafer Level Package (FOWLP)",
+          "chinese": "扇出型晶圓級封裝"
+        },
+        {
+          "english": "Chip Scale Package (CSP)",
+          "chinese": "晶片尺寸封裝"
+        },
+        {
+          "english": "Redistribution Layer (RDL)",
+          "chinese": "重佈線層"
+        },
+        {
+          "english": "Under Bump Metallization (UBM)",
+          "chinese": "凸塊下金屬層"
+        },
+        {
+          "english": "Reconstituted Wafer",
+          "chinese": "重組晶圓"
+        },
+        {
+          "english": "Die Reconstitution",
+          "chinese": "晶粒重組"
+        },
+        {
+          "english": "Mold Compound",
+          "chinese": "模封材料"
+        },
+        {
+          "english": "Solder Bump",
+          "chinese": "錫球凸塊"
+        },
+        {
+          "english": "Solder Ball",
+          "chinese": "焊球"
+        },
+        {
+          "english": "I/O Density",
+          "chinese": "輸入輸出密度"
+        },
+        {
+          "english": "Signal Integrity",
+          "chinese": "訊號完整性"
+        },
+        {
+          "english": "Electrical Performance",
+          "chinese": "電氣性能"
+        },
+        {
+          "english": "Thermal Performance",
+          "chinese": "熱性能"
+        },
+        {
+          "english": "Package Footprint",
+          "chinese": "封裝面積"
+        },
+        {
+          "english": "Advanced Packaging",
+          "chinese": "先進封裝"
+        },
+        {
+          "english": "InFO",
+          "chinese": "整合扇出封裝"
+        },
+        {
+          "english": "eWLB",
+          "chinese": "嵌入式晶圓級球柵陣列封裝"
+        }
+      ],
+      "summary": [
+        "Fan-In and Fan-Out are two major categories of wafer-level packaging.",
+        "Fan-In keeps all package connections within the die boundary.",
+        "Fan-Out redistributes connections beyond the die boundary.",
+        "Fan-In packaging is compact and cost-effective but has limited I/O capacity.",
+        "Fan-Out packaging provides higher I/O density and routing flexibility.",
+        "Redistribution Layers (RDL) are critical enabling structures in both technologies.",
+        "Fan-Out uses reconstituted wafers to create routing space outside the die.",
+        "Fan-Out offers better electrical and thermal performance than Fan-In.",
+        "Fan-In is commonly used for low-I/O devices, while Fan-Out supports high-performance applications.",
+        "Fan-Out technology serves as a foundation for modern advanced packaging and heterogeneous integration."
+      ],
+      "quiz_short": [
+        {
+          "question": "1. In Fan-In packaging, all I/O connections remain within the die ______.",
+          "answer": "Boundary"
+        },
+        {
+          "question": "2. Fan-Out packaging redistributes connections beyond the die ______.",
+          "answer": "Boundary"
+        },
+        {
+          "question": "3. FI-WLP stands for Fan-______ Wafer Level Packaging.",
+          "answer": "In"
+        },
+        {
+          "question": "4. Fan-Out technology was developed to overcome I/O ______.",
+          "answer": "Limitations"
+        },
+        {
+          "question": "5. RDL stands for Redistribution ______.",
+          "answer": "Layer"
+        },
+        {
+          "question": "6. A ______ wafer is created during Fan-Out packaging.",
+          "answer": "Reconstituted"
+        },
+        {
+          "question": "7. Fan-Out provides higher I/O ______ than Fan-In.",
+          "answer": "Density"
+        },
+        {
+          "question": "8. Fan-In packages are often classified as ______ Scale Packages.",
+          "answer": "Chip"
+        },
+        {
+          "question": "9. Fan-Out generally provides better signal ______.",
+          "answer": "Integrity"
+        },
+        {
+          "question": "10. Fan-Out packaging is widely used for high-performance ______.",
+          "answer": "Processors"
+        }
+      ],
+      "quiz_long": [
+        {
+          "question": "1. What is the primary difference between Fan-In and Fan-Out packaging?",
+          "answer": "Fan-In keeps all external connections within the die footprint, while Fan-Out extends connections beyond the die boundary using redistribution layers."
+        },
+        {
+          "question": "2. Why was Fan-Out Packaging developed?",
+          "answer": "Fan-Out was developed to overcome the I/O limitations and routing constraints of Fan-In WLP as semiconductor devices became more complex."
+        },
+        {
+          "question": "3. What is a reconstituted wafer?",
+          "answer": "A reconstituted wafer is created by placing individual dies into a molded carrier, allowing additional space for redistribution layers and external connections."
+        },
+        {
+          "question": "4. Why does Fan-Out support higher I/O density?",
+          "answer": "Because routing can extend beyond the original die area, creating more space for bumps and signal connections."
+        },
+        {
+          "question": "5. What role does the Redistribution Layer (RDL) play?",
+          "answer": "RDL redistributes the original die pad locations to optimized bump locations and enables signal routing within the package."
+        },
+        {
+          "question": "6. What are the major advantages of Fan-In Packaging?",
+          "answer": "Small package size, low profile, lower cost, and mature manufacturing processes."
+        },
+        {
+          "question": "7. What are the major advantages of Fan-Out Packaging?",
+          "answer": "Higher I/O density, improved signal integrity, better power delivery, superior thermal performance, and support for advanced integration."
+        },
+        {
+          "question": "8. Why is Fan-Out often used in mobile processors and advanced SoCs?",
+          "answer": "These devices require higher bandwidth, more I/O connections, and better performance than Fan-In packages can provide."
+        },
+        {
+          "question": "9. What trade-offs exist between Fan-In and Fan-Out?",
+          "answer": "Fan-In is simpler and cheaper, while Fan-Out offers higher performance but requires more complex and costly manufacturing."
+        },
+        {
+          "question": "10. How does Fan-Out contribute to advanced packaging?",
+          "answer": "Fan-Out technologies form the basis for many modern packaging solutions, including InFO, eWLB, heterogeneous integration, and advanced multi-chip packaging architectures."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "FOWLP vs FOPLP",
+      "content": "Fan-Out Wafer Level Packaging (FOWLP) and Fan-Out Panel Level Packaging (FOPLP) are advanced semiconductor packaging technologies that extend I/O connections beyond the original die boundary using redistribution layers (RDLs). Both technologies are based on Fan-Out Packaging, where diced semiconductor dies are embedded into a molding compound and interconnected through high-density routing structures. The key difference lies in the manufacturing platform. FOWLP uses a circular wafer as the processing carrier, while FOPLP uses a large rectangular panel similar to those used in PCB manufacturing. Both technologies aim to achieve higher I/O density, improved electrical performance, thinner package profiles, and better thermal characteristics compared with conventional packaging approaches. FOWLP is currently the more mature technology and has been widely adopted in smartphones, mobile processors, RF modules, PMICs, and consumer electronics. The FOWLP process generally includes die placement, mold formation, wafer reconstitution, redistribution layer formation, solder ball formation, testing, and singulation. Using wafer-based manufacturing allows FOWLP to leverage existing semiconductor equipment and infrastructure. However, wafer diameter limits the available processing area and results in lower area utilization due to the circular wafer shape. To overcome cost and throughput limitations, the industry developed Fan-Out Panel Level Packaging (FOPLP). FOPLP replaces the circular wafer with a large rectangular panel that can accommodate significantly more packages per manufacturing cycle. Typical panel sizes are much larger than standard semiconductor wafers, enabling higher throughput and better material utilization. The manufacturing flow is similar to FOWLP, including die placement, panel molding, redistribution layer fabrication, solder ball formation, testing, and singulation. The larger panel size reduces cost per package and improves manufacturing scalability. Both FOWLP and FOPLP rely heavily on Redistribution Layers (RDLs) to redistribute die I/O connections and support high-density signal routing, power delivery, and ground connections. Multiple RDL layers can be used to support complex package architectures. Electrically, both technologies provide short interconnect lengths, low resistance, low inductance, improved signal integrity, and efficient power delivery. Thermal performance is also generally excellent because of the thin package structures and efficient heat transfer paths. Although FOPLP offers significant cost and throughput advantages, it introduces additional technical challenges, including panel warpage, die shift, process uniformity control, and large-area lithography alignment. FOWLP remains dominant in current production due to its mature ecosystem, while FOPLP is viewed as a promising future technology for large-scale advanced packaging, heterogeneous integration, AI processors, automotive electronics, and high-performance computing applications.",
+      "keywords": [
+        {
+          "english": "Fan-Out Wafer Level Packaging (FOWLP)",
+          "chinese": "扇出型晶圓級封裝"
+        },
+        {
+          "english": "Fan-Out Panel Level Packaging (FOPLP)",
+          "chinese": "扇出型面板級封裝"
+        },
+        {
+          "english": "Reconstituted Wafer",
+          "chinese": "重組晶圓"
+        },
+        {
+          "english": "Reconstituted Panel",
+          "chinese": "重組面板"
+        },
+        {
+          "english": "Redistribution Layer (RDL)",
+          "chinese": "重佈線層"
+        },
+        {
+          "english": "Die Shift",
+          "chinese": "晶粒偏移"
+        },
+        {
+          "english": "Panel Warpage",
+          "chinese": "面板翹曲"
+        },
+        {
+          "english": "Solder Ball",
+          "chinese": "焊球"
+        },
+        {
+          "english": "Mold Compound",
+          "chinese": "模封材料"
+        },
+        {
+          "english": "Panel Processing",
+          "chinese": "面板製程"
+        },
+        {
+          "english": "Wafer Processing",
+          "chinese": "晶圓製程"
+        },
+        {
+          "english": "Throughput",
+          "chinese": "產能吞吐量"
+        },
+        {
+          "english": "Area Utilization",
+          "chinese": "面積利用率"
+        },
+        {
+          "english": "Advanced Packaging",
+          "chinese": "先進封裝"
+        },
+        {
+          "english": "Heterogeneous Integration",
+          "chinese": "異質整合"
+        },
+        {
+          "english": "Electrical Performance",
+          "chinese": "電氣性能"
+        },
+        {
+          "english": "Thermal Performance",
+          "chinese": "熱性能"
+        },
+        {
+          "english": "Signal Integrity",
+          "chinese": "訊號完整性"
+        },
+        {
+          "english": "High-Density Interconnect",
+          "chinese": "高密度互連"
+        },
+        {
+          "english": "Package Scalability",
+          "chinese": "封裝擴展性"
+        }
+      ],
+      "summary": [
+        "FOWLP and FOPLP are advanced fan-out packaging technologies.",
+        "Both redistribute I/O connections beyond the die boundary using RDLs.",
+        "FOWLP uses circular wafers, while FOPLP uses rectangular panels.",
+        "FOWLP is more mature and widely deployed in commercial production.",
+        "FOPLP offers larger processing areas and better utilization efficiency.",
+        "FOPLP has the potential to reduce packaging cost per unit.",
+        "Both technologies provide excellent electrical and thermal performance.",
+        "Panel warpage and die shift are major technical challenges for FOPLP.",
+        "Advanced RDL structures enable high-density interconnects and higher bandwidth.",
+        "FOPLP is considered a promising future direction for large-scale advanced packaging manufacturing."
+      ],
+      "quiz_short": [
+        {
+          "question": "1. FOWLP stands for Fan-Out ______ Level Packaging.",
+          "answer": "Wafer"
+        },
+        {
+          "question": "2. FOPLP stands for Fan-Out ______ Level Packaging.",
+          "answer": "Panel"
+        },
+        {
+          "question": "3. Both FOWLP and FOPLP use ______ layers to redistribute signals.",
+          "answer": "Redistribution"
+        },
+        {
+          "question": "4. FOWLP uses a circular ______ as the processing platform.",
+          "answer": "Wafer"
+        },
+        {
+          "question": "5. FOPLP uses a rectangular ______ as the processing platform.",
+          "answer": "Panel"
+        },
+        {
+          "question": "6. A major manufacturing challenge in FOPLP is panel ______.",
+          "answer": "Warpage"
+        },
+        {
+          "question": "7. The movement of dies during processing is called die ______.",
+          "answer": "Shift"
+        },
+        {
+          "question": "8. FOPLP generally offers higher manufacturing ______.",
+          "answer": "Throughput"
+        },
+        {
+          "question": "9. Both technologies improve signal ______ by shortening interconnect paths.",
+          "answer": "Integrity"
+        },
+        {
+          "question": "10. FOPLP aims to reduce packaging ______ per unit.",
+          "answer": "Cost"
+        }
+      ],
+      "quiz_long": [
+        {
+          "question": "1. What is the primary difference between FOWLP and FOPLP?",
+          "answer": "FOWLP uses a circular wafer as the manufacturing platform, while FOPLP uses a larger rectangular panel."
+        },
+        {
+          "question": "2. Why was FOPLP developed?",
+          "answer": "FOPLP was developed to improve manufacturing efficiency, increase throughput, reduce cost per package, and support future advanced packaging demand."
+        },
+        {
+          "question": "3. What role does the Redistribution Layer (RDL) play in both technologies?",
+          "answer": "RDL redistributes die I/O signals, enables high-density routing, and creates external package connections."
+        },
+        {
+          "question": "4. Why does FOPLP have better area utilization than FOWLP?",
+          "answer": "Rectangular panels make more efficient use of manufacturing space than circular wafers, reducing unused edge regions."
+        },
+        {
+          "question": "5. What is a reconstituted wafer or panel?",
+          "answer": "It is a molded structure where individual dies are embedded and interconnected using redistribution layers after dicing."
+        },
+        {
+          "question": "6. What are the main advantages of FOWLP?",
+          "answer": "FOWLP provides mature manufacturing processes, established equipment ecosystems, excellent electrical performance, and proven high-volume production capability."
+        },
+        {
+          "question": "7. What are the major technical challenges of FOPLP?",
+          "answer": "Key challenges include panel warpage, die shift, process uniformity, and large-area lithography alignment."
+        },
+        {
+          "question": "8. Why are both technologies attractive for advanced semiconductor products?",
+          "answer": "They enable high I/O density, shorter signal paths, improved power delivery, and superior electrical performance."
+        },
+        {
+          "question": "9. How do FOWLP and FOPLP compare in electrical performance?",
+          "answer": "Both provide excellent electrical characteristics through short interconnections and reduced parasitic effects."
+        },
+        {
+          "question": "10. Why is FOPLP considered an important future packaging technology?",
+          "answer": "Because it offers a path toward lower manufacturing costs, higher throughput, and scalable production for next-generation advanced packaging applications."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Advanced Packaging Overview",
+      "content": "Advanced Packaging refers to a group of semiconductor packaging technologies that go beyond traditional package assembly to improve performance, bandwidth, power efficiency, integration density, and system scalability. Historically, semiconductor innovation was driven primarily by Moore's Law, where transistor dimensions continuously shrank with each technology generation. As transistor scaling becomes increasingly difficult and expensive, the semiconductor industry has turned to advanced packaging as a new method for delivering system-level performance improvements. Advanced packaging is often described as 'More than Moore' because it improves system capability through innovative packaging and integration rather than relying solely on transistor scaling. Advanced packaging is widely used in AI accelerators, GPUs, CPUs, high-performance computing systems, networking devices, automotive electronics, and mobile processors. Traditional packaging suffers from limitations such as long electrical interconnects, higher signal latency, increased power consumption, lower bandwidth, limited I/O density, and restricted integration capability. Advanced packaging addresses these limitations by moving chips closer together and creating faster, denser interconnections. Major advanced packaging technologies include Flip Chip Packaging, Wafer Level Packaging (WLP), Fan-Out Packaging, 2.5D Packaging, 3D Packaging, and Chiplet-Based Packaging. Flip Chip uses solder bumps instead of wire bonds to improve I/O density and electrical performance. WLP performs packaging before dicing to reduce package size. Fan-Out Packaging redistributes I/O connections beyond the die boundary to increase routing flexibility and connection density. 2.5D Packaging places multiple dies side-by-side on a silicon interposer, while 3D Packaging stacks dies vertically to maximize integration density. Chiplet architectures split large systems into smaller functional dies that communicate through advanced interconnects. Several enabling technologies support advanced packaging, including Redistribution Layers (RDL), Through-Silicon Vias (TSV), Silicon Interposers, Micro-Bumps, and Hybrid Bonding. One of the most important trends is Heterogeneous Integration, where chips fabricated using different process technologies are combined into a single package. Examples include CPU and GPU integration, processor and HBM memory integration, and combinations of analog, digital, RF, and memory devices. Advanced packaging has become critical for AI and HPC applications because these systems require massive memory bandwidth, high-speed communication, and efficient power delivery. Technologies such as CoWoS, SoIC, HBM integration, and chiplet architectures are now key enablers of next-generation computing systems. Although advanced packaging introduces additional complexity, cost, thermal management challenges, and yield considerations, it is now viewed as one of the most important drivers of semiconductor innovation and future system performance.",
+      "keywords": [
+        {
+          "english": "Advanced Packaging",
+          "chinese": "先進封裝"
+        },
+        {
+          "english": "More than Moore",
+          "chinese": "超越摩爾定律"
+        },
+        {
+          "english": "Flip Chip",
+          "chinese": "覆晶封裝"
+        },
+        {
+          "english": "Wafer Level Packaging (WLP)",
+          "chinese": "晶圓級封裝"
+        },
+        {
+          "english": "Fan-Out Packaging",
+          "chinese": "扇出型封裝"
+        },
+        {
+          "english": "Fan-In Packaging",
+          "chinese": "扇入型封裝"
+        },
+        {
+          "english": "Redistribution Layer (RDL)",
+          "chinese": "重佈線層"
+        },
+        {
+          "english": "Through-Silicon Via (TSV)",
+          "chinese": "矽穿孔"
+        },
+        {
+          "english": "Silicon Interposer",
+          "chinese": "矽中介層"
+        },
+        {
+          "english": "Micro-Bump",
+          "chinese": "微凸塊"
+        },
+        {
+          "english": "Hybrid Bonding",
+          "chinese": "混合鍵合"
+        },
+        {
+          "english": "2.5D Packaging",
+          "chinese": "2.5D封裝"
+        },
+        {
+          "english": "3D Packaging",
+          "chinese": "3D封裝"
+        },
+        {
+          "english": "CoWoS",
+          "chinese": "晶圓上晶圓基板封裝"
+        },
+        {
+          "english": "SoIC",
+          "chinese": "系統整合晶片"
+        },
+        {
+          "english": "Chiplet",
+          "chinese": "小晶片架構"
+        },
+        {
+          "english": "Heterogeneous Integration",
+          "chinese": "異質整合"
+        },
+        {
+          "english": "High Bandwidth Memory (HBM)",
+          "chinese": "高頻寬記憶體"
+        },
+        {
+          "english": "High-Performance Computing (HPC)",
+          "chinese": "高效能運算"
+        },
+        {
+          "english": "AI Accelerator",
+          "chinese": "AI加速器"
+        }
+      ],
+      "summary": [
+        "Advanced packaging improves system performance through packaging innovation rather than transistor scaling alone.",
+        "It addresses limitations of traditional packaging such as bandwidth, power efficiency, and I/O density.",
+        "Major advanced packaging technologies include Flip Chip, WLP, Fan-Out, 2.5D, 3D, and Chiplet-based packaging.",
+        "Advanced packaging enables high-density die-to-die communication and improved system integration.",
+        "Technologies such as TSV, RDL, Micro-Bumps, and Hybrid Bonding are key enablers."
+      ],
+      "quiz_short": [
+        {
+          "question": "1. Advanced Packaging is often described as ______ than Moore.",
+          "answer": "More"
+        },
+        {
+          "question": "2. Traditional packaging primarily focuses on ______-die integration.",
+          "answer": "Single"
+        },
+        {
+          "question": "3. Advanced packaging enables higher I/O ______ and bandwidth.",
+          "answer": "Density"
+        },
+        {
+          "question": "4. RDL stands for Redistribution ______.",
+          "answer": "Layer"
+        },
+        {
+          "question": "5. TSV stands for Through-Silicon ______.",
+          "answer": "Via"
+        },
+        {
+          "question": "6. A silicon ______ is commonly used in 2.5D packaging.",
+          "answer": "Interposer"
+        },
+        {
+          "question": "7. ______ Bonding enables direct copper-to-copper interconnections.",
+          "answer": "Hybrid"
+        },
+        {
+          "question": "8. Chiplet architectures divide large chips into smaller ______ blocks.",
+          "answer": "Functional"
+        },
+        {
+          "question": "9. HBM stands for High Bandwidth ______.",
+          "answer": "Memory"
+        },
+        {
+          "question": "10. AI and ______ Computing are major drivers of advanced packaging.",
+          "answer": "High-Performance"
+        }
+      ],
+      "quiz_long": [
+        {
+          "question": "1. Why has advanced packaging become increasingly important in modern semiconductor development?",
+          "answer": "As transistor scaling becomes more difficult and expensive, advanced packaging provides an alternative path for improving system performance through higher integration density, faster communication, and better power efficiency."
+        },
+        {
+          "question": "2. What limitations of traditional packaging are addressed by advanced packaging technologies?",
+          "answer": "Advanced packaging addresses limitations such as lower bandwidth, longer signal paths, higher latency, increased power consumption, limited I/O density, and restricted multi-die integration."
+        },
+        {
+          "question": "3. What does the term 'More than Moore' mean?",
+          "answer": "More than Moore refers to improving overall system functionality and performance through packaging, integration, and architecture innovations rather than relying entirely on transistor scaling."
+        },
+        {
+          "question": "4. What are the major categories of advanced packaging technologies?",
+          "answer": "Major categories include Flip Chip, Wafer Level Packaging, Fan-Out Packaging, 2.5D Packaging, 3D Packaging, Chiplet-based Packaging, and Heterogeneous Integration."
+        },
+        {
+          "question": "5. What enabling technologies support advanced packaging?",
+          "answer": "Key enabling technologies include Redistribution Layers (RDL), Through-Silicon Vias (TSVs), Silicon Interposers, Micro-Bumps, Hybrid Bonding, and advanced package substrates."
+        },
+        {
+          "question": "6. Why are chiplets becoming important in modern semiconductor design?",
+          "answer": "Chiplets improve yield, scalability, design flexibility, and cost efficiency by partitioning large systems into smaller functional dies that can be manufactured and integrated separately."
+        },
+        {
+          "question": "7. How does 2.5D packaging differ from 3D packaging?",
+          "answer": "2.5D packaging places multiple dies side-by-side on a silicon interposer, while 3D packaging stacks dies vertically to achieve even higher integration density and shorter interconnect paths."
+        },
+        {
+          "question": "8. What is heterogeneous integration and why is it valuable?",
+          "answer": "Heterogeneous integration combines different chip technologies such as logic, memory, RF, analog, and photonics into a single package, enabling optimized system performance and functionality."
+        },
+        {
+          "question": "9. Why are AI accelerators and HPC systems major drivers of advanced packaging demand?",
+          "answer": "These systems require enormous memory bandwidth, high-speed die-to-die communication, low latency, and efficient power delivery that cannot be achieved efficiently with traditional packaging methods."
+        },
+        {
+          "question": "10. Why is advanced packaging considered a strategic technology for the semiconductor industry's future?",
+          "answer": "Future performance improvements are increasingly expected to come from chiplet architectures, heterogeneous integration, high-bandwidth memory integration, and advanced packaging innovations rather than transistor scaling alone."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "2.5D Packaging (CoWoS)",
+      "content": "2.5D Packaging is an advanced semiconductor packaging technology in which multiple dies are placed side-by-side on a common silicon interposer that enables extremely high-density interconnections between chips. The term '2.5D' is used because the dies are not vertically stacked as in true 3D packaging, but are integrated much more closely than in traditional multi-chip packages. The most widely known commercial implementation of 2.5D packaging is TSMC's CoWoS, which stands for Chip-on-Wafer-on-Substrate. 2.5D packaging has become one of the most important technologies for AI accelerators, GPUs, CPUs, networking ASICs, and high-performance computing systems. Traditional packaging cannot efficiently provide the massive bandwidth and low latency required by modern computing devices. 2.5D packaging addresses these limitations by allowing multiple dies to communicate through a silicon interposer with ultra-short interconnects. A silicon interposer is a passive silicon layer containing fine-pitch wiring and Through-Silicon Vias (TSVs). It functions as a high-density communication platform that enables signal routing, power delivery, and chip-to-chip communication. In a typical CoWoS package, one or more logic dies are integrated with multiple High Bandwidth Memory (HBM) stacks on a silicon interposer. The interposer is then attached to a package substrate, which connects to the printed circuit board. One of the key benefits of 2.5D packaging is high-bandwidth die-to-die communication. Compared with conventional package substrates, silicon interposers support significantly higher wiring density, lower signal loss, lower latency, and reduced power consumption. HBM integration is one of the most important applications of CoWoS. HBM uses vertically stacked memory dies connected through TSVs, providing extremely high memory bandwidth while consuming less power per bit transferred. CoWoS allows logic dies and HBM stacks to be placed very close together, dramatically increasing memory performance. Major advantages of 2.5D packaging include higher bandwidth, lower latency, improved power efficiency, better scalability, and improved yield through the use of multiple smaller dies instead of one large monolithic die. However, 2.5D packaging also introduces challenges such as higher manufacturing cost, package complexity, thermal management, assembly difficulty, and yield management. TSMC has developed several variants of CoWoS, including CoWoS-S, which uses a silicon interposer, CoWoS-R, which uses redistribution layer structures, and CoWoS-L, which combines local silicon interconnects with RDL technology for larger package sizes. Today, CoWoS has become a critical enabler for generative AI, data center processors, HPC systems, and advanced heterogeneous integration architectures.",
+      "keywords": [
+        {
+          "english": "2.5D Packaging",
+          "chinese": "2.5D封裝"
+        },
+        {
+          "english": "CoWoS",
+          "chinese": "晶圓上晶圓基板封裝"
+        },
+        {
+          "english": "Chip-on-Wafer-on-Substrate",
+          "chinese": "晶片上晶圓上基板"
+        },
+        {
+          "english": "Silicon Interposer",
+          "chinese": "矽中介層"
+        },
+        {
+          "english": "Through-Silicon Via (TSV)",
+          "chinese": "矽穿孔"
+        },
+        {
+          "english": "High Bandwidth Memory (HBM)",
+          "chinese": "高頻寬記憶體"
+        },
+        {
+          "english": "Die-to-Die Communication",
+          "chinese": "晶粒間通訊"
+        },
+        {
+          "english": "Chiplet",
+          "chinese": "小晶片"
+        },
+        {
+          "english": "Logic Die",
+          "chinese": "邏輯晶粒"
+        },
+        {
+          "english": "Package Substrate",
+          "chinese": "封裝基板"
+        },
+        {
+          "english": "Redistribution Layer (RDL)",
+          "chinese": "重佈線層"
+        },
+        {
+          "english": "CoWoS-S",
+          "chinese": "矽中介層版CoWoS"
+        },
+        {
+          "english": "CoWoS-R",
+          "chinese": "RDL版CoWoS"
+        },
+        {
+          "english": "CoWoS-L",
+          "chinese": "大尺寸CoWoS"
+        },
+        {
+          "english": "Memory Bandwidth",
+          "chinese": "記憶體頻寬"
+        },
+        {
+          "english": "High-Performance Computing (HPC)",
+          "chinese": "高效能運算"
+        },
+        {
+          "english": "AI Accelerator",
+          "chinese": "AI加速器"
+        },
+        {
+          "english": "Thermal Management",
+          "chinese": "熱管理"
+        },
+        {
+          "english": "Advanced Packaging",
+          "chinese": "先進封裝"
+        },
+        {
+          "english": "Heterogeneous Integration",
+          "chinese": "異質整合"
+        }
+      ],
+      "summary": [
+        "2.5D Packaging places multiple dies side-by-side on a silicon interposer.",
+        "CoWoS is TSMC's flagship 2.5D packaging technology.",
+        "Silicon interposers enable extremely high-density chip-to-chip communication.",
+        "HBM integration is one of the most important applications of 2.5D packaging.",
+        "TSVs are essential for interposer routing and HBM structures.",
+        "2.5D packaging delivers high bandwidth and low latency communication.",
+        "Multiple smaller dies can improve yield compared with one large monolithic die.",
+        "AI accelerators and HPC processors depend heavily on CoWoS technology.",
+        "Thermal management and assembly complexity are major challenges.",
+        "2.5D packaging serves as a critical bridge between traditional packaging and full 3D integration."
+      ],
+      "quiz_short": [
+        {
+          "question": "1. 2.5D packaging places multiple dies on a silicon ______.",
+          "answer": "Interposer"
+        },
+        {
+          "question": "2. CoWoS stands for Chip-on-Wafer-on-______.",
+          "answer": "Substrate"
+        },
+        {
+          "question": "3. HBM stands for High Bandwidth ______.",
+          "answer": "Memory"
+        },
+        {
+          "question": "4. TSV stands for Through-Silicon ______.",
+          "answer": "Via"
+        },
+        {
+          "question": "5. The interposer is typically made of ______.",
+          "answer": "Silicon"
+        },
+        {
+          "question": "6. In 2.5D packaging, dies are placed ______-by-side.",
+          "answer": "Side"
+        },
+        {
+          "question": "7. CoWoS enables high-bandwidth die-to-die ______.",
+          "answer": "Communication"
+        },
+        {
+          "question": "8. One major advantage of 2.5D packaging is lower ______ compared to PCB communication.",
+          "answer": "Latency"
+        },
+        {
+          "question": "9. AI accelerators commonly integrate HBM and ______ dies.",
+          "answer": "Logic"
+        },
+        {
+          "question": "10. CoWoS is a flagship advanced packaging technology developed by ______.",
+          "answer": "TSMC"
+        }
+      ],
+      "quiz_long": [
+        {
+          "question": "1. Why was 2.5D packaging developed?",
+          "answer": "2.5D packaging was developed to overcome bandwidth, integration, power, and yield limitations that traditional packaging could not efficiently address."
+        },
+        {
+          "question": "2. What is the role of a silicon interposer?",
+          "answer": "A silicon interposer provides extremely high-density routing, power distribution, and communication paths between multiple dies within a package."
+        },
+        {
+          "question": "3. Why is CoWoS important for modern AI processors?",
+          "answer": "CoWoS enables processors to communicate with HBM memory through ultra-wide and high-bandwidth connections required for AI training and inference workloads."
+        },
+        {
+          "question": "4. How does HBM benefit from 2.5D packaging?",
+          "answer": "HBM provides significantly higher memory bandwidth and lower power consumption when placed close to the compute die through a silicon interposer."
+        },
+        {
+          "question": "5. What function do TSVs serve in advanced packaging?",
+          "answer": "TSVs provide vertical electrical pathways through silicon, enabling dense interconnections in HBM stacks and interposer-based architectures."
+        },
+        {
+          "question": "6. How does 2.5D packaging improve semiconductor yield?",
+          "answer": "Instead of manufacturing one very large die, multiple smaller dies can be combined, resulting in improved manufacturing yield and lower overall cost."
+        },
+        {
+          "question": "7. What are the major challenges of CoWoS technology?",
+          "answer": "Major challenges include high manufacturing cost, thermal management, assembly complexity, package size, and yield management."
+        },
+        {
+          "question": "8. How does 2.5D packaging differ from traditional multi-chip packaging?",
+          "answer": "2.5D packaging uses a silicon interposer that provides much denser, faster, and lower-power communication than conventional package substrates or PCB routing."
+        },
+        {
+          "question": "9. How does 2.5D packaging differ from 3D packaging?",
+          "answer": "2.5D places dies side-by-side on an interposer, whereas 3D packaging stacks dies vertically to achieve even higher integration density."
+        },
+        {
+          "question": "10. Why is CoWoS considered a strategic technology in the AI era?",
+          "answer": "Modern AI accelerators require extreme memory bandwidth, low latency, and high-speed die-to-die communication, all of which are enabled by CoWoS and 2.5D integration."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "3D Packaging (SoIC)",
+      "content": "3D Packaging is an advanced semiconductor packaging technology in which multiple semiconductor dies are stacked vertically and interconnected to function as a highly integrated system. Unlike 2.5D Packaging, where dies are placed side-by-side on an interposer, 3D Packaging stacks dies directly on top of each other to minimize communication distance and maximize integration density. One of the most advanced implementations of 3D packaging is TSMC SoIC, which stands for System on Integrated Chips. 3D packaging is considered one of the most promising technologies for continuing semiconductor system scaling beyond the limits of traditional transistor shrinking. Applications include AI accelerators, high-performance computing (HPC), data center processors, next-generation CPUs, advanced mobile processors, and heterogeneous systems. Traditional package architectures face challenges such as reticle size limitations, long interconnect distances, increasing power consumption, bandwidth bottlenecks, and integration limitations. Even 2.5D packaging still requires signals to travel across an interposer. 3D packaging addresses these challenges by stacking dies vertically and dramatically shortening communication paths. SoIC enables direct die-to-die integration using advanced technologies such as direct copper bonding, hybrid bonding, and ultra-fine-pitch vertical interconnects. A SoIC package may integrate logic dies, cache dies, memory dies, I/O dies, and specialized accelerators within a single vertically integrated structure. Several die stacking approaches exist, including Die-on-Die (DoD), Die-on-Wafer (DoW), and Wafer-on-Wafer (WoW). One of the greatest advantages of 3D packaging is vertical die-to-die communication. Signals travel vertically rather than horizontally, enabling significantly higher bandwidth, lower latency, and lower power consumption. Hybrid Bonding has become a critical enabling technology because it combines copper-to-copper bonding and dielectric-to-dielectric bonding, creating far denser interconnections than conventional micro-bumps. Compared with micro-bumps, hybrid bonding offers lower resistance, reduced parasitic effects, finer pitch, and higher scalability. 3D packaging dramatically increases integration density and allows multiple functional dies to operate as a tightly integrated system. However, thermal management is a major challenge because stacked dies generate high power density and make heat removal more difficult. Additional challenges include manufacturing complexity, bonding precision requirements, package yield management, and higher costs. Known Good Die (KGD) screening is particularly important because a defective die may impact the entire stack. Despite these challenges, 3D packaging has become a critical technology for future AI systems, HPC platforms, chiplet architectures, and heterogeneous integration solutions. As Moore's Law scaling slows, technologies such as SoIC are expected to play a major role in future semiconductor innovation.",
+      "keywords": [
+        {
+          "english": "3D Packaging",
+          "chinese": "3D封裝"
+        },
+        {
+          "english": "SoIC",
+          "chinese": "系統整合晶片"
+        },
+        {
+          "english": "System on Integrated Chips",
+          "chinese": "系統整合晶片技術"
+        },
+        {
+          "english": "Die Stacking",
+          "chinese": "晶粒堆疊"
+        },
+        {
+          "english": "Vertical Integration",
+          "chinese": "垂直整合"
+        },
+        {
+          "english": "Hybrid Bonding",
+          "chinese": "混合鍵合"
+        },
+        {
+          "english": "Copper-to-Copper Bonding",
+          "chinese": "銅對銅鍵合"
+        },
+        {
+          "english": "Dielectric Bonding",
+          "chinese": "介電層鍵合"
+        },
+        {
+          "english": "Micro-Bump",
+          "chinese": "微凸塊"
+        },
+        {
+          "english": "Die-on-Die (DoD)",
+          "chinese": "晶粒對晶粒堆疊"
+        },
+        {
+          "english": "Die-on-Wafer (DoW)",
+          "chinese": "晶粒對晶圓堆疊"
+        },
+        {
+          "english": "Wafer-on-Wafer (WoW)",
+          "chinese": "晶圓對晶圓堆疊"
+        },
+        {
+          "english": "Die-to-Die Communication",
+          "chinese": "晶粒間通訊"
+        },
+        {
+          "english": "High Bandwidth Memory (HBM)",
+          "chinese": "高頻寬記憶體"
+        },
+        {
+          "english": "Logic Die",
+          "chinese": "邏輯晶粒"
+        },
+        {
+          "english": "Cache Die",
+          "chinese": "快取晶粒"
+        },
+        {
+          "english": "Thermal Hotspot",
+          "chinese": "熱點效應"
+        },
+        {
+          "english": "Known Good Die (KGD)",
+          "chinese": "已知良品晶粒"
+        },
+        {
+          "english": "Heterogeneous Integration",
+          "chinese": "異質整合"
+        },
+        {
+          "english": "Advanced Packaging",
+          "chinese": "先進封裝"
+        }
+      ],
+      "summary": [
+        "3D Packaging stacks multiple dies vertically to achieve extremely high integration density.",
+        "SoIC is TSMC's advanced 3D integration technology.",
+        "Vertical die-to-die communication provides ultra-short interconnect paths.",
+        "Hybrid bonding enables finer pitch and higher density than traditional micro-bumps.",
+        "3D packaging delivers higher bandwidth and lower latency than 2.5D packaging.",
+        "Logic, memory, cache, and specialized dies can be integrated into a single package.",
+        "Thermal management is one of the biggest challenges in 3D integration.",
+        "Known Good Dies (KGDs) are critical for achieving acceptable assembly yield.",
+        "3D packaging is a key enabler for AI, HPC, and future heterogeneous systems.",
+        "SoIC represents a major step beyond conventional packaging toward system-level integration."
+      ],
+      "quiz_short": [
+        {
+          "question": "1. 3D Packaging stacks dies in a ______ direction.",
+          "answer": "Vertical"
+        },
+        {
+          "question": "2. SoIC stands for System on Integrated ______.",
+          "answer": "Chips"
+        },
+        {
+          "question": "3. One major advantage of 3D packaging is lower ______ due to shorter communication paths.",
+          "answer": "Latency"
+        },
+        {
+          "question": "4. ______ bonding combines copper and dielectric bonding techniques.",
+          "answer": "Hybrid"
+        },
+        {
+          "question": "5. DoD stands for Die-on-______.",
+          "answer": "Die"
+        },
+        {
+          "question": "6. WoW stands for Wafer-on-______.",
+          "answer": "Wafer"
+        },
+        {
+          "question": "7. Hybrid bonding provides a finer interconnect ______ than micro-bumps.",
+          "answer": "Pitch"
+        },
+        {
+          "question": "8. A major challenge in 3D packaging is thermal ______.",
+          "answer": "Management"
+        },
+        {
+          "question": "9. KGD stands for Known Good ______.",
+          "answer": "Die"
+        },
+        {
+          "question": "10. 3D packaging enables extremely high integration ______.",
+          "answer": "Density"
+        }
+      ],
+      "quiz_long": [
+        {
+          "question": "1. Why was 3D packaging developed?",
+          "answer": "3D packaging was developed to overcome bandwidth, latency, power, and integration limitations by stacking dies vertically and significantly reducing communication distance."
+        },
+        {
+          "question": "2. What is SoIC?",
+          "answer": "SoIC is TSMC's advanced 3D integration technology that uses direct die stacking and fine-pitch interconnect technologies such as hybrid bonding."
+        },
+        {
+          "question": "3. Why is vertical die-to-die communication important?",
+          "answer": "It significantly shortens communication paths, enabling higher bandwidth, lower latency, reduced power consumption, and improved overall system performance."
+        },
+        {
+          "question": "4. What is hybrid bonding and why is it important?",
+          "answer": "Hybrid bonding combines copper-to-copper and dielectric-to-dielectric bonding, enabling ultra-dense interconnects with lower resistance and parasitic effects than micro-bumps."
+        },
+        {
+          "question": "5. How does 3D packaging differ from 2.5D packaging?",
+          "answer": "2.5D packaging places dies side-by-side on a silicon interposer, whereas 3D packaging stacks dies vertically to achieve higher integration density and shorter signal paths."
+        },
+        {
+          "question": "6. What types of dies can be integrated in a SoIC package?",
+          "answer": "Logic dies, memory dies, cache dies, I/O dies, analog dies, RF dies, and specialized accelerator dies can all be integrated into a single stacked system."
+        },
+        {
+          "question": "7. Why is thermal management challenging in 3D packaging?",
+          "answer": "Stacked dies create higher power density and make it more difficult for heat to escape from lower layers within the stack."
+        },
+        {
+          "question": "8. Why are Known Good Dies important for 3D packaging?",
+          "answer": "Because a single defective die can reduce the yield or functionality of the entire stacked assembly, making pre-screened good dies essential."
+        },
+        {
+          "question": "9. What advantages does hybrid bonding offer compared with micro-bumps?",
+          "answer": "Hybrid bonding provides finer pitch, higher interconnect density, lower resistance, lower parasitic effects, improved bandwidth, and better scalability."
+        },
+        {
+          "question": "10. Why is 3D packaging considered important for future AI and HPC systems?",
+          "answer": "Future AI and HPC platforms require extreme bandwidth, low latency, efficient power delivery, and very high integration density, which are enabled by 3D packaging technologies such as SoIC."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "TSV, Interposer and Micro-Bump",
+      "content": "TSV (Through-Silicon Via), Silicon Interposer, and Micro-Bump are three foundational interconnect technologies that enable modern advanced packaging architectures such as 2.5D Packaging, 3D Packaging, HBM integration, Chiplet-based systems, and Heterogeneous Integration. These technologies provide the high-density electrical connections required to transfer massive amounts of data between dies while minimizing latency and power consumption. Traditional package interconnects suffer from long signal paths, higher resistance, higher inductance, increased signal loss, and reduced bandwidth. As processor performance increased and memory bandwidth requirements grew, communication between chips became a major system bottleneck. TSVs, interposers, and micro-bumps were developed to solve these limitations. A Through-Silicon Via (TSV) is a vertical electrical connection that passes completely through a silicon wafer or die. Unlike conventional metal routing that remains on the chip surface, TSVs allow signals, power, and ground connections to move vertically through silicon. A TSV structure typically consists of a via hole etched into silicon, an insulation layer, a barrier layer, and a conductive copper filling. TSV fabrication generally includes deep silicon etching, dielectric deposition, barrier layer deposition, copper filling, and chemical mechanical polishing. TSVs are widely used in HBM memory stacks, stacked image sensors, and advanced 3D integrated circuits. A Silicon Interposer is a passive silicon layer placed between semiconductor dies and the package substrate. It contains extremely fine wiring layers and often incorporates TSVs. The interposer provides ultra-high-density routing that traditional package substrates cannot achieve. It enables high-speed die-to-die communication, power distribution, signal routing, and heterogeneous integration. Silicon interposers are critical components of CoWoS-based AI processors, GPUs, HBM systems, networking ASICs, and HPC devices. Micro-Bumps are very small solder-based interconnects used to connect dies within advanced packages. They are much smaller than conventional package solder balls and are commonly used between dies and interposers, between HBM memory layers, and between chiplets. A micro-bump typically contains an Under Bump Metallization (UBM) structure and solder material. Modern micro-bump pitches may range from 40 micrometers to 10 micrometers or smaller. Smaller pitch enables higher interconnect density, higher bandwidth, and greater integration capability. In advanced package architectures, micro-bumps connect dies to interposers, interposers route signals between dies, and TSVs provide vertical pathways through silicon structures. Together, these technologies form the communication infrastructure for AI accelerators, high-performance computing systems, memory-intensive applications, and next-generation semiconductor systems. While TSVs, interposers, and micro-bumps offer major performance advantages, they also introduce challenges including manufacturing complexity, cost, thermal stress, reliability concerns, electromigration, and yield management. As advanced packaging continues to evolve, hybrid bonding is emerging as a next-generation alternative to micro-bumps by enabling direct copper-to-copper connections with even finer pitch and higher interconnect density.",
+      "keywords": [
+        {
+          "english": "Through-Silicon Via (TSV)",
+          "chinese": "矽穿孔"
+        },
+        {
+          "english": "Silicon Interposer",
+          "chinese": "矽中介層"
+        },
+        {
+          "english": "Micro-Bump",
+          "chinese": "微凸塊"
+        },
+        {
+          "english": "TSV Etching",
+          "chinese": "TSV蝕刻"
+        },
+        {
+          "english": "Copper Fill",
+          "chinese": "銅填充"
+        },
+        {
+          "english": "Barrier Layer",
+          "chinese": "阻障層"
+        },
+        {
+          "english": "Dielectric Layer",
+          "chinese": "絕緣層"
+        },
+        {
+          "english": "Vertical Interconnect",
+          "chinese": "垂直互連"
+        },
+        {
+          "english": "Die-to-Die Communication",
+          "chinese": "晶粒間通訊"
+        },
+        {
+          "english": "Package Substrate",
+          "chinese": "封裝基板"
+        },
+        {
+          "english": "Under Bump Metallization (UBM)",
+          "chinese": "凸塊下金屬層"
+        },
+        {
+          "english": "Solder Bump",
+          "chinese": "錫球凸塊"
+        },
+        {
+          "english": "Interconnect Pitch",
+          "chinese": "互連間距"
+        },
+        {
+          "english": "High Bandwidth Memory (HBM)",
+          "chinese": "高頻寬記憶體"
+        },
+        {
+          "english": "CoWoS",
+          "chinese": "晶圓上晶圓基板封裝"
+        },
+        {
+          "english": "Hybrid Bonding",
+          "chinese": "混合鍵合"
+        },
+        {
+          "english": "Signal Integrity",
+          "chinese": "訊號完整性"
+        },
+        {
+          "english": "Electromigration",
+          "chinese": "電遷移"
+        },
+        {
+          "english": "Advanced Packaging",
+          "chinese": "先進封裝"
+        },
+        {
+          "english": "Heterogeneous Integration",
+          "chinese": "異質整合"
+        }
+      ],
+      "summary": [
+        "TSVs provide vertical electrical connections through silicon.",
+        "Silicon interposers enable extremely high-density routing between multiple dies.",
+        "Micro-bumps provide fine-pitch electrical connections in advanced packages.",
+        "TSVs are essential for HBM memory stacking and 3D integration.",
+        "Silicon interposers are a key component of CoWoS and other 2.5D architectures.",
+        "Micro-bumps support high-bandwidth die-to-die communication.",
+        "These technologies significantly reduce latency and power consumption.",
+        "TSV, interposer, and micro-bump technologies often work together in advanced packages.",
+        "AI accelerators and HPC processors depend heavily on these interconnect technologies.",
+        "Hybrid bonding is emerging as a next-generation alternative to micro-bumps."
+      ],
+      "quiz_short": [
+        {
+          "question": "1. TSV stands for Through-Silicon ______.",
+          "answer": "Via"
+        },
+        {
+          "question": "2. TSVs provide ______ electrical connections through silicon.",
+          "answer": "Vertical"
+        },
+        {
+          "question": "3. A silicon ______ acts as a high-density routing platform between dies.",
+          "answer": "Interposer"
+        },
+        {
+          "question": "4. Micro-bumps are smaller than conventional solder ______.",
+          "answer": "Balls"
+        },
+        {
+          "question": "5. TSV conductive filling is commonly made of ______.",
+          "answer": "Copper"
+        },
+        {
+          "question": "6. HBM memory stacks rely heavily on ______ technology.",
+          "answer": "TSV"
+        },
+        {
+          "question": "7. The spacing between adjacent micro-bumps is called ______.",
+          "answer": "Pitch"
+        },
+        {
+          "question": "8. In CoWoS, dies are connected to the interposer using ______-bumps.",
+          "answer": "Micro"
+        },
+        {
+          "question": "9. Hybrid bonding is gradually replacing ______-bumps in advanced 3D packaging.",
+          "answer": "Micro"
+        },
+        {
+          "question": "10. TSV, interposer, and micro-bump technologies enable high-bandwidth die-to-die ______.",
+          "answer": "Communication"
+        }
+      ],
+      "quiz_long": [
+        {
+          "question": "1. Why were TSVs developed for advanced packaging?",
+          "answer": "TSVs were developed to provide vertical electrical connections through silicon, enabling high-density 3D integration, shorter communication paths, and improved system performance."
+        },
+        {
+          "question": "2. What is the role of a silicon interposer in advanced packaging?",
+          "answer": "A silicon interposer acts as a high-density routing platform that enables communication, power delivery, and signal distribution between multiple dies."
+        },
+        {
+          "question": "3. Why are TSVs essential for HBM memory?",
+          "answer": "HBM stacks multiple memory dies vertically, and TSVs provide the vertical signal and power connections between those memory layers."
+        },
+        {
+          "question": "4. Why are micro-bumps used instead of conventional solder balls?",
+          "answer": "Micro-bumps support smaller pitches, higher interconnect density, and greater bandwidth required by advanced packaging technologies."
+        },
+        {
+          "question": "5. How do TSVs, interposers, and micro-bumps work together in CoWoS?",
+          "answer": "Micro-bumps connect dies to the interposer, the silicon interposer routes signals between dies, and TSVs transfer signals and power through the interposer to the package substrate."
+        },
+        {
+          "question": "6. What advantages do silicon interposers provide over conventional package substrates?",
+          "answer": "Silicon interposers offer finer routing, higher wiring density, lower signal loss, improved signal integrity, and much higher bandwidth."
+        },
+        {
+          "question": "7. What challenges are associated with TSV manufacturing?",
+          "answer": "Major challenges include process complexity, manufacturing cost, thermal stress, mechanical reliability, and yield management."
+        },
+        {
+          "question": "8. What limitations of micro-bumps have driven interest in hybrid bonding?",
+          "answer": "Micro-bumps face scaling limitations, increased resistance, electromigration concerns, and pitch reduction challenges at advanced technology nodes."
+        },
+        {
+          "question": "9. Why are these interconnect technologies important for AI accelerators and HPC systems?",
+          "answer": "They provide the massive memory bandwidth, low-latency communication, and efficient power delivery required by modern AI and high-performance computing workloads."
+        },
+        {
+          "question": "10. How is hybrid bonding changing advanced packaging?",
+          "answer": "Hybrid bonding enables ultra-fine-pitch direct copper connections that provide higher bandwidth, lower power consumption, lower parasitics, and greater integration density than traditional micro-bump technologies."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Chiplet Architecture",
+      "content": "Chiplet Architecture is a semiconductor design and packaging approach that divides a large System-on-Chip (SoC) into multiple smaller functional dies called chiplets, which are interconnected inside a single package to operate as one integrated system. Instead of designing one large monolithic chip that contains all system functions, manufacturers create separate chiplets for functions such as CPU cores, GPU cores, AI accelerators, memory controllers, I/O controllers, cache, and specialized processing engines. These chiplets are integrated using advanced packaging technologies including 2.5D Packaging, 3D Packaging, Silicon Interposers, Micro-Bumps, TSVs, and Hybrid Bonding. Chiplet Architecture has become one of the most important trends in modern semiconductor development because it provides a practical path for scaling computing performance beyond the limits of traditional transistor scaling and large monolithic chip design. As semiconductor process nodes continue to shrink, manufacturing costs rise dramatically, reticle size limitations become more restrictive, and die yield decreases for large chips. Chiplet Architecture addresses these challenges by dividing large systems into smaller dies that can be manufactured separately and later integrated within a package. In a traditional monolithic design, all functions are fabricated on a single die using the same process node. While this simplifies on-chip communication, it increases manufacturing cost and reduces yield. In contrast, chiplet architectures allow different functions to be manufactured independently using the most appropriate technology node. A chiplet is a small semiconductor die that performs a specific function. Compute chiplets contain CPU, GPU, or AI processing cores. I/O chiplets provide memory controllers and external interfaces. Cache chiplets contain large SRAM arrays. Accelerator chiplets perform specialized functions such as AI inference, networking, or security processing. Multiple chiplets communicate through high-speed die-to-die interconnects, enabling the complete package to operate as a unified processor. One important industry development is UCIe (Universal Chiplet Interconnect Express), an open standard intended to standardize chiplet communication and enable interoperability between chiplets from different vendors. Chiplet-based design offers several advantages, including improved yield, lower development cost, greater process flexibility, faster product development, and enhanced scalability. Different chiplets may use different process nodes, technologies, or even different foundries. This enables heterogeneous integration of logic, memory, analog, RF, and accelerator functions within one package. Real-world examples include AMD EPYC processors, AMD Ryzen processors, Intel Foveros-based systems, and many modern AI accelerators that combine compute chiplets with HBM memory. However, chiplet architectures also introduce challenges such as die-to-die latency, packaging complexity, thermal management, power delivery, and interface standardization. Despite these challenges, chiplets are increasingly viewed as the future of semiconductor design because they provide a scalable and cost-effective path to building increasingly powerful computing systems.",
+      "keywords": [
+        {
+          "english": "Chiplet",
+          "chinese": "小晶片"
+        },
+        {
+          "english": "Chiplet Architecture",
+          "chinese": "小晶片架構"
+        },
+        {
+          "english": "Monolithic Die",
+          "chinese": "單晶片架構"
+        },
+        {
+          "english": "Compute Chiplet",
+          "chinese": "運算晶片"
+        },
+        {
+          "english": "I/O Chiplet",
+          "chinese": "輸入輸出晶片"
+        },
+        {
+          "english": "Cache Chiplet",
+          "chinese": "快取晶片"
+        },
+        {
+          "english": "Die-to-Die Communication",
+          "chinese": "晶粒間通訊"
+        },
+        {
+          "english": "UCIe",
+          "chinese": "通用晶粒互連標準"
+        },
+        {
+          "english": "Universal Chiplet Interconnect Express",
+          "chinese": "通用晶粒互連快線"
+        },
+        {
+          "english": "Silicon Interposer",
+          "chinese": "矽中介層"
+        },
+        {
+          "english": "Micro-Bump",
+          "chinese": "微凸塊"
+        },
+        {
+          "english": "Hybrid Bonding",
+          "chinese": "混合鍵合"
+        },
+        {
+          "english": "TSV",
+          "chinese": "矽穿孔"
+        },
+        {
+          "english": "CoWoS",
+          "chinese": "晶圓上晶圓基板封裝"
+        },
+        {
+          "english": "SoIC",
+          "chinese": "系統整合晶片"
+        },
+        {
+          "english": "Heterogeneous Integration",
+          "chinese": "異質整合"
+        },
+        {
+          "english": "Reticle Limit",
+          "chinese": "光罩尺寸限制"
+        },
+        {
+          "english": "Yield",
+          "chinese": "良率"
+        },
+        {
+          "english": "Advanced Packaging",
+          "chinese": "先進封裝"
+        },
+        {
+          "english": "AI Accelerator",
+          "chinese": "AI加速器"
+        }
+      ],
+      "summary": [
+        "Chiplet Architecture divides a large chip into multiple smaller functional dies called chiplets.",
+        "Chiplets communicate through advanced packaging technologies instead of being integrated into a single monolithic die.",
+        "The approach improves yield, scalability, and manufacturing cost.",
+        "Different chiplets can use different process technologies and serve different functions.",
+        "Silicon interposers, micro-bumps, TSVs, and hybrid bonding are key enabling technologies.",
+        "UCIe aims to standardize chiplet-to-chiplet communication across the industry.",
+        "Chiplet architecture supports heterogeneous integration of logic, memory, I/O, and accelerator functions.",
+        "AMD EPYC and Ryzen are well-known examples of commercial chiplet-based processors.",
+        "Chiplets are critical for overcoming reticle limits and supporting large AI systems.",
+        "Chiplet Architecture is expected to become a dominant design methodology for future AI, HPC, and advanced semiconductor products."
+      ],
+      "quiz_short": [
+        {
+          "question": "1. A Chiplet Architecture divides a large system into smaller ______.",
+          "answer": "Chiplets"
+        },
+        {
+          "question": "2. Traditional single-chip designs are called ______ dies.",
+          "answer": "Monolithic"
+        },
+        {
+          "question": "3. Chiplets communicate through high-speed die-to-die ______.",
+          "answer": "Communication"
+        },
+        {
+          "question": "4. UCIe stands for Universal Chiplet Interconnect ______.",
+          "answer": "Express"
+        },
+        {
+          "question": "5. A ______ chiplet typically contains external interfaces and memory controllers.",
+          "answer": "I/O"
+        },
+        {
+          "question": "6. Smaller chiplets generally improve manufacturing ______.",
+          "answer": "Yield"
+        },
+        {
+          "question": "7. Advanced packaging technologies enable chiplet ______.",
+          "answer": "Integration"
+        },
+        {
+          "question": "8. Different chiplets may use different process ______.",
+          "answer": "Nodes"
+        },
+        {
+          "question": "9. Large AI processors often exceed reticle size ______.",
+          "answer": "Limits"
+        },
+        {
+          "question": "10. Chiplet Architecture is closely associated with ______ integration.",
+          "answer": "Heterogeneous"
+        }
+      ],
+      "quiz_long": [
+        {
+          "question": "1. Why was Chiplet Architecture developed?",
+          "answer": "Chiplet Architecture was developed to overcome the cost, yield, reticle size, and scalability limitations associated with large monolithic semiconductor designs."
+        },
+        {
+          "question": "2. How does a chiplet differ from a traditional monolithic die?",
+          "answer": "A chiplet performs a specific function within a larger system, while a monolithic die integrates all system functions on a single piece of silicon."
+        },
+        {
+          "question": "3. Why do chiplets improve manufacturing yield?",
+          "answer": "Smaller dies have a lower probability of containing manufacturing defects, resulting in higher yield compared with very large monolithic chips."
+        },
+        {
+          "question": "4. What role does advanced packaging play in chiplet systems?",
+          "answer": "Advanced packaging provides the interconnect infrastructure needed for high-bandwidth, low-latency communication and power delivery between chiplets."
+        },
+        {
+          "question": "5. What advantages are provided by using different process nodes for different chiplets?",
+          "answer": "Each function can be manufactured using the most cost-effective and performance-optimized technology node, reducing overall cost while improving system efficiency."
+        },
+        {
+          "question": "6. What is UCIe and why is it important?",
+          "answer": "UCIe is an industry-standard chiplet interconnect specification that promotes interoperability and communication between chiplets from different vendors."
+        },
+        {
+          "question": "7. How does chiplet architecture support heterogeneous integration?",
+          "answer": "It allows logic, memory, analog, RF, I/O, and accelerator chiplets built with different technologies to be integrated into a single package."
+        },
+        {
+          "question": "8. Why are chiplets important for AI accelerators?",
+          "answer": "AI systems require enormous computing resources and memory bandwidth that are difficult to implement efficiently using a single monolithic die."
+        },
+        {
+          "question": "9. What challenges must chiplet architectures overcome?",
+          "answer": "Key challenges include die-to-die latency, packaging complexity, thermal management, power delivery, interface standardization, and package cost."
+        },
+        {
+          "question": "10. Why is Chiplet Architecture considered a major future direction of the semiconductor industry?",
+          "answer": "Because it provides a scalable, flexible, and cost-effective approach for continuing performance growth beyond the practical limits of traditional monolithic chip design."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Heterogeneous Integration",
+      "content": "Heterogeneous Integration (HI) is an advanced semiconductor integration approach that combines multiple chips, chiplets, or functional components built with different technologies, process nodes, materials, or functions into a single package to operate as one system. Unlike traditional semiconductor design, where all functions are integrated into a single monolithic die fabricated using one process technology, heterogeneous integration allows each component to be optimized independently and then integrated using advanced packaging technologies. Heterogeneous Integration is widely regarded as one of the most important directions for future semiconductor innovation because it enables continued system-level scaling even as transistor scaling becomes increasingly difficult. Applications include AI accelerators, CPUs, GPUs, HBM-based systems, data center processors, automotive electronics, networking equipment, and mobile devices. Traditional monolithic chip design faces challenges such as rising manufacturing costs, reticle size limitations, yield reduction for large dies, longer development cycles, and difficulty integrating diverse technologies. Many system functions have different requirements. Logic requires advanced nodes, analog circuits often perform better on mature nodes, RF circuits require specialized processes, and memory uses different manufacturing technologies. Building all functions on a single process node is often inefficient. Heterogeneous Integration solves this problem by allowing each function to use the most suitable technology. Heterogeneous Integration combines components that differ in process technology, function, material, or manufacturing source. Examples include 3nm logic with 7nm I/O dies, CPUs integrated with GPUs, logic combined with HBM memory, analog and digital circuits, RF and digital devices, and silicon photonics integrated with electronic processors. Chiplets are often the building blocks of heterogeneous integration. A heterogeneous system may contain CPU chiplets, GPU chiplets, HBM memory stacks, I/O chiplets, AI accelerators, and specialized processing engines. These components communicate using advanced packaging platforms such as CoWoS, SoIC, silicon interposers, TSVs, micro-bumps, and hybrid bonding. Common forms of heterogeneous integration include Logic plus Memory systems, CPU plus GPU architectures, Logic plus I/O combinations, Analog plus Digital integration, RF plus Digital systems, and Photonics plus Electronics solutions. Major advantages include system optimization, lower cost, improved yield, faster product development, greater functionality, and enhanced scalability. Each die can be designed and manufactured independently using the most appropriate technology node. This reduces unnecessary use of expensive leading-edge processes while improving overall system efficiency. Heterogeneous integration has become especially important in AI and HPC systems. Modern AI processors frequently integrate compute dies, HBM memory, networking dies, and security processors built using different technologies. Advanced packaging technologies provide the high-bandwidth, low-latency communication needed between these functions. HBM integration with GPUs and AI accelerators is one of the most successful examples of heterogeneous integration. Despite its benefits, heterogeneous integration introduces challenges including design complexity, die-to-die communication requirements, thermal management, package assembly complexity, supply chain coordination, testing difficulty, and ecosystem standardization. UCIe (Universal Chiplet Interconnect Express) is an industry effort to standardize chiplet communication and promote interoperability between components from different suppliers. As Moore's Law slows, heterogeneous integration is expected to become a primary driver of future semiconductor innovation, enabling more flexible, scalable, and higher-performance computing systems.",
+      "keywords": [
+        {
+          "english": "Heterogeneous Integration",
+          "chinese": "異質整合"
+        },
+        {
+          "english": "Chiplet",
+          "chinese": "小晶片"
+        },
+        {
+          "english": "Advanced Packaging",
+          "chinese": "先進封裝"
+        },
+        {
+          "english": "Monolithic Die",
+          "chinese": "單晶片架構"
+        },
+        {
+          "english": "CoWoS",
+          "chinese": "晶圓上晶圓基板封裝"
+        },
+        {
+          "english": "SoIC",
+          "chinese": "系統整合晶片"
+        },
+        {
+          "english": "Silicon Interposer",
+          "chinese": "矽中介層"
+        },
+        {
+          "english": "Through-Silicon Via (TSV)",
+          "chinese": "矽穿孔"
+        },
+        {
+          "english": "Micro-Bump",
+          "chinese": "微凸塊"
+        },
+        {
+          "english": "Hybrid Bonding",
+          "chinese": "混合鍵合"
+        },
+        {
+          "english": "High Bandwidth Memory (HBM)",
+          "chinese": "高頻寬記憶體"
+        },
+        {
+          "english": "Logic Die",
+          "chinese": "邏輯晶粒"
+        },
+        {
+          "english": "I/O Die",
+          "chinese": "輸入輸出晶粒"
+        },
+        {
+          "english": "AI Accelerator",
+          "chinese": "AI加速器"
+        },
+        {
+          "english": "Die-to-Die Communication",
+          "chinese": "晶粒間通訊"
+        },
+        {
+          "english": "UCIe",
+          "chinese": "通用晶粒互連標準"
+        },
+        {
+          "english": "Silicon Photonics",
+          "chinese": "矽光子技術"
+        },
+        {
+          "english": "Yield",
+          "chinese": "良率"
+        },
+        {
+          "english": "Process Node",
+          "chinese": "製程節點"
+        },
+        {
+          "english": "System-Level Integration",
+          "chinese": "系統級整合"
+        }
+      ],
+      "summary": [
+        "Heterogeneous Integration combines multiple dies built with different technologies into one package.",
+        "It enables system-level scaling beyond traditional transistor scaling.",
+        "Different functions can be optimized using different process nodes.",
+        "Chiplets are common building blocks of heterogeneous systems.",
+        "Advanced packaging technologies such as CoWoS and SoIC enable heterogeneous integration.",
+        "Logic, memory, analog, RF, photonics, and accelerator dies can be integrated together.",
+        "HBM integration is one of the most successful examples of heterogeneous integration.",
+        "Benefits include better yield, lower cost, higher flexibility, and improved scalability.",
+        "Design complexity, thermal management, and die-to-die communication are major challenges.",
+        "Heterogeneous Integration is expected to be a key driver of future AI, HPC, and advanced semiconductor systems.",
+        "Heterogeneous Integration is a major 'More than Moore' strategy used for future semiconductor scaling.",
+        "Functional partitioning and die disaggregation allow each subsystem to be optimized independently.",
+        "Multi-node integration enables advanced logic, analog, RF, and memory dies to coexist in one package.",
+        "Modern UCIe-based ecosystems aim to support open heterogeneous integration across multiple vendors.",
+        "System-level optimization is often more important than transistor-level scaling in heterogeneous systems."
+      ],
+      "quiz_short": [
+        {
+          "question": "1. Heterogeneous Integration combines multiple ______ within a single package.",
+          "answer": "Dies"
+        },
+        {
+          "question": "2. Traditional monolithic integration typically uses a single process ______.",
+          "answer": "Node"
+        },
+        {
+          "question": "3. Chiplets are common building blocks of ______ integration.",
+          "answer": "Heterogeneous"
+        },
+        {
+          "question": "4. CoWoS is an example of advanced ______ technology.",
+          "answer": "Packaging"
+        },
+        {
+          "question": "5. HBM stands for High Bandwidth ______.",
+          "answer": "Memory"
+        },
+        {
+          "question": "6. TSV stands for Through-Silicon ______.",
+          "answer": "Via"
+        },
+        {
+          "question": "7. Hybrid ______ enables ultra-dense die-to-die connections.",
+          "answer": "Bonding"
+        },
+        {
+          "question": "8. Heterogeneous systems often combine logic, memory, analog, and ______ functions.",
+          "answer": "RF"
+        },
+        {
+          "question": "9. UCIe is a standard for chiplet ______.",
+          "answer": "Communication"
+        },
+        {
+          "question": "10. One major benefit of heterogeneous integration is improved system ______.",
+          "answer": "Scalability"
+        },
+        {
+          "question": "11. Heterogeneous Integration is often associated with the ______ than Moore concept.",
+          "answer": "More"
+        },
+        {
+          "question": "12. The opposite of Heterogeneous Integration is ______ Integration.",
+          "answer": "Homogeneous"
+        },
+        {
+          "question": "13. Breaking a large chip into smaller functions is called die ______.",
+          "answer": "Disaggregation"
+        },
+        {
+          "question": "14. Different chiplets may be fabricated using different process ______.",
+          "answer": "Nodes"
+        },
+        {
+          "question": "15. SiP stands for System-in-______.",
+          "answer": "Package"
+        }
+      ],
+      "quiz_long": [
+        {
+          "question": "1. Why was Heterogeneous Integration developed?",
+          "answer": "Heterogeneous Integration was developed to overcome the cost, yield, reticle size, and technology limitations of monolithic chip design while enabling more optimized system architectures."
+        },
+        {
+          "question": "2. How does Heterogeneous Integration differ from traditional monolithic integration?",
+          "answer": "Monolithic integration places all functions on a single die using one process technology, while heterogeneous integration combines multiple dies built with different technologies into one package."
+        },
+        {
+          "question": "3. Why are chiplets important for heterogeneous integration?",
+          "answer": "Chiplets allow different functions to be independently designed, manufactured, and optimized before being integrated into a complete system."
+        },
+        {
+          "question": "4. What technologies enable heterogeneous integration?",
+          "answer": "Key enabling technologies include CoWoS, SoIC, TSVs, silicon interposers, micro-bumps, hybrid bonding, and advanced chiplet interconnects."
+        },
+        {
+          "question": "5. Why can heterogeneous integration improve manufacturing cost?",
+          "answer": "Only the components that require leading-edge performance need advanced process nodes, while other functions can remain on less expensive mature technologies."
+        },
+        {
+          "question": "6. How does heterogeneous integration improve semiconductor yield?",
+          "answer": "Smaller dies generally achieve higher yield than very large monolithic chips, reducing manufacturing losses and overall cost."
+        },
+        {
+          "question": "7. Why is HBM integration considered an example of heterogeneous integration?",
+          "answer": "HBM memory stacks and logic processors are built using different technologies and then integrated into one package to achieve extremely high memory bandwidth."
+        },
+        {
+          "question": "8. What challenges must heterogeneous integration overcome?",
+          "answer": "Major challenges include die-to-die communication, thermal management, package complexity, testing, supply chain coordination, and standardization."
+        },
+        {
+          "question": "9. What role does UCIe play in the future of heterogeneous integration?",
+          "answer": "UCIe provides a standardized chiplet communication interface that can enable interoperability between dies developed by different companies."
+        },
+        {
+          "question": "10. Why is heterogeneous integration considered important for future AI and HPC systems?",
+          "answer": "Future computing platforms require combining processors, memory, accelerators, networking functions, and specialized technologies in highly integrated systems that cannot be efficiently implemented on a single monolithic die."
+        },
+        {
+          "question": "11. Why is Heterogeneous Integration considered a 'More than Moore' technology?",
+          "answer": "Because performance improvements come from system-level integration of multiple optimized dies and technologies rather than solely from transistor scaling."
+        },
+        {
+          "question": "12. How does Heterogeneous Integration differ from Homogeneous Integration?",
+          "answer": "Homogeneous Integration combines similar technologies fabricated using a common process, whereas Heterogeneous Integration combines different technologies, functions, materials, or process nodes within one system."
+        },
+        {
+          "question": "13. Why is functional partitioning important in Heterogeneous Integration?",
+          "answer": "Functional partitioning allows each subsystem to be optimized independently, improving cost, performance, yield, and scalability."
+        },
+        {
+          "question": "14. What role does Silicon Photonics play in future Heterogeneous Integration systems?",
+          "answer": "Silicon Photonics can provide high-bandwidth optical communication, reducing electrical interconnect limitations in future AI and data-center platforms."
+        },
+        {
+          "question": "15. Why is Heterogeneous Integration considered the ultimate evolution of advanced packaging?",
+          "answer": "Because it combines chiplets, advanced packaging, multiple process nodes, memory, logic, RF, analog, photonics, and accelerator technologies into a single optimized system."
+        }
+      ]
+    }
+  ]
+}

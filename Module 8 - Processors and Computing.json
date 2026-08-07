@@ -1,0 +1,1286 @@
+{
+  "module_name": "Processors and Computing",
+  "topics": [
+  {
+  "id": 64,
+  "title": "CPU Architecture",
+  "content": "CPU (Central Processing Unit) is the primary processing engine of a computer system responsible for executing program instructions, performing calculations, controlling data flow, and coordinating overall system operation. The CPU is often called the brain of the computer because nearly all software execution ultimately depends on CPU processing. Modern CPUs are used in personal computers, servers, workstations, smartphones, embedded systems, cloud infrastructure, and data centers. The fundamental operation of a CPU follows the instruction cycle, which consists of Fetch, Decode, Execute, and Write Back stages. During the fetch stage, the CPU retrieves instructions from memory. During decode, the instruction is interpreted to determine the required operation. During execution, the operation is performed, and the result is written back to registers or memory. Most modern processors are based on concepts from the Von Neumann Architecture, where both program instructions and data are stored in the same memory space. The major CPU components include the Control Unit (CU), Arithmetic Logic Unit (ALU), registers, cache memory, execution units, and memory interfaces. The Control Unit manages instruction flow and generates control signals. The ALU performs arithmetic and logical operations. Registers are extremely fast storage locations inside the processor used to hold instructions, addresses, and temporary data. Cache memory, typically built using SRAM, stores frequently accessed data close to the CPU to reduce memory access latency. Modern CPUs employ pipelining to improve throughput by processing multiple instruction stages simultaneously. Advanced processors also use superscalar architecture, allowing multiple instructions to execute during the same clock cycle. Out-of-order execution enables instructions to execute whenever required data becomes available rather than strictly following program order. Branch prediction techniques estimate future instruction paths to reduce pipeline stalls caused by conditional branches. The Instruction Set Architecture (ISA) defines the interface between hardware and software. Major ISAs include x86, ARM, and RISC-V. CPU architecture is often categorized as RISC (Reduced Instruction Set Computer) or CISC (Complex Instruction Set Computer). Modern processors combine techniques from both approaches to maximize efficiency and compatibility. To improve performance, CPUs now rely heavily on multicore designs, allowing multiple processing cores to execute tasks in parallel. Simultaneous Multithreading (SMT), also known as Hyper-Threading in Intel processors, allows a single core to execute multiple threads concurrently. CPU performance is influenced by Instructions Per Cycle (IPC), clock frequency, core count, cache size, memory bandwidth, and power efficiency. Clock speed is measured in MHz or GHz, but modern performance depends on multiple architectural factors beyond frequency alone. Modern CPUs interact continuously with memory through a hierarchical structure consisting of registers, L1 cache, L2 cache, L3 cache, DRAM, and storage devices. Security features such as Secure Boot support, virtualization extensions, trusted execution environments, and hardware encryption have become increasingly important. As process scaling becomes more difficult due to power density and thermal limitations, CPU architects increasingly rely on multicore scaling, advanced packaging, chiplet architectures, and heterogeneous computing approaches. Despite the rise of GPUs and AI accelerators, CPUs remain the central controllers of modern computing systems and are responsible for operating system execution, application management, hardware coordination, and system control.",
+  "keywords": [
+    {
+      "english": "CPU (Central Processing Unit)",
+      "chinese": "中央處理器"
+    },
+    {
+      "english": "Von Neumann Architecture",
+      "chinese": "馮紐曼架構"
+    },
+    {
+      "english": "Control Unit (CU)",
+      "chinese": "控制單元"
+    },
+    {
+      "english": "Arithmetic Logic Unit (ALU)",
+      "chinese": "算術邏輯單元"
+    },
+    {
+      "english": "Register",
+      "chinese": "暫存器"
+    },
+    {
+      "english": "Cache Memory",
+      "chinese": "快取記憶體"
+    },
+    {
+      "english": "Instruction Cycle",
+      "chinese": "指令週期"
+    },
+    {
+      "english": "Pipeline",
+      "chinese": "管線化"
+    },
+    {
+      "english": "Superscalar",
+      "chinese": "超純量架構"
+    },
+    {
+      "english": "Out-of-Order Execution",
+      "chinese": "亂序執行"
+    },
+    {
+      "english": "Branch Prediction",
+      "chinese": "分支預測"
+    },
+    {
+      "english": "Instruction Set Architecture (ISA)",
+      "chinese": "指令集架構"
+    },
+    {
+      "english": "x86",
+      "chinese": "x86架構"
+    },
+    {
+      "english": "ARM",
+      "chinese": "ARM架構"
+    },
+    {
+      "english": "RISC-V",
+      "chinese": "RISC-V架構"
+    },
+    {
+      "english": "RISC",
+      "chinese": "精簡指令集"
+    },
+    {
+      "english": "CISC",
+      "chinese": "複雜指令集"
+    },
+    {
+      "english": "Multicore Processor",
+      "chinese": "多核心處理器"
+    },
+    {
+      "english": "Simultaneous Multithreading (SMT)",
+      "chinese": "同時多執行緒技術"
+    },
+    {
+      "english": "Instructions Per Cycle (IPC)",
+      "chinese": "每時脈週期指令數"
+    }
+  ],
+  "summary": [
+    "The CPU is the primary processor responsible for executing program instructions.",
+    "The fundamental instruction cycle consists of fetch, decode, execute, and write-back stages.",
+    "Major CPU components include the Control Unit, ALU, registers, and cache memory.",
+    "Modern CPUs improve performance through pipelining, superscalar execution, and out-of-order execution.",
+    "Cache memory reduces latency by storing frequently used data close to the processor.",
+    "Branch prediction helps reduce pipeline stalls caused by conditional instructions.",
+    "ISA defines the interface between hardware and software, with x86, ARM, and RISC-V being major examples.",
+    "Multicore processors improve performance through parallel processing.",
+    "CPU performance depends on IPC, clock frequency, core count, cache size, and memory efficiency.",
+    "CPUs remain the central controller of modern computing systems despite the rise of GPUs and AI accelerators."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. CPU stands for Central Processing ______.",
+      "answer": "Unit"
+    },
+    {
+      "question": "2. The CPU instruction cycle consists of Fetch, Decode, Execute, and ______.",
+      "answer": "Write Back"
+    },
+    {
+      "question": "3. The ______ Unit coordinates CPU operations and generates control signals.",
+      "answer": "Control"
+    },
+    {
+      "question": "4. The ALU performs arithmetic and ______ operations.",
+      "answer": "Logical"
+    },
+    {
+      "question": "5. Cache memory is typically built using ______ technology.",
+      "answer": "SRAM"
+    },
+    {
+      "question": "6. The process of executing multiple instruction stages simultaneously is called ______.",
+      "answer": "Pipelining"
+    },
+    {
+      "question": "7. x86, ARM, and RISC-V are examples of instruction set ______.",
+      "answer": "Architectures"
+    },
+    {
+      "question": "8. A CPU with multiple processing units is called a ______-core processor.",
+      "answer": "Multi"
+    },
+    {
+      "question": "9. Branch ______ helps reduce delays caused by conditional instructions.",
+      "answer": "Prediction"
+    },
+    {
+      "question": "10. IPC stands for Instructions Per ______.",
+      "answer": "Cycle"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is cache memory critical to CPU performance?",
+      "answer": "Cache memory provides extremely fast access to frequently used data and instructions, reducing expensive accesses to DRAM and significantly improving processor performance."
+    },
+    {
+      "question": "2. What is the difference between RISC and CISC architectures?",
+      "answer": "RISC architectures use simpler instructions optimized for efficiency and power consumption, while CISC architectures provide more complex instructions capable of performing multiple operations per instruction."
+    },
+    {
+      "question": "3. Why do modern CPUs use pipelining and superscalar execution?",
+      "answer": "These techniques increase instruction throughput by allowing multiple instructions or instruction stages to be processed simultaneously, improving overall performance."
+    },
+    {
+      "question": "4. What is the purpose of branch prediction and out-of-order execution?",
+      "answer": "Branch prediction reduces pipeline stalls caused by conditional branches, while out-of-order execution improves efficiency by executing instructions whenever dependencies are satisfied."
+    },
+    {
+      "question": "5. What role does the Control Unit play inside a CPU?",
+      "answer": "The Control Unit manages instruction flow, generates control signals, coordinates hardware resources, and controls the execution of instructions throughout the processor."
+    },
+    {
+      "question": "6. Why have modern CPUs shifted toward multicore architectures?",
+      "answer": "Increasing clock frequency substantially increases power consumption and heat. Multicore processors improve performance more efficiently through parallel execution."
+    },
+    {
+      "question": "7. What is the purpose of an Instruction Set Architecture (ISA)?",
+      "answer": "ISA defines the interface between software and hardware, specifying available instructions, registers, addressing modes, and processor behavior."
+    },
+    {
+      "question": "8. How does Simultaneous Multithreading (SMT) improve CPU performance?",
+      "answer": "SMT allows a single CPU core to execute multiple software threads concurrently, improving resource utilization and increasing throughput."
+    },
+    {
+      "question": "9. What factors determine CPU performance besides clock frequency?",
+      "answer": "Important factors include IPC, core count, cache size, memory bandwidth, pipeline efficiency, branch prediction accuracy, and power efficiency."
+    },
+    {
+      "question": "10. Why does the CPU remain important despite the growth of GPUs and AI accelerators?",
+      "answer": "The CPU remains responsible for operating system execution, application control, task scheduling, hardware coordination, and overall system management."
+    }
+  ]
+},
+{
+  "id": 65,
+  "title": "MPU Architecture",
+  "content": "An MPU (Microprocessor Unit) is a programmable processing device that contains one or more CPU cores and supporting processing logic but typically requires external memory and external peripherals to build a complete computing system. MPUs are optimized for high-performance computing, complex software execution, graphical interfaces, networking, multimedia processing, edge computing, and operating-system-based applications. Unlike MCUs, which integrate memory and peripherals on the same chip, MPUs depend heavily on external DRAM, Flash storage, and external I/O devices. The relationship between CPU and MPU is important. The CPU refers to the execution engine itself, including the ALU, Control Unit, registers, and pipelines. The MPU refers to the complete processor chip that contains one or more CPU cores along with cache memory, memory controllers, security engines, system interconnects, and other supporting functions. Modern MPUs evolved from early microprocessors such as the Intel 4004 and Intel 8080 into highly integrated devices containing billions of transistors. A typical MPU architecture consists of CPU cores, cache hierarchy, memory controllers, internal interconnects, security features, and external memory interfaces. CPU cores execute instructions using techniques such as pipelining, superscalar execution, branch prediction, and out-of-order execution. Cache memory is organized into L1, L2, and L3 levels to reduce memory-access latency and improve system performance. Memory controllers manage communication between the processor and external DRAM technologies such as DDR4, DDR5, LPDDR, and HBM. Internal interconnects such as AXI buses, ring buses, and mesh networks allow processor components to exchange data efficiently. A defining characteristic of MPU-based systems is the use of external memory. Large software systems and operating systems require significantly more memory than is practical to integrate directly onto the processor die. Typical MPU systems use external DRAM as main memory and external NOR Flash, NAND Flash, or SSD storage for firmware and data storage. Most MPUs include a Memory Management Unit (MMU), which enables virtual memory, address translation, memory protection, and process isolation. The MMU is essential for modern operating systems because it supports multitasking, security, and efficient memory management. Operating systems commonly used with MPUs include Linux, Android, Windows, Embedded Linux, and various real-time operating systems. During startup, the MPU executes code from Boot ROM, loads a bootloader, initializes external memory, loads the operating system, and finally launches application software. Modern MPUs increasingly employ multicore architectures to improve throughput and energy efficiency. Many systems also implement heterogeneous processing by integrating CPUs, GPUs, NPUs, DSPs, and specialized accelerators onto the same platform. ARM Cortex-A processors dominate many mobile and embedded MPU applications due to their power efficiency, while x86 processors dominate desktop, workstation, and server markets because of their strong software compatibility and performance. Security features such as Secure Boot, hardware encryption, trusted execution environments, and secure key storage have become critical in connected systems. Advanced power-management technologies including Dynamic Voltage and Frequency Scaling (DVFS), clock gating, and power gating help optimize performance and energy consumption. MPUs are widely used in smartphones, tablets, industrial gateways, networking equipment, automotive infotainment systems, edge AI devices, cloud servers, and enterprise computing infrastructure. As computing demands continue to increase, MPU architectures continue evolving through multicore scaling, advanced packaging, chiplet integration, heterogeneous computing, enhanced security, and improved memory architectures.",
+  "keywords": [
+    {
+      "english": "MPU (Microprocessor Unit)",
+      "chinese": "微處理器"
+    },
+    {
+      "english": "CPU Core",
+      "chinese": "處理器核心"
+    },
+    {
+      "english": "Memory Management Unit (MMU)",
+      "chinese": "記憶體管理單元"
+    },
+    {
+      "english": "Virtual Memory",
+      "chinese": "虛擬記憶體"
+    },
+    {
+      "english": "Cache Memory",
+      "chinese": "快取記憶體"
+    },
+    {
+      "english": "L1 Cache",
+      "chinese": "第一級快取"
+    },
+    {
+      "english": "L2 Cache",
+      "chinese": "第二級快取"
+    },
+    {
+      "english": "L3 Cache",
+      "chinese": "第三級快取"
+    },
+    {
+      "english": "Memory Controller",
+      "chinese": "記憶體控制器"
+    },
+    {
+      "english": "DRAM",
+      "chinese": "動態隨機存取記憶體"
+    },
+    {
+      "english": "Bootloader",
+      "chinese": "開機載入程式"
+    },
+    {
+      "english": "Linux",
+      "chinese": "Linux作業系統"
+    },
+    {
+      "english": "Android",
+      "chinese": "Android作業系統"
+    },
+    {
+      "english": "Multicore Processor",
+      "chinese": "多核心處理器"
+    },
+    {
+      "english": "ARM Cortex-A",
+      "chinese": "ARM Cortex-A處理器"
+    },
+    {
+      "english": "x86 Architecture",
+      "chinese": "x86架構"
+    },
+    {
+      "english": "Secure Boot",
+      "chinese": "安全開機"
+    },
+    {
+      "english": "Trusted Execution Environment (TEE)",
+      "chinese": "可信執行環境"
+    },
+    {
+      "english": "DVFS",
+      "chinese": "動態電壓與頻率調整"
+    },
+    {
+      "english": "Heterogeneous Computing",
+      "chinese": "異質運算"
+    }
+  ],
+  "summary": [
+    "An MPU is a microprocessor device that typically requires external memory and peripherals.",
+    "MPUs are optimized for high-performance computing and operating-system-based applications.",
+    "External DRAM is a defining characteristic of most MPU-based systems.",
+    "Most MPUs contain an MMU to support virtual memory and process isolation.",
+    "MPUs commonly run Linux, Android, Windows, and other sophisticated operating systems.",
+    "Modern MPUs use multicore architectures, cache hierarchies, and advanced memory controllers.",
+    "ARM Cortex-A and x86 processors are common MPU architectures.",
+    "Modern MPUs often combine CPU, GPU, NPU, and DSP functions in a heterogeneous computing platform.",
+    "Security features such as Secure Boot and TEE are increasingly important in MPU designs.",
+    "MPUs are widely used in smartphones, industrial systems, networking equipment, automotive platforms, and cloud infrastructure."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. MPU stands for Microprocessor ______.",
+      "answer": "Unit"
+    },
+    {
+      "question": "2. Unlike an MCU, an MPU typically requires external ______ memory.",
+      "answer": "DRAM"
+    },
+    {
+      "question": "3. Most modern MPUs contain a ______ Management Unit (MMU).",
+      "answer": "Memory"
+    },
+    {
+      "question": "4. The MMU enables ______ memory and process isolation.",
+      "answer": "Virtual"
+    },
+    {
+      "question": "5. Linux and Android are common operating systems used on ______ platforms.",
+      "answer": "MPU"
+    },
+    {
+      "question": "6. L1, L2, and L3 are levels of CPU ______.",
+      "answer": "Cache"
+    },
+    {
+      "question": "7. A processor with multiple cores is called a ______-core processor.",
+      "answer": "Multi"
+    },
+    {
+      "question": "8. ARM Cortex-______ processors are commonly used in embedded MPUs.",
+      "answer": "A"
+    },
+    {
+      "question": "9. Secure ______ verifies software authenticity during boot.",
+      "answer": "Boot"
+    },
+    {
+      "question": "10. DVFS stands for Dynamic Voltage and ______ Scaling.",
+      "answer": "Frequency"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. What is the main difference between an MPU and an MCU?",
+      "answer": "An MPU focuses on high-performance computing and typically requires external memory and operating-system support, while an MCU integrates memory and peripherals on-chip for embedded control applications."
+    },
+    {
+      "question": "2. Why is the MMU important in MPU-based systems?",
+      "answer": "The MMU enables virtual memory, memory protection, process isolation, address translation, and multitasking capabilities required by modern operating systems."
+    },
+    {
+      "question": "3. Why do MPUs usually require external DRAM?",
+      "answer": "Complex operating systems, graphical interfaces, networking software, and large applications require much more memory than is practical to integrate on-chip."
+    },
+    {
+      "question": "4. What role does the cache hierarchy play in MPU performance?",
+      "answer": "L1, L2, and L3 caches reduce access latency to frequently used data and instructions, minimizing costly accesses to external DRAM and improving overall performance."
+    },
+    {
+      "question": "5. Why are MPUs capable of running operating systems such as Linux and Android?",
+      "answer": "MPUs provide sufficient processing power, external memory support, MMU functionality, storage interfaces, and multitasking capabilities required by modern operating systems."
+    },
+    {
+      "question": "6. Why are multicore architectures common in modern MPUs?",
+      "answer": "Multicore processors improve performance through parallel execution while providing better power efficiency and scalability than increasing clock frequency alone."
+    },
+    {
+      "question": "7. What is heterogeneous computing in MPU architecture?",
+      "answer": "Heterogeneous computing integrates different processing engines such as CPUs, GPUs, NPUs, and DSPs on the same platform to optimize performance for different workloads."
+    },
+    {
+      "question": "8. What security features are commonly included in modern MPUs?",
+      "answer": "Common features include Secure Boot, Trusted Execution Environments (TEE), hardware encryption, secure key storage, virtualization support, and hardware-based security isolation."
+    },
+    {
+      "question": "9. Why are ARM Cortex-A processors widely used in embedded and mobile MPU systems?",
+      "answer": "They provide an effective balance of performance, power efficiency, Linux support, scalability, and software ecosystem compatibility."
+    },
+    {
+      "question": "10. What are the major design challenges facing modern MPU architectures?",
+      "answer": "Major challenges include power consumption, thermal management, memory bandwidth limitations, increasing security requirements, process scaling complexity, and heterogeneous system integration."
+    }
+  ]
+},
+{
+  "id": 66,
+  "title": "MCU Architecture",
+  "content": "An MCU (Microcontroller Unit) is a highly integrated semiconductor device that combines a CPU core, memory, and peripheral interfaces on a single chip to perform dedicated embedded control and real-time processing functions. Unlike an MPU, which typically requires external DRAM and external peripherals, an MCU is designed to function as a complete embedded system with minimal external components. MCUs are widely used in consumer electronics, industrial automation, automotive electronics, medical equipment, smart sensors, IoT devices, wearable devices, robotics, and home appliances. The primary objective of an MCU is to provide cost-effective, low-power, deterministic control for embedded applications. A typical MCU architecture integrates several key components. The CPU core executes program instructions and may be based on architectures such as ARM Cortex-M, RISC-V, AVR, PIC, or MSP430. On-chip Flash memory stores firmware and application code, while SRAM stores runtime variables, stacks, and temporary data. Some MCUs also include EEPROM for storing calibration constants, configuration parameters, and user settings that must survive power loss. A major advantage of MCU architecture is the integration of peripherals directly on the chip. GPIO (General Purpose Input/Output) pins allow interaction with sensors, switches, LEDs, motors, relays, and external hardware. Timers and counters provide accurate timing functions, pulse measurement, event counting, frequency generation, and PWM control. Interrupt systems enable rapid response to events without constant polling, making MCUs highly suitable for real-time applications. Many modern MCUs use advanced interrupt controllers such as ARM NVIC to support prioritized interrupt handling and low-latency event response. Communication peripherals are another critical part of MCU architecture. Common interfaces include UART for serial communication, SPI for high-speed peripheral connections, I2C for sensor networks, CAN for automotive systems, USB for device connectivity, and Ethernet for networking applications. These interfaces enable MCUs to communicate with external modules, sensors, controllers, displays, and cloud-connected devices. MCU architectures frequently include analog peripherals because many real-world signals are analog in nature. Analog-to-Digital Converters (ADC) allow measurement of voltage, current, temperature, pressure, and sensor outputs. Digital-to-Analog Converters (DAC) generate analog signals for control systems and audio applications. Analog comparators provide threshold-based decision making. PWM generation is widely used in motor control, LED brightness adjustment, battery charging systems, and power electronics. MCU memory architecture typically consists of Flash memory, SRAM, EEPROM, bootloader sections, peripheral registers, and memory-mapped I/O regions. Many MCUs support direct execution from embedded Flash memory without requiring external memory devices. Real-time behavior is one of the defining characteristics of MCU systems. Many applications require deterministic response times for safety-critical and control-oriented tasks. Software running on MCUs may execute in bare-metal mode without an operating system or utilize a Real-Time Operating System (RTOS) such as FreeRTOS, Zephyr, or ThreadX. These systems provide task scheduling, synchronization, and timing management while maintaining real-time performance. Power efficiency is a major design goal for MCU architectures. Features such as sleep modes, deep sleep modes, clock gating, dynamic frequency scaling, and power gating significantly reduce energy consumption. These capabilities are particularly important in battery-powered IoT devices and wearable systems. Security features are increasingly integrated into modern MCUs and include Secure Boot, hardware cryptographic accelerators, secure key storage, hardware random number generators, TrustZone support, and firmware protection mechanisms. Popular MCU families include STMicroelectronics STM32, Microchip PIC, Atmel AVR, Espressif ESP32, NXP LPC, and NXP i.MX RT. Compared with MPUs, MCUs provide lower cost, lower power consumption, simpler system design, faster boot times, excellent real-time behavior, and high peripheral integration. These characteristics make MCU architecture the foundation of modern embedded systems and digital control applications.",
+  "keywords": [
+    {
+      "english": "MCU (Microcontroller Unit)",
+      "chinese": "微控制器"
+    },
+    {
+      "english": "ARM Cortex-M",
+      "chinese": "ARM Cortex-M處理器"
+    },
+    {
+      "english": "RISC-V",
+      "chinese": "RISC-V架構"
+    },
+    {
+      "english": "Flash Memory",
+      "chinese": "快閃記憶體"
+    },
+    {
+      "english": "SRAM",
+      "chinese": "靜態隨機存取記憶體"
+    },
+    {
+      "english": "EEPROM",
+      "chinese": "電子可抹除可程式化唯讀記憶體"
+    },
+    {
+      "english": "GPIO",
+      "chinese": "通用輸入輸出"
+    },
+    {
+      "english": "Timer",
+      "chinese": "計時器"
+    },
+    {
+      "english": "Counter",
+      "chinese": "計數器"
+    },
+    {
+      "english": "Interrupt",
+      "chinese": "中斷"
+    },
+    {
+      "english": "NVIC",
+      "chinese": "巢狀向量中斷控制器"
+    },
+    {
+      "english": "UART",
+      "chinese": "通用非同步收發器"
+    },
+    {
+      "english": "SPI",
+      "chinese": "序列周邊介面"
+    },
+    {
+      "english": "I2C",
+      "chinese": "內建積體電路匯流排"
+    },
+    {
+      "english": "CAN Bus",
+      "chinese": "控制器區域網路"
+    },
+    {
+      "english": "ADC",
+      "chinese": "類比數位轉換器"
+    },
+    {
+      "english": "DAC",
+      "chinese": "數位類比轉換器"
+    },
+    {
+      "english": "PWM",
+      "chinese": "脈衝寬度調變"
+    },
+    {
+      "english": "RTOS",
+      "chinese": "即時作業系統"
+    },
+    {
+      "english": "Bare Metal",
+      "chinese": "裸機程式設計"
+    }
+  ],
+  "summary": [
+    "An MCU integrates CPU, memory, and peripherals on a single chip.",
+    "MCUs are optimized for embedded control, real-time operation, and low-power applications.",
+    "Flash memory stores firmware while SRAM stores runtime data.",
+    "GPIO enables MCUs to interact directly with external devices.",
+    "Timers, counters, and interrupts are fundamental MCU hardware features.",
+    "Communication interfaces such as UART, SPI, I2C, CAN, USB, and Ethernet enable device connectivity.",
+    "ADCs and DACs allow MCUs to process real-world analog signals.",
+    "Many MCU applications run bare-metal software or lightweight RTOS environments.",
+    "Modern MCUs include security features such as Secure Boot and hardware cryptography.",
+    "MCUs are the foundation of IoT devices, industrial automation, automotive electronics, and consumer products."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. MCU stands for Microcontroller ______.",
+      "answer": "Unit"
+    },
+    {
+      "question": "2. An MCU typically integrates CPU, memory, and ______ on a single chip.",
+      "answer": "Peripherals"
+    },
+    {
+      "question": "3. MCU firmware is usually stored in ______ memory.",
+      "answer": "Flash"
+    },
+    {
+      "question": "4. SRAM is mainly used for runtime ______ storage.",
+      "answer": "Data"
+    },
+    {
+      "question": "5. GPIO stands for General Purpose Input/______.",
+      "answer": "Output"
+    },
+    {
+      "question": "6. A hardware event that temporarily interrupts program execution is called an ______.",
+      "answer": "Interrupt"
+    },
+    {
+      "question": "7. SPI stands for Serial Peripheral ______.",
+      "answer": "Interface"
+    },
+    {
+      "question": "8. ADC converts ______ signals into digital values.",
+      "answer": "Analog"
+    },
+    {
+      "question": "9. PWM is commonly used for motor ______.",
+      "answer": "Control"
+    },
+    {
+      "question": "10. RTOS stands for Real-Time Operating ______.",
+      "answer": "System"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. What is the primary difference between an MCU and an MPU?",
+      "answer": "An MCU integrates CPU, memory, and peripherals on a single chip and is optimized for embedded control applications, while an MPU typically requires external memory and supports more complex operating systems."
+    },
+    {
+      "question": "2. Why are interrupts important in MCU systems?",
+      "answer": "Interrupts allow the MCU to respond immediately to external events without continuously polling hardware, improving responsiveness, efficiency, and real-time performance."
+    },
+    {
+      "question": "3. Why are ADCs commonly included in MCUs?",
+      "answer": "Most real-world sensors produce analog outputs. ADCs enable the MCU to convert these signals into digital values that software can process."
+    },
+    {
+      "question": "4. What role does Flash memory play in MCU architecture?",
+      "answer": "Flash memory stores firmware, boot code, and application programs in non-volatile memory so that the MCU can retain software when power is removed."
+    },
+    {
+      "question": "5. Why are timers and PWM modules important in embedded systems?",
+      "answer": "They provide precise timing, event measurement, motor control, LED dimming, power regulation, and other real-time control functions with minimal CPU overhead."
+    },
+    {
+      "question": "6. Why do many embedded systems use bare-metal programming or RTOS instead of Linux?",
+      "answer": "MCUs typically have limited resources. Bare-metal software and RTOS solutions provide lower overhead, deterministic timing, faster startup, and better suitability for real-time control."
+    },
+    {
+      "question": "7. What communication interfaces are commonly integrated into MCUs?",
+      "answer": "Common interfaces include UART, SPI, I2C, CAN, USB, Ethernet, and wireless interfaces in some advanced MCU families."
+    },
+    {
+      "question": "8. Why is low power consumption a key MCU design objective?",
+      "answer": "Many MCU applications operate from batteries or energy-constrained power sources, requiring efficient operation and advanced power-management features."
+    },
+    {
+      "question": "9. What security features are commonly found in modern MCUs?",
+      "answer": "Modern MCUs often include Secure Boot, hardware encryption engines, secure key storage, hardware random number generators, TrustZone support, and firmware protection mechanisms."
+    },
+    {
+      "question": "10. Why are MCUs critical to IoT and embedded systems?",
+      "answer": "MCUs provide low cost, low power consumption, integrated peripherals, real-time control capability, connectivity support, and reliable operation, making them ideal for billions of embedded devices."
+    }
+  ]
+},
+{
+  "id": 67,
+  "title": "GPU Architecture",
+  "content": "A GPU (Graphics Processing Unit) is a specialized processor designed to perform massively parallel computations on large amounts of data simultaneously. GPUs were originally developed to accelerate computer graphics processing, including 2D rendering, 3D rendering, shading, texture mapping, rasterization, and image generation. Over time, GPUs evolved into highly programmable computing platforms that are now widely used for artificial intelligence, machine learning, deep learning, scientific computing, data analytics, image processing, autonomous systems, and high-performance computing. Unlike CPUs, which focus on low-latency execution of sequential instructions, GPUs focus on high-throughput execution of parallel operations. A CPU typically contains a small number of complex cores optimized for branch-heavy workloads and operating system management, while a GPU contains hundreds to thousands of simpler processing cores optimized for executing many operations simultaneously. The fundamental principle behind GPU architecture is massive data parallelism. Many computational tasks involve applying the same mathematical operation to large datasets. GPUs accelerate such workloads by dividing computations among thousands of processing elements. Modern GPU architectures are organized into execution clusters such as NVIDIA Streaming Multiprocessors (SMs) or AMD Compute Units (CUs). These execution blocks contain arithmetic units, schedulers, registers, shared memory, and specialized accelerators. Inside an SM, threads are grouped into execution units called warps. A warp typically contains 32 threads that execute the same instruction simultaneously under the Single Instruction Multiple Threads (SIMT) model. GPU architectures share similarities with SIMD processing, where multiple data elements are processed using a common instruction stream. Efficient utilization depends on minimizing warp divergence, which occurs when threads within the same warp follow different execution paths. GPU memory architecture is designed to deliver extremely high bandwidth. Memory resources include registers, shared memory, L1 cache, L2 cache, constant memory, texture memory, and global memory. Registers provide the fastest storage for individual threads. Shared memory allows collaboration between threads within a thread block and offers much lower latency than global memory. Modern GPUs utilize high-bandwidth memory technologies such as GDDR6, GDDR6X, and HBM. Memory bandwidth is often one of the most important performance factors in GPU workloads. Traditional graphics processing follows a graphics pipeline that includes vertex processing, geometry processing, rasterization, pixel shading, and frame-buffer generation. Modern GPUs continue to support graphics workloads but also provide General-Purpose GPU Computing (GPGPU), which enables non-graphics applications to utilize GPU acceleration. Programming environments such as CUDA, OpenCL, HIP, and SYCL allow developers to execute scientific, engineering, and AI workloads on GPUs. One of the most important developments in modern GPU architecture is the introduction of Tensor Cores and matrix-processing engines. Deep learning workloads rely heavily on matrix multiplication and accumulation operations used in neural networks, transformers, and large language models. Tensor Cores accelerate these operations far more efficiently than traditional arithmetic units. Modern AI GPUs use mixed-precision arithmetic formats such as FP16, BF16, TensorFloat-32 (TF32), INT8, and FP8 to increase throughput while maintaining acceptable model accuracy. GPU performance is typically measured using FLOPS (Floating Point Operations Per Second), memory bandwidth, core count, Tensor performance, and power efficiency. GPUs are widely used in AI training, AI inference, computer vision, recommendation systems, autonomous vehicles, digital twins, weather simulation, computational chemistry, financial modeling, and scientific research. Large-scale GPU systems often employ high-speed interconnect technologies such as PCIe and NVLink to allow multiple GPUs to cooperate efficiently. Advanced packaging technologies, HBM integration, chiplet architectures, and AI-specific hardware blocks are increasingly important in modern GPU design. Leading GPU suppliers include NVIDIA, AMD, and Intel. Today, GPUs have become one of the most critical computing platforms for artificial intelligence, cloud computing, scientific computing, and high-performance computing because they provide the parallel processing capability and memory bandwidth required by data-intensive workloads.",
+  "keywords": [
+    {
+      "english": "GPU (Graphics Processing Unit)",
+      "chinese": "圖形處理器"
+    },
+    {
+      "english": "Streaming Multiprocessor (SM)",
+      "chinese": "串流多處理器"
+    },
+    {
+      "english": "Compute Unit (CU)",
+      "chinese": "運算單元"
+    },
+    {
+      "english": "CUDA Core",
+      "chinese": "CUDA核心"
+    },
+    {
+      "english": "Shader Core",
+      "chinese": "著色器核心"
+    },
+    {
+      "english": "SIMT",
+      "chinese": "單指令多執行緒"
+    },
+    {
+      "english": "SIMD",
+      "chinese": "單指令多資料"
+    },
+    {
+      "english": "Warp",
+      "chinese": "執行緒束"
+    },
+    {
+      "english": "Warp Divergence",
+      "chinese": "Warp分岐"
+    },
+    {
+      "english": "Register",
+      "chinese": "暫存器"
+    },
+    {
+      "english": "Shared Memory",
+      "chinese": "共享記憶體"
+    },
+    {
+      "english": "Global Memory",
+      "chinese": "全域記憶體"
+    },
+    {
+      "english": "L1 Cache",
+      "chinese": "第一級快取"
+    },
+    {
+      "english": "L2 Cache",
+      "chinese": "第二級快取"
+    },
+    {
+      "english": "GDDR6",
+      "chinese": "第六代圖形記憶體"
+    },
+    {
+      "english": "HBM",
+      "chinese": "高頻寬記憶體"
+    },
+    {
+      "english": "Tensor Core",
+      "chinese": "張量核心"
+    },
+    {
+      "english": "GPGPU",
+      "chinese": "通用GPU運算"
+    },
+    {
+      "english": "FLOPS",
+      "chinese": "浮點運算每秒"
+    },
+    {
+      "english": "NVLink",
+      "chinese": "NVIDIA高速互連技術"
+    }
+  ],
+  "summary": [
+    "A GPU is a specialized processor optimized for massively parallel computing.",
+    "GPUs contain hundreds to thousands of processing cores that execute workloads simultaneously.",
+    "GPU architecture prioritizes throughput rather than low-latency sequential execution.",
+    "Streaming Multiprocessors (SMs) are the primary execution blocks in modern GPUs.",
+    "SIMT and SIMD execution models enable efficient parallel processing.",
+    "GPU memory architecture includes registers, shared memory, caches, and high-bandwidth global memory.",
+    "GDDR6 and HBM are commonly used GPU memory technologies.",
+    "Tensor Cores accelerate matrix operations used in AI and deep learning.",
+    "GPUs are widely used in graphics, AI training, AI inference, and HPC applications.",
+    "Modern computing increasingly relies on CPU-GPU heterogeneous architectures for maximum performance."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. GPU stands for Graphics Processing ______.",
+      "answer": "Unit"
+    },
+    {
+      "question": "2. GPUs are optimized for ______ parallel processing.",
+      "answer": "Massive"
+    },
+    {
+      "question": "3. NVIDIA GPUs organize execution resources into Streaming ______.",
+      "answer": "Multiprocessors"
+    },
+    {
+      "question": "4. A typical NVIDIA warp contains ______ threads.",
+      "answer": "32"
+    },
+    {
+      "question": "5. SIMT stands for Single Instruction Multiple ______.",
+      "answer": "Threads"
+    },
+    {
+      "question": "6. Tensor Cores are optimized for ______ multiplication operations.",
+      "answer": "Matrix"
+    },
+    {
+      "question": "7. Shared memory is located ______ the GPU chip.",
+      "answer": "On"
+    },
+    {
+      "question": "8. HBM stands for High ______ Memory.",
+      "answer": "Bandwidth"
+    },
+    {
+      "question": "9. GPGPU stands for General-Purpose GPU ______.",
+      "answer": "Computing"
+    },
+    {
+      "question": "10. FLOPS measures floating-point operations per ______.",
+      "answer": "Second"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are GPUs better than CPUs for AI training?",
+      "answer": "GPUs contain thousands of parallel processing cores and specialized Tensor Cores that can perform matrix operations simultaneously, making them much more efficient for deep-learning workloads than CPUs."
+    },
+    {
+      "question": "2. What is the role of Streaming Multiprocessors (SMs) in GPU architecture?",
+      "answer": "SMs are the primary execution units of a GPU. They contain processing cores, schedulers, registers, shared memory, and specialized accelerators that execute thousands of threads concurrently."
+    },
+    {
+      "question": "3. Why is memory bandwidth so important for GPU performance?",
+      "answer": "Many GPU workloads process enormous datasets. If data cannot be supplied quickly enough to the compute units, overall performance becomes limited by memory throughput rather than computational capability."
+    },
+    {
+      "question": "4. What is the significance of Tensor Cores in modern AI systems?",
+      "answer": "Tensor Cores are specialized hardware accelerators designed for matrix multiplication and accumulation operations, which are fundamental computations in neural networks, transformers, and large language models."
+    },
+    {
+      "question": "5. What is warp divergence and why does it affect performance?",
+      "answer": "Warp divergence occurs when threads in the same warp follow different execution paths because of conditional branches. This reduces parallel efficiency and can lower overall GPU utilization."
+    },
+    {
+      "question": "6. What are the main differences between GPU and CPU architectures?",
+      "answer": "CPUs use a small number of powerful cores optimized for sequential and branch-heavy tasks, while GPUs use many simpler cores optimized for highly parallel throughput-oriented workloads."
+    },
+    {
+      "question": "7. How does shared memory improve GPU performance?",
+      "answer": "Shared memory provides low-latency on-chip storage that allows threads within a block to exchange and reuse data efficiently, reducing accesses to slower global memory."
+    },
+    {
+      "question": "8. Why are HBM memory systems frequently used in AI GPUs?",
+      "answer": "HBM provides extremely high memory bandwidth, which is critical for feeding large amounts of data to GPU compute units and Tensor Cores during AI training and inference."
+    },
+    {
+      "question": "9. What is GPGPU computing?",
+      "answer": "GPGPU (General-Purpose GPU Computing) refers to using GPUs for non-graphics workloads such as AI, scientific simulation, image processing, financial analysis, and high-performance computing."
+    },
+    {
+      "question": "10. Why are GPU systems often paired with CPUs?",
+      "answer": "CPUs excel at task management, control logic, and operating-system functions, while GPUs excel at massively parallel numerical computation. Together they form an efficient heterogeneous computing platform."
+    }
+  ]
+},
+{
+  "id": 68,
+  "title": "NPU Architecture",
+  "content": "An NPU (Neural Processing Unit) is a specialized processor designed specifically to accelerate Artificial Intelligence (AI) and Machine Learning (ML) workloads. Unlike CPUs, which are optimized for general-purpose processing, and GPUs, which are optimized for massively parallel computation, NPUs are purpose-built to execute neural-network operations with very high efficiency and low power consumption. NPUs are widely used in smartphones, AI PCs, autonomous systems, IoT devices, smart cameras, robotics, edge AI platforms, automotive systems, and data-center accelerators. The rapid growth of deep learning created demand for processors optimized for operations such as matrix multiplication, convolution, attention mechanisms, activation functions, and tensor processing. Traditional CPUs are flexible but inefficient for AI workloads, while GPUs provide high performance but often consume significant power. NPUs were developed to deliver high AI performance per watt. The core design principle of an NPU is accelerating neural-network computation. Most AI models are built from layers of mathematical operations dominated by Multiply-Accumulate (MAC) calculations. A MAC operation multiplies two values and accumulates the result into an output. Since modern AI models perform billions or trillions of MAC operations, NPUs contain large MAC arrays that execute many operations simultaneously. A typical NPU architecture consists of a control processor, scheduling logic, tensor-processing engines, MAC arrays, on-chip memory systems, and external memory interfaces. The tensor-processing engine is optimized for matrix operations and multi-dimensional tensor computations commonly used in neural networks. Many NPUs use systolic array architectures, where data flows through interconnected processing elements in a rhythmic pattern. Systolic arrays significantly reduce memory traffic and improve computational efficiency, making them highly effective for matrix multiplication. Memory architecture is critical because data movement often consumes more power than arithmetic operations. NPUs therefore include large on-chip SRAM buffers to store neural-network weights, activations, and intermediate results close to the compute engines. Shared buffers and optimized dataflow techniques reduce accesses to slower external memory. Common external memory interfaces include LPDDR, DDR, and HBM depending on performance requirements. Dataflow optimization techniques such as Weight Stationary, Output Stationary, and Row Stationary maximize data reuse and reduce memory bandwidth requirements. Most NPUs focus primarily on AI inference, where a trained model is used to generate predictions. Examples include image recognition, speech recognition, language translation, recommendation systems, object detection, and generative AI assistants. Training workloads require backpropagation and gradient computation and are typically performed on GPUs or large AI accelerators, although some advanced NPUs support limited training functionality. Modern NPUs support low-precision arithmetic formats such as INT8, INT4, FP16, BF16, and FP8. Quantization reduces memory usage and computational requirements while maintaining acceptable accuracy. Many NPUs also support sparsity acceleration, which skips operations involving zero-valued data to improve performance and energy efficiency. NPU performance is commonly measured using TOPS (Tera Operations Per Second), latency, memory bandwidth, and performance per watt. Latency is especially important in real-time applications such as autonomous vehicles, robotics, industrial automation, and interactive AI assistants. Modern consumer devices increasingly integrate NPUs directly into System-on-Chip (SoC) designs. Examples include Apple Neural Engine, Qualcomm Hexagon NPU, AMD XDNA AI Engine, Intel AI NPU, Samsung AI processors, and various edge AI accelerators. These NPUs enable on-device AI processing that improves privacy, reduces cloud dependency, lowers latency, and decreases network traffic. Generative AI applications such as local language models, image generation, speech synthesis, and AI assistants increasingly rely on NPUs for efficient execution. As AI adoption expands across all computing platforms, NPUs are becoming critical processing elements that complement CPUs and GPUs in heterogeneous computing systems.",
+  "keywords": [
+    {
+      "english": "NPU (Neural Processing Unit)",
+      "chinese": "神經網路處理器"
+    },
+    {
+      "english": "Artificial Intelligence (AI)",
+      "chinese": "人工智慧"
+    },
+    {
+      "english": "Machine Learning (ML)",
+      "chinese": "機器學習"
+    },
+    {
+      "english": "Neural Network",
+      "chinese": "神經網路"
+    },
+    {
+      "english": "Deep Learning",
+      "chinese": "深度學習"
+    },
+    {
+      "english": "Tensor",
+      "chinese": "張量"
+    },
+    {
+      "english": "Tensor Processing",
+      "chinese": "張量運算"
+    },
+    {
+      "english": "MAC (Multiply-Accumulate)",
+      "chinese": "乘加運算"
+    },
+    {
+      "english": "MAC Array",
+      "chinese": "乘加陣列"
+    },
+    {
+      "english": "Systolic Array",
+      "chinese": "脈動陣列"
+    },
+    {
+      "english": "AI Inference",
+      "chinese": "AI推論"
+    },
+    {
+      "english": "AI Training",
+      "chinese": "AI訓練"
+    },
+    {
+      "english": "Quantization",
+      "chinese": "量化"
+    },
+    {
+      "english": "Sparsity",
+      "chinese": "稀疏性"
+    },
+    {
+      "english": "TOPS (Tera Operations Per Second)",
+      "chinese": "每秒兆次運算"
+    },
+    {
+      "english": "On-Chip SRAM",
+      "chinese": "晶片內SRAM"
+    },
+    {
+      "english": "Memory Bandwidth",
+      "chinese": "記憶體頻寬"
+    },
+    {
+      "english": "Edge AI",
+      "chinese": "邊緣人工智慧"
+    },
+    {
+      "english": "Neural Engine",
+      "chinese": "神經引擎"
+    },
+    {
+      "english": "Generative AI",
+      "chinese": "生成式AI"
+    }
+  ],
+  "summary": [
+    "NPU is a specialized processor designed specifically for AI and neural-network workloads.",
+    "NPUs optimize matrix multiplication, tensor processing, and MAC operations.",
+    "NPU architecture prioritizes AI performance per watt rather than general-purpose flexibility.",
+    "Systolic arrays and MAC arrays are fundamental building blocks in many NPU designs.",
+    "Most NPUs focus on AI inference rather than large-scale model training.",
+    "On-chip memory and dataflow optimization help reduce costly memory transfers.",
+    "Quantization and sparsity techniques improve NPU efficiency and performance.",
+    "TOPS is a common metric used to measure NPU performance.",
+    "NPUs enable low-latency, privacy-preserving Edge AI applications.",
+    "NPUs are becoming standard components in smartphones, AI PCs, automotive systems, and IoT devices."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. NPU stands for Neural Processing ______.",
+      "answer": "Unit"
+    },
+    {
+      "question": "2. NPUs are primarily designed to accelerate ______ workloads.",
+      "answer": "AI"
+    },
+    {
+      "question": "3. MAC stands for Multiply-______. ",
+      "answer": "Accumulate"
+    },
+    {
+      "question": "4. A systolic array is commonly used for efficient ______ multiplication.",
+      "answer": "Matrix"
+    },
+    {
+      "question": "5. Most NPUs are optimized for AI ______ rather than training.",
+      "answer": "Inference"
+    },
+    {
+      "question": "6. ______ reduces numerical precision to improve efficiency.",
+      "answer": "Quantization"
+    },
+    {
+      "question": "7. Sparsity acceleration skips unnecessary ______ computations.",
+      "answer": "Zero"
+    },
+    {
+      "question": "8. TOPS stands for Tera Operations Per ______.",
+      "answer": "Second"
+    },
+    {
+      "question": "9. Edge AI performs AI computation on the ______ device.",
+      "answer": "Local"
+    },
+    {
+      "question": "10. On-chip ______ helps reduce expensive external memory access.",
+      "answer": "SRAM"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are NPUs more power-efficient than CPUs and GPUs for AI workloads?",
+      "answer": "NPUs use specialized hardware such as MAC arrays, tensor engines, and optimized dataflow architectures that directly accelerate neural-network operations while minimizing unnecessary instruction overhead and energy consumption."
+    },
+    {
+      "question": "2. What is the role of systolic arrays in NPU architecture?",
+      "answer": "Systolic arrays efficiently perform matrix multiplications by passing data through interconnected processing elements, reducing memory traffic and maximizing computational throughput."
+    },
+    {
+      "question": "3. Why do most NPUs focus on inference instead of training?",
+      "answer": "Inference is commonly performed on end devices and requires lower computational resources than training, which involves gradient calculations and backpropagation typically handled by GPUs and large AI accelerators."
+    },
+    {
+      "question": "4. How do quantization and sparsity improve NPU performance?",
+      "answer": "Quantization reduces numerical precision and memory requirements, while sparsity acceleration skips calculations involving zero values. Both techniques improve speed, efficiency, and power consumption."
+    },
+    {
+      "question": "5. What role does on-chip SRAM play in NPU architecture?",
+      "answer": "On-chip SRAM stores weights, activations, and intermediate data close to compute engines, reducing latency and minimizing expensive accesses to external memory."
+    },
+    {
+      "question": "6. Why is data movement a major concern in AI processors?",
+      "answer": "Moving data between memory and compute units often consumes more power than performing arithmetic operations, making memory optimization critical for NPU efficiency."
+    },
+    {
+      "question": "7. What is the difference between an NPU and a GPU?",
+      "answer": "GPUs are general-purpose parallel processors that support many types of workloads, while NPUs are specialized processors optimized specifically for neural-network and AI operations with higher power efficiency."
+    },
+    {
+      "question": "8. Why are NPUs important for Edge AI applications?",
+      "answer": "NPUs provide low-latency AI processing, lower power consumption, improved privacy, and reduced reliance on cloud connectivity, making them ideal for edge devices."
+    },
+    {
+      "question": "9. What performance metrics are commonly used to evaluate NPUs?",
+      "answer": "Common metrics include TOPS, latency, memory bandwidth, performance per watt, supported numerical precision formats, and AI inference throughput."
+    },
+    {
+      "question": "10. Why are NPUs becoming standard components in modern consumer devices?",
+      "answer": "The growing demand for on-device AI features such as voice assistants, image enhancement, language models, computer vision, and generative AI requires dedicated AI acceleration that NPUs provide efficiently."
+    }
+  ]
+},
+{
+  "id": 69,
+  "title": "AI Accelerators (TPU, DPU)",
+  "content": "AI Accelerators are specialized processors designed to accelerate Artificial Intelligence (AI) and Machine Learning (ML) workloads more efficiently than general-purpose CPUs. Modern AI applications require enormous computational resources for tensor operations, matrix multiplication, neural-network execution, data movement, and large-scale model training. As AI models grew from millions to billions and even trillions of parameters, traditional processors became increasingly inefficient for these workloads. AI accelerators were developed to provide higher performance, improved scalability, lower latency, and better power efficiency. Common AI accelerators include GPUs, NPUs, TPUs, DPUs, and custom AI ASICs. A TPU (Tensor Processing Unit) is a specialized AI accelerator developed by Google to accelerate machine-learning and deep-learning workloads. TPU architecture is built around tensor computation and large-scale matrix multiplication, which are the foundation of modern neural networks, transformers, and large language models. TPU design focuses on maximizing throughput and energy efficiency for AI workloads. One of the most important architectural features of TPUs is the systolic array. A systolic array consists of interconnected processing elements that pass data between neighboring cells in a highly regular pattern. This architecture enables extremely efficient matrix multiplication while minimizing memory traffic. The primary computational engine inside a TPU is the Matrix Multiply Unit (MXU), which performs massive numbers of Multiply-Accumulate (MAC) operations in parallel. TPUs are optimized for tensor processing and support AI training and AI inference workloads. Modern TPU systems incorporate large on-chip SRAM buffers and High Bandwidth Memory (HBM) to deliver the memory bandwidth required by large-scale AI models. Google has developed several TPU generations including TPU v1, TPU v2, TPU v3, TPU v4, TPU v5e, and TPU v5p, with each generation increasing performance, scalability, and efficiency. Another important AI-related accelerator is the DPU (Data Processing Unit). Unlike TPUs, which focus on neural-network computation, DPUs are designed to accelerate infrastructure functions that support modern cloud and AI computing systems. A DPU offloads networking, storage, security, virtualization, and data-movement tasks from CPUs. Modern data centers process enormous amounts of information moving between servers, storage systems, networks, and AI accelerators. Without data-processing acceleration, CPUs can become bottlenecks. DPU architectures commonly integrate ARM processor cores, high-speed networking engines, memory controllers, security accelerators, virtualization engines, and hardware acceleration blocks for encryption and packet processing. Many DPUs evolved from SmartNIC technologies, which added programmable processing capabilities to network interface cards. Typical DPU functions include packet processing, network virtualization, load balancing, storage acceleration, NVMe-over-Fabrics support, security enforcement, encryption, firewall processing, and cloud infrastructure management. In modern AI data centers, DPUs improve utilization of GPUs and TPUs by handling infrastructure workloads that would otherwise consume CPU resources. Modern AI systems increasingly use heterogeneous computing architectures that combine CPUs, GPUs, TPUs, NPUs, and DPUs. CPUs coordinate software execution and system management. GPUs and TPUs perform computationally intensive AI workloads. DPUs manage networking, storage, and infrastructure operations. This specialized division of labor improves scalability, efficiency, and overall system performance. Leading AI accelerator platforms include Google TPU, NVIDIA GPU and BlueField DPU products, AMD Instinct accelerators, Intel Gaudi AI processors, AWS Trainium and Inferentia platforms, and Microsoft Azure Maia AI accelerators. High-speed interconnect technologies, advanced packaging, HBM memory, chiplet architectures, and AI-optimized software frameworks continue driving the evolution of AI accelerators. As generative AI, cloud computing, and large language models continue expanding, specialized accelerators such as TPUs and DPUs have become essential components of modern computing infrastructure.",
+  "keywords": [
+    {
+      "english": "AI Accelerator",
+      "chinese": "AI加速器"
+    },
+    {
+      "english": "TPU (Tensor Processing Unit)",
+      "chinese": "張量處理器"
+    },
+    {
+      "english": "DPU (Data Processing Unit)",
+      "chinese": "資料處理器"
+    },
+    {
+      "english": "Tensor",
+      "chinese": "張量"
+    },
+    {
+      "english": "Tensor Processing",
+      "chinese": "張量運算"
+    },
+    {
+      "english": "Matrix Multiplication",
+      "chinese": "矩陣乘法"
+    },
+    {
+      "english": "Systolic Array",
+      "chinese": "脈動陣列"
+    },
+    {
+      "english": "MXU (Matrix Multiply Unit)",
+      "chinese": "矩陣乘法單元"
+    },
+    {
+      "english": "MAC (Multiply-Accumulate)",
+      "chinese": "乘加運算"
+    },
+    {
+      "english": "AI Inference",
+      "chinese": "AI推論"
+    },
+    {
+      "english": "AI Training",
+      "chinese": "AI訓練"
+    },
+    {
+      "english": "High Bandwidth Memory (HBM)",
+      "chinese": "高頻寬記憶體"
+    },
+    {
+      "english": "SmartNIC",
+      "chinese": "智慧網路介面卡"
+    },
+    {
+      "english": "Network Offload",
+      "chinese": "網路卸載"
+    },
+    {
+      "english": "Storage Offload",
+      "chinese": "儲存卸載"
+    },
+    {
+      "english": "Virtualization",
+      "chinese": "虛擬化"
+    },
+    {
+      "english": "Encryption Engine",
+      "chinese": "加密引擎"
+    },
+    {
+      "english": "InfiniBand",
+      "chinese": "InfiniBand高速網路"
+    },
+    {
+      "english": "Cloud Computing",
+      "chinese": "雲端運算"
+    },
+    {
+      "english": "Data Center",
+      "chinese": "資料中心"
+    }
+  ],
+  "summary": [
+    "AI accelerators are specialized processors designed to improve AI performance and efficiency.",
+    "TPUs are optimized for tensor processing, matrix multiplication, and neural-network workloads.",
+    "Systolic arrays and Matrix Multiply Units are core TPU architectural components.",
+    "TPUs are widely used for AI training, inference, and large-scale generative AI systems.",
+    "DPUs are specialized processors for networking, storage, security, and infrastructure acceleration.",
+    "DPUs offload infrastructure workloads from CPUs to improve overall system efficiency.",
+    "Modern AI data centers increasingly combine CPUs, GPUs, TPUs, and DPUs.",
+    "HBM is commonly used to provide high memory bandwidth for AI accelerators.",
+    "TPUs focus on AI computation, while DPUs focus on data movement and infrastructure processing.",
+    "Specialized accelerators are becoming essential for scalable cloud and AI computing."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. TPU stands for Tensor Processing ______.",
+      "answer": "Unit"
+    },
+    {
+      "question": "2. DPU stands for Data Processing ______.",
+      "answer": "Unit"
+    },
+    {
+      "question": "3. TPUs are primarily optimized for ______ operations.",
+      "answer": "Tensor"
+    },
+    {
+      "question": "4. A TPU commonly uses a ______ array architecture.",
+      "answer": "Systolic"
+    },
+    {
+      "question": "5. MXU stands for Matrix Multiply ______.",
+      "answer": "Unit"
+    },
+    {
+      "question": "6. DPUs are designed to accelerate networking and ______ tasks.",
+      "answer": "Storage"
+    },
+    {
+      "question": "7. SmartNICs are closely related to modern ______ architectures.",
+      "answer": "DPU"
+    },
+    {
+      "question": "8. HBM stands for High ______ Memory.",
+      "answer": "Bandwidth"
+    },
+    {
+      "question": "9. TPUs are commonly used for AI training and AI ______.",
+      "answer": "Inference"
+    },
+    {
+      "question": "10. DPUs help ______ infrastructure workloads away from CPUs.",
+      "answer": "Offload"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why were TPUs developed when GPUs already existed?",
+      "answer": "GPUs provide strong AI performance, but TPUs are designed specifically for tensor and neural-network operations. This specialization allows higher throughput and better performance per watt for many machine-learning workloads."
+    },
+    {
+      "question": "2. What role do systolic arrays play in TPU architecture?",
+      "answer": "Systolic arrays enable efficient matrix multiplication by passing data through interconnected processing elements, reducing memory traffic and maximizing computational efficiency."
+    },
+    {
+      "question": "3. What is the function of the Matrix Multiply Unit (MXU) inside a TPU?",
+      "answer": "The MXU performs massive numbers of matrix multiplication and MAC operations in parallel, forming the core computational engine for neural-network execution."
+    },
+    {
+      "question": "4. Why are DPUs becoming important in modern data centers?",
+      "answer": "As cloud and AI infrastructures grow, networking, storage, virtualization, and security tasks consume substantial CPU resources. DPUs offload these tasks and improve overall system utilization and scalability."
+    },
+    {
+      "question": "5. How do TPUs and DPUs complement each other?",
+      "answer": "TPUs accelerate neural-network computation, while DPUs manage data movement, networking, storage, security, and infrastructure services. Together they improve AI system efficiency."
+    },
+    {
+      "question": "6. What types of workloads are commonly accelerated by DPUs?",
+      "answer": "DPUs accelerate packet processing, encryption, network virtualization, storage virtualization, load balancing, firewall services, and cloud infrastructure tasks."
+    },
+    {
+      "question": "7. Why is HBM commonly used with AI accelerators such as TPUs?",
+      "answer": "HBM provides extremely high memory bandwidth required to feed large AI models and tensor-processing engines without creating memory bottlenecks."
+    },
+    {
+      "question": "8. What is the relationship between SmartNICs and DPUs?",
+      "answer": "Many DPUs evolved from SmartNIC technology. A DPU can be viewed as an advanced SmartNIC with significantly expanded networking, storage, security, and infrastructure processing capabilities."
+    },
+    {
+      "question": "9. How do heterogeneous computing systems use CPUs, TPUs, and DPUs together?",
+      "answer": "CPUs manage software and system control, TPUs execute AI computations, and DPUs handle networking, storage, and infrastructure operations to maximize overall system efficiency."
+    },
+    {
+      "question": "10. Why are specialized AI accelerators becoming increasingly important?",
+      "answer": "Modern AI models continue to grow in size and complexity. Specialized accelerators provide the performance, scalability, memory bandwidth, and energy efficiency required for training and deploying large-scale AI systems."
+    }
+  ]
+},
+{
+  "id": 70,
+  "title": "Edge AI vs Cloud AI",
+  "content": "Edge AI and Cloud AI are two major deployment models for Artificial Intelligence systems. The primary difference is where AI computation takes place. Edge AI performs AI processing locally on or near the device where data is generated, while Cloud AI performs AI processing in remote cloud data centers. Both approaches support AI applications but offer different tradeoffs in latency, privacy, scalability, cost, connectivity requirements, and computational capability. Edge AI executes trained AI models directly on devices such as smartphones, smart cameras, IoT devices, industrial sensors, autonomous vehicles, drones, robots, medical devices, and AI PCs. In Edge AI systems, sensor data is processed locally using CPUs, GPUs, MCUs, MPUs, NPUs, or dedicated AI accelerators. Because inference occurs close to the data source, Edge AI provides low latency, real-time decision making, improved privacy, reduced network traffic, and the ability to operate without continuous internet connectivity. However, Edge AI devices typically have limited processing power, memory capacity, storage resources, thermal budgets, and battery constraints. To enable deployment on resource-constrained devices, AI models are often optimized through techniques such as quantization, pruning, knowledge distillation, and model compression. Cloud AI performs AI processing within centralized cloud infrastructure using large clusters of CPUs, GPUs, TPUs, NPUs, and specialized accelerators. Data generated by end-user devices is transmitted to cloud servers where AI models process the information and return results. Cloud AI offers access to enormous computational resources, large memory capacity, centralized management, dynamic scalability, and support for massive AI models containing billions or trillions of parameters. Most foundation models, large language models, and large-scale AI training workloads are performed in cloud environments. Cloud AI simplifies model deployment, updates, maintenance, monitoring, and resource sharing across large user populations. However, Cloud AI depends on network connectivity and introduces latency associated with data transmission and server processing. AI workloads generally fall into two categories: training and inference. AI training involves building and updating models using large datasets and extensive computation. Training is typically performed within cloud data centers because it requires substantial memory capacity, distributed computing infrastructure, and specialized accelerators. AI inference refers to using trained models to generate predictions, classifications, recommendations, detections, or language responses. Inference may occur at the edge or in the cloud depending on application requirements. Edge AI is especially beneficial for applications requiring immediate response, such as autonomous vehicles, robotics, machine vision, industrial automation, safety systems, and smart devices. Cloud AI is advantageous for large-scale generative AI, enterprise AI services, recommendation engines, scientific computing, and applications that require powerful centralized infrastructure. Privacy and security represent important differences between Edge AI and Cloud AI. Edge AI keeps sensitive information on local devices, reducing exposure risks and supporting regulatory compliance requirements. Cloud AI requires transmission and storage of user data in remote environments, increasing the need for encryption, access control, governance, and cybersecurity measures. Bandwidth utilization is another important consideration. Edge AI processes data locally and often sends only results to cloud systems, reducing network traffic. Cloud AI may require transmission of large amounts of raw data, increasing network costs and bandwidth consumption. Power consumption differs depending on perspective. Edge AI consumes local device power, while Cloud AI reduces device workload but increases power consumption within data centers. Modern AI deployments often use Hybrid AI architectures that combine Edge AI and Cloud AI. In a hybrid system, simple or time-sensitive AI tasks execute locally while more complex processing is offloaded to cloud servers. Examples include smartphones performing local face recognition while using cloud services for large language model processing. Federated Learning is an emerging approach that allows distributed devices to participate in model training while keeping raw data local, combining AI learning with privacy preservation. Future trends include AI PCs with integrated NPUs, Edge Large Language Models, improved model compression techniques, more powerful on-device processors, and increasingly sophisticated hybrid AI architectures. Edge AI and Cloud AI are complementary technologies. The choice depends on latency requirements, privacy concerns, model size, computing resources, connectivity, scalability, and overall system design objectives.",
+  "keywords": [
+    {
+      "english": "Edge AI",
+      "chinese": "邊緣人工智慧"
+    },
+    {
+      "english": "Cloud AI",
+      "chinese": "雲端人工智慧"
+    },
+    {
+      "english": "AI Inference",
+      "chinese": "AI推論"
+    },
+    {
+      "english": "AI Training",
+      "chinese": "AI訓練"
+    },
+    {
+      "english": "NPU",
+      "chinese": "神經網路處理器"
+    },
+    {
+      "english": "GPU",
+      "chinese": "圖形處理器"
+    },
+    {
+      "english": "TPU",
+      "chinese": "張量處理器"
+    },
+    {
+      "english": "Latency",
+      "chinese": "延遲"
+    },
+    {
+      "english": "Bandwidth",
+      "chinese": "頻寬"
+    },
+    {
+      "english": "Privacy",
+      "chinese": "隱私"
+    },
+    {
+      "english": "Quantization",
+      "chinese": "量化"
+    },
+    {
+      "english": "Model Compression",
+      "chinese": "模型壓縮"
+    },
+    {
+      "english": "Pruning",
+      "chinese": "剪枝"
+    },
+    {
+      "english": "Knowledge Distillation",
+      "chinese": "知識蒸餾"
+    },
+    {
+      "english": "Hybrid AI",
+      "chinese": "混合式AI"
+    },
+    {
+      "english": "Federated Learning",
+      "chinese": "聯邦學習"
+    },
+    {
+      "english": "Edge Device",
+      "chinese": "邊緣裝置"
+    },
+    {
+      "english": "Data Center",
+      "chinese": "資料中心"
+    },
+    {
+      "english": "Generative AI",
+      "chinese": "生成式AI"
+    },
+    {
+      "english": "Large Language Model (LLM)",
+      "chinese": "大型語言模型"
+    }
+  ],
+  "summary": [
+    "Edge AI executes AI models locally on devices, while Cloud AI executes them in remote data centers.",
+    "Edge AI provides low latency, improved privacy, and offline operation.",
+    "Cloud AI offers massive computing resources and support for very large AI models.",
+    "AI training is usually performed in the cloud, while inference can occur at the edge or in the cloud.",
+    "NPUs are important hardware accelerators for Edge AI devices.",
+    "GPUs and TPUs are commonly used in Cloud AI infrastructure.",
+    "Edge AI reduces bandwidth requirements by processing data locally.",
+    "Cloud AI simplifies model deployment, updates, and scalability.",
+    "Quantization, pruning, and model compression help deploy AI models on resource-constrained edge devices.",
+    "Hybrid AI architectures combine Edge AI and Cloud AI to balance performance, privacy, efficiency, and scalability."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. ______ AI performs computation directly on local devices.",
+      "answer": "Edge"
+    },
+    {
+      "question": "2. Cloud AI performs computation in remote ______ centers.",
+      "answer": "Data"
+    },
+    {
+      "question": "3. AI ______ is the process of using a trained model to make predictions.",
+      "answer": "Inference"
+    },
+    {
+      "question": "4. NPUs are commonly used in ______ AI systems.",
+      "answer": "Edge"
+    },
+    {
+      "question": "5. AI ______ is usually performed in cloud environments.",
+      "answer": "Training"
+    },
+    {
+      "question": "6. Edge AI typically provides lower ______ than Cloud AI.",
+      "answer": "Latency"
+    },
+    {
+      "question": "7. Cloud AI supports much larger AI ______.",
+      "answer": "Models"
+    },
+    {
+      "question": "8. ______ reduces model precision to improve edge deployment efficiency.",
+      "answer": "Quantization"
+    },
+    {
+      "question": "9. Hybrid AI combines Edge AI and ______ AI.",
+      "answer": "Cloud"
+    },
+    {
+      "question": "10. Federated ______ enables distributed model training across devices.",
+      "answer": "Learning"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is Edge AI better suited for real-time applications?",
+      "answer": "Edge AI processes data locally without requiring network communication, resulting in very low latency. This is critical for autonomous vehicles, robotics, industrial control systems, and safety-critical applications."
+    },
+    {
+      "question": "2. Why is Cloud AI preferred for large language models and generative AI?",
+      "answer": "Large language models require enormous computational resources, memory capacity, and accelerator clusters. Cloud data centers provide the infrastructure needed to run these models efficiently at scale."
+    },
+    {
+      "question": "3. What are the privacy advantages of Edge AI?",
+      "answer": "Data remains on the device instead of being transmitted to external servers. This reduces exposure of sensitive information and helps satisfy privacy, security, and regulatory requirements."
+    },
+    {
+      "question": "4. What are the major limitations of Edge AI?",
+      "answer": "Edge devices have limited processing power, memory capacity, storage space, thermal budgets, and battery life. These constraints often require model optimization techniques such as quantization, pruning, and compression."
+    },
+    {
+      "question": "5. Why are hybrid AI architectures becoming increasingly popular?",
+      "answer": "Hybrid AI combines the low latency and privacy benefits of Edge AI with the scalability and computational power of Cloud AI, providing an optimal balance of performance, cost, and user experience."
+    },
+    {
+      "question": "6. What is the difference between AI training and AI inference?",
+      "answer": "Training involves building and updating AI models using large datasets and significant computational resources, while inference uses trained models to generate predictions or decisions."
+    },
+    {
+      "question": "7. How does Edge AI reduce bandwidth requirements?",
+      "answer": "Edge AI processes raw data locally and often transmits only results or summaries, significantly reducing network traffic and communication costs."
+    },
+    {
+      "question": "8. Why is cloud infrastructure important for modern AI systems?",
+      "answer": "Cloud infrastructure provides high-performance accelerators, scalable computing resources, large memory capacity, centralized management, and support for massive AI workloads."
+    },
+    {
+      "question": "9. What role does Federated Learning play in Edge AI?",
+      "answer": "Federated Learning allows multiple devices to participate in model training while keeping raw data on local devices, improving privacy and reducing data transfer requirements."
+    },
+    {
+      "question": "10. What factors should be considered when choosing between Edge AI and Cloud AI?",
+      "answer": "Important factors include latency requirements, privacy concerns, model size, computing resources, power consumption, network connectivity, deployment cost, scalability, and application requirements."
+    }
+  ]
+}
+  ]
+}

@@ -1,0 +1,2567 @@
+{
+  "module_name": "Companies and Market",
+  "topics": [
+  {
+  "id": 81,
+  "title": "NVIDIA",
+  "content": "NVIDIA Corporation is one of the world's most influential semiconductor and computing companies, specializing in Graphics Processing Units (GPUs), AI accelerators, high-performance computing platforms, data-center infrastructure, robotics, autonomous vehicles, networking solutions, and accelerated computing technologies. Founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem, NVIDIA initially focused on graphics processors for gaming and multimedia applications. Over time, the company transformed from a gaming-GPU provider into the dominant platform company for Artificial Intelligence and accelerated computing. One of NVIDIA's most important innovations was the introduction of the GPU, which enabled highly parallel computation. Unlike CPUs that contain a limited number of powerful cores, GPUs contain thousands of processing cores optimized for parallel workloads, making them highly effective for graphics rendering, scientific computing, machine learning, and AI applications. A major turning point in NVIDIA's history occurred with the introduction of CUDA (Compute Unified Device Architecture) in 2006. CUDA allowed developers to use GPUs for general-purpose computing rather than graphics alone. This innovation enabled GPUs to accelerate scientific simulations, machine learning algorithms, deep learning models, and high-performance computing workloads. CUDA became the foundation of NVIDIA's software ecosystem and remains one of the company's most significant competitive advantages. NVIDIA operates several major business segments. The Gaming segment includes GeForce GPUs used for gaming, content creation, and graphics-intensive workloads. The Data Center segment has become NVIDIA's largest and fastest-growing business, providing GPU accelerators and infrastructure for AI training, AI inference, cloud computing, and supercomputing. Professional Visualization products support engineering, architecture, simulation, and digital-content creation. NVIDIA also develops automotive platforms through NVIDIA DRIVE for Advanced Driver Assistance Systems (ADAS) and autonomous driving. In robotics and edge AI, NVIDIA Jetson provides embedded AI computing platforms for intelligent machines, drones, industrial robots, and autonomous systems. Modern AI workloads have made NVIDIA a central player in the AI industry. Large Language Models (LLMs), generative AI systems, recommendation engines, and scientific AI applications require enormous computational resources. NVIDIA's AI accelerators, including products such as the A100, H100, H200, and Blackwell-based platforms, are widely used for training and deploying advanced AI models. NVIDIA's AI hardware incorporates specialized technologies such as Tensor Cores, which accelerate matrix and tensor operations used in deep learning. Tensor Cores significantly improve performance for neural-network training and inference. NVIDIA has also introduced technologies such as Transformer Engines that optimize efficiency for modern AI architectures, particularly large language models. NVIDIA's strategy extends beyond semiconductors. The company provides a full-stack ecosystem that includes hardware, software, networking, AI frameworks, development tools, and complete AI systems. Software products include CUDA, cuDNN, TensorRT, NVIDIA AI Enterprise, NeMo, and Omniverse. These technologies help developers build, optimize, and deploy AI applications efficiently. NVIDIA Omniverse is a platform for digital twins, industrial simulation, virtual collaboration, and AI-enabled design workflows. It supports applications in manufacturing, robotics, architecture, engineering, and industrial automation. NVIDIA also expanded its capabilities through networking technologies. Following the acquisition of Mellanox, NVIDIA became a major provider of high-performance networking solutions including InfiniBand and high-speed Ethernet. These technologies are critical for AI clusters, cloud data centers, supercomputers, and distributed computing environments. NVIDIA DGX systems provide integrated AI supercomputing platforms that combine GPUs, CPUs, networking, storage, and optimized software into complete training and inference systems. NVIDIA also entered the CPU market with the Grace CPU, an ARM-based processor designed for AI infrastructure and high-performance computing applications. Together, Grace CPUs and NVIDIA GPUs power advanced AI and supercomputing systems. NVIDIA operates as a fabless semiconductor company, meaning it designs chips but outsources manufacturing to external foundries such as TSMC. This allows NVIDIA to focus on architecture, innovation, software ecosystems, and system integration. Competitive advantages include the CUDA ecosystem, AI leadership, large developer community, full-stack solutions, advanced networking capabilities, and strong software support. However, NVIDIA also faces challenges such as AI competition from AMD and Intel, custom AI accelerators developed by cloud providers, supply constraints for advanced manufacturing technologies, rising power consumption in AI systems, export regulations, and rapid technological change. Looking ahead, NVIDIA's major growth opportunities include generative AI, AI factories, robotics, autonomous vehicles, high-performance computing, digital twins, industrial AI, and accelerated computing infrastructure. NVIDIA has evolved from a graphics company into a central technology platform for modern artificial intelligence, data centers, scientific computing, and intelligent systems, making it one of the most important companies in the semiconductor industry.",
+  "keywords": [
+    {
+      "english": "NVIDIA",
+      "chinese": "輝達"
+    },
+    {
+      "english": "GPU (Graphics Processing Unit)",
+      "chinese": "圖形處理器"
+    },
+    {
+      "english": "CUDA",
+      "chinese": "統一運算架構"
+    },
+    {
+      "english": "Accelerated Computing",
+      "chinese": "加速運算"
+    },
+    {
+      "english": "AI Accelerator",
+      "chinese": "AI加速器"
+    },
+    {
+      "english": "Tensor Core",
+      "chinese": "張量核心"
+    },
+    {
+      "english": "GeForce",
+      "chinese": "GeForce顯示卡"
+    },
+    {
+      "english": "RTX",
+      "chinese": "RTX平台"
+    },
+    {
+      "english": "Data Center GPU",
+      "chinese": "資料中心GPU"
+    },
+    {
+      "english": "H100",
+      "chinese": "H100 AI加速器"
+    },
+    {
+      "english": "Blackwell",
+      "chinese": "Blackwell架構"
+    },
+    {
+      "english": "DGX System",
+      "chinese": "DGX AI超級電腦"
+    },
+    {
+      "english": "Grace CPU",
+      "chinese": "Grace處理器"
+    },
+    {
+      "english": "InfiniBand",
+      "chinese": "InfiniBand高速網路"
+    },
+    {
+      "english": "NVIDIA DRIVE",
+      "chinese": "NVIDIA自動駕駛平台"
+    },
+    {
+      "english": "Jetson",
+      "chinese": "Jetson邊緣AI平台"
+    },
+    {
+      "english": "Omniverse",
+      "chinese": "Omniverse數位分身平台"
+    },
+    {
+      "english": "TensorRT",
+      "chinese": "AI推論加速軟體"
+    },
+    {
+      "english": "cuDNN",
+      "chinese": "深度學習函式庫"
+    },
+    {
+      "english": "Fabless Semiconductor Company",
+      "chinese": "無晶圓廠IC設計公司"
+    }
+  ],
+  "summary": [
+    "NVIDIA was founded in 1993 and evolved from a gaming-GPU company into the leading AI computing platform provider.",
+    "The invention of the GPU and the introduction of CUDA were two of NVIDIA's most important milestones.",
+    "CUDA enabled GPUs to become general-purpose computing platforms for AI, HPC, and scientific computing.",
+    "NVIDIA is a leader in AI training and inference infrastructure.",
+    "Data centers are NVIDIA's most important growth market.",
+    "NVIDIA's competitive advantage comes from its combination of hardware, software, networking, and developer ecosystems.",
+    "AI accelerators such as H100 and Blackwell are central to modern AI infrastructure.",
+    "NVIDIA is active in automotive AI, robotics, digital twins, and supercomputing.",
+    "NVIDIA is a fabless company and relies on external foundries for manufacturing.",
+    "NVIDIA is one of the most influential companies driving the AI revolution."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. NVIDIA was founded in ______.",
+      "answer": "1993"
+    },
+    {
+      "question": "2. CUDA stands for Compute Unified Device ______.",
+      "answer": "Architecture"
+    },
+    {
+      "question": "3. NVIDIA originally became famous for its ______ processing units.",
+      "answer": "Graphics"
+    },
+    {
+      "question": "4. The ______ business segment is currently NVIDIA's largest growth engine.",
+      "answer": "Data Center"
+    },
+    {
+      "question": "5. Tensor ______ are specialized AI-processing units inside NVIDIA GPUs.",
+      "answer": "Cores"
+    },
+    {
+      "question": "6. NVIDIA is a ______ semiconductor company because it does not own wafer fabs.",
+      "answer": "Fabless"
+    },
+    {
+      "question": "7. ______ is NVIDIA's platform for autonomous-driving applications.",
+      "answer": "DRIVE"
+    },
+    {
+      "question": "8. ______ is NVIDIA's edge-AI platform used in robotics.",
+      "answer": "Jetson"
+    },
+    {
+      "question": "9. InfiniBand is a high-speed ______ technology.",
+      "answer": "Networking"
+    },
+    {
+      "question": "10. Omniverse supports digital ______ applications.",
+      "answer": "Twin"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is CUDA considered NVIDIA's most important strategic advantage?",
+      "answer": "CUDA transformed GPUs from graphics processors into general-purpose computing platforms. It created a large software ecosystem, extensive developer adoption, and strong compatibility with AI frameworks, making it difficult for competitors to replace NVIDIA."
+    },
+    {
+      "question": "2. Why are GPUs more effective than CPUs for AI workloads?",
+      "answer": "GPUs contain thousands of parallel processing cores that can execute matrix and tensor operations simultaneously. Since deep learning relies heavily on these operations, GPUs deliver significantly higher performance for AI training and inference."
+    },
+    {
+      "question": "3. How does NVIDIA's full-stack strategy strengthen its market position?",
+      "answer": "NVIDIA provides hardware, software, networking, AI frameworks, development tools, and complete computing systems. This integration improves performance, simplifies deployment, and creates a strong ecosystem advantage."
+    },
+    {
+      "question": "4. Why has NVIDIA become the leading company in AI infrastructure?",
+      "answer": "NVIDIA invested early in GPU computing, introduced CUDA before the AI boom, built a large developer ecosystem, expanded into networking and AI systems, and continuously improved hardware optimized for machine-learning workloads."
+    },
+    {
+      "question": "5. What role do Tensor Cores play in NVIDIA GPUs?",
+      "answer": "Tensor Cores are specialized processing units that accelerate matrix and tensor calculations, significantly improving deep-learning training and inference performance."
+    },
+    {
+      "question": "6. Why are DGX systems important for AI research and development?",
+      "answer": "DGX systems provide fully integrated AI supercomputing platforms that combine GPUs, CPUs, networking, software, and storage, enabling rapid deployment of large-scale AI workloads."
+    },
+    {
+      "question": "7. What is the purpose of NVIDIA's Jetson platform?",
+      "answer": "Jetson provides embedded and edge-AI computing capabilities for robotics, drones, smart cameras, industrial automation, and autonomous machines."
+    },
+    {
+      "question": "8. Why is InfiniBand important in NVIDIA's AI ecosystem?",
+      "answer": "InfiniBand provides ultra-high bandwidth and low-latency communication between servers and accelerators, which is essential for scaling large AI clusters."
+    },
+    {
+      "question": "9. Why does NVIDIA use a fabless business model?",
+      "answer": "The fabless model allows NVIDIA to focus on chip architecture, software, innovation, and ecosystem development while outsourcing manufacturing to advanced foundries such as TSMC."
+    },
+    {
+      "question": "10. What are NVIDIA's major future growth opportunities?",
+      "answer": "Key opportunities include generative AI, AI factories, robotics, autonomous vehicles, accelerated computing, data-center expansion, digital twins, and industrial AI applications."
+    }
+  ]
+},
+{
+  "id": 82,
+  "title": "AMD",
+  "content": "Advanced Micro Devices (AMD) is one of the world's leading semiconductor companies specializing in CPUs, GPUs, AI accelerators, data-center processors, embedded computing, adaptive computing, and high-performance computing solutions. Founded in 1969, AMD has grown into one of the most important competitors to Intel in CPUs and NVIDIA in GPUs and AI infrastructure. AMD operates as a fabless semiconductor company, meaning it focuses on chip design while outsourcing manufacturing primarily to foundries such as TSMC. AMD products are widely used in personal computers, servers, cloud computing, supercomputers, gaming consoles, embedded systems, artificial intelligence, and industrial applications. AMD's history includes several major innovations. The company became known for producing x86-compatible processors and later introduced AMD64, also known as x86-64, which extended the x86 architecture to 64-bit computing and eventually became the global industry standard. AMD strengthened its graphics capabilities through the acquisition of ATI Technologies in 2006, enabling the company to offer both CPU and GPU solutions. A major turning point occurred with the introduction of the Zen architecture in 2017 under the leadership of Dr. Lisa Su. Zen significantly improved processor performance, efficiency, and scalability, helping AMD regain competitiveness in consumer and enterprise markets. AMD operates through several major business segments. Client Computing focuses on Ryzen processors for desktops, laptops, and workstations. Data Center products include EPYC server processors and Instinct AI accelerators for cloud computing, enterprise infrastructure, AI workloads, and high-performance computing. Gaming products include Radeon GPUs and custom SoCs used in PlayStation and Xbox gaming consoles. Embedded products support industrial automation, telecommunications, aerospace, defense, healthcare, networking, and adaptive computing applications. Ryzen processors are AMD's primary consumer CPU family and are widely used for gaming, productivity, content creation, and mobile computing. Threadripper processors target professional workstations that require extremely high core counts and computing performance. EPYC processors are AMD's flagship server CPUs and have become increasingly important in cloud infrastructure, enterprise servers, hyperscale data centers, and supercomputing environments. AMD's CPU success is based on its Zen microarchitecture. Generations including Zen, Zen 2, Zen 3, Zen 4, and Zen 5 have delivered improvements in Instructions Per Clock (IPC), performance, efficiency, security, and scalability. One of AMD's most important innovations is chiplet architecture. Instead of building a processor as one large monolithic die, AMD combines multiple smaller chiplets within a single package. This approach improves manufacturing yield, reduces costs, increases flexibility, and enables higher core counts. AMD became one of the industry's earliest and most successful adopters of large-scale chiplet-based processor design. In graphics processing, AMD's Radeon product family competes directly with NVIDIA GeForce products. Radeon GPUs support gaming, content creation, visualization, and professional graphics workloads. AMD's RDNA architecture serves as the foundation for modern Radeon graphics cards and gaming processors. Technologies such as FidelityFX Super Resolution (FSR) use advanced upscaling techniques to improve gaming performance and efficiency. Modern Radeon GPUs also support hardware-accelerated ray tracing for realistic graphics rendering. Artificial Intelligence has become a major focus area for AMD. The company's AI strategy includes Ryzen AI for AI-enabled personal computers, Instinct accelerators for large-scale AI systems, and software platforms that support machine-learning development. Instinct accelerators such as the MI250, MI300, and subsequent generations are designed for AI training, AI inference, and high-performance computing. These products compete directly with NVIDIA's AI accelerator offerings. AMD's AI software ecosystem is built around ROCm, which stands for Radeon Open Compute. ROCm provides development tools, libraries, frameworks, runtime environments, and machine-learning support for AI and scientific-computing workloads. ROCm aims to provide an open alternative to NVIDIA's CUDA ecosystem. AMD significantly expanded its capabilities through strategic acquisitions. The acquisition of Xilinx in 2022 added FPGAs, adaptive SoCs, embedded solutions, and adaptive-computing technologies to AMD's portfolio. This expanded AMD's presence in telecommunications, aerospace, industrial automation, data centers, and embedded AI systems. The acquisition of Pensando strengthened AMD's data-center infrastructure portfolio through SmartNICs, DPUs, networking acceleration, and cloud-computing technologies. AMD plays an important role in high-performance computing and supercomputing. Systems combining EPYC CPUs and Instinct accelerators power some of the world's most advanced research, scientific, and AI computing environments. AMD's competitive strengths include its CPU portfolio, chiplet leadership, broad product offerings, adaptive-computing technologies, data-center expansion, and growing AI presence. However, AMD faces challenges from Intel in CPUs, NVIDIA in AI infrastructure, software ecosystem competition, manufacturing dependencies, and rapid technological change. Future growth opportunities include AI infrastructure, AI PCs, cloud computing, adaptive computing, advanced packaging, high-performance computing, and next-generation accelerators. AMD remains one of the most important semiconductor companies and continues to shape the future of computing, AI, gaming, cloud infrastructure, and data-center technology.",
+  "keywords": [
+    {
+      "english": "AMD (Advanced Micro Devices)",
+      "chinese": "超微半導體"
+    },
+    {
+      "english": "AMD64 (x86-64)",
+      "chinese": "AMD64 64位元架構"
+    },
+    {
+      "english": "Ryzen",
+      "chinese": "Ryzen處理器"
+    },
+    {
+      "english": "Ryzen AI",
+      "chinese": "Ryzen AI處理器"
+    },
+    {
+      "english": "EPYC",
+      "chinese": "EPYC伺服器處理器"
+    },
+    {
+      "english": "Threadripper",
+      "chinese": "Threadripper處理器"
+    },
+    {
+      "english": "Zen Architecture",
+      "chinese": "Zen架構"
+    },
+    {
+      "english": "Chiplet Architecture",
+      "chinese": "小晶片架構"
+    },
+    {
+      "english": "Radeon",
+      "chinese": "Radeon顯示卡"
+    },
+    {
+      "english": "RDNA",
+      "chinese": "RDNA顯示架構"
+    },
+    {
+      "english": "FSR (FidelityFX Super Resolution)",
+      "chinese": "FidelityFX超解析度技術"
+    },
+    {
+      "english": "Ray Tracing",
+      "chinese": "光線追蹤"
+    },
+    {
+      "english": "Instinct Accelerator",
+      "chinese": "Instinct AI加速器"
+    },
+    {
+      "english": "MI300",
+      "chinese": "MI300 AI加速器"
+    },
+    {
+      "english": "ROCm",
+      "chinese": "Radeon開放運算平台"
+    },
+    {
+      "english": "Xilinx",
+      "chinese": "賽靈思"
+    },
+    {
+      "english": "FPGA",
+      "chinese": "現場可程式化閘陣列"
+    },
+    {
+      "english": "Adaptive Computing",
+      "chinese": "自適應運算"
+    },
+    {
+      "english": "Pensando",
+      "chinese": "Pensando資料中心方案"
+    },
+    {
+      "english": "Fabless Semiconductor Company",
+      "chinese": "無晶圓廠IC設計公司"
+    }
+  ],
+  "summary": [
+    "AMD is a leading fabless semiconductor company competing in CPUs, GPUs, AI accelerators, and data-center infrastructure.",
+    "AMD introduced AMD64 (x86-64), which became the standard 64-bit architecture for modern computers.",
+    "The ATI acquisition transformed AMD into a company with both CPU and GPU capabilities.",
+    "Zen architecture enabled AMD's return to competitiveness in consumer and server processors.",
+    "Ryzen serves the client-computing market, while EPYC powers servers and cloud infrastructure.",
+    "Radeon GPUs compete with NVIDIA in gaming and graphics applications.",
+    "Instinct accelerators represent AMD's strategy in AI training, inference, and high-performance computing.",
+    "ROCm is AMD's open software ecosystem for AI and scientific computing.",
+    "AMD strengthened its portfolio through the acquisitions of Xilinx and Pensando.",
+    "Chiplet architecture is one of AMD's most important innovations and has influenced the broader semiconductor industry."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. AMD stands for Advanced Micro ______.",
+      "answer": "Devices"
+    },
+    {
+      "question": "2. AMD introduced the ______ architecture, which became the standard 64-bit x86 extension.",
+      "answer": "AMD64"
+    },
+    {
+      "question": "3. AMD acquired ______ Technologies in 2006 to enter the GPU market.",
+      "answer": "ATI"
+    },
+    {
+      "question": "4. Ryzen is AMD's primary ______ CPU family.",
+      "answer": "Consumer"
+    },
+    {
+      "question": "5. EPYC processors are designed for ______ environments.",
+      "answer": "Server"
+    },
+    {
+      "question": "6. AMD's AI accelerator family is called ______.",
+      "answer": "Instinct"
+    },
+    {
+      "question": "7. ROCm stands for Radeon Open ______.",
+      "answer": "Compute"
+    },
+    {
+      "question": "8. AMD acquired ______ to expand into FPGA and adaptive computing markets.",
+      "answer": "Xilinx"
+    },
+    {
+      "question": "9. AMD is known for its ______ architecture approach that combines multiple smaller dies.",
+      "answer": "Chiplet"
+    },
+    {
+      "question": "10. Radeon GPUs are based on the ______ architecture for gaming.",
+      "answer": "RDNA"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why was AMD64 one of AMD's most important innovations?",
+      "answer": "AMD64 extended the x86 architecture to 64-bit computing while maintaining backward compatibility. It became the industry standard for modern PCs and servers and was eventually adopted throughout the computing industry."
+    },
+    {
+      "question": "2. How did Zen architecture change AMD's competitive position?",
+      "answer": "Zen dramatically improved performance, energy efficiency, scalability, and core-count competitiveness. It enabled AMD to regain significant market share in desktop, laptop, workstation, and server markets."
+    },
+    {
+      "question": "3. Why is chiplet architecture strategically important?",
+      "answer": "Chiplets improve manufacturing yields, lower production costs, increase scalability, and provide flexibility for building high-performance processors with many cores and functions."
+    },
+    {
+      "question": "4. How does AMD compete in the AI market?",
+      "answer": "AMD combines EPYC CPUs, Instinct AI accelerators, ROCm software, adaptive-computing technologies, and networking solutions to provide a complete AI and data-center platform."
+    },
+    {
+      "question": "5. What role did the ATI acquisition play in AMD's strategy?",
+      "answer": "The ATI acquisition gave AMD GPU technology, graphics expertise, and the ability to integrate CPU and GPU capabilities into future computing platforms."
+    },
+    {
+      "question": "6. Why are EPYC processors important to AMD's growth?",
+      "answer": "EPYC processors target cloud providers, enterprises, hyperscale data centers, and HPC customers, making them a major driver of AMD's server and data-center business."
+    },
+    {
+      "question": "7. What is the purpose of the ROCm ecosystem?",
+      "answer": "ROCm provides software libraries, frameworks, development tools, and runtime environments that enable AI, machine learning, and high-performance computing on AMD hardware."
+    },
+    {
+      "question": "8. How did the Xilinx acquisition expand AMD's business?",
+      "answer": "The acquisition added FPGA technology, adaptive SoCs, embedded solutions, telecommunications infrastructure, aerospace applications, and industrial-computing markets."
+    },
+    {
+      "question": "9. What advantages do Instinct accelerators provide?",
+      "answer": "Instinct accelerators are optimized for AI training, AI inference, and high-performance computing workloads, enabling AMD to compete in the rapidly growing AI infrastructure market."
+    },
+    {
+      "question": "10. What are AMD's major future growth opportunities?",
+      "answer": "Key opportunities include AI infrastructure, AI PCs, cloud computing, adaptive computing, high-performance computing, data-center expansion, advanced packaging, and next-generation AI accelerators."
+    }
+  ]
+},
+{
+  "id": 83,
+  "title": "Qualcomm",
+  "content": "Qualcomm Incorporated is one of the world's leading fabless semiconductor and wireless-technology companies, best known for its leadership in mobile SoCs, cellular modems, wireless communications, 3G, 4G LTE, 5G technologies, mobile AI, automotive platforms, IoT solutions, and connectivity technologies. Founded in 1985, Qualcomm played a fundamental role in the development of modern mobile communications and has become one of the most influential companies in the smartphone ecosystem. Qualcomm's unique strength comes from its combination of processor design, modem technology, wireless connectivity solutions, intellectual property, and deep involvement in global cellular standards. Qualcomm technology is used in billions of connected devices worldwide, including smartphones, tablets, PCs, vehicles, industrial systems, and IoT products. Qualcomm originally focused on wireless communication systems and became widely recognized through its development of CDMA (Code Division Multiple Access), a key digital cellular technology that helped shape modern mobile communications. As smartphones became more advanced, Qualcomm expanded from standalone modems into highly integrated mobile platforms. The company introduced the Snapdragon platform, which combines CPU, GPU, DSP, AI acceleration, modem, connectivity, multimedia processing, and power management into a single SoC solution. Snapdragon became one of the most successful smartphone platforms in the industry. Qualcomm operates through two primary business segments. Qualcomm CDMA Technologies (QCT) develops semiconductor products such as Snapdragon processors, modems, RF front-end systems, automotive platforms, connectivity solutions, and IoT chipsets. Qualcomm Technology Licensing (QTL) manages the company's extensive patent portfolio and licensing business, generating revenue from wireless communication technologies and standards-essential patents. This licensing model is one of Qualcomm's most distinctive competitive advantages. Snapdragon is Qualcomm's flagship product family. Modern Snapdragon platforms integrate CPUs, Adreno GPUs, Hexagon DSPs, AI engines, image signal processors (ISPs), cellular modems, Wi-Fi, Bluetooth, GNSS, and security technologies into highly optimized chipsets. This integration improves energy efficiency, performance, device size, and system complexity. Qualcomm serves multiple markets through specialized Snapdragon platforms. Snapdragon Mobile platforms power smartphones and tablets. Snapdragon X processors target AI PCs and Windows-on-ARM systems. Snapdragon Automotive solutions support intelligent vehicles through digital cockpits, connectivity, ADAS, and vehicle computing. Snapdragon IoT platforms support industrial automation, smart devices, networking, surveillance systems, and connected infrastructure. Snapdragon XR platforms enable Augmented Reality (AR), Virtual Reality (VR), and Mixed Reality (MR) devices. Qualcomm's processor technology is built on ARM-based architectures. Following the acquisition of Nuvia, Qualcomm expanded its ability to develop high-performance custom CPU designs that improve performance, power efficiency, and AI capability. Graphics processing is provided through Qualcomm's Adreno GPU architecture, which supports mobile gaming, graphics rendering, multimedia processing, and AI acceleration. Adreno has become one of the most widely deployed GPU architectures in mobile devices. Qualcomm also integrates Hexagon DSP technology into Snapdragon platforms. Hexagon processors efficiently accelerate AI workloads, computer vision, audio processing, signal processing, image analysis, and machine-learning applications while consuming less power than general-purpose CPU execution. Artificial Intelligence has become a central focus of Qualcomm's strategy. The Qualcomm AI Engine combines CPU, GPU, DSP, and dedicated AI acceleration capabilities to support machine learning, generative AI, language models, image enhancement, voice assistants, and computer-vision workloads. Qualcomm strongly promotes on-device AI, where AI processing occurs locally on phones, PCs, vehicles, and edge devices rather than relying entirely on cloud infrastructure. This approach reduces latency, improves privacy, lowers cloud dependence, and enables AI functionality even with limited connectivity. Qualcomm remains one of the industry's leading modem suppliers. The company has contributed significantly to multiple generations of cellular technology, including 3G, 4G LTE, and 5G. Qualcomm modems are known for high-speed connectivity, power efficiency, global compatibility, carrier aggregation, and advanced signal-processing capabilities. Beyond modems, Qualcomm has expanded into RF Front-End (RFFE) solutions that include power amplifiers, antenna tuning systems, filters, transceivers, and RF modules. These technologies are critical for modern wireless devices and strengthen Qualcomm's position in the mobile ecosystem. Connectivity technologies are another major area of expertise. Qualcomm develops Wi-Fi, Bluetooth, GNSS, Ultra-Wideband (UWB), cellular connectivity, and networking technologies used across mobile devices, PCs, automotive platforms, and IoT products. One of Qualcomm's fastest-growing businesses is automotive technology. Snapdragon Digital Chassis includes digital cockpit platforms, telematics, cloud-connected services, vehicle connectivity, ADAS capabilities, infotainment systems, and intelligent vehicle computing solutions. The company has also expanded into Industrial IoT, smart homes, smart cities, retail, industrial automation, healthcare, and enterprise networking. Qualcomm is a key processor supplier for XR devices, providing platforms that support immersive AR, VR, and MR experiences. Qualcomm operates as a fabless semiconductor company and relies on manufacturing partners such as TSMC and Samsung Foundry to produce its chip designs. Its major competitive advantages include modem leadership, wireless expertise, a large intellectual-property portfolio, integrated mobile platforms, strong relationships with smartphone manufacturers, and leadership in wireless standards development. However, Qualcomm faces competition from MediaTek, Apple, Samsung, Intel, AMD, and NVIDIA in various markets. The company must also navigate smartphone market cycles, technology transitions, regulatory challenges related to licensing, and increasing competition in AI. Future growth opportunities include AI smartphones, AI PCs, Snapdragon X adoption, automotive platforms, connected vehicles, IoT expansion, XR computing, edge AI, industrial automation, and future generations of wireless communication technologies. Qualcomm remains one of the most influential companies in mobile computing and wireless communications, helping shape the future of connected devices and intelligent systems.",
+  "keywords": [
+    {
+      "english": "Qualcomm",
+      "chinese": "高通"
+    },
+    {
+      "english": "Snapdragon",
+      "chinese": "Snapdragon平台"
+    },
+    {
+      "english": "Snapdragon X",
+      "chinese": "Snapdragon X處理器"
+    },
+    {
+      "english": "Adreno GPU",
+      "chinese": "Adreno圖形處理器"
+    },
+    {
+      "english": "Hexagon DSP",
+      "chinese": "Hexagon數位訊號處理器"
+    },
+    {
+      "english": "Qualcomm AI Engine",
+      "chinese": "Qualcomm AI引擎"
+    },
+    {
+      "english": "CDMA",
+      "chinese": "分碼多重存取"
+    },
+    {
+      "english": "5G Modem",
+      "chinese": "5G數據機"
+    },
+    {
+      "english": "RF Front-End (RFFE)",
+      "chinese": "射頻前端"
+    },
+    {
+      "english": "Cellular Communication",
+      "chinese": "行動通訊"
+    },
+    {
+      "english": "QCT",
+      "chinese": "Qualcomm晶片事業"
+    },
+    {
+      "english": "QTL",
+      "chinese": "Qualcomm授權事業"
+    },
+    {
+      "english": "Snapdragon Digital Chassis",
+      "chinese": "Snapdragon數位底盤"
+    },
+    {
+      "english": "ADAS",
+      "chinese": "先進駕駛輔助系統"
+    },
+    {
+      "english": "IoT",
+      "chinese": "物聯網"
+    },
+    {
+      "english": "XR (Extended Reality)",
+      "chinese": "延展實境"
+    },
+    {
+      "english": "Nuvia",
+      "chinese": "Nuvia處理器技術"
+    },
+    {
+      "english": "ARM Architecture",
+      "chinese": "ARM架構"
+    },
+    {
+      "english": "Wi-Fi",
+      "chinese": "Wi‑Fi無線網路"
+    },
+    {
+      "english": "Fabless Semiconductor Company",
+      "chinese": "無晶圓廠IC設計公司"
+    }
+  ],
+  "summary": [
+    "Qualcomm is a global leader in wireless communications, mobile processors, and cellular technologies.",
+    "The company played a major role in developing CDMA, 3G, 4G LTE, and 5G technologies.",
+    "Snapdragon is Qualcomm's flagship SoC platform combining CPU, GPU, modem, AI, and connectivity functions.",
+    "Qualcomm's modem technology and RF front-end solutions are major competitive advantages.",
+    "Adreno GPUs and Hexagon DSPs are important components of Snapdragon platforms.",
+    "Qualcomm promotes on-device AI through its AI Engine and Snapdragon AI platforms.",
+    "The company's business model combines semiconductor products (QCT) and patent licensing (QTL).",
+    "Qualcomm is expanding beyond smartphones into AI PCs, automotive, IoT, and XR markets.",
+    "Snapdragon Digital Chassis is a key platform for connected and intelligent vehicles.",
+    "Qualcomm remains one of the most influential companies shaping the future of mobile and wireless computing."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Qualcomm originally became famous through the development of ______ technology.",
+      "answer": "CDMA"
+    },
+    {
+      "question": "2. Snapdragon is Qualcomm's flagship ______ platform.",
+      "answer": "SoC"
+    },
+    {
+      "question": "3. Qualcomm's GPU architecture is called ______.",
+      "answer": "Adreno"
+    },
+    {
+      "question": "4. Hexagon is Qualcomm's ______ processor architecture.",
+      "answer": "DSP"
+    },
+    {
+      "question": "5. Qualcomm's licensing business is known as ______.",
+      "answer": "QTL"
+    },
+    {
+      "question": "6. Qualcomm's semiconductor products business is known as ______.",
+      "answer": "QCT"
+    },
+    {
+      "question": "7. Snapdragon Digital Chassis focuses on the ______ industry.",
+      "answer": "Automotive"
+    },
+    {
+      "question": "8. Qualcomm promotes ______ AI to reduce latency and improve privacy.",
+      "answer": "On-Device"
+    },
+    {
+      "question": "9. Qualcomm acquired ______ to strengthen its CPU capabilities.",
+      "answer": "Nuvia"
+    },
+    {
+      "question": "10. Qualcomm operates as a ______ semiconductor company.",
+      "answer": "Fabless"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is Qualcomm considered a leader in wireless communications?",
+      "answer": "Qualcomm helped develop key cellular technologies from CDMA to 5G, owns a large portfolio of wireless patents, and provides industry-leading modems, RF systems, and connectivity solutions used worldwide."
+    },
+    {
+      "question": "2. Why is the Snapdragon platform successful?",
+      "answer": "Snapdragon integrates CPU, GPU, modem, AI processing, connectivity, multimedia, and power-management capabilities into a highly optimized SoC, reducing complexity while improving performance and efficiency."
+    },
+    {
+      "question": "3. How does Qualcomm's business model differ from many semiconductor companies?",
+      "answer": "In addition to selling chips through QCT, Qualcomm generates significant revenue through QTL, which licenses wireless technologies and standards-essential patents to device manufacturers."
+    },
+    {
+      "question": "4. Why is on-device AI important to Qualcomm's strategy?",
+      "answer": "On-device AI reduces latency, improves privacy, lowers cloud-computing costs, decreases dependence on connectivity, and enables intelligent features directly on end-user devices."
+    },
+    {
+      "question": "5. What role does modem technology play in Qualcomm's competitive advantage?",
+      "answer": "Qualcomm's modem expertise enables high-speed, power-efficient, and globally compatible wireless connectivity, making it a key supplier for smartphones and connected devices."
+    },
+    {
+      "question": "6. How has Qualcomm expanded beyond the smartphone market?",
+      "answer": "Qualcomm has expanded into AI PCs, automotive platforms, IoT systems, XR devices, industrial automation, enterprise networking, and edge-AI applications."
+    },
+    {
+      "question": "7. What is the purpose of the Hexagon DSP in Snapdragon processors?",
+      "answer": "Hexagon DSPs accelerate AI, computer vision, audio processing, and signal-processing tasks with high efficiency and lower power consumption."
+    },
+    {
+      "question": "8. Why is the RF Front-End business strategically important?",
+      "answer": "Modern wireless devices require advanced RF components such as power amplifiers, filters, tuners, and antenna systems. Qualcomm's RFFE solutions complement its modem technologies and increase platform integration."
+    },
+    {
+      "question": "9. How does Snapdragon Digital Chassis support automotive applications?",
+      "answer": "The platform provides digital-cockpit computing, connectivity, cloud integration, infotainment, telematics, ADAS support, and intelligent vehicle-processing capabilities."
+    },
+    {
+      "question": "10. What are Qualcomm's major growth opportunities for the future?",
+      "answer": "Key opportunities include AI smartphones, AI PCs, connected vehicles, Snapdragon Digital Chassis, IoT expansion, XR computing, edge AI, and next-generation wireless communication technologies."
+    }
+  ]
+},
+{
+  "id": 84,
+  "title": "MediaTek",
+  "content": "MediaTek Inc. is one of the world's largest fabless semiconductor companies and a leading supplier of smartphone SoCs, mobile processors, 5G modems, connectivity solutions, Smart TV chipsets, Wi-Fi technologies, IoT platforms, and automotive semiconductor solutions. Founded in 1997 in Taiwan, MediaTek has become one of the most important semiconductor companies in the mobile-device industry. The company's success is built on high integration, competitive pricing, broad customer support, and rapid product development. Unlike many competitors that focus primarily on premium flagship products, MediaTek serves a wide range of market segments from entry-level devices to flagship smartphones. MediaTek products are widely used in smartphones, tablets, Chromebooks, Smart TVs, networking equipment, smart-home devices, automotive systems, and IoT platforms. MediaTek operates as a fabless semiconductor company, meaning it focuses on semiconductor design while outsourcing manufacturing primarily to foundries such as TSMC. This business model allows MediaTek to focus resources on architecture design, chip integration, connectivity technologies, software optimization, and platform development. MediaTek originally gained success during the feature-phone era by providing highly integrated turnkey chipsets that simplified product development for device manufacturers. As smartphones became more popular, MediaTek expanded into integrated mobile SoCs that combined CPUs, GPUs, modems, multimedia processors, and connectivity functions into a single chip. The company's flagship smartphone platform is the Dimensity family. Dimensity SoCs integrate CPU cores, GPU technology, AI Processing Units (APUs), Image Signal Processors (ISPs), 5G modems, multimedia engines, and connectivity solutions. This highly integrated design reduces power consumption, lowers system costs, simplifies board design, and accelerates time-to-market for smartphone manufacturers. Dimensity directly competes with Qualcomm Snapdragon in the smartphone market. MediaTek processors are based primarily on ARM architectures. The company integrates ARM Cortex CPU cores and advanced multi-core designs to deliver strong performance, energy efficiency, and AI processing capabilities. Graphics processing is typically handled by ARM Mali GPUs, which support gaming, graphics rendering, multimedia acceleration, and user-interface processing. Recent flagship Dimensity platforms focus heavily on gaming performance, graphics efficiency, and advanced display technologies. Artificial Intelligence is a rapidly growing area for MediaTek. The company's AI Processing Unit (APU) provides dedicated acceleration for machine learning, computer vision, generative AI, photography enhancement, language models, speech recognition, and edge AI applications. Dedicated AI hardware enables faster performance and lower power consumption compared with CPU-only execution. Imaging technology is another major competitive area. MediaTek integrates advanced Image Signal Processors that support multi-camera systems, AI photography, HDR processing, low-light enhancement, object recognition, video optimization, image stabilization, and computational photography features. Camera performance has become a key differentiator in modern smartphones, making ISP development strategically important. MediaTek is one of the world's leading suppliers of 5G smartphone chipsets. Its integrated 5G modem solutions reduce system complexity, improve power efficiency, and lower manufacturing costs. The company has expanded from mainstream smartphone markets into premium flagship devices through advanced Dimensity platforms. Beyond smartphones, MediaTek is a major supplier of connectivity technologies. Its portfolio includes Wi-Fi, Bluetooth, GNSS, broadband communication, cellular connectivity, and networking solutions. MediaTek has been highly active in advanced wireless standards including Wi-Fi 6, Wi-Fi 6E, and Wi-Fi 7. Smart TVs represent another major area of leadership. MediaTek processors power a significant portion of the global Smart TV market. Smart TV chipsets support video decoding, graphical user interfaces, streaming services, AI-powered image enhancement, gaming features, and connectivity technologies. This diversification provides MediaTek with revenue opportunities beyond smartphones. MediaTek processors are also widely used in Chromebooks and Android tablets because of their strong balance of power efficiency, cost effectiveness, connectivity integration, and battery life. The company has expanded into automotive electronics with solutions that support digital cockpits, infotainment platforms, vehicle connectivity, telematics, and intelligent transportation systems. Automotive electronics represents a long-term growth opportunity as vehicles become increasingly connected and software-driven. MediaTek's IoT strategy focuses on smart homes, smart appliances, industrial IoT, retail systems, networking infrastructure, surveillance systems, and edge AI devices. The company is also investing heavily in on-device AI and edge AI, enabling AI processing directly on smartphones, TVs, vehicles, and connected devices without requiring constant cloud connectivity. MediaTek's competitive advantages include highly integrated SoC designs, strong cost efficiency, broad customer relationships, leadership in Smart TV processors, expanding 5G capabilities, advanced connectivity technologies, and a diversified product portfolio. However, the company faces significant competition from Qualcomm, Apple, Samsung, and emerging AI-chip providers. Future growth opportunities include premium smartphones, AI-enabled devices, edge AI computing, automotive electronics, Wi-Fi 7 adoption, smart-home ecosystems, and industrial IoT expansion. Today, MediaTek is one of the most important semiconductor companies in the mobile, connectivity, and consumer-electronics industries.",
+  "keywords": [
+    {
+      "english": "MediaTek",
+      "chinese": "聯發科技"
+    },
+    {
+      "english": "Dimensity",
+      "chinese": "天璣平台"
+    },
+    {
+      "english": "SoC (System-on-Chip)",
+      "chinese": "系統單晶片"
+    },
+    {
+      "english": "ARM Architecture",
+      "chinese": "ARM架構"
+    },
+    {
+      "english": "Cortex-A Series",
+      "chinese": "Cortex-A核心系列"
+    },
+    {
+      "english": "Mali GPU",
+      "chinese": "Mali圖形處理器"
+    },
+    {
+      "english": "APU (AI Processing Unit)",
+      "chinese": "AI處理器"
+    },
+    {
+      "english": "ISP (Image Signal Processor)",
+      "chinese": "影像訊號處理器"
+    },
+    {
+      "english": "5G Modem",
+      "chinese": "5G數據機"
+    },
+    {
+      "english": "Wi-Fi 7",
+      "chinese": "Wi-Fi 7"
+    },
+    {
+      "english": "Smart TV SoC",
+      "chinese": "智慧電視晶片"
+    },
+    {
+      "english": "Chromebook",
+      "chinese": "Chromebook筆電"
+    },
+    {
+      "english": "GNSS",
+      "chinese": "全球導航衛星系統"
+    },
+    {
+      "english": "IoT",
+      "chinese": "物聯網"
+    },
+    {
+      "english": "Edge AI",
+      "chinese": "邊緣人工智慧"
+    },
+    {
+      "english": "On-Device AI",
+      "chinese": "裝置端AI"
+    },
+    {
+      "english": "Digital Cockpit",
+      "chinese": "數位座艙"
+    },
+    {
+      "english": "Telematics",
+      "chinese": "車聯網系統"
+    },
+    {
+      "english": "Connectivity",
+      "chinese": "連接技術"
+    },
+    {
+      "english": "Fabless Semiconductor Company",
+      "chinese": "無晶圓廠IC設計公司"
+    }
+  ],
+  "summary": [
+    "MediaTek is one of the world's largest fabless semiconductor companies and a major supplier of smartphone chipsets.",
+    "Dimensity is MediaTek's flagship smartphone SoC family and competes directly with Qualcomm Snapdragon.",
+    "MediaTek's strategy focuses on high integration, cost efficiency, and fast time-to-market.",
+    "The company is a leader in 5G smartphone chipsets and integrated modem solutions.",
+    "AI Processing Units (APUs) accelerate on-device AI, photography, and machine-learning applications.",
+    "MediaTek is one of the world's leading suppliers of Smart TV processors.",
+    "MediaTek develops connectivity technologies including Wi-Fi, Bluetooth, GNSS, and broadband solutions.",
+    "The company is expanding into automotive electronics, edge AI, and IoT markets.",
+    "MediaTek relies on ARM-based CPU architectures and advanced manufacturing processes.",
+    "Future growth opportunities include AI smartphones, Wi-Fi 7, automotive platforms, and edge-AI computing."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. MediaTek was founded in ______.",
+      "answer": "1997"
+    },
+    {
+      "question": "2. Dimensity is MediaTek's flagship smartphone ______ family.",
+      "answer": "SoC"
+    },
+    {
+      "question": "3. MediaTek operates as a ______ semiconductor company.",
+      "answer": "Fabless"
+    },
+    {
+      "question": "4. The APU stands for AI Processing ______.",
+      "answer": "Unit"
+    },
+    {
+      "question": "5. MediaTek processors primarily use ______ CPU architecture.",
+      "answer": "ARM"
+    },
+    {
+      "question": "6. ISP stands for Image Signal ______.",
+      "answer": "Processor"
+    },
+    {
+      "question": "7. MediaTek is a leading supplier of Smart ______ chipsets.",
+      "answer": "TV"
+    },
+    {
+      "question": "8. Dimensity platforms include an integrated ______ modem.",
+      "answer": "5G"
+    },
+    {
+      "question": "9. MediaTek is expanding into the ______ market for connected vehicles.",
+      "answer": "Automotive"
+    },
+    {
+      "question": "10. Wi-Fi ______ is one of MediaTek's next-generation connectivity technologies.",
+      "answer": "7"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why has MediaTek become one of the largest smartphone chipset suppliers?",
+      "answer": "MediaTek's success comes from offering highly integrated, cost-effective, and power-efficient SoC solutions that help device manufacturers reduce development complexity and bring products to market quickly."
+    },
+    {
+      "question": "2. How does Dimensity compete with Qualcomm Snapdragon?",
+      "answer": "Dimensity competes through advanced manufacturing technologies, integrated 5G modems, AI acceleration, strong power efficiency, competitive pricing, and support across multiple smartphone tiers."
+    },
+    {
+      "question": "3. Why is MediaTek's Smart TV business strategically important?",
+      "answer": "The Smart TV market provides diversification beyond smartphones, strengthens MediaTek's presence in consumer electronics, and creates opportunities for AI-enhanced multimedia and connectivity solutions."
+    },
+    {
+      "question": "4. What role does the APU play in MediaTek platforms?",
+      "answer": "The APU accelerates AI workloads such as photography enhancement, speech recognition, computer vision, generative AI, and on-device machine-learning inference with improved efficiency."
+    },
+    {
+      "question": "5. Why are integrated 5G modems important in MediaTek chipsets?",
+      "answer": "Integrated 5G modems reduce power consumption, save board space, simplify system design, lower costs, and improve overall device efficiency."
+    },
+    {
+      "question": "6. How does MediaTek benefit from using ARM architectures?",
+      "answer": "ARM architectures provide an efficient balance of performance and power consumption while allowing MediaTek to rapidly develop competitive SoCs for mobile and embedded devices."
+    },
+    {
+      "question": "7. What advantages do MediaTek's imaging technologies provide?",
+      "answer": "Advanced ISPs support AI photography, HDR imaging, multi-camera systems, low-light enhancement, computational photography, and high-quality video processing."
+    },
+    {
+      "question": "8. Why is Wi-Fi 7 important for MediaTek's future growth?",
+      "answer": "Wi-Fi 7 provides higher throughput, lower latency, and improved wireless performance, supporting future applications in streaming, gaming, IoT, and connected devices."
+    },
+    {
+      "question": "9. How is MediaTek expanding beyond smartphones?",
+      "answer": "MediaTek is growing in Smart TVs, Chromebooks, networking, automotive electronics, IoT devices, industrial systems, smart homes, and edge-AI applications."
+    },
+    {
+      "question": "10. What are MediaTek's major future growth opportunities?",
+      "answer": "Key opportunities include flagship smartphones, AI-enabled devices, automotive electronics, Wi-Fi 7, edge AI computing, industrial IoT, smart-home ecosystems, and connected-device platforms."
+    }
+  ]
+},
+{
+  "id": 85,
+  "title": "TSMC",
+  "content": "Taiwan Semiconductor Manufacturing Company (TSMC) is the world's largest dedicated semiconductor foundry and the company that pioneered the Pure-Play Foundry business model. Founded in 1987 by Dr. Morris Chang, TSMC transformed the semiconductor industry by manufacturing chips for customers without competing against them in chip design. This model enabled the rise of the fabless semiconductor industry and helped companies such as NVIDIA, AMD, Qualcomm, MediaTek, Broadcom, and Apple focus on innovation and chip architecture while relying on TSMC for manufacturing. Today, TSMC is one of the most strategically important companies in the global technology supply chain because it manufactures many of the world's most advanced semiconductors. TSMC operates as a foundry rather than an Integrated Device Manufacturer (IDM). Unlike companies that both design and manufacture chips, TSMC focuses exclusively on production services. Its customers create chip designs and TSMC manufactures them using advanced process technologies, packaging solutions, and manufacturing expertise. This business model has become one of the most successful innovations in semiconductor history. TSMC's manufacturing leadership is based on continuous advancement in process-node technology. The company has developed multiple generations of advanced semiconductor manufacturing processes including 7nm, 5nm, 3nm (N3), and upcoming 2nm-class technologies. These advanced nodes provide higher transistor density, lower power consumption, improved performance, and greater functionality. Such technologies are critical for applications including AI accelerators, smartphones, cloud computing, high-performance computing, automotive electronics, and advanced consumer devices. One of TSMC's important technology contributions is the large-scale commercialization of FinFET transistor structures. FinFET technology improved transistor performance, power efficiency, and scaling beyond traditional planar transistor designs. As transistor scaling becomes increasingly difficult, the industry is transitioning toward Gate-All-Around (GAA) transistor architectures, which provide improved electrostatic control and continued scaling opportunities. Advanced packaging has become one of TSMC's most strategically important capabilities. In addition to transistor scaling, performance improvements can be achieved through advanced integration technologies that combine multiple chips into a single system. TSMC's CoWoS (Chip-on-Wafer-on-Substrate) technology enables high-bandwidth integration of processors and HBM memory, making it particularly important for AI accelerators and high-performance computing systems. Other advanced packaging solutions include InFO (Integrated Fan-Out), which is widely used in mobile and consumer products, and SoIC (System on Integrated Chips), TSMC's 3D chip-stacking technology. Modern semiconductor manufacturing involves extremely complex processes including wafer fabrication, photolithography, deposition, etching, ion implantation, metrology, inspection, packaging, and testing. TSMC's ability to consistently achieve high yields at advanced process nodes is one of its key competitive advantages. Yield directly affects manufacturing cost, production efficiency, and customer profitability. TSMC supports a broad ecosystem of customers and partners. Its customer base includes major fabless semiconductor companies, some IDMs, AI-chip developers, automotive semiconductor suppliers, and system innovators. To strengthen collaboration across the semiconductor ecosystem, TSMC developed its Open Innovation Platform (OIP), which brings together chip designers, Electronic Design Automation (EDA) vendors, IP providers, packaging companies, and manufacturing partners. The growth of Artificial Intelligence has significantly increased TSMC's strategic importance. Advanced AI processors require cutting-edge process nodes, advanced packaging technologies, HBM integration, and reliable high-volume manufacturing. Many of the world's leading AI accelerators are manufactured using TSMC process technologies and packaging solutions. AI-driven demand has become one of the most important growth drivers for the company. High-Performance Computing (HPC) has become another major market segment. Applications such as AI training, AI inference, cloud computing, supercomputers, data analytics, and scientific research require advanced chips manufactured at leading-edge nodes. Smartphone processors remain an important business area. Many flagship mobile application processors, AI engines, modem chips, and connectivity solutions are fabricated using TSMC's latest technologies. The company is also increasing its involvement in automotive semiconductor manufacturing. Modern vehicles require advanced electronics for infotainment systems, autonomous-driving functions, power management, connectivity, sensing, and AI processing. Automotive semiconductors require high reliability, long product lifecycles, and stringent quality standards. To improve supply-chain resilience and support global customers, TSMC has expanded manufacturing operations beyond Taiwan, including investments in the United States, Japan, and Europe. This geographic diversification helps reduce supply risks while meeting growing customer demand. TSMC's major competitive advantages include process-technology leadership, manufacturing scale, customer trust, advanced packaging expertise, high production yields, ecosystem partnerships, and operational execution. However, the company also faces challenges including massive capital expenditures, increasing manufacturing complexity, geopolitical risks, supply-chain pressures, talent requirements, and the difficulty of maintaining leadership at future technology nodes. Looking forward, major growth opportunities include AI infrastructure, advanced packaging, 2nm and beyond process technologies, chiplet integration, high-performance computing, automotive electronics, and global manufacturing expansion. TSMC remains the backbone of the modern semiconductor industry and is essential to the continued advancement of artificial intelligence, cloud computing, smartphones, data centers, and advanced electronic systems.",
+  "keywords": [
+    {
+      "english": "TSMC",
+      "chinese": "台灣積體電路製造公司（台積電）"
+    },
+    {
+      "english": "Pure-Play Foundry",
+      "chinese": "專業晶圓代工模式"
+    },
+    {
+      "english": "Foundry",
+      "chinese": "晶圓代工"
+    },
+    {
+      "english": "Fabless Company",
+      "chinese": "無晶圓廠公司"
+    },
+    {
+      "english": "Process Node",
+      "chinese": "製程節點"
+    },
+    {
+      "english": "FinFET",
+      "chinese": "鰭式場效電晶體"
+    },
+    {
+      "english": "Gate-All-Around (GAA)",
+      "chinese": "環繞閘極電晶體"
+    },
+    {
+      "english": "CoWoS",
+      "chinese": "晶圓上晶片封裝技術"
+    },
+    {
+      "english": "InFO",
+      "chinese": "整合型扇出封裝"
+    },
+    {
+      "english": "SoIC",
+      "chinese": "系統整合晶片堆疊"
+    },
+    {
+      "english": "Wafer Fabrication",
+      "chinese": "晶圓製造"
+    },
+    {
+      "english": "Photolithography",
+      "chinese": "微影製程"
+    },
+    {
+      "english": "HPC (High-Performance Computing)",
+      "chinese": "高效能運算"
+    },
+    {
+      "english": "AI Accelerator",
+      "chinese": "AI加速器"
+    },
+    {
+      "english": "HBM",
+      "chinese": "高頻寬記憶體"
+    },
+    {
+      "english": "Open Innovation Platform (OIP)",
+      "chinese": "開放創新平台"
+    },
+    {
+      "english": "Yield",
+      "chinese": "良率"
+    },
+    {
+      "english": "Advanced Packaging",
+      "chinese": "先進封裝"
+    },
+    {
+      "english": "N3 Process",
+      "chinese": "3奈米製程"
+    },
+    {
+      "english": "N2 Process",
+      "chinese": "2奈米製程"
+    }
+  ],
+  "summary": [
+    "TSMC is the world's largest dedicated semiconductor foundry and pioneered the Pure-Play Foundry business model.",
+    "Founded by Morris Chang in 1987, TSMC enabled the rise of the global fabless semiconductor industry.",
+    "TSMC manufactures chips for major companies including Apple, NVIDIA, AMD, Qualcomm, and MediaTek.",
+    "Advanced process nodes such as 5nm, 3nm, and 2nm are core competitive strengths.",
+    "FinFET and future GAA transistor technologies are essential to continued semiconductor scaling.",
+    "CoWoS, InFO, and SoIC are critical advanced-packaging technologies supporting modern AI and HPC systems.",
+    "The AI boom has significantly increased demand for TSMC's advanced manufacturing and packaging services.",
+    "TSMC supports smartphones, AI accelerators, cloud computing, automotive electronics, and IoT devices.",
+    "The company operates a massive ecosystem of chip designers, EDA vendors, IP providers, and manufacturing partners.",
+    "TSMC is one of the most strategically important companies in the global semiconductor supply chain."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. TSMC was founded in ______.",
+      "answer": "1987"
+    },
+    {
+      "question": "2. TSMC pioneered the ______-Play Foundry business model.",
+      "answer": "Pure"
+    },
+    {
+      "question": "3. CoWoS stands for Chip-on-Wafer-on-______.",
+      "answer": "Substrate"
+    },
+    {
+      "question": "4. TSMC primarily manufactures chips designed by ______ companies.",
+      "answer": "Fabless"
+    },
+    {
+      "question": "5. FinFET stands for Fin Field-Effect ______.",
+      "answer": "Transistor"
+    },
+    {
+      "question": "6. N3 refers to TSMC's ______ nm-class process technology.",
+      "answer": "3"
+    },
+    {
+      "question": "7. SoIC is a ______ chip stacking technology.",
+      "answer": "3D"
+    },
+    {
+      "question": "8. HPC stands for High-Performance ______.",
+      "answer": "Computing"
+    },
+    {
+      "question": "9. TSMC's Open Innovation Platform is abbreviated as ______.",
+      "answer": "OIP"
+    },
+    {
+      "question": "10. HBM stands for High Bandwidth ______.",
+      "answer": "Memory"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why was TSMC's Pure-Play Foundry model revolutionary?",
+      "answer": "The Pure-Play Foundry model allowed semiconductor companies to focus on chip design without investing in expensive manufacturing facilities. This enabled the growth of the fabless industry and accelerated semiconductor innovation worldwide."
+    },
+    {
+      "question": "2. Why is TSMC considered critical to the AI industry?",
+      "answer": "Most leading AI processors require advanced manufacturing nodes, HBM integration, and advanced packaging technologies such as CoWoS. TSMC provides these capabilities and manufactures many of the world's most advanced AI chips."
+    },
+    {
+      "question": "3. Why is advanced packaging becoming as important as transistor scaling?",
+      "answer": "As traditional transistor scaling becomes more expensive and technically challenging, advanced packaging allows multiple chips and memory devices to be integrated into a single system, increasing performance, bandwidth, and efficiency."
+    },
+    {
+      "question": "4. What advantages does TSMC have over many competitors?",
+      "answer": "TSMC benefits from process-technology leadership, large-scale manufacturing capacity, strong customer trust, high yields, advanced packaging expertise, and a broad semiconductor ecosystem."
+    },
+    {
+      "question": "5. What role does CoWoS play in AI systems?",
+      "answer": "CoWoS enables high-bandwidth integration between processors and HBM memory, improving data transfer performance and supporting the massive computational requirements of AI accelerators."
+    },
+    {
+      "question": "6. Why is yield important in semiconductor manufacturing?",
+      "answer": "Yield measures the percentage of functional chips produced from a wafer. Higher yields reduce manufacturing costs, improve profitability, and increase production efficiency."
+    },
+    {
+      "question": "7. How does TSMC support the semiconductor ecosystem through OIP?",
+      "answer": "The Open Innovation Platform connects chip designers, EDA vendors, IP providers, packaging partners, and manufacturing services to accelerate product development and improve compatibility."
+    },
+    {
+      "question": "8. Why are advanced process nodes such as N3 and N2 important?",
+      "answer": "Advanced nodes provide higher transistor density, lower power consumption, improved performance, and greater functionality, enabling next-generation smartphones, AI accelerators, and HPC systems."
+    },
+    {
+      "question": "9. How does TSMC contribute to automotive electronics?",
+      "answer": "TSMC manufactures automotive semiconductors used in infotainment, ADAS, connectivity, power management, sensing, and autonomous-driving systems while meeting strict reliability requirements."
+    },
+    {
+      "question": "10. What are TSMC's major future growth opportunities?",
+      "answer": "Key growth opportunities include AI infrastructure, advanced packaging, 2nm and beyond technologies, chiplet architectures, high-performance computing, automotive electronics, and global fab expansion."
+    }
+  ]
+},
+{
+  "id": 86,
+  "title": "Samsung",
+  "content": "Samsung Electronics is one of the world's largest semiconductor and electronics companies and one of the few companies that participates across nearly every major segment of the semiconductor industry. Samsung holds leadership positions in memory semiconductors, logic semiconductors, foundry manufacturing, mobile processors, image sensors, displays, smartphones, consumer electronics, and AI infrastructure. Unlike pure-play foundries such as TSMC, Samsung operates as an Integrated Device Manufacturer (IDM), meaning the company designs, manufactures, packages, and sells semiconductor products as well as finished electronic devices. This vertical integration provides Samsung with unique advantages across the technology value chain. Samsung's semiconductor business can be broadly divided into three major segments: Memory, System LSI, and Foundry. The Memory Business includes DRAM, NAND Flash, SSDs, and High Bandwidth Memory (HBM). System LSI develops products such as Exynos application processors, CMOS image sensors, power-management ICs, display driver ICs, and connectivity chips. Samsung Foundry provides contract semiconductor manufacturing services for both internal products and external customers. Samsung is widely recognized as one of the global leaders in memory semiconductors. DRAM products are used in PCs, smartphones, servers, cloud infrastructure, automotive electronics, and AI systems. Samsung develops advanced memory technologies including DDR5, LPDDR5X, server DRAM, and AI memory solutions. The company is also a leading supplier of NAND Flash memory. Samsung pioneered V-NAND technology, which stacks memory cells vertically to increase storage density, improve efficiency, and reduce cost. NAND products are used in smartphones, SSDs, storage systems, consumer electronics, and enterprise infrastructure. Samsung is also a major supplier of consumer SSDs, enterprise SSDs, and data-center storage solutions. Artificial Intelligence has significantly increased demand for advanced memory products. One of Samsung's most important strategic technologies is High Bandwidth Memory (HBM). HBM integrates multiple memory dies using advanced packaging techniques to provide extremely high memory bandwidth while reducing power consumption. HBM has become essential for AI accelerators, GPUs, machine-learning platforms, and high-performance computing systems. Samsung competes with SK hynix and Micron in the HBM market. Successive generations such as HBM2, HBM2E, HBM3, and HBM3E provide improvements in capacity, bandwidth, and efficiency. Samsung Foundry is an important part of the company's semiconductor strategy. Samsung manufactures logic chips for mobile processors, AI accelerators, networking equipment, automotive electronics, and custom semiconductor solutions. The company competes directly with TSMC and Intel Foundry in advanced semiconductor manufacturing. Samsung has invested heavily in leading-edge process nodes and advanced transistor technologies. One of Samsung's notable achievements is its early adoption of Gate-All-Around (GAA) transistor architecture through its MBCFET technology. GAA transistors provide better electrostatic control, improved power efficiency, and continued transistor scaling beyond traditional FinFET technologies. Exynos is Samsung's family of mobile application processors. Exynos SoCs integrate CPUs, GPUs, AI engines, image processors, security technologies, modems, and connectivity functions for smartphones and mobile devices. Exynos competes with Qualcomm Snapdragon, MediaTek Dimensity, and other mobile processor platforms. Samsung also develops wireless connectivity solutions, modem technologies, and AI processing capabilities that support its mobile ecosystem. Another major business area is CMOS Image Sensors (CIS). Samsung's ISOCELL image sensor technology is widely used in smartphones, automotive cameras, industrial systems, security applications, and consumer electronics. ISOCELL technologies focus on high resolution, improved low-light performance, enhanced dynamic range, and advanced imaging capabilities. Samsung is one of the largest image-sensor suppliers in the global market. Advanced packaging has become increasingly important as semiconductor scaling becomes more difficult. Samsung develops 2.5D and 3D packaging technologies, heterogeneous integration solutions, and memory-to-processor integration methods that support AI accelerators, HPC systems, and advanced computing platforms. AI growth is driving demand across Samsung's businesses, including HBM, AI servers, cloud infrastructure, advanced packaging, AI smartphones, AI PCs, and storage solutions. Samsung is also expanding its presence in automotive electronics through automotive memory, image sensors, connectivity chips, infotainment systems, and ADAS-related technologies. The company benefits from unique vertical integration because Samsung not only manufactures semiconductor components but also deploys them inside its own smartphones, tablets, televisions, appliances, and enterprise systems. Competitive advantages include memory leadership, manufacturing scale, broad technology portfolios, advanced process technologies, foundry capabilities, image-sensor development, and global brand strength. However, Samsung faces challenges including competition from TSMC in foundry services, competition from SK hynix and Micron in AI memory, memory-market cyclicality, rising manufacturing costs, and increasingly complex semiconductor technologies. Future growth opportunities include HBM expansion, AI infrastructure, advanced packaging, GAA technology, automotive electronics, AI devices, data-center solutions, and next-generation foundry process nodes. Samsung remains one of the world's most influential semiconductor companies and plays a crucial role in memory, logic, manufacturing, mobile computing, AI infrastructure, and consumer technology.",
+  "keywords": [
+    {
+      "english": "Samsung Electronics",
+      "chinese": "三星電子"
+    },
+    {
+      "english": "Integrated Device Manufacturer (IDM)",
+      "chinese": "整合元件製造商"
+    },
+    {
+      "english": "DRAM",
+      "chinese": "動態隨機存取記憶體"
+    },
+    {
+      "english": "NAND Flash",
+      "chinese": "NAND快閃記憶體"
+    },
+    {
+      "english": "V-NAND",
+      "chinese": "三維NAND快閃記憶體"
+    },
+    {
+      "english": "HBM (High Bandwidth Memory)",
+      "chinese": "高頻寬記憶體"
+    },
+    {
+      "english": "DDR5",
+      "chinese": "DDR5記憶體"
+    },
+    {
+      "english": "LPDDR5X",
+      "chinese": "LPDDR5X低功耗記憶體"
+    },
+    {
+      "english": "Samsung Foundry",
+      "chinese": "三星晶圓代工"
+    },
+    {
+      "english": "Exynos",
+      "chinese": "Exynos處理器"
+    },
+    {
+      "english": "System LSI",
+      "chinese": "系統LSI事業"
+    },
+    {
+      "english": "CMOS Image Sensor (CIS)",
+      "chinese": "CMOS影像感測器"
+    },
+    {
+      "english": "ISOCELL",
+      "chinese": "ISOCELL影像感測器"
+    },
+    {
+      "english": "FinFET",
+      "chinese": "鰭式場效電晶體"
+    },
+    {
+      "english": "Gate-All-Around (GAA)",
+      "chinese": "環繞閘極電晶體"
+    },
+    {
+      "english": "MBCFET",
+      "chinese": "多橋通道場效電晶體"
+    },
+    {
+      "english": "Enterprise SSD",
+      "chinese": "企業級固態硬碟"
+    },
+    {
+      "english": "Advanced Packaging",
+      "chinese": "先進封裝"
+    },
+    {
+      "english": "AI Memory",
+      "chinese": "AI記憶體"
+    },
+    {
+      "english": "Heterogeneous Integration",
+      "chinese": "異質整合"
+    }
+  ],
+  "summary": [
+    "Samsung is one of the world's largest semiconductor companies and operates as an Integrated Device Manufacturer (IDM).",
+    "Samsung is a global leader in DRAM, NAND Flash, SSDs, and advanced memory technologies.",
+    "HBM has become one of Samsung's most important strategic products because of growing AI demand.",
+    "Samsung Foundry competes with TSMC and Intel in advanced semiconductor manufacturing.",
+    "Samsung was an early adopter of Gate-All-Around transistor technology through its MBCFET architecture.",
+    "Exynos processors are Samsung's in-house mobile SoC platform.",
+    "Samsung is one of the world's largest suppliers of CMOS image sensors through its ISOCELL product family.",
+    "Advanced packaging, HBM integration, and AI infrastructure are major growth areas.",
+    "Samsung benefits from vertical integration across semiconductors, devices, displays, and consumer electronics.",
+    "AI, automotive electronics, advanced memory, and foundry services are expected to drive future growth."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Samsung operates as an ______ Device Manufacturer.",
+      "answer": "Integrated"
+    },
+    {
+      "question": "2. Samsung's 3D NAND technology is called ______ NAND.",
+      "answer": "V"
+    },
+    {
+      "question": "3. HBM stands for High Bandwidth ______.",
+      "answer": "Memory"
+    },
+    {
+      "question": "4. Samsung's mobile processor family is called ______.",
+      "answer": "Exynos"
+    },
+    {
+      "question": "5. Samsung's image-sensor brand is ______.",
+      "answer": "ISOCELL"
+    },
+    {
+      "question": "6. Samsung Foundry competes directly with ______ in advanced manufacturing.",
+      "answer": "TSMC"
+    },
+    {
+      "question": "7. GAA stands for Gate-All-______.",
+      "answer": "Around"
+    },
+    {
+      "question": "8. Samsung's implementation of GAA technology is called ______.",
+      "answer": "MBCFET"
+    },
+    {
+      "question": "9. DRAM and NAND belong to Samsung's ______ business segment.",
+      "answer": "Memory"
+    },
+    {
+      "question": "10. AI accelerators rely heavily on ______ memory for high bandwidth.",
+      "answer": "HBM"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is Samsung considered unique among major semiconductor companies?",
+      "answer": "Samsung combines memory leadership, logic-chip design, foundry manufacturing, image sensors, advanced packaging, displays, smartphones, and consumer electronics within a single vertically integrated company."
+    },
+    {
+      "question": "2. Why is HBM strategically important for Samsung?",
+      "answer": "HBM delivers extremely high memory bandwidth needed for AI accelerators, GPUs, and HPC systems. Growing AI infrastructure investment has made HBM one of the fastest-growing semiconductor segments."
+    },
+    {
+      "question": "3. How does Samsung Foundry compete with TSMC?",
+      "answer": "Samsung competes through advanced process technologies, GAA transistor innovation, manufacturing capacity, packaging capabilities, and integration with its broader semiconductor ecosystem."
+    },
+    {
+      "question": "4. What role do image sensors play in Samsung's semiconductor strategy?",
+      "answer": "Image sensors are essential for smartphones, automotive systems, industrial applications, and security products. ISOCELL technology helps Samsung diversify beyond memory and foundry businesses."
+    },
+    {
+      "question": "5. Why is vertical integration an advantage for Samsung?",
+      "answer": "Samsung can develop semiconductors, manufacture them, and deploy them into its own products, allowing stronger optimization, supply-chain control, and technology integration."
+    },
+    {
+      "question": "6. What advantages does V-NAND provide over traditional NAND?",
+      "answer": "V-NAND vertically stacks memory cells, increasing storage density, improving efficiency, enhancing durability, and reducing manufacturing costs per bit."
+    },
+    {
+      "question": "7. What is the significance of Samsung's MBCFET technology?",
+      "answer": "MBCFET is Samsung's implementation of Gate-All-Around transistor architecture, providing improved transistor control, lower leakage current, better efficiency, and continued scaling capability."
+    },
+    {
+      "question": "8. How does Samsung support AI infrastructure beyond memory products?",
+      "answer": "Samsung supports AI through foundry manufacturing, advanced packaging, storage solutions, image sensors, AI processors, and semiconductor technologies used in data centers and AI servers."
+    },
+    {
+      "question": "9. Why is automotive electronics an important growth opportunity for Samsung?",
+      "answer": "Modern vehicles increasingly require memory, sensors, connectivity, infotainment systems, ADAS technologies, and AI processing, all of which align with Samsung's semiconductor portfolio."
+    },
+    {
+      "question": "10. What are Samsung's major future growth opportunities?",
+      "answer": "Key opportunities include HBM expansion, AI infrastructure, next-generation foundry nodes, advanced packaging, automotive electronics, AI smartphones, AI PCs, enterprise storage, and heterogeneous integration technologies."
+    }
+  ]
+},
+{
+  "id": 87,
+  "title": "Intel",
+  "content": "Intel Corporation is one of the most influential semiconductor companies in history and a pioneer of the modern microprocessor industry. Founded in 1968 by Robert Noyce and Gordon Moore, Intel played a foundational role in the development of microprocessors, personal computers, servers, semiconductor manufacturing technologies, networking infrastructure, artificial intelligence platforms, and data-center computing. For several decades, Intel dominated both the personal-computer and server-processor markets through its x86 architecture and manufacturing leadership. Unlike fabless semiconductor companies such as AMD, NVIDIA, Qualcomm, and MediaTek, Intel traditionally operates as an Integrated Device Manufacturer (IDM), meaning it designs, manufactures, packages, and sells semiconductor products. Intel originally began as a memory company producing SRAM and DRAM products. However, the invention of the commercial microprocessor transformed the company and the entire computing industry. Intel's 4004 processor, introduced in 1971, is widely recognized as the world's first commercial microprocessor. This was followed by processor families such as the 8086, 80286, 80386, and 80486, establishing the foundation of the x86 ecosystem. The x86 architecture became the dominant instruction set for personal computers and later expanded into enterprise servers and data centers. Intel's success in personal computing was driven by product families such as Pentium and Intel Core. Modern Intel Core processors power desktops, laptops, workstations, gaming systems, and enterprise PCs. The company later expanded into server computing through its Xeon processor family. Xeon processors became a core component of enterprise infrastructure, cloud computing, high-performance computing, and large-scale data centers. Today, Intel remains one of the largest suppliers of server CPUs worldwide. Intel organizes its business across several major segments. The Client Computing Group develops desktop and mobile processors including Intel Core and Intel Core Ultra products. The Data Center and AI segment provides Xeon processors and AI computing solutions. Intel Foundry focuses on semiconductor manufacturing and foundry services for both internal and external customers. Networking and Edge businesses support telecommunications, infrastructure, networking, industrial automation, and edge computing applications. One of Intel's most important long-term advantages is the x86 ecosystem. Decades of software compatibility, enterprise adoption, development tools, and operating-system support have created a large installed base of applications optimized for x86 processors. This ecosystem remains a major competitive strength. Modern Intel processors utilize Hybrid Architecture, combining Performance Cores (P-Cores) and Efficiency Cores (E-Cores). P-Cores focus on maximum processing performance, while E-Cores optimize power efficiency and multitasking. This hybrid approach improves overall system performance, energy efficiency, responsiveness, and workload management. Artificial Intelligence has become a major strategic focus for Intel. AI capabilities are increasingly integrated into client devices, servers, cloud platforms, and edge systems. Intel Core Ultra processors include dedicated Neural Processing Units (NPUs) that accelerate AI workloads directly on personal computers. These processors are designed for AI PCs that support generative AI, local inference, productivity applications, computer vision, speech processing, and intelligent assistants. In addition to AI-enabled CPUs, Intel develops dedicated AI accelerators. The Gaudi accelerator family targets AI training and AI inference workloads. These products compete with NVIDIA GPUs and AMD Instinct accelerators within data-center AI markets. Intel is also expanding AI capabilities across cloud infrastructure, enterprise computing, networking, and edge-computing environments. Historically Intel focused primarily on CPUs, but the company has expanded into graphics through Intel Arc products. Arc GPUs are designed for gaming, content creation, visualization, and AI acceleration. They represent Intel's effort to compete directly with NVIDIA and AMD in discrete graphics markets. Semiconductor manufacturing remains one of Intel's most important capabilities. Intel is one of the few companies capable of developing and operating advanced semiconductor manufacturing technologies. Recent process-node generations include Intel 7, Intel 4, Intel 3, 20A, and 18A. These technologies support next-generation processors, AI accelerators, and foundry customers. Intel is also introducing advanced transistor technologies such as RibbonFET, its implementation of Gate-All-Around transistor architecture. RibbonFET improves transistor control, efficiency, and scalability beyond traditional FinFET designs. Another key innovation is PowerVia, a backside power-delivery technology that improves routing efficiency, transistor density, and overall performance. Intel Foundry represents one of the company's largest strategic transformations. Intel is expanding beyond manufacturing for internal products and increasingly providing foundry services to external customers. Offerings include advanced logic manufacturing, advanced packaging, chiplet integration, process technologies, and ecosystem support. Intel Foundry competes directly with TSMC and Samsung Foundry. Advanced packaging has become increasingly important as transistor scaling becomes more challenging. Intel has developed packaging technologies such as EMIB (Embedded Multi-Die Interconnect Bridge) and Foveros. EMIB provides high-speed interconnects between chiplets, while Foveros enables 3D stacking and heterogeneous integration. These technologies allow multiple specialized dies to be combined into highly efficient systems. Intel expanded into programmable logic through its acquisition of Altera. FPGA technologies support telecommunications, aerospace, defense, networking, industrial automation, and data-center applications. Flexibility and programmability make FPGAs important for many specialized workloads. Intel also participates in automotive and autonomous-driving markets through Mobileye. Mobileye develops computer-vision technologies, ADAS solutions, autonomous-driving systems, and intelligent transportation platforms. The company is considered one of the world's leading autonomous-driving technology providers. Intel's major competitive advantages include the x86 ecosystem, decades of manufacturing expertise, strong enterprise relationships, advanced packaging technologies, broad product portfolios, and global semiconductor scale. However, Intel faces strong competition from AMD in CPUs, NVIDIA in AI infrastructure, TSMC in manufacturing leadership, and various emerging AI-chip companies. Future growth opportunities include AI PCs, AI infrastructure, Intel Foundry expansion, advanced packaging, autonomous-driving technologies, networking, edge computing, and next-generation semiconductor manufacturing. Despite increasing competition, Intel remains one of the most important semiconductor companies in the world and continues to influence the future of computing, semiconductor manufacturing, AI, and data-center infrastructure.",
+  "keywords": [
+    {
+      "english": "Intel",
+      "chinese": "英特爾"
+    },
+    {
+      "english": "Integrated Device Manufacturer (IDM)",
+      "chinese": "整合元件製造商"
+    },
+    {
+      "english": "x86 Architecture",
+      "chinese": "x86架構"
+    },
+    {
+      "english": "Intel Core",
+      "chinese": "Intel Core處理器"
+    },
+    {
+      "english": "Intel Core Ultra",
+      "chinese": "Intel Core Ultra處理器"
+    },
+    {
+      "english": "Xeon",
+      "chinese": "Xeon伺服器處理器"
+    },
+    {
+      "english": "Hybrid Architecture",
+      "chinese": "混合架構"
+    },
+    {
+      "english": "Performance Core (P-Core)",
+      "chinese": "效能核心"
+    },
+    {
+      "english": "Efficiency Core (E-Core)",
+      "chinese": "效率核心"
+    },
+    {
+      "english": "Neural Processing Unit (NPU)",
+      "chinese": "神經處理單元"
+    },
+    {
+      "english": "Intel Arc",
+      "chinese": "Intel Arc顯示卡"
+    },
+    {
+      "english": "Gaudi Accelerator",
+      "chinese": "Gaudi AI加速器"
+    },
+    {
+      "english": "Intel Foundry",
+      "chinese": "Intel晶圓代工"
+    },
+    {
+      "english": "RibbonFET",
+      "chinese": "RibbonFET閘極環繞電晶體"
+    },
+    {
+      "english": "PowerVia",
+      "chinese": "背面供電技術"
+    },
+    {
+      "english": "EMIB",
+      "chinese": "嵌入式多晶粒互連橋接"
+    },
+    {
+      "english": "Foveros",
+      "chinese": "Foveros 3D堆疊技術"
+    },
+    {
+      "english": "Altera",
+      "chinese": "Altera FPGA"
+    },
+    {
+      "english": "Mobileye",
+      "chinese": "Mobileye自動駕駛平台"
+    },
+    {
+      "english": "Advanced Packaging",
+      "chinese": "先進封裝"
+    }
+  ],
+  "summary": [
+    "Intel pioneered the commercial microprocessor and helped establish the modern PC industry.",
+    "Intel operates as an IDM, designing and manufacturing many of its own semiconductor products.",
+    "The x86 architecture remains one of Intel's most important long-term advantages.",
+    "Intel Core and Xeon are the company's flagship processor families for PCs and servers.",
+    "Hybrid architecture combines Performance Cores and Efficiency Cores to improve efficiency and performance.",
+    "Intel is expanding into AI through Core Ultra processors, Gaudi accelerators, and data-center AI solutions.",
+    "Intel Foundry is a major strategic initiative competing with TSMC and Samsung.",
+    "RibbonFET and PowerVia are key next-generation manufacturing technologies.",
+    "EMIB and Foveros are important advanced-packaging technologies supporting chiplet-based designs.",
+    "Intel remains a major force in CPUs, AI infrastructure, foundry services, networking, automotive electronics, and advanced semiconductor manufacturing."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Intel was founded in ______.",
+      "answer": "1968"
+    },
+    {
+      "question": "2. The first commercial microprocessor developed by Intel was the ______.",
+      "answer": "Intel 4004"
+    },
+    {
+      "question": "3. Intel operates as an ______ Device Manufacturer.",
+      "answer": "Integrated"
+    },
+    {
+      "question": "4. Xeon processors primarily target ______ environments.",
+      "answer": "Server"
+    },
+    {
+      "question": "5. Intel Core Ultra processors integrate a dedicated ______ for AI workloads.",
+      "answer": "NPU"
+    },
+    {
+      "question": "6. Intel's next-generation GAA transistor technology is called ______.",
+      "answer": "RibbonFET"
+    },
+    {
+      "question": "7. PowerVia is Intel's ______ power delivery technology.",
+      "answer": "Backside"
+    },
+    {
+      "question": "8. EMIB stands for Embedded Multi-Die Interconnect ______.",
+      "answer": "Bridge"
+    },
+    {
+      "question": "9. Intel acquired ______ to enter the FPGA market.",
+      "answer": "Altera"
+    },
+    {
+      "question": "10. Mobileye focuses on ______ driving technologies.",
+      "answer": "Autonomous"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is Intel considered one of the most influential semiconductor companies in history?",
+      "answer": "Intel introduced the commercial microprocessor, helped establish the x86 ecosystem, powered the PC revolution, and became a dominant supplier for personal computers and enterprise servers for decades."
+    },
+    {
+      "question": "2. How does Intel's IDM model differ from the fabless model?",
+      "answer": "Intel designs and manufactures many of its own chips, while fabless companies focus on chip design and outsource manufacturing to foundries. The IDM model provides greater control but requires substantial capital investment."
+    },
+    {
+      "question": "3. Why are RibbonFET and PowerVia important to Intel's future?",
+      "answer": "RibbonFET improves transistor performance and scaling through Gate-All-Around architecture, while PowerVia enhances efficiency using backside power delivery. Together they support future advanced-node development."
+    },
+    {
+      "question": "4. What role does Intel Foundry play in Intel's long-term strategy?",
+      "answer": "Intel Foundry expands Intel beyond internal chip manufacturing by offering advanced fabrication, packaging, and ecosystem services to external customers, creating new revenue opportunities and strengthening manufacturing scale."
+    },
+    {
+      "question": "5. How is Intel competing in the AI market?",
+      "answer": "Intel is investing in AI PCs, Xeon AI platforms, Gaudi accelerators, NPUs, edge AI, and advanced packaging technologies to build a broader AI ecosystem that competes with NVIDIA, AMD, and emerging AI-chip providers."
+    },
+    {
+      "question": "6. What advantages does Hybrid Architecture provide?",
+      "answer": "Hybrid Architecture combines high-performance cores and power-efficient cores, improving multitasking performance, battery life, workload optimization, and overall computing efficiency."
+    },
+    {
+      "question": "7. Why are EMIB and Foveros important technologies?",
+      "answer": "These packaging technologies support chiplet-based architectures, enable heterogeneous integration, improve communication between dies, and increase system performance without relying solely on transistor scaling."
+    },
+    {
+      "question": "8. What role do Xeon processors play in the data-center market?",
+      "answer": "Xeon processors power enterprise servers, cloud infrastructure, high-performance computing systems, and AI workloads, making them a cornerstone of data-center computing."
+    },
+    {
+      "question": "9. How did the Altera acquisition expand Intel's portfolio?",
+      "answer": "The acquisition added FPGA technology, enabling Intel to address telecommunications, industrial automation, networking, aerospace, defense, and specialized computing applications."
+    },
+    {
+      "question": "10. What are Intel's major future growth opportunities?",
+      "answer": "Key growth opportunities include AI PCs, AI infrastructure, Intel Foundry services, advanced packaging, next-generation manufacturing nodes, edge computing, networking, and autonomous-driving technologies through Mobileye."
+    }
+  ]
+},
+{
+  "id": 88,
+  "title": "SK hynix",
+  "content": "SK hynix Inc. is one of the world's largest memory semiconductor companies and a global leader in DRAM, NAND Flash, SSDs, High Bandwidth Memory (HBM), and AI memory solutions. Headquartered in South Korea, SK hynix is one of the three dominant memory manufacturers worldwide alongside Samsung Electronics and Micron Technology. The company plays a critical role in modern computing infrastructure by supplying memory products used in servers, data centers, AI accelerators, GPUs, smartphones, networking equipment, enterprise storage systems, cloud computing platforms, and high-performance computing environments. SK hynix traces its origins to Hyundai Electronics, which was established in 1983. The company later became Hynix Semiconductor and eventually SK hynix after joining the SK Group. Unlike many semiconductor companies that operate across multiple product categories, SK hynix has focused heavily on memory technologies. This specialization allowed the company to become one of the world's largest and most technologically advanced memory manufacturers. Memory products form the foundation of nearly all modern computing systems because processors require fast and reliable storage of data during execution. SK hynix's business is primarily divided into DRAM, NAND Flash, SSD solutions, and advanced AI memory products. DRAM is the company's largest and most important business segment. Dynamic Random Access Memory is volatile memory that temporarily stores active data while a system is powered on. DRAM is widely used in personal computers, servers, graphics cards, smartphones, AI accelerators, networking systems, and cloud infrastructure. SK hynix develops advanced DRAM technologies including DDR5, LPDDR5, LPDDR5X, server DRAM, and specialized memory products optimized for AI and data-center applications. Continuous improvements in speed, power efficiency, and capacity are critical for supporting modern computing workloads. NAND Flash represents SK hynix's second major business segment. Unlike DRAM, NAND Flash is non-volatile memory, meaning it retains data even when power is removed. NAND Flash is used in SSDs, smartphones, tablets, embedded storage, consumer electronics, enterprise storage systems, and cloud infrastructure. Modern NAND technologies increasingly utilize 3D NAND architectures that vertically stack memory cells to improve density, scalability, and cost efficiency. SK hynix continuously advances NAND technology by increasing storage density, performance, endurance, and manufacturing efficiency. Solid State Drives represent an increasingly important segment of SK hynix's business. The company produces consumer SSDs, enterprise SSDs, and data-center storage solutions. Enterprise SSDs are particularly important because cloud computing, large-scale databases, artificial intelligence, and high-performance computing environments generate enormous storage demands. Enterprise storage products require high reliability, low latency, strong endurance, and consistent performance under heavy workloads. Artificial Intelligence has become the most important growth driver for SK hynix. The company is widely recognized as a leader in High Bandwidth Memory technology. HBM is a specialized form of memory designed to provide extremely high bandwidth for AI accelerators, GPUs, supercomputers, and machine-learning systems. Unlike traditional memory modules, HBM uses vertically stacked memory dies connected using Through-Silicon Via (TSV) technology. This advanced architecture significantly improves bandwidth, reduces power consumption, shortens signal paths, and enables more compact system integration. HBM has become one of the most strategically important semiconductor technologies because modern AI models require rapid movement of enormous datasets between processors and memory. SK hynix has developed multiple HBM generations including HBM2, HBM2E, HBM3, and HBM3E. Each generation increases memory capacity, bandwidth, energy efficiency, and performance. HBM is essential for AI accelerators and graphics processors because conventional memory technologies often create bottlenecks that limit computing performance. Through leadership in HBM, SK hynix has become a critical supplier for next-generation AI infrastructure. Advanced packaging technologies play a major role in SK hynix's memory products. Through-Silicon Via technology creates vertical electrical pathways that connect memory dies stacked on top of each other. This memory-stacking approach allows significantly higher bandwidth and capacity while reducing package size. Advanced packaging has become increasingly important as AI systems demand greater performance and efficiency. A major milestone in SK hynix's corporate strategy was the acquisition of Intel's NAND Flash and SSD business. This acquisition strengthened SK hynix's position in enterprise storage, SSD technologies, controller development, data-center storage solutions, and NAND Flash manufacturing. The transaction expanded the company's reach across the global storage ecosystem and diversified revenue sources beyond DRAM. Data centers represent one of SK hynix's largest growth opportunities. Cloud computing platforms, AI training clusters, AI inference systems, high-performance computing centers, and enterprise infrastructure require large volumes of DRAM, HBM, and enterprise SSDs. AI workloads are especially memory-intensive, creating strong demand for advanced memory technologies. SK hynix products are widely used in AI servers, cloud infrastructures, supercomputers, and next-generation computing platforms. The company is also expanding in automotive memory markets. Modern vehicles require memory for infotainment systems, Advanced Driver Assistance Systems (ADAS), digital cockpits, connectivity platforms, autonomous-driving systems, and vehicle computing. Automotive memory products require high reliability, long operating lifetimes, and strict quality standards. Competitive advantages include deep memory expertise, HBM leadership, advanced packaging capabilities, large-scale manufacturing, strong customer relationships, and exposure to AI infrastructure growth. However, SK hynix also faces challenges including memory-price cyclicality, intense competition from Samsung and Micron, high capital expenditures, manufacturing complexity, and dependence on long-term AI demand. Future growth opportunities include next-generation HBM development, AI infrastructure expansion, data-center memory, enterprise SSD growth, automotive electronics, advanced packaging technologies, and future generations of DRAM and NAND. SK hynix remains one of the most important companies in the global semiconductor industry because memory performance has become a critical factor in AI, cloud computing, data centers, and high-performance computing systems.",
+  "keywords": [
+    {
+      "english": "SK hynix",
+      "chinese": "SK海力士"
+    },
+    {
+      "english": "DRAM",
+      "chinese": "動態隨機存取記憶體"
+    },
+    {
+      "english": "DDR5",
+      "chinese": "DDR5記憶體"
+    },
+    {
+      "english": "LPDDR5X",
+      "chinese": "LPDDR5X低功耗記憶體"
+    },
+    {
+      "english": "NAND Flash",
+      "chinese": "NAND快閃記憶體"
+    },
+    {
+      "english": "3D NAND",
+      "chinese": "3D NAND快閃記憶體"
+    },
+    {
+      "english": "SSD (Solid State Drive)",
+      "chinese": "固態硬碟"
+    },
+    {
+      "english": "Enterprise SSD",
+      "chinese": "企業級SSD"
+    },
+    {
+      "english": "HBM (High Bandwidth Memory)",
+      "chinese": "高頻寬記憶體"
+    },
+    {
+      "english": "HBM3E",
+      "chinese": "HBM3E記憶體"
+    },
+    {
+      "english": "TSV (Through-Silicon Via)",
+      "chinese": "穿矽通孔"
+    },
+    {
+      "english": "Memory Stacking",
+      "chinese": "記憶體堆疊"
+    },
+    {
+      "english": "Volatile Memory",
+      "chinese": "揮發性記憶體"
+    },
+    {
+      "english": "Non-Volatile Memory",
+      "chinese": "非揮發性記憶體"
+    },
+    {
+      "english": "AI Memory",
+      "chinese": "AI記憶體"
+    },
+    {
+      "english": "Data Center Memory",
+      "chinese": "資料中心記憶體"
+    },
+    {
+      "english": "Cloud Computing",
+      "chinese": "雲端運算"
+    },
+    {
+      "english": "HPC (High-Performance Computing)",
+      "chinese": "高效能運算"
+    },
+    {
+      "english": "ADAS",
+      "chinese": "先進駕駛輔助系統"
+    },
+    {
+      "english": "Memory Semiconductor",
+      "chinese": "記憶體半導體"
+    }
+  ],
+  "summary": [
+    "SK hynix is one of the world's largest memory-semiconductor manufacturers.",
+    "The company specializes in DRAM, NAND Flash, SSDs, and AI memory solutions.",
+    "HBM has become SK hynix's most strategically important product because of AI growth.",
+    "HBM uses 3D-stacked memory and TSV technology to provide extremely high bandwidth.",
+    "SK hynix is a key supplier of memory for AI accelerators, GPUs, and data centers.",
+    "DRAM products such as DDR5 and LPDDR5X remain core business segments.",
+    "The acquisition of Intel's NAND business strengthened SK hynix's storage portfolio.",
+    "Enterprise SSDs support cloud computing, AI infrastructure, and data-center growth.",
+    "The company competes primarily with Samsung and Micron in memory markets.",
+    "Future growth opportunities include AI infrastructure, advanced HBM, next-generation DRAM, enterprise storage, and automotive memory."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. SK hynix originally began as ______ Electronics.",
+      "answer": "Hyundai"
+    },
+    {
+      "question": "2. HBM stands for High Bandwidth ______.",
+      "answer": "Memory"
+    },
+    {
+      "question": "3. DRAM is a type of ______ memory.",
+      "answer": "Volatile"
+    },
+    {
+      "question": "4. NAND Flash is a type of ______-volatile memory.",
+      "answer": "Non"
+    },
+    {
+      "question": "5. TSV stands for Through-Silicon ______.",
+      "answer": "Via"
+    },
+    {
+      "question": "6. HBM uses ______ stacking technology to increase bandwidth.",
+      "answer": "3D"
+    },
+    {
+      "question": "7. DDR5 is a modern generation of ______ memory.",
+      "answer": "DRAM"
+    },
+    {
+      "question": "8. SK hynix acquired Intel's ______ and SSD business.",
+      "answer": "NAND"
+    },
+    {
+      "question": "9. Enterprise SSDs are commonly used in ______ centers.",
+      "answer": "Data"
+    },
+    {
+      "question": "10. SK hynix's largest competitors are Samsung and ______.",
+      "answer": "Micron"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why has HBM become the most important growth driver for SK hynix?",
+      "answer": "HBM provides the extremely high memory bandwidth required by modern AI accelerators, GPUs, and large language models. As AI infrastructure expands globally, demand for HBM continues to grow rapidly, making it one of the highest-value memory products in the industry."
+    },
+    {
+      "question": "2. How does HBM differ from traditional DRAM?",
+      "answer": "HBM uses vertically stacked memory dies connected through TSV technology, enabling significantly higher bandwidth, better power efficiency, and a smaller footprint compared with conventional DRAM modules."
+    },
+    {
+      "question": "3. Why was the Intel NAND acquisition strategically important?",
+      "answer": "The acquisition strengthened SK hynix's position in NAND Flash, enterprise SSDs, storage systems, data-center solutions, and controller technologies, helping diversify revenue beyond DRAM products."
+    },
+    {
+      "question": "4. What role does memory play in AI systems?",
+      "answer": "Memory supplies the bandwidth and capacity needed to move and process massive datasets efficiently. AI performance depends heavily on memory speed, latency, bandwidth, and capacity."
+    },
+    {
+      "question": "5. Why is DRAM still important despite the growth of HBM?",
+      "answer": "DRAM remains the primary working memory for servers, PCs, cloud systems, networking equipment, and smartphones, making it a fundamental component of modern computing."
+    },
+    {
+      "question": "6. What advantages do enterprise SSDs provide for data centers?",
+      "answer": "Enterprise SSDs offer low latency, high endurance, reliability, and fast storage performance needed for AI workloads, cloud computing, databases, and enterprise applications."
+    },
+    {
+      "question": "7. How does TSV technology improve HBM performance?",
+      "answer": "TSVs create vertical electrical connections between stacked memory dies, shortening signal paths, increasing bandwidth, reducing power consumption, and improving integration efficiency."
+    },
+    {
+      "question": "8. Why is AI infrastructure beneficial for SK hynix?",
+      "answer": "AI systems require large quantities of HBM, server DRAM, and high-performance storage, creating strong demand for SK hynix's memory portfolio and supporting long-term revenue growth."
+    },
+    {
+      "question": "9. What opportunities exist for SK hynix in the automotive market?",
+      "answer": "Connected vehicles, ADAS, autonomous-driving systems, infotainment platforms, and digital cockpits require advanced memory products with high reliability and long product lifecycles."
+    },
+    {
+      "question": "10. What are SK hynix's major future growth opportunities?",
+      "answer": "Major opportunities include next-generation HBM, AI data centers, advanced DRAM, enterprise SSD expansion, automotive memory, advanced packaging technologies, and high-performance computing systems."
+    }
+  ]
+},
+{
+  "id": 89,
+  "title": "Micron",
+  "content": "Micron Technology, Inc. is one of the world's largest memory and storage semiconductor companies and a global leader in DRAM, NAND Flash, SSDs, High Bandwidth Memory (HBM), memory systems, and data-center memory solutions. Founded in 1978 in the United States, Micron is one of the three major memory manufacturers globally alongside Samsung Electronics and SK hynix. Micron plays a critical role in modern computing because memory is required in virtually every electronic system, including AI accelerators, GPUs, data centers, cloud infrastructure, smartphones, PCs, automotive electronics, industrial systems, and networking equipment. As artificial intelligence computing expands, Micron has become increasingly important due to its advanced memory and storage technologies. Micron began as a memory-focused semiconductor company specializing in DRAM manufacturing. Unlike many semiconductor companies that diversified broadly, Micron concentrated on building expertise in memory technologies. This specialization allowed the company to become one of the world's leading suppliers of memory products. Over time, Micron strengthened its position through major acquisitions, including Elpida Memory, Rexchip, and storage-related assets from Intel. These acquisitions expanded Micron's manufacturing capacity, DRAM capabilities, NAND technologies, and enterprise-storage business. Micron's core business consists of DRAM, NAND Flash, storage solutions, and advanced memory products. DRAM is volatile memory that temporarily stores active data while a system is powered on. It is essential for processors because CPUs, GPUs, and AI accelerators constantly read and write data during operation. Micron produces a wide range of DRAM products, including DDR5 for PCs and servers, LPDDR5X for mobile devices, and server DRAM optimized for hyperscale data centers, enterprise computing, cloud applications, and AI infrastructure. Higher memory bandwidth, larger capacity, and improved efficiency remain key areas of development. NAND Flash is Micron's primary non-volatile memory technology. Unlike DRAM, NAND retains data even when power is removed. NAND Flash is widely used in SSDs, smartphones, tablets, embedded systems, automotive electronics, consumer devices, and enterprise storage platforms. Modern NAND products increasingly utilize 3D NAND architectures, which vertically stack memory cells to improve density, scalability, storage capacity, and manufacturing efficiency. Micron continues to improve NAND performance while reducing cost per bit. Storage solutions are another important part of Micron's portfolio. The company develops consumer SSDs, enterprise SSDs, automotive storage products, and cloud-storage solutions. Enterprise SSDs are particularly important for AI infrastructure because large-scale data centers and cloud platforms require high-performance storage systems capable of supporting massive datasets, low latency, high endurance, and continuous operation. Artificial Intelligence has become one of Micron's most important growth drivers. A key technology supporting AI systems is High Bandwidth Memory (HBM). HBM is a specialized memory technology designed for AI accelerators, GPUs, supercomputers, and high-performance computing systems. Unlike traditional memory modules, HBM stacks multiple memory dies vertically and places them close to processors using advanced packaging techniques. This architecture delivers extremely high bandwidth, reduced latency, lower power consumption, and compact integration. HBM has become critical because modern AI models require rapid movement of enormous amounts of data between processors and memory. Micron develops multiple generations of HBM, including HBM2, HBM2E, HBM3, and HBM3E. Each generation improves capacity, speed, bandwidth, and energy efficiency. The company competes directly with Samsung and SK hynix in this strategically important market. HBM relies heavily on advanced packaging technologies. Through-Silicon Via (TSV) technology creates vertical electrical connections between stacked memory dies. TSVs shorten communication paths, reduce power consumption, increase bandwidth, and enable efficient 3D integration. Memory stacking has become one of the most important technologies enabling next-generation AI computing platforms. Micron's data-center and AI strategy focuses on providing memory and storage products optimized for AI training, AI inference, cloud infrastructure, hyperscale computing, and enterprise workloads. Products including HBM, server DRAM, enterprise SSDs, and advanced memory modules support modern AI systems that require large memory capacity, high bandwidth, and fast storage access. Automotive electronics represent an important growth opportunity for Micron. Vehicles increasingly require memory products for Advanced Driver Assistance Systems (ADAS), infotainment systems, digital cockpits, autonomous-driving platforms, sensors, and vehicle connectivity. Automotive memory products must meet strict requirements for reliability, endurance, extended operating temperatures, and long product lifecycles. Micron is also active in industrial and embedded markets. Its products support industrial automation, networking equipment, telecommunications infrastructure, medical systems, aerospace platforms, and edge-computing applications. These markets value long-term support, reliability, and consistent product availability. Maintaining competitiveness requires continuous investment in manufacturing technology. Micron invests heavily in advanced DRAM nodes, advanced NAND process technologies, EUV lithography adoption, memory scaling innovation, and manufacturing efficiency improvements. Competitive advantages include deep specialization in memory technologies, broad DRAM and NAND portfolios, strong AI exposure, leadership in enterprise storage, automotive memory expertise, and continuous technology innovation. However, Micron faces challenges including memory-market cyclicality, pricing volatility, competition from Samsung and SK hynix, capital-intensive manufacturing requirements, and increasing complexity in advanced memory development. Future growth opportunities include HBM expansion, AI infrastructure, next-generation DRAM, enterprise SSD adoption, automotive electronics, cloud computing, and advanced memory technologies. As AI, cloud computing, and high-performance computing continue expanding worldwide, Micron remains one of the most important companies supplying the memory and storage foundation required by modern digital infrastructure.",
+  "keywords": [
+    {
+      "english": "Micron Technology",
+      "chinese": "美光科技"
+    },
+    {
+      "english": "DRAM",
+      "chinese": "動態隨機存取記憶體"
+    },
+    {
+      "english": "DDR5",
+      "chinese": "DDR5記憶體"
+    },
+    {
+      "english": "LPDDR5X",
+      "chinese": "LPDDR5X低功耗記憶體"
+    },
+    {
+      "english": "Server DRAM",
+      "chinese": "伺服器記憶體"
+    },
+    {
+      "english": "NAND Flash",
+      "chinese": "NAND快閃記憶體"
+    },
+    {
+      "english": "3D NAND",
+      "chinese": "3D NAND快閃記憶體"
+    },
+    {
+      "english": "SSD (Solid State Drive)",
+      "chinese": "固態硬碟"
+    },
+    {
+      "english": "Enterprise SSD",
+      "chinese": "企業級SSD"
+    },
+    {
+      "english": "HBM (High Bandwidth Memory)",
+      "chinese": "高頻寬記憶體"
+    },
+    {
+      "english": "HBM3E",
+      "chinese": "HBM3E記憶體"
+    },
+    {
+      "english": "TSV (Through-Silicon Via)",
+      "chinese": "穿矽通孔"
+    },
+    {
+      "english": "Memory Stacking",
+      "chinese": "記憶體堆疊"
+    },
+    {
+      "english": "AI Memory",
+      "chinese": "AI記憶體"
+    },
+    {
+      "english": "Data Center Memory",
+      "chinese": "資料中心記憶體"
+    },
+    {
+      "english": "Automotive Memory",
+      "chinese": "車用記憶體"
+    },
+    {
+      "english": "Cloud Computing",
+      "chinese": "雲端運算"
+    },
+    {
+      "english": "HPC (High-Performance Computing)",
+      "chinese": "高效能運算"
+    },
+    {
+      "english": "Non-Volatile Memory",
+      "chinese": "非揮發性記憶體"
+    },
+    {
+      "english": "Memory Semiconductor",
+      "chinese": "記憶體半導體"
+    }
+  ],
+  "summary": [
+    "Micron is one of the world's three major memory semiconductor manufacturers.",
+    "The company specializes in DRAM, NAND Flash, SSDs, and advanced memory technologies.",
+    "HBM has become one of Micron's most important strategic products due to AI growth.",
+    "DRAM products such as DDR5, LPDDR5X, and Server DRAM remain core revenue drivers.",
+    "HBM uses 3D stacking and TSV technology to provide extremely high bandwidth.",
+    "Micron is a major supplier of memory for AI accelerators, GPUs, cloud infrastructure, and data centers.",
+    "Enterprise SSDs support AI, cloud computing, and large-scale data storage applications.",
+    "Automotive memory has become an important diversification opportunity.",
+    "Micron competes primarily with Samsung and SK hynix in global memory markets.",
+    "Future growth opportunities include HBM, AI infrastructure, enterprise storage, automotive electronics, and next-generation memory technologies."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Micron was founded in ______.",
+      "answer": "1978"
+    },
+    {
+      "question": "2. Micron is one of the world's largest ______ semiconductor companies.",
+      "answer": "Memory"
+    },
+    {
+      "question": "3. HBM stands for High Bandwidth ______.",
+      "answer": "Memory"
+    },
+    {
+      "question": "4. DRAM is a type of ______ memory.",
+      "answer": "Volatile"
+    },
+    {
+      "question": "5. NAND Flash is a type of ______-volatile memory.",
+      "answer": "Non"
+    },
+    {
+      "question": "6. TSV stands for Through-Silicon ______.",
+      "answer": "Via"
+    },
+    {
+      "question": "7. DDR5 is a modern generation of ______ memory.",
+      "answer": "DRAM"
+    },
+    {
+      "question": "8. Enterprise SSDs are commonly used in ______ centers.",
+      "answer": "Data"
+    },
+    {
+      "question": "9. Micron's largest competitors include Samsung and ______ hynix.",
+      "answer": "SK"
+    },
+    {
+      "question": "10. HBM uses ______ memory stacking technology.",
+      "answer": "3D"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why has HBM become strategically important for Micron?",
+      "answer": "HBM provides the extremely high bandwidth required by AI accelerators, GPUs, and large-scale AI systems. As AI infrastructure expands globally, demand for advanced HBM solutions continues to increase, creating significant growth opportunities for Micron."
+    },
+    {
+      "question": "2. How does HBM differ from conventional DRAM?",
+      "answer": "HBM uses vertically stacked memory dies connected through TSV technology, providing much higher bandwidth, improved power efficiency, reduced latency, and a smaller physical footprint than traditional DRAM modules."
+    },
+    {
+      "question": "3. Why are enterprise SSDs important in modern data centers?",
+      "answer": "Enterprise SSDs provide high reliability, endurance, low latency, and fast storage access, making them essential for cloud computing, AI workloads, databases, and hyperscale data-center operations."
+    },
+    {
+      "question": "4. What role does memory play in AI systems?",
+      "answer": "AI models require massive amounts of data movement between processors and memory. Memory bandwidth, capacity, and speed directly impact AI training and inference performance, making advanced memory technologies critical for modern AI infrastructure."
+    },
+    {
+      "question": "5. Why are acquisitions such as Elpida and Rexchip important to Micron?",
+      "answer": "These acquisitions expanded Micron's DRAM technology, manufacturing capacity, global market presence, and competitiveness in the memory industry."
+    },
+    {
+      "question": "6. How does 3D NAND improve upon traditional NAND technology?",
+      "answer": "3D NAND vertically stacks memory cells, increasing storage density, improving scalability, reducing cost per bit, and enabling larger-capacity storage products."
+    },
+    {
+      "question": "7. Why is automotive memory a strategic growth market for Micron?",
+      "answer": "Modern vehicles require increasing amounts of memory for ADAS, infotainment, digital cockpits, connectivity, and autonomous-driving systems, creating long-term demand for automotive-grade memory."
+    },
+    {
+      "question": "8. How does TSV technology contribute to HBM performance?",
+      "answer": "TSVs create vertical electrical pathways between memory layers, allowing faster communication, greater bandwidth, lower power consumption, and efficient 3D integration."
+    },
+    {
+      "question": "9. What competitive advantages does Micron possess?",
+      "answer": "Micron benefits from deep memory specialization, broad DRAM and NAND portfolios, AI-market exposure, enterprise-storage expertise, automotive-memory capabilities, and continuous memory-technology innovation."
+    },
+    {
+      "question": "10. What are Micron's major future growth opportunities?",
+      "answer": "Key opportunities include HBM expansion, AI infrastructure, cloud computing, next-generation DRAM, enterprise SSD adoption, automotive electronics, and advanced memory technologies."
+    }
+  ]
+},
+{
+  "id": 90,
+  "title": "ASE",
+  "content": "ASE Technology Holding is the world's largest semiconductor packaging and testing company and the global leader in Outsourced Semiconductor Assembly and Test (OSAT) services. Headquartered in Taiwan, ASE occupies a critical position within the semiconductor supply chain by transforming fabricated semiconductor dies into functional products ready for integration into electronic systems. The company specializes in semiconductor packaging, semiconductor testing, advanced packaging, System-in-Package technologies, heterogeneous integration, and electronic manufacturing services. ASE serves many of the world's leading semiconductor companies including NVIDIA, AMD, Qualcomm, MediaTek, Broadcom, and various AI, networking, and consumer-electronics suppliers. Unlike foundries such as TSMC and Samsung, ASE focuses primarily on processes that occur after wafer fabrication. Semiconductor production generally follows a sequence of chip design, wafer fabrication, packaging, testing, system assembly, and end-product deployment. ASE plays a crucial role between wafer fabrication and final product integration. Semiconductor chips cannot be used immediately after manufacturing because they require packaging for electrical interconnection, physical protection, thermal management, and system compatibility. Packaging also allows chips to communicate with printed circuit boards and other electronic components. Testing ensures functionality, performance, reliability, and product quality before deployment. ASE operates two primary businesses. The first and most important segment is semiconductor packaging and testing, which includes IC packaging, IC testing, advanced packaging, and semiconductor system integration. The second segment is Electronic Manufacturing Services (EMS), largely conducted through Universal Scientific Industrial (USI). This business supports consumer electronics, networking equipment, automotive systems, industrial devices, and IoT applications. Semiconductor packaging converts a bare silicon die into a usable electronic component. Packaging provides protection from environmental damage, electrical connectivity to external systems, thermal dissipation, and mechanical stability. Traditional packaging methods include wire-bond packaging, which uses fine metal wires to connect the semiconductor die to package leads. Wire bonding remains cost-effective and widely used but has limitations in bandwidth and performance. Flip-chip packaging became an important alternative because it uses solder bumps instead of wire bonds, reducing signal distance and improving electrical performance, power efficiency, and package density. As Moore's Law scaling becomes increasingly difficult and expensive, advanced packaging has emerged as one of the most important technologies in the semiconductor industry. Many performance improvements now come from integrating multiple chips within a package rather than solely shrinking transistor dimensions. ASE is a major leader in advanced packaging technologies. One important approach is 2.5D packaging, which places multiple dies on a silicon interposer to provide high-bandwidth communication between chips. 2.5D packaging is widely used in AI accelerators, GPUs, HPC systems, and HBM integration. Another important technology is 3D packaging, which vertically stacks semiconductor dies to increase integration density, reduce footprint, and improve performance. Heterogeneous integration has become a major trend in semiconductor design. Instead of building a single monolithic chip, multiple specialized dies can be combined into a single package. Examples include integrating CPUs, GPUs, AI accelerators, memory, networking chips, and analog devices into one package. Advanced packaging is the enabling technology behind heterogeneous integration. System-in-Package (SiP) technologies represent another major growth area for ASE. SiP combines multiple semiconductor components and subsystems into a single package. Components may include processors, memory, sensors, connectivity chips, power-management devices, and RF modules. SiP technology is widely used in smartphones, smartwatches, wearables, IoT devices, networking systems, and automotive electronics because it enables compact designs and greater functionality. The semiconductor industry is increasingly moving toward chiplet architectures. Instead of manufacturing one large monolithic die, companies create systems using multiple smaller chiplets. Chiplets improve manufacturing yield, reduce cost, accelerate design cycles, and allow flexible product development. Advanced packaging technologies are essential because they provide the interconnects that allow chiplets to function as a single system. ASE provides chiplet-packaging solutions, die-to-die interconnect technologies, and heterogeneous integration capabilities that support modern chiplet architectures. Semiconductor testing is another core ASE competency. Even advanced manufacturing processes produce defects, making testing essential for quality assurance. ASE provides wafer-level testing before packaging and final testing after packaging. Additional services include burn-in testing, which subjects chips to stress conditions to identify reliability issues, and system-level testing, which validates chip function in realistic operating environments. Testing improves quality, reliability, yield, and customer confidence. Artificial Intelligence has dramatically increased demand for advanced packaging technologies. AI accelerators require high bandwidth, large memory capacity, high power efficiency, and close integration between processors and memory. Technologies such as HBM require advanced packaging methods that connect stacked memory dies to AI processors. Packaging technologies enable TSV integration, memory stacking, chiplet architectures, and logic-to-memory interconnections. Without advanced packaging, modern AI GPUs and accelerators could not achieve their required performance levels. Automotive electronics represent another major growth opportunity. Vehicles increasingly require semiconductors for ADAS, autonomous driving, infotainment systems, vehicle networking, power electronics, and connectivity. Automotive packaging solutions require high reliability, thermal management, long lifetimes, and strict quality standards. ASE has expanded its capabilities to serve growing automotive semiconductor demand. Fan-Out Packaging is another important technology area. Fan-out packaging enables thinner packages, higher I/O density, improved electrical performance, and reduced package size. These characteristics are particularly valuable for smartphones, mobile processors, wearables, and high-performance devices. ASE's competitive advantages include market leadership, packaging expertise, advanced packaging portfolios, testing capabilities, worldwide manufacturing scale, and strong customer relationships. However, the company faces challenges including increasing package complexity, rising capital requirements, competition from Amkor, JCET, and other OSAT providers, AI-demand fluctuations, and the need for highly specialized engineering talent. Future growth opportunities include AI accelerators, HBM integration, chiplet architectures, heterogeneous integration, advanced packaging technologies, automotive electronics, and next-generation semiconductor system integration. As AI, HPC, and advanced computing systems continue to expand, ASE remains one of the most important enablers of modern semiconductor innovation.",
+  "keywords": [
+    {
+      "english": "ASE Technology Holding",
+      "chinese": "日月光投控"
+    },
+    {
+      "english": "ASE",
+      "chinese": "日月光"
+    },
+    {
+      "english": "OSAT (Outsourced Semiconductor Assembly and Test)",
+      "chinese": "委外封裝測試"
+    },
+    {
+      "english": "Semiconductor Packaging",
+      "chinese": "半導體封裝"
+    },
+    {
+      "english": "Semiconductor Testing",
+      "chinese": "半導體測試"
+    },
+    {
+      "english": "Advanced Packaging",
+      "chinese": "先進封裝"
+    },
+    {
+      "english": "System-in-Package (SiP)",
+      "chinese": "系統級封裝"
+    },
+    {
+      "english": "Heterogeneous Integration",
+      "chinese": "異質整合"
+    },
+    {
+      "english": "Chiplet",
+      "chinese": "小晶片"
+    },
+    {
+      "english": "2.5D Packaging",
+      "chinese": "2.5D封裝"
+    },
+    {
+      "english": "3D Packaging",
+      "chinese": "3D封裝"
+    },
+    {
+      "english": "Flip-Chip Packaging",
+      "chinese": "覆晶封裝"
+    },
+    {
+      "english": "Wire Bond Packaging",
+      "chinese": "打線封裝"
+    },
+    {
+      "english": "Fan-Out Packaging",
+      "chinese": "扇出型封裝"
+    },
+    {
+      "english": "Silicon Interposer",
+      "chinese": "矽中介層"
+    },
+    {
+      "english": "TSV (Through-Silicon Via)",
+      "chinese": "穿矽通孔"
+    },
+    {
+      "english": "HBM Integration",
+      "chinese": "HBM整合封裝"
+    },
+    {
+      "english": "Burn-In Test",
+      "chinese": "老化測試"
+    },
+    {
+      "english": "Final Test",
+      "chinese": "最終測試"
+    },
+    {
+      "english": "USI (Universal Scientific Industrial)",
+      "chinese": "環旭電子"
+    }
+  ],
+  "summary": [
+    "ASE is the world's largest OSAT (Outsourced Semiconductor Assembly and Test) company.",
+    "Packaging and testing are critical steps between wafer fabrication and final product deployment.",
+    "ASE specializes in semiconductor packaging, testing, advanced packaging, and system integration.",
+    "Advanced packaging has become increasingly important as traditional transistor scaling becomes more difficult.",
+    "System-in-Package (SiP) integrates multiple components into a single package.",
+    "Chiplet architectures rely heavily on advanced packaging and die-to-die integration technologies.",
+    "ASE supports AI accelerators, GPUs, HBM integration, HPC systems, smartphones, and automotive electronics.",
+    "2.5D and 3D packaging technologies enable higher bandwidth, better density, and improved performance.",
+    "Semiconductor testing ensures functionality, reliability, and quality before final deployment.",
+    "AI, HBM, chiplets, heterogeneous integration, and automotive electronics are major growth drivers for ASE."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. ASE is the world's largest ______ company.",
+      "answer": "OSAT"
+    },
+    {
+      "question": "2. OSAT stands for Outsourced Semiconductor Assembly and ______.",
+      "answer": "Test"
+    },
+    {
+      "question": "3. Packaging occurs after wafer ______.",
+      "answer": "Fabrication"
+    },
+    {
+      "question": "4. SiP stands for System-in-______.",
+      "answer": "Package"
+    },
+    {
+      "question": "5. HBM integration requires advanced ______ technologies.",
+      "answer": "Packaging"
+    },
+    {
+      "question": "6. Flip-chip packaging uses solder ______ instead of wire bonds.",
+      "answer": "Bumps"
+    },
+    {
+      "question": "7. Chiplets help improve manufacturing ______ and scalability.",
+      "answer": "Yield"
+    },
+    {
+      "question": "8. TSV stands for Through-Silicon ______.",
+      "answer": "Via"
+    },
+    {
+      "question": "9. Burn-in testing is used to identify ______ issues.",
+      "answer": "Reliability"
+    },
+    {
+      "question": "10. USI stands for Universal Scientific ______.",
+      "answer": "Industrial"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why has advanced packaging become so important in the AI era?",
+      "answer": "As traditional transistor scaling slows, performance improvements increasingly come from advanced packaging. Technologies such as 2.5D packaging, 3D integration, chiplets, and HBM integration allow multiple dies to work together efficiently, providing the bandwidth and performance required for AI systems."
+    },
+    {
+      "question": "2. How does ASE fit into the semiconductor supply chain?",
+      "answer": "ASE operates between wafer fabrication and final system assembly. It packages semiconductor dies, performs testing, integrates components, and prepares chips for use in electronic systems, making it a critical link in the semiconductor ecosystem."
+    },
+    {
+      "question": "3. Why are chiplets important for the semiconductor industry?",
+      "answer": "Chiplets improve yield, lower manufacturing costs, accelerate development, and enable modular system design. Advanced packaging companies like ASE play a central role in connecting chiplets into complete products."
+    },
+    {
+      "question": "4. What role does testing play in semiconductor manufacturing?",
+      "answer": "Testing identifies defects, verifies functionality, ensures reliability, and improves product quality. Without rigorous testing, defective chips could enter the market and cause system failures."
+    },
+    {
+      "question": "5. Why is System-in-Package technology important?",
+      "answer": "SiP allows multiple chips and functions to be integrated into a compact package, reducing system size, improving performance, and enabling products such as wearables, smartphones, and IoT devices."
+    },
+    {
+      "question": "6. How does heterogeneous integration benefit semiconductor design?",
+      "answer": "Heterogeneous integration combines specialized chips such as CPUs, GPUs, memory, AI accelerators, and analog devices into a single package, improving system performance and flexibility."
+    },
+    {
+      "question": "7. Why is HBM closely linked to advanced packaging?",
+      "answer": "HBM requires TSVs, memory stacking, and high-density interconnections that can only be achieved through advanced packaging technologies."
+    },
+    {
+      "question": "8. What advantages does fan-out packaging provide?",
+      "answer": "Fan-out packaging enables thinner packages, higher I/O density, improved electrical performance, and smaller form factors for mobile and high-performance applications."
+    },
+    {
+      "question": "9. Why is automotive packaging becoming an important market for ASE?",
+      "answer": "Modern vehicles require increasing numbers of semiconductors for ADAS, connectivity, infotainment, autonomous driving, and power electronics, creating strong demand for reliable automotive-grade packaging."
+    },
+    {
+      "question": "10. What are ASE's major future growth opportunities?",
+      "answer": "Key opportunities include AI accelerators, HBM integration, chiplet architectures, 2.5D and 3D packaging, heterogeneous integration, automotive electronics, and next-generation system packaging technologies."
+    }
+  ]
+},
+{
+  "id": 91,
+  "title": "ASML",
+  "content": "ASML Holding N.V. is the world's leading supplier of semiconductor lithography equipment and one of the most strategically important companies in the global semiconductor industry. Headquartered in the Netherlands, ASML specializes in photolithography systems, Extreme Ultraviolet (EUV) lithography, Deep Ultraviolet (DUV) lithography, semiconductor manufacturing equipment, metrology systems, inspection technologies, and computational lithography solutions. ASML provides critical manufacturing tools used by nearly all advanced semiconductor manufacturers, including TSMC, Samsung, Intel, SK hynix, and Micron. Without ASML's lithography systems, modern advanced semiconductor manufacturing would not be possible. Lithography is one of the most important processes in semiconductor manufacturing because it transfers circuit patterns onto silicon wafers. The precision of lithography directly affects transistor size, chip density, performance, power efficiency, and manufacturing capability. As transistor dimensions continue to shrink, lithography becomes increasingly difficult, making ASML's technology essential to the advancement of semiconductor scaling. ASML was founded in 1984 as a joint venture between Philips and ASM International. During its early years, the company focused on developing lithography equipment and gradually became a major supplier to semiconductor manufacturers. ASML's rise accelerated through Deep Ultraviolet (DUV) lithography, which became the industry standard for advanced chip manufacturing. DUV systems operate using wavelengths such as 248 nm and 193 nm and are used to manufacture logic devices, memory chips, analog semiconductors, and mature-node products. Advanced DUV systems also incorporate immersion lithography technology, which improves resolution by placing liquid between the lens and wafer. ASML's most significant achievement was the commercialization of Extreme Ultraviolet (EUV) lithography. EUV uses a much shorter wavelength of 13.5 nm, allowing semiconductor manufacturers to print significantly smaller features onto wafers. This advancement enabled the continuation of Moore's Law beyond the practical limitations of traditional DUV processes. EUV became essential for advanced process technologies such as 7nm, 5nm, 3nm, and future 2nm-class nodes. Before EUV, advanced semiconductor manufacturing required complex multiple-patterning techniques that increased process complexity, cost, and manufacturing time. EUV reduced the number of processing steps required and improved overall manufacturing efficiency. Lithography operates similarly to high-precision printing. A light source projects a circuit pattern from a reticle or mask through optical systems onto a photoresist-covered wafer. After exposure, the pattern is transferred into the semiconductor structure through additional manufacturing processes including etching and deposition. This patterning process is repeated many times during wafer fabrication to create billions of transistors on a single chip. One of ASML's most important future technologies is High-NA EUV. Numerical Aperture (NA) measures the ability of an optical system to capture and focus light. Higher numerical aperture improves resolution and enables even smaller semiconductor features. High-NA EUV is expected to support future semiconductor generations beyond current advanced nodes and continue transistor scaling for years to come. Modern EUV systems are among the most complex manufacturing machines ever built. They consist of multiple highly advanced subsystems including EUV light sources, reticles, wafer stages, vacuum chambers, measurement systems, and precision optics. Unlike conventional optical systems, EUV cannot use traditional glass lenses because EUV light is absorbed by glass. Instead, EUV systems rely on extremely precise mirrors manufactured by Carl Zeiss. These mirrors require atomic-level precision and are among the most advanced optical components in the world. The partnership between ASML and Zeiss is considered one of the most important collaborations in semiconductor manufacturing. EUV systems also require operation within near-vacuum environments because EUV light is absorbed by air. Wafer stages within the machines must position silicon wafers with nanometer-level accuracy while maintaining extremely high throughput. Modern EUV machines contain thousands of precision-engineered components sourced from specialized suppliers around the world. Beyond lithography scanners, ASML also develops computational lithography technologies. Computational lithography combines advanced software algorithms with manufacturing equipment to optimize pattern transfer, improve image fidelity, enhance yield, and reduce defects. Software-driven process optimization has become increasingly important as semiconductor designs become more complex. ASML additionally provides metrology and inspection solutions that help manufacturers measure critical dimensions, detect defects, maintain process control, and improve manufacturing yields. Leading semiconductor manufacturers rely heavily on ASML equipment. Companies such as TSMC, Samsung, Intel, SK hynix, and Micron use ASML lithography tools to produce advanced processors, memory chips, AI accelerators, GPUs, networking devices, and mobile semiconductors. ASML has become a critical enabler of Moore's Law because continued increases in transistor density depend heavily on advances in lithography technology. Competitive advantages include ASML's leadership in lithography, decades of engineering expertise, deep customer relationships, high switching costs, strong ecosystem partnerships, and its unique position as the sole supplier of high-volume EUV systems. However, the company faces challenges including extreme technological complexity, long development cycles, supply-chain dependencies, geopolitical restrictions, export controls, and customer concentration. Future growth opportunities include High-NA EUV adoption, AI infrastructure expansion, advanced-node manufacturing, memory scaling, high-performance computing, semiconductor-capacity expansion, and next-generation process technologies. ASML remains one of the most important technology companies in the world because advanced semiconductor manufacturing depends heavily on its lithography innovations.",
+  "keywords": [
+    {
+      "english": "ASML",
+      "chinese": "艾司摩爾"
+    },
+    {
+      "english": "Lithography",
+      "chinese": "微影製程"
+    },
+    {
+      "english": "Photolithography",
+      "chinese": "光刻技術"
+    },
+    {
+      "english": "DUV (Deep Ultraviolet)",
+      "chinese": "深紫外光微影"
+    },
+    {
+      "english": "EUV (Extreme Ultraviolet)",
+      "chinese": "極紫外光微影"
+    },
+    {
+      "english": "High-NA EUV",
+      "chinese": "高數值孔徑EUV"
+    },
+    {
+      "english": "Numerical Aperture (NA)",
+      "chinese": "數值孔徑"
+    },
+    {
+      "english": "Reticle (Mask)",
+      "chinese": "光罩"
+    },
+    {
+      "english": "Photoresist",
+      "chinese": "光阻"
+    },
+    {
+      "english": "Immersion Lithography",
+      "chinese": "浸潤式微影"
+    },
+    {
+      "english": "Zeiss Optics",
+      "chinese": "蔡司光學系統"
+    },
+    {
+      "english": "Wafer Stage",
+      "chinese": "晶圓平台"
+    },
+    {
+      "english": "Computational Lithography",
+      "chinese": "計算微影"
+    },
+    {
+      "english": "Semiconductor Manufacturing Equipment",
+      "chinese": "半導體製造設備"
+    },
+    {
+      "english": "Metrology",
+      "chinese": "量測技術"
+    },
+    {
+      "english": "Inspection System",
+      "chinese": "檢測系統"
+    },
+    {
+      "english": "Process Control",
+      "chinese": "製程控制"
+    },
+    {
+      "english": "Moore's Law",
+      "chinese": "摩爾定律"
+    },
+    {
+      "english": "13.5 nm Wavelength",
+      "chinese": "13.5奈米波長"
+    },
+    {
+      "english": "Advanced Process Node",
+      "chinese": "先進製程節點"
+    }
+  ],
+  "summary": [
+    "ASML is the world's leading supplier of semiconductor lithography equipment.",
+    "Lithography transfers circuit patterns onto silicon wafers and is a critical semiconductor manufacturing step.",
+    "DUV lithography dominated semiconductor manufacturing before the EUV era.",
+    "ASML is the only company capable of producing high-volume EUV lithography systems.",
+    "EUV uses a 13.5 nm wavelength to enable advanced semiconductor scaling.",
+    "High-NA EUV is the next major advancement in lithography technology.",
+    "ASML works closely with Zeiss to develop advanced optical systems.",
+    "Leading semiconductor manufacturers including TSMC, Samsung, and Intel rely on ASML equipment.",
+    "Computational lithography improves pattern accuracy, yield, and process control.",
+    "ASML is one of the most strategically important companies enabling modern semiconductor innovation."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. ASML is primarily known for semiconductor ______ equipment.",
+      "answer": "Lithography"
+    },
+    {
+      "question": "2. EUV stands for Extreme ______ Lithography.",
+      "answer": "Ultraviolet"
+    },
+    {
+      "question": "3. EUV lithography uses a wavelength of ______ nm.",
+      "answer": "13.5"
+    },
+    {
+      "question": "4. DUV stands for Deep ______ Ultraviolet.",
+      "answer": "Ultraviolet"
+    },
+    {
+      "question": "5. High-NA EUV improves lithography ______.",
+      "answer": "Resolution"
+    },
+    {
+      "question": "6. A semiconductor mask is also called a ______.",
+      "answer": "Reticle"
+    },
+    {
+      "question": "7. EUV systems require a ______ environment.",
+      "answer": "Vacuum"
+    },
+    {
+      "question": "8. ASML's optical partner is ______ Zeiss.",
+      "answer": "Carl"
+    },
+    {
+      "question": "9. Computational lithography helps improve manufacturing ______.",
+      "answer": "Yield"
+    },
+    {
+      "question": "10. Moore's Law depends heavily on advancements in ______ technology.",
+      "answer": "Lithography"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is ASML considered one of the most important companies in the semiconductor industry?",
+      "answer": "ASML supplies the lithography equipment required to manufacture advanced semiconductors. Without ASML's DUV and EUV systems, modern processors, memory chips, AI accelerators, and advanced-node semiconductors could not be produced."
+    },
+    {
+      "question": "2. Why was EUV lithography a major breakthrough?",
+      "answer": "EUV uses a much shorter 13.5 nm wavelength, allowing smaller and denser transistor patterns to be printed on wafers. This reduced the need for complex multi-patterning processes and enabled advanced semiconductor nodes such as 7nm, 5nm, and 3nm."
+    },
+    {
+      "question": "3. What is the significance of High-NA EUV?",
+      "answer": "High-NA EUV increases numerical aperture and lithographic resolution, enabling even smaller semiconductor features and supporting future generations of semiconductor scaling beyond current advanced nodes."
+    },
+    {
+      "question": "4. Why are ASML and Zeiss closely linked?",
+      "answer": "ASML's lithography systems depend on extremely precise mirror-based optical systems supplied by Zeiss. These mirrors are among the most advanced optical components ever manufactured and are essential for EUV performance."
+    },
+    {
+      "question": "5. Why are traditional lenses unsuitable for EUV systems?",
+      "answer": "EUV light is absorbed by conventional optical glass, so EUV systems must use highly specialized reflective mirrors instead of traditional lenses."
+    },
+    {
+      "question": "6. How does computational lithography improve semiconductor manufacturing?",
+      "answer": "Computational lithography uses advanced algorithms to optimize pattern transfer, improve image quality, enhance yield, reduce defects, and increase process accuracy."
+    },
+    {
+      "question": "7. What role does lithography play in semiconductor manufacturing?",
+      "answer": "Lithography transfers circuit patterns onto photoresist-coated wafers, defining transistor structures and enabling the creation of integrated circuits."
+    },
+    {
+      "question": "8. Why did EUV reduce the need for multiple patterning?",
+      "answer": "Its shorter wavelength provides higher resolution, allowing complex features to be printed with fewer exposure steps, reducing cost and manufacturing complexity."
+    },
+    {
+      "question": "9. What are ASML's major competitive advantages?",
+      "answer": "ASML benefits from EUV leadership, decades of lithography expertise, strong customer dependence, high switching costs, deep supplier relationships, and advanced optical technologies."
+    },
+    {
+      "question": "10. What are ASML's major future growth opportunities?",
+      "answer": "Key opportunities include High-NA EUV deployment, AI infrastructure growth, advanced process nodes, memory scaling, high-performance computing, and global semiconductor-capacity expansion."
+    }
+  ]
+},
+{
+  "id": 92,
+  "title": "Applied Materials",
+  "content": "Applied Materials, Inc. is the world's largest semiconductor manufacturing equipment supplier and one of the most important companies in the semiconductor production ecosystem. The company provides equipment, software, services, and materials-engineering solutions used to manufacture logic chips, memory chips, AI accelerators, GPUs, advanced semiconductor packages, and display technologies. Applied Materials serves nearly every major semiconductor manufacturer, including TSMC, Samsung, Intel, Micron, SK hynix, GlobalFoundries, and many other semiconductor producers worldwide. Unlike companies that design semiconductors, Applied Materials develops the tools and technologies that enable semiconductor fabrication. Modern semiconductor manufacturing requires hundreds of highly specialized process steps. Applied Materials provides critical equipment used in deposition, ion implantation, chemical mechanical planarization, process control, inspection, packaging, and advanced materials engineering. As semiconductor devices become more complex and transistor scaling becomes increasingly difficult, Applied Materials plays an essential role in enabling continued semiconductor innovation. Founded in 1967 in California, Applied Materials initially focused on semiconductor manufacturing equipment. Over time, the company expanded its capabilities into thin-film deposition, process control, advanced materials engineering, factory optimization software, and manufacturing services. Today it is one of the world's largest wafer-fabrication-equipment suppliers and a foundational technology provider across the semiconductor industry. Applied Materials operates through several major business segments. The Semiconductor Systems segment is the company's largest business and provides equipment for deposition, CMP, ion implantation, materials engineering, and process integration. Applied Global Services provides maintenance, process optimization, software support, equipment upgrades, spare parts, and productivity solutions for semiconductor fabs. The company also operates a display business that supplies manufacturing equipment for OLED, LCD, and advanced display panels used in smartphones, televisions, tablets, and automotive displays. Applied Materials often describes itself as a materials-engineering company because advanced semiconductor innovation increasingly depends on controlling materials at the atomic level. Materials engineering focuses on creating thin films, engineering interfaces, modifying material properties, and improving transistor structures. The company develops solutions that help manufacturers build increasingly complex devices while improving power efficiency, performance, density, and reliability. One of Applied Materials' most important technology areas is deposition. Deposition is the process of adding material layers onto a silicon wafer. These layers form transistors, interconnects, conductors, insulators, and various semiconductor structures. Physical Vapor Deposition (PVD) is used to deposit metals, barrier layers, and conductive films. Chemical Vapor Deposition (CVD) creates thin films through chemical reactions occurring on wafer surfaces. Atomic Layer Deposition (ALD) enables atom-by-atom material deposition with extremely high precision and uniformity, making it especially important for advanced semiconductor nodes. ALD has become critical for FinFET devices, Gate-All-Around transistors, advanced DRAM, NAND Flash, HBM, and future semiconductor technologies. Chemical Mechanical Planarization (CMP) is another core technology. CMP smooths wafer surfaces and creates highly planar layers needed for subsequent fabrication steps. Without CMP, advanced semiconductor structures could not be manufactured reliably because uneven surfaces would create process problems in future lithography and deposition stages. Applied Materials is one of the industry's leading suppliers of CMP equipment and consumables. Ion implantation is a critical semiconductor process used to introduce carefully controlled impurities into silicon. These impurities modify the electrical properties of semiconductor materials and create transistor regions that enable switching behavior. The process is essential for controlling conductivity, threshold voltage, and transistor performance. As semiconductor dimensions continue shrinking, increasingly precise ion implantation technologies become necessary. Process control, metrology, and inspection solutions are another important part of Applied Materials' portfolio. Advanced semiconductor manufacturing requires precise measurement and monitoring of critical dimensions, film thicknesses, defects, and process variations. Applied Materials provides measurement systems, inspection technologies, data-analysis tools, and process-control solutions that improve manufacturing yield, reliability, and production efficiency. Applied Materials supports the manufacturing of both logic semiconductors and memory products. Logic devices include CPUs, GPUs, AI accelerators, networking processors, and mobile application processors. Memory products include DRAM, NAND Flash, SSD technologies, HBM, and other data-storage devices. The growth of AI computing has significantly increased demand for advanced memory manufacturing and high-performance semiconductor process technologies. The transition toward Gate-All-Around transistor architectures represents an important opportunity for Applied Materials. GAA technologies require extremely precise deposition, advanced materials engineering, and sophisticated process integration. Applied Materials supplies many of the manufacturing tools and techniques needed to produce advanced GAA structures used in future semiconductor nodes. Advanced packaging is another major growth area. Modern semiconductor systems increasingly rely on chiplets, heterogeneous integration, 2.5D packaging, 3D packaging, and HBM integration. Applied Materials provides technologies that support package formation, advanced interconnects, wafer-level packaging, and semiconductor system integration. These technologies are increasingly important because performance improvements now come from both transistor scaling and package-level innovation. Artificial Intelligence has become a major driver of semiconductor-equipment demand. AI accelerators, GPUs, HBM, high-performance processors, and advanced packaging require more process steps, more materials, and more sophisticated manufacturing technologies. As a result, AI growth directly increases demand for Applied Materials equipment and services. Software has also become an increasingly important part of Applied Materials' strategy. The company develops manufacturing software for process optimization, factory automation, yield management, predictive maintenance, and data analytics. These solutions help fabs improve efficiency, productivity, and profitability. Applied Materials benefits from several major competitive advantages, including broad process coverage, deep materials-engineering expertise, strong customer relationships, a large installed equipment base, recurring service revenue, and technology leadership in deposition and process integration. However, the company faces challenges including semiconductor-industry cyclicality, intense competition from Lam Research, Tokyo Electron, KLA, and ASML, increasing process complexity, geopolitical uncertainties, and large customer concentration. Future growth opportunities include AI infrastructure, advanced logic manufacturing, HBM production, advanced memory technologies, GAA transistors, chiplet architectures, advanced packaging, heterogeneous integration, semiconductor-capacity expansion, and next-generation materials innovation. Applied Materials remains one of the most important enablers of modern semiconductor manufacturing because virtually every advanced semiconductor device depends on materials-engineering technologies and fabrication processes supplied by the company.",
+  "keywords": [
+    {
+      "english": "Applied Materials",
+      "chinese": "應用材料公司"
+    },
+    {
+      "english": "Semiconductor Manufacturing Equipment",
+      "chinese": "半導體製造設備"
+    },
+    {
+      "english": "Materials Engineering",
+      "chinese": "材料工程"
+    },
+    {
+      "english": "Deposition",
+      "chinese": "沉積製程"
+    },
+    {
+      "english": "Physical Vapor Deposition (PVD)",
+      "chinese": "物理氣相沉積"
+    },
+    {
+      "english": "Chemical Vapor Deposition (CVD)",
+      "chinese": "化學氣相沉積"
+    },
+    {
+      "english": "Atomic Layer Deposition (ALD)",
+      "chinese": "原子層沉積"
+    },
+    {
+      "english": "Chemical Mechanical Planarization (CMP)",
+      "chinese": "化學機械平坦化"
+    },
+    {
+      "english": "Ion Implantation",
+      "chinese": "離子植入"
+    },
+    {
+      "english": "Process Control",
+      "chinese": "製程控制"
+    },
+    {
+      "english": "Metrology",
+      "chinese": "量測技術"
+    },
+    {
+      "english": "Inspection",
+      "chinese": "檢測技術"
+    },
+    {
+      "english": "Logic Semiconductor",
+      "chinese": "邏輯半導體"
+    },
+    {
+      "english": "DRAM",
+      "chinese": "動態隨機存取記憶體"
+    },
+    {
+      "english": "NAND Flash",
+      "chinese": "NAND快閃記憶體"
+    },
+    {
+      "english": "HBM",
+      "chinese": "高頻寬記憶體"
+    },
+    {
+      "english": "Gate-All-Around (GAA)",
+      "chinese": "環繞閘極電晶體"
+    },
+    {
+      "english": "Chiplet",
+      "chinese": "小晶片"
+    },
+    {
+      "english": "Advanced Packaging",
+      "chinese": "先進封裝"
+    },
+    {
+      "english": "Applied Global Services (AGS)",
+      "chinese": "應用材料全球服務"
+    }
+  ],
+  "summary": [
+    "Applied Materials is the world's largest semiconductor manufacturing equipment supplier.",
+    "The company specializes in materials engineering and wafer-fabrication technologies.",
+    "Deposition technologies such as PVD, CVD, and ALD are core parts of its business.",
+    "CMP is essential for creating smooth wafer surfaces during semiconductor manufacturing.",
+    "Ion implantation modifies silicon properties and is critical to transistor creation.",
+    "Applied Materials serves leading chipmakers including TSMC, Samsung, Intel, Micron, and SK hynix.",
+    "The company supports manufacturing of logic chips, memory chips, AI processors, and HBM.",
+    "Gate-All-Around transistors require increasingly advanced materials and deposition technologies.",
+    "Advanced packaging, chiplets, and heterogeneous integration are major growth opportunities.",
+    "AI infrastructure growth is increasing demand for semiconductor manufacturing equipment."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Applied Materials was founded in ______.",
+      "answer": "1967"
+    },
+    {
+      "question": "2. Applied Materials is primarily a semiconductor ______ supplier.",
+      "answer": "Equipment"
+    },
+    {
+      "question": "3. PVD stands for Physical Vapor ______.",
+      "answer": "Deposition"
+    },
+    {
+      "question": "4. CVD stands for Chemical Vapor ______.",
+      "answer": "Deposition"
+    },
+    {
+      "question": "5. ALD stands for Atomic Layer ______.",
+      "answer": "Deposition"
+    },
+    {
+      "question": "6. CMP stands for Chemical Mechanical ______.",
+      "answer": "Planarization"
+    },
+    {
+      "question": "7. Ion implantation modifies the ______ properties of silicon.",
+      "answer": "Electrical"
+    },
+    {
+      "question": "8. HBM stands for High Bandwidth ______.",
+      "answer": "Memory"
+    },
+    {
+      "question": "9. AGS stands for Applied Global ______.",
+      "answer": "Services"
+    },
+    {
+      "question": "10. GAA stands for Gate-All-______.",
+      "answer": "Around"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is Applied Materials important to the semiconductor industry?",
+      "answer": "Applied Materials provides many of the manufacturing technologies required to build advanced semiconductors. Without deposition, CMP, ion implantation, materials engineering, and process-control solutions, modern chips could not be produced efficiently."
+    },
+    {
+      "question": "2. Why is deposition one of the most critical semiconductor processes?",
+      "answer": "Deposition creates the thin-film layers that form transistors, interconnects, insulators, and advanced device structures. Semiconductor performance and reliability depend heavily on the quality of these deposited materials."
+    },
+    {
+      "question": "3. Why is ALD becoming increasingly important?",
+      "answer": "ALD deposits materials one atomic layer at a time with exceptional precision, making it essential for advanced semiconductor nodes, GAA transistors, 3D NAND, HBM, and future device architectures."
+    },
+    {
+      "question": "4. How does Applied Materials benefit from AI growth?",
+      "answer": "AI accelerators, GPUs, HBM, advanced packaging, and high-performance processors require more manufacturing steps, more materials, and more sophisticated fabrication processes, increasing demand for Applied Materials equipment."
+    },
+    {
+      "question": "5. Why is CMP essential in semiconductor manufacturing?",
+      "answer": "CMP creates smooth and uniform wafer surfaces that are necessary for accurate lithography, deposition, and multi-layer semiconductor fabrication."
+    },
+    {
+      "question": "6. What role does ion implantation play in transistor manufacturing?",
+      "answer": "Ion implantation introduces controlled impurities into semiconductor materials, modifying electrical properties and creating the transistor regions required for device operation."
+    },
+    {
+      "question": "7. How does Applied Materials support advanced memory manufacturing?",
+      "answer": "The company provides deposition, process-control, materials-engineering, and fabrication solutions used to manufacture DRAM, NAND Flash, HBM, and next-generation memory technologies."
+    },
+    {
+      "question": "8. Why are Gate-All-Around transistors important for Applied Materials?",
+      "answer": "GAA devices require advanced materials, precise deposition, and sophisticated process integration, creating strong demand for Applied Materials technologies and equipment."
+    },
+    {
+      "question": "9. What competitive advantages does Applied Materials possess?",
+      "answer": "Applied Materials benefits from broad process coverage, deep materials-engineering expertise, strong customer relationships, a large installed base, recurring service revenue, and technology leadership."
+    },
+    {
+      "question": "10. What are Applied Materials' major future growth opportunities?",
+      "answer": "Key opportunities include AI infrastructure, GAA transistor production, HBM manufacturing, advanced packaging, chiplet architectures, advanced memory technologies, semiconductor-capacity expansion, and materials innovation."
+    }
+  ]
+},
+{
+  "id": 93,
+  "title": "Lam Research",
+  "content": "Lam Research Corporation is one of the world's leading semiconductor manufacturing equipment companies and a global leader in etching systems, deposition technologies, wafer-cleaning solutions, and advanced process equipment. Headquartered in the United States, Lam Research supplies critical manufacturing tools used by nearly every major semiconductor company, including TSMC, Samsung, Intel, Micron, and SK hynix. Unlike semiconductor companies that design chips, Lam Research develops the equipment and process technologies that enable advanced semiconductor fabrication. As semiconductor devices become smaller, more complex, and more three-dimensional, Lam Research has become increasingly important to the semiconductor industry. The company was founded in 1980 in California and initially focused on plasma etching technologies. As semiconductor dimensions continued to shrink, traditional manufacturing methods became inadequate, creating demand for highly precise etching technologies. Lam Research became a global leader in dry etching and plasma etching, helping semiconductor manufacturers produce increasingly advanced transistor structures and memory devices. Over time, the company expanded into deposition systems, wafer cleaning, process integration, and advanced packaging technologies. Today, Lam Research is one of the largest wafer-fabrication-equipment suppliers worldwide. Lam Research's business focuses primarily on etch systems, deposition systems, clean systems, and customer-support solutions. Etch systems represent the company's largest business segment and are used extensively in the production of logic chips, DRAM, NAND Flash, HBM, AI processors, and advanced semiconductor devices. Deposition systems create thin material layers required for semiconductor structures. Clean systems remove contaminants and particles that could damage chips during manufacturing. The Customer Support Business Group provides process optimization, maintenance services, software solutions, and equipment upgrades that help semiconductor manufacturers improve productivity and profitability. Etching is one of the most critical semiconductor manufacturing processes. After lithography transfers circuit patterns onto a wafer, etching selectively removes material to create transistor structures, memory cells, interconnects, and other semiconductor features. There are two major categories of etching: wet etching and dry etching. Wet etching uses liquid chemicals and has lower complexity but less precision. Dry etching uses plasma and reactive gases, offering higher accuracy and better process control. Modern semiconductor manufacturing relies heavily on dry etching because advanced devices require extremely precise feature dimensions. Lam Research is a global leader in plasma etching technologies. Plasma etching uses ionized gases to remove material from a wafer with exceptional precision. This technology enables manufacturers to create extremely small and complex semiconductor features that would be impossible using traditional methods. One of Lam Research's greatest strengths is high-aspect-ratio etching. Modern semiconductor devices often require structures that are extremely deep and narrow. Examples include 3D NAND memory, advanced DRAM architectures, Through-Silicon Vias (TSVs), and advanced packaging structures. These features require precise control to maintain structural integrity while achieving extremely high aspect ratios. Lam Research has developed specialized etch technologies capable of supporting these advanced geometries. Deposition technologies are another important part of Lam Research's portfolio. Deposition adds material layers onto wafers and works together with etching to build semiconductor structures layer by layer. Deposition processes create conductive films, insulating layers, and semiconductor materials used throughout integrated circuits. Dielectric deposition forms insulating layers that separate electrical components, while conductive deposition creates pathways for electrical signals. The combination of deposition and etching enables the creation of highly complex semiconductor devices. Wafer cleaning is essential because even microscopic contamination can destroy semiconductor performance, reduce yield, or cause product failures. As feature sizes shrink to nanometer scales, contamination tolerance becomes increasingly small. Lam Research develops advanced cleaning technologies that remove particles, chemical residues, and process contaminants while minimizing wafer damage. Effective cleaning is critical for maintaining yield, productivity, and reliability in advanced semiconductor manufacturing. Lam Research supports the manufacturing of both logic semiconductors and memory products. Logic chips include CPUs, GPUs, AI accelerators, networking processors, and mobile application processors. Memory products include DRAM, NAND Flash, SSD-related memory, and HBM. Memory manufacturing represents one of Lam Research's most important markets because memory devices require significant amounts of etching, deposition, and cleaning. The growth of Artificial Intelligence has increased demand for HBM and advanced memory solutions, creating additional opportunities for Lam Research. The rise of 3D NAND is particularly important for the company. Instead of increasing storage density by shrinking memory cells horizontally, manufacturers stack memory layers vertically. This architecture dramatically increases storage capacity but requires extremely challenging high-aspect-ratio etching processes. Lam Research has become one of the industry's key suppliers for 3D NAND manufacturing because of its expertise in deep etching and precision process control. The semiconductor industry is also transitioning from FinFET transistors to Gate-All-Around (GAA) architectures. GAA devices provide better performance, power efficiency, and transistor control, but they require more complex manufacturing processes. Precise etching and deposition technologies are essential for creating these advanced structures. Lam Research supplies many of the tools that enable GAA transistor manufacturing at advanced process nodes. Advanced packaging is another major growth area. Modern semiconductor systems increasingly rely on chiplets, heterogeneous integration, 2.5D packaging, 3D packaging, and HBM integration. Lam Research provides technologies that support package formation, advanced interconnect structures, and packaging-related process steps. These solutions are becoming increasingly important as semiconductor performance improvements depend not only on transistor scaling but also on system-level integration. Artificial Intelligence has become one of the strongest growth drivers for Lam Research. AI accelerators, GPUs, HBM, advanced memory devices, and high-performance processors require increasingly sophisticated manufacturing processes. More process steps, more complex structures, and higher manufacturing precision directly increase demand for Lam's equipment. Competitive advantages include leadership in plasma etching, strength in memory manufacturing, deep process expertise, extensive installed customer bases, strong customer relationships, and advanced cleaning technologies. However, Lam Research faces challenges including semiconductor-industry cyclicality, intense competition from Applied Materials and Tokyo Electron, geopolitical uncertainties, technology complexity, and growing research-and-development requirements. Future growth opportunities include AI infrastructure, HBM expansion, 3D NAND scaling, Gate-All-Around transistor adoption, advanced packaging, chiplet integration, heterogeneous integration, and global semiconductor-capacity expansion. Lam Research remains one of the most important technology suppliers because advanced semiconductor devices cannot be manufactured without highly precise etching, deposition, and cleaning technologies.",
+  "keywords": [
+    {
+      "english": "Lam Research",
+      "chinese": "科林研發"
+    },
+    {
+      "english": "Semiconductor Manufacturing Equipment",
+      "chinese": "半導體製造設備"
+    },
+    {
+      "english": "Etching",
+      "chinese": "蝕刻製程"
+    },
+    {
+      "english": "Plasma Etching",
+      "chinese": "電漿蝕刻"
+    },
+    {
+      "english": "Dry Etching",
+      "chinese": "乾式蝕刻"
+    },
+    {
+      "english": "Wet Etching",
+      "chinese": "濕式蝕刻"
+    },
+    {
+      "english": "Deposition",
+      "chinese": "沉積製程"
+    },
+    {
+      "english": "Dielectric Deposition",
+      "chinese": "介電層沉積"
+    },
+    {
+      "english": "Conductive Deposition",
+      "chinese": "導電層沉積"
+    },
+    {
+      "english": "Wafer Cleaning",
+      "chinese": "晶圓清洗"
+    },
+    {
+      "english": "High-Aspect-Ratio Etching",
+      "chinese": "高深寬比蝕刻"
+    },
+    {
+      "english": "Process Control",
+      "chinese": "製程控制"
+    },
+    {
+      "english": "Yield",
+      "chinese": "良率"
+    },
+    {
+      "english": "DRAM",
+      "chinese": "動態隨機存取記憶體"
+    },
+    {
+      "english": "NAND Flash",
+      "chinese": "NAND快閃記憶體"
+    },
+    {
+      "english": "3D NAND",
+      "chinese": "3D NAND快閃記憶體"
+    },
+    {
+      "english": "HBM",
+      "chinese": "高頻寬記憶體"
+    },
+    {
+      "english": "Gate-All-Around (GAA)",
+      "chinese": "環繞閘極電晶體"
+    },
+    {
+      "english": "Chiplet",
+      "chinese": "小晶片"
+    },
+    {
+      "english": "Advanced Packaging",
+      "chinese": "先進封裝"
+    }
+  ],
+  "summary": [
+    "Lam Research is one of the world's leading semiconductor manufacturing equipment companies.",
+    "The company is a global leader in plasma etching and wafer-cleaning technologies.",
+    "Etching transfers lithography patterns into semiconductor structures and is a critical fabrication step.",
+    "Dry etching and plasma etching are essential for advanced-node manufacturing.",
+    "Lam plays a major role in DRAM, NAND Flash, HBM, and advanced logic production.",
+    "3D NAND manufacturing depends heavily on Lam's high-aspect-ratio etching technologies.",
+    "Gate-All-Around transistor production requires increasingly precise etching and deposition solutions.",
+    "AI infrastructure growth is driving demand for advanced memory and logic manufacturing equipment.",
+    "Wafer cleaning is critical for maintaining semiconductor yield and reliability.",
+    "Lam Research is a key enabler of next-generation semiconductor manufacturing."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Lam Research was founded in ______.",
+      "answer": "1980"
+    },
+    {
+      "question": "2. Lam Research is best known for ______ technology.",
+      "answer": "Etching"
+    },
+    {
+      "question": "3. Plasma etching is a type of ______ etching.",
+      "answer": "Dry"
+    },
+    {
+      "question": "4. Etching removes material after the ______ process.",
+      "answer": "Lithography"
+    },
+    {
+      "question": "5. DRAM, NAND, and HBM are examples of ______ products.",
+      "answer": "Memory"
+    },
+    {
+      "question": "6. 3D NAND requires high-______-ratio etching.",
+      "answer": "Aspect"
+    },
+    {
+      "question": "7. GAA stands for Gate-All-______.",
+      "answer": "Around"
+    },
+    {
+      "question": "8. Wafer cleaning helps improve manufacturing ______.",
+      "answer": "Yield"
+    },
+    {
+      "question": "9. HBM stands for High Bandwidth ______.",
+      "answer": "Memory"
+    },
+    {
+      "question": "10. Lam Research competes with Applied Materials and ______ Electron.",
+      "answer": "Tokyo"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is etching so important in semiconductor manufacturing?",
+      "answer": "Etching transfers patterns created during lithography into semiconductor materials, forming transistors, memory cells, interconnects, and device structures. Without precise etching, advanced semiconductor devices could not be manufactured."
+    },
+    {
+      "question": "2. Why is Lam Research a leader in 3D NAND manufacturing?",
+      "answer": "3D NAND requires extremely deep and narrow structures with very high aspect ratios. Lam's advanced plasma-etching technologies are specifically designed to create these structures with high precision and strong manufacturing yields."
+    },
+    {
+      "question": "3. How does AI growth benefit Lam Research?",
+      "answer": "AI accelerators, GPUs, HBM, and advanced processors require more sophisticated manufacturing processes, additional process steps, and advanced memory production, increasing demand for Lam's etching, deposition, and cleaning equipment."
+    },
+    {
+      "question": "4. Why is wafer cleaning becoming increasingly important?",
+      "answer": "As semiconductor features become smaller, even microscopic contamination can reduce yield or cause device failure. Advanced cleaning technologies are therefore essential for maintaining quality and reliability."
+    },
+    {
+      "question": "5. How does dry etching differ from wet etching?",
+      "answer": "Dry etching uses plasma and reactive gases to achieve precise material removal, while wet etching uses liquid chemicals and generally offers lower precision. Advanced semiconductor manufacturing primarily relies on dry etching."
+    },
+    {
+      "question": "6. Why are high-aspect-ratio structures challenging to manufacture?",
+      "answer": "Deep and narrow structures require precise control to maintain shape, avoid collapse, ensure uniformity, and achieve reliable electrical performance."
+    },
+    {
+      "question": "7. What role does Lam Research play in memory manufacturing?",
+      "answer": "Lam supplies critical etching, deposition, and cleaning equipment used to manufacture DRAM, NAND Flash, HBM, and future memory technologies."
+    },
+    {
+      "question": "8. Why are Gate-All-Around transistors important for Lam Research?",
+      "answer": "GAA devices require increasingly complex structures and highly precise manufacturing processes, creating demand for Lam's advanced etching and deposition technologies."
+    },
+    {
+      "question": "9. What competitive advantages does Lam Research possess?",
+      "answer": "Lam benefits from leadership in plasma etching, strong memory-market exposure, deep process expertise, leading cleaning technologies, broad installed equipment bases, and strong customer relationships."
+    },
+    {
+      "question": "10. What are Lam Research's major future growth opportunities?",
+      "answer": "Key opportunities include AI infrastructure, HBM growth, 3D NAND scaling, Gate-All-Around transistors, advanced packaging, chiplet integration, heterogeneous integration, and global semiconductor-capacity expansion."
+    }
+  ]
+},
+{
+  "id": 94,
+  "title": "Tokyo Electron",
+  "content": "Tokyo Electron Limited (TEL) is one of the world's largest semiconductor manufacturing equipment companies and a global leader in semiconductor production equipment, coater/developer systems, etching systems, deposition technologies, cleaning systems, and wafer-level process equipment. Headquartered in Japan, Tokyo Electron supplies critical manufacturing equipment to leading semiconductor companies including TSMC, Samsung, Intel, Micron, SK hynix, and GlobalFoundries. Together with ASML, Applied Materials, and Lam Research, TEL forms part of the core equipment ecosystem that enables advanced semiconductor manufacturing. Semiconductor manufacturing consists of hundreds of highly precise process steps. Tokyo Electron provides equipment supporting critical wafer-fabrication processes including photoresist coating, photoresist development, etching, deposition, cleaning, and process integration. As transistor dimensions continue shrinking and chip complexity increases, TEL's technologies become increasingly important for maintaining manufacturing accuracy, yield, and productivity. Tokyo Electron was founded in 1963 in Japan. The company initially focused on importing and distributing electronic equipment before expanding into semiconductor manufacturing systems. Over time, TEL developed expertise in coater/developer systems, etching equipment, deposition technologies, cleaning solutions, and advanced process integration. Today the company's equipment is used to manufacture AI processors, GPUs, DRAM, NAND Flash, HBM, advanced logic devices, and next-generation semiconductor products. One of Tokyo Electron's strongest business areas is coater/developer systems. Before lithography exposure, wafers must be coated with photoresist, a light-sensitive material used to transfer circuit patterns. TEL's coating systems ensure high precision, process consistency, and uniform photoresist thickness. After lithography exposure, developer systems reveal and process the circuit patterns. These technologies make TEL one of the global leaders in lithography-support equipment and a key partner to ASML lithography systems. TEL is also a major supplier of semiconductor etching equipment. Etching removes selected materials after lithography has defined a pattern, creating transistor structures, memory cells, interconnects, and device features. Plasma etching technologies developed by TEL provide high precision, excellent process control, and support for nanoscale semiconductor structures. Advanced semiconductor manufacturing depends heavily on sophisticated plasma etching solutions. Deposition is another important technology area. Deposition adds thin layers of conductive materials, insulating films, and semiconductor materials onto wafers. These layers form the foundation of transistors, interconnects, memory structures, and advanced semiconductor devices. Through thin-film engineering, TEL helps manufacturers create gate structures, dielectric films, metal layers, and other critical device features required for advanced logic and memory products. Wafer cleaning is equally important because contamination can significantly reduce yield and reliability. Even microscopic particles may cause defects in advanced semiconductor structures. TEL develops advanced cleaning systems capable of removing particles, chemical residues, and contaminants while preserving wafer integrity. Cleaning operations are repeated throughout semiconductor manufacturing and are critical to maintaining high yields at advanced process nodes. Tokyo Electron supports manufacturing across both logic and memory semiconductor markets. Logic applications include CPUs, GPUs, AI accelerators, networking processors, and mobile application processors. Memory applications include DRAM, NAND Flash, SSD-related memory technologies, and High Bandwidth Memory. Advanced memory manufacturing requires extensive use of deposition, etching, cleaning, and process-integration technologies, making memory one of TEL's most important business segments. The transition toward 3D NAND has significantly increased demand for TEL equipment. Instead of increasing storage density through horizontal scaling, manufacturers stack memory layers vertically. This approach increases capacity and scalability but requires deep etching, advanced deposition, precise process control, and repeated cleaning operations. Tokyo Electron is one of the key equipment suppliers supporting mass production of high-layer-count 3D NAND devices. The semiconductor industry is also transitioning from FinFET transistor architectures toward Gate-All-Around (GAA) technologies. GAA devices offer improved transistor control, better power efficiency, and enhanced performance, but require highly advanced materials engineering and manufacturing processes. TEL provides critical deposition, etching, and process-integration equipment that enables GAA production at advanced process nodes. Advanced packaging is becoming increasingly important as traditional transistor scaling becomes more challenging. Semiconductor manufacturers are increasingly adopting chiplets, heterogeneous integration, 2.5D packaging, 3D packaging, and HBM integration. TEL supplies process technologies used in many advanced packaging flows and plays an important role in package-level innovation. Artificial Intelligence has become a major growth driver for Tokyo Electron. AI accelerators, GPUs, HBM, advanced processors, and high-performance computing systems require greater manufacturing precision, more process steps, and increasingly sophisticated semiconductor equipment. As AI infrastructure expands globally, demand for TEL's manufacturing solutions continues to grow. TEL also focuses on process control, yield improvement, defect reduction, and manufacturing productivity. Modern semiconductor factories require extreme precision and consistency. TEL's equipment helps manufacturers improve process stability, reduce defects, increase throughput, and maximize profitability. Competitive advantages include a broad equipment portfolio, leadership in coater/developer systems, strong participation in memory manufacturing, deep customer relationships, advanced process expertise, and significant exposure to leading-edge semiconductor technologies. However, the company faces challenges including semiconductor-industry cyclicality, increasing process complexity, strong competition from Applied Materials, Lam Research, ASML, and KLA, geopolitical risks, export restrictions, and high research-and-development costs. Future growth opportunities include AI infrastructure, HBM manufacturing, advanced logic nodes, Gate-All-Around transistors, 3D NAND scaling, advanced packaging, heterogeneous integration, chiplet architectures, and continued global semiconductor-capacity expansion. Tokyo Electron remains one of the most important technology providers supporting modern semiconductor manufacturing worldwide.",
+  "keywords": [
+    {
+      "english": "Tokyo Electron (TEL)",
+      "chinese": "東京威力科創"
+    },
+    {
+      "english": "Semiconductor Manufacturing Equipment",
+      "chinese": "半導體製造設備"
+    },
+    {
+      "english": "Coater/Developer System",
+      "chinese": "塗佈顯影系統"
+    },
+    {
+      "english": "Photoresist",
+      "chinese": "光阻"
+    },
+    {
+      "english": "Lithography Support",
+      "chinese": "微影輔助設備"
+    },
+    {
+      "english": "Etching",
+      "chinese": "蝕刻製程"
+    },
+    {
+      "english": "Plasma Etching",
+      "chinese": "電漿蝕刻"
+    },
+    {
+      "english": "Deposition",
+      "chinese": "沉積製程"
+    },
+    {
+      "english": "Thin-Film Engineering",
+      "chinese": "薄膜工程"
+    },
+    {
+      "english": "Wafer Cleaning",
+      "chinese": "晶圓清洗"
+    },
+    {
+      "english": "Process Integration",
+      "chinese": "製程整合"
+    },
+    {
+      "english": "DRAM",
+      "chinese": "動態隨機存取記憶體"
+    },
+    {
+      "english": "NAND Flash",
+      "chinese": "NAND快閃記憶體"
+    },
+    {
+      "english": "3D NAND",
+      "chinese": "3D NAND快閃記憶體"
+    },
+    {
+      "english": "HBM",
+      "chinese": "高頻寬記憶體"
+    },
+    {
+      "english": "Gate-All-Around (GAA)",
+      "chinese": "環繞閘極電晶體"
+    },
+    {
+      "english": "FinFET",
+      "chinese": "鰭式場效電晶體"
+    },
+    {
+      "english": "Advanced Packaging",
+      "chinese": "先進封裝"
+    },
+    {
+      "english": "Chiplet",
+      "chinese": "小晶片"
+    },
+    {
+      "english": "Yield",
+      "chinese": "良率"
+    }
+  ],
+  "summary": [
+    "Tokyo Electron is one of the world's largest semiconductor manufacturing equipment companies.",
+    "TEL is the global leader in coater/developer systems used during lithography.",
+    "The company supplies etching, deposition, cleaning, and process-integration equipment.",
+    "Photoresist coating and development are essential steps that support lithography processes.",
+    "TEL plays a major role in manufacturing logic chips, DRAM, NAND Flash, and HBM.",
+    "3D NAND manufacturing depends heavily on TEL's etching, deposition, and cleaning technologies.",
+    "Gate-All-Around transistor production requires increasingly advanced process equipment.",
+    "AI-driven demand for advanced logic chips and HBM is creating new opportunities for TEL.",
+    "Yield improvement and defect reduction are important objectives of TEL's solutions.",
+    "Tokyo Electron is a critical technology provider enabling advanced semiconductor manufacturing worldwide."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Tokyo Electron was founded in ______.",
+      "answer": "1963"
+    },
+    {
+      "question": "2. TEL is a leading supplier of semiconductor manufacturing ______.",
+      "answer": "Equipment"
+    },
+    {
+      "question": "3. Before lithography exposure, wafers are coated with ______.",
+      "answer": "Photoresist"
+    },
+    {
+      "question": "4. TEL is particularly strong in ______/developer systems.",
+      "answer": "Coater"
+    },
+    {
+      "question": "5. Plasma etching is used to remove ______ from wafers.",
+      "answer": "Material"
+    },
+    {
+      "question": "6. HBM stands for High Bandwidth ______.",
+      "answer": "Memory"
+    },
+    {
+      "question": "7. NAND manufacturers increasingly use ______ NAND architectures.",
+      "answer": "3D"
+    },
+    {
+      "question": "8. GAA stands for Gate-All-______.",
+      "answer": "Around"
+    },
+    {
+      "question": "9. Wafer cleaning helps improve semiconductor ______.",
+      "answer": "Yield"
+    },
+    {
+      "question": "10. TEL competes with Applied Materials and ______ Research.",
+      "answer": "Lam"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are coater/developer systems important in semiconductor manufacturing?",
+      "answer": "Coater/developer systems prepare and process photoresist layers used during lithography. Without uniform coating and accurate development, circuit patterns cannot be transferred correctly onto wafers."
+    },
+    {
+      "question": "2. Why does Tokyo Electron play such an important role in advanced semiconductor production?",
+      "answer": "TEL provides critical equipment across multiple manufacturing stages, including coating, developing, etching, deposition, cleaning, and process integration. These technologies are required to produce modern logic and memory devices."
+    },
+    {
+      "question": "3. How does AI growth benefit Tokyo Electron?",
+      "answer": "AI accelerators, GPUs, HBM, and advanced processors require more manufacturing steps, advanced memory technologies, and increasingly sophisticated fabrication equipment, driving demand for TEL products."
+    },
+    {
+      "question": "4. Why is 3D NAND important for Tokyo Electron?",
+      "answer": "3D NAND requires complex high-aspect-ratio structures, repeated deposition cycles, advanced etching, and cleaning processes, all of which increase demand for TEL's manufacturing equipment."
+    },
+    {
+      "question": "5. Why is wafer cleaning critical for semiconductor fabs?",
+      "answer": "Microscopic contamination can cause defects, lower yield, and reduce reliability. Advanced cleaning systems help maintain production quality and manufacturing efficiency."
+    },
+    {
+      "question": "6. How does TEL support advanced lithography processes?",
+      "answer": "TEL provides coater/developer systems that apply and process photoresist materials before and after lithography exposure, ensuring accurate pattern transfer."
+    },
+    {
+      "question": "7. What role does TEL play in memory manufacturing?",
+      "answer": "TEL supplies etching, deposition, cleaning, and process-integration tools used in DRAM, NAND Flash, HBM, and next-generation memory production."
+    },
+    {
+      "question": "8. Why are Gate-All-Around transistors important for TEL?",
+      "answer": "GAA devices require more advanced process technologies, precise deposition, sophisticated etching, and improved process integration, all areas where TEL provides critical equipment."
+    },
+    {
+      "question": "9. What competitive advantages does Tokyo Electron possess?",
+      "answer": "TEL benefits from leadership in coater/developer systems, broad process coverage, strong memory-market exposure, deep customer relationships, and advanced manufacturing expertise."
+    },
+    {
+      "question": "10. What are Tokyo Electron's major future growth opportunities?",
+      "answer": "Key opportunities include AI infrastructure, HBM manufacturing, advanced logic nodes, GAA transistors, 3D NAND scaling, advanced packaging, chiplet integration, and semiconductor-capacity expansion."
+    }
+  ]
+}
+  ]
+}

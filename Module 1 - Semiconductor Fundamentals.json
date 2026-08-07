@@ -1,0 +1,1741 @@
+{
+  "module_name": "Semiconductor Fundamentals",
+  "topics": [
+    {
+      "id": 1,
+      "title": "What is a Semiconductor?",
+      "content": "A semiconductor is a material whose electrical conductivity lies between that of a conductor and an insulator.\n\uF0B7Conductors (such as copper and aluminum) allow electric current to flow easily.\n\uF0B7Insulators (such as glass, plastic, and rubber) strongly resist the flow of electricity.\n\uF0B7Semiconductors fall between these two extremes and have conductivity that can be controlled.\nThe most widely used semiconductor material is silicon (Si) due to its abundance, stability, and suitability for large-scale manufacturing.\nThe defining characteristic of a semiconductor is its controllable conductivity. Unlike conductors and insulators, semiconductor conductivity can be modified by:\n\uF0B7Doping (adding small amounts of impurities)\n\uF0B7Electric fields\n\uF0B7Temperature changes\n\uF0B7Light exposure\nThis controllability allows semiconductors to act as switches, amplifiers, sensors, and other electronic building blocks.\nSemiconductors are used to manufacture electronic devices, especially transistors, which are the fundamental building blocks of modern integrated circuits (ICs).\nModern chips contain millions or billions of transistors fabricated on semiconductor materials. These chips perform computing, memory, communication, sensing, and power management functions.\nWithout semiconductors, modern technologies such as computers, smartphones, data centers, communication networks, automobiles, industrial automation systems, and AI infrastructure would not be possible.\nIn simple terms:\nSemiconductor Material → Electronic Device (Transistor) → Integrated Circuit (IC) → Electronic System\nThis progression forms the foundation of the entire electronics industry.",
+      "keywords": [
+        {
+          "english": "Semiconductor",
+          "chinese": "半導體"
+        },
+        {
+          "english": "Silicon",
+          "chinese": "矽"
+        },
+        {
+          "english": "Conductivity",
+          "chinese": "導電性"
+        },
+        {
+          "english": "Conductor",
+          "chinese": "導體"
+        },
+        {
+          "english": "Insulator",
+          "chinese": "絕緣體"
+        },
+        {
+          "english": "Electrical Current",
+          "chinese": "電流"
+        },
+        {
+          "english": "Charge Carrier",
+          "chinese": "載子"
+        },
+        {
+          "english": "Doping",
+          "chinese": "摻雜"
+        },
+        {
+          "english": "Transistor",
+          "chinese": "電晶體"
+        },
+        {
+          "english": "Integrated Circuit (IC)",
+          "chinese": "積體電路"
+        },
+        {
+          "english": "Chip",
+          "chinese": "晶片"
+        },
+        {
+          "english": "Electronic Device",
+          "chinese": "電子元件"
+        },
+        {
+          "english": "Electric Field",
+          "chinese": "電場"
+        },
+        {
+          "english": "Sensor",
+          "chinese": "感測器"
+        },
+        {
+          "english": "Amplifier",
+          "chinese": "放大器"
+        }
+      ],
+      "summary": [
+        "1.A semiconductor has electrical conductivity between a conductor and an insulator.\n 2.Silicon is the most widely used semiconductor material.\n 3.The key advantage of semiconductors is their controllable conductivity.\n 4.Semiconductor conductivity can be influenced by doping, electric fields, temperature, and light.\n 5.Semiconductors are used to build transistors and other electronic devices.\n 6.Integrated circuits (ICs) are created by integrating large numbers of transistors onto a semiconductor chip.\n 7.Modern electronics depend on semiconductor technology.\n 8.Semiconductors enable computing, communication, sensing, data storage, and artificial intelligence applications."
+      ],
+      "quiz_short": [
+        {
+          "question": "1.A semiconductor's conductivity lies between a conductor and an ______.",
+          "answer": "Insulator"
+        },
+        {
+          "question": "2.The most widely used semiconductor material is ______.",
+          "answer": "Silicon"
+        },
+        {
+          "question": "3.The defining feature of a semiconductor is its ______ conductivity.",
+          "answer": "Controllable"
+        },
+        {
+          "question": "4.Semiconductor conductivity can be modified through ______, electric fields, temperature, or light.",
+          "answer": "Doping"
+        },
+        {
+          "question": "5.Modern chips are built using ______ materials.",
+          "answer": "Semiconductor"
+        },
+        {
+          "question": "6.The fundamental building block of an integrated circuit is the ______.",
+          "answer": "Transistor"
+        },
+        {
+          "question": "7.Integrated Circuit is commonly abbreviated as ______.",
+          "answer": "IC"
+        },
+        {
+          "question": "8.Semiconductors are essential for technologies such as computers, smartphones, and ______ systems.",
+          "answer": "AI"
+        },
+        {
+          "question": "9.Conductors allow electricity to flow ______, while insulators resist the flow of electricity.",
+          "answer": "Easily"
+        },
+        {
+          "question": "10.Semiconductor materials are used to manufacture electronic ______.",
+          "answer": "Devices"
+        }
+      ],
+      "quiz_long": [
+        {
+          "question": "1. What makes semiconductors different from conductors and insulators?",
+          "answer": "Semiconductors have electrical conductivity between conductors and insulators. Unlike conductors and insulators, their conductivity can be intentionally controlled, making them suitable for electronic devices."
+        },
+        {
+          "question": "2. Why is controllable conductivity important in electronics?",
+          "answer": "Controllable conductivity allows semiconductor devices to switch, amplify, process, and control electrical signals. This capability enables the operation of modern electronic circuits and systems."
+        },
+        {
+          "question": "3. Why has silicon become the dominant semiconductor material?",
+          "answer": "Silicon is abundant, inexpensive, chemically stable, and easy to manufacture. It also forms a high-quality insulating layer (silicon dioxide), which is essential for integrated circuit fabrication."
+        },
+        {
+          "question": "4. What would happen if semiconductor technology did not exist?",
+          "answer": "Modern technologies such as computers, smartphones, the Internet, communication networks, cloud computing, and AI systems would not be possible. Society would rely on much larger, slower, and less efficient electronic technologies."
+        },
+        {
+          "question": "5. What is the relationship between semiconductor materials, transistors, and integrated circuits?",
+          "answer": "Semiconductor materials are used to fabricate transistors. Multiple transistors are then combined to form integrated circuits (ICs). Integrated circuits are the core components of modern electronic systems.\n Semiconductor Material → Transistor → Integrated Circuit (IC) → Electronic System"
+        },
+        {
+          "question": "6. Which electronic products in your daily life depend on semiconductors?",
+          "answer": "Examples include:Smartphones,Laptops and PCs,Tablets,Smart TVs,Game consoles, Smartwatches, Wi-Fi routers, Digital cameras, Electric vehicles, Home appliances"
+        },
+        {
+          "question": "7. Why are semiconductors considered the foundation of the digital economy?",
+          "answer": "Semiconductors enable computing, communication, data storage, and data processing. Nearly every digital service, including e-commerce, cloud services, social media, and AI applications, relies on semiconductor chips."
+        },
+        {
+          "question": "8. How have semiconductor advances enabled modern AI and cloud computing?",
+          "answer": "Advances in semiconductor technology have increased transistor density, performance, and energy efficiency. This allows modern processors, GPUs, and AI accelerators to perform massive computations needed for machine learning, data centers, and cloud computing services."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Silicon and Semiconductor Materials?",
+      "content": "Silicon (Si) is the most widely used semiconductor material in the world and serves as the foundation of the modern semiconductor industry.\nSilicon is derived from silica (SiO₂), which is commonly found in sand and quartz. Because silicon is abundant, relatively inexpensive, chemically stable, and suitable for large-scale manufacturing, it has become the dominant material for integrated circuits (ICs).\nSemiconductor manufacturing begins with highly purified silicon. The purified silicon is melted and grown into a large single-crystal cylinder called an ingot. The ingot is then sliced into thin circular disks known as wafers, which serve as the substrate for semiconductor device fabrication.\nSilicon offers several advantages:\n\uF0B7Abundant and widely available\n\uF0B7Low manufacturing cost\n\uF0B7Excellent thermal and mechanical stability\n\uF0B7Suitable electrical properties for transistor fabrication\n\uF0B7Forms a high-quality insulating layer (silicon dioxide, SiO₂), which is critical for modern chip manufacturing\nAlthough silicon dominates the industry, some applications require materials with superior electrical characteristics. These materials are known as compound semiconductors, which are formed by combining two or more elements.\nCommon compound semiconductors include:\n\uF0B7Gallium Nitride (GaN): High efficiency, high frequency, and high-power applications\n\uF0B7Silicon Carbide (SiC): High voltage, high temperature, and power electronics applications\n\uF0B7Gallium Arsenide (GaAs): High-speed and radio frequency (RF) applications\nIn general:\n\uF0B7Silicon dominates logic chips, memory chips, and mainstream semiconductor manufacturing.\n\uF0B7GaN, SiC, and GaAs are used when higher performance is required in specific applications such as electric vehicles, fast chargers, renewable energy systems, radar, satellites, and wireless communications.\nMaterial selection is one of the most important decisions in semiconductor engineering because the physical properties of the material determine device performance, power efficiency, operating frequency, and reliability.",
+      "keywords": [
+        {
+          "english": "Silicon (Si)",
+          "chinese": "矽"
+        },
+        {
+          "english": "Silicon Dioxide (SiO₂)",
+          "chinese": "二氧化矽"
+        },
+        {
+          "english": "Wafer",
+          "chinese": "晶圓"
+        },
+        {
+          "english": "Ingot",
+          "chinese": "晶棒"
+        },
+        {
+          "english": "Crystal",
+          "chinese": "晶體"
+        },
+        {
+          "english": "Semiconductor Material",
+          "chinese": "半導體材料"
+        },
+        {
+          "english": "Compound Semiconductor",
+          "chinese": "化合物半導體"
+        },
+        {
+          "english": "Gallium Nitride (GaN)",
+          "chinese": "氮化鎵"
+        },
+        {
+          "english": "Silicon Carbide (SiC)",
+          "chinese": "碳化矽"
+        },
+        {
+          "english": "Gallium Arsenide (GaAs)",
+          "chinese": "砷化鎵"
+        },
+        {
+          "english": "Substrate",
+          "chinese": "基板"
+        },
+        {
+          "english": "Integrated Circuit (IC)",
+          "chinese": "積體電路"
+        },
+        {
+          "english": "Radio Frequency (RF)",
+          "chinese": "射頻"
+        },
+        {
+          "english": "Power Electronics",
+          "chinese": "功率電子"
+        },
+        {
+          "english": "Electric Vehicle (EV)",
+          "chinese": "電動車"
+        }
+      ],
+      "summary": [
+        "1.Silicon is the dominant semiconductor material used in modern electronics.\n 2.Silicon is abundant, inexpensive, stable, and suitable for mass production.\n 3.Semiconductor manufacturing starts with purified silicon, which is formed into ingots and sliced into wafers.\n 4.Silicon wafers are the foundation on which semiconductor devices and chips are built.\n 5.Compound semiconductors are made from two or more elements and provide specialized performance advantages.\n 6.GaN is widely used in high-frequency and power applications.\n 7.SiC is important for electric vehicles and high-voltage power systems.\n 8.GaAs is commonly used in RF, wireless communication, and high-speed electronics.\n 9.Different semiconductor materials are selected based on application requirements."
+      ],
+      "quiz_short": [
+        {
+          "question": "1.The most widely used semiconductor material is ______.",
+          "answer": "Silicon"
+        },
+        {
+          "question": "2.Silicon is commonly obtained from silica found in ______ and quartz.",
+          "answer": "Sand"
+        },
+        {
+          "question": "3.A large single-crystal cylinder used in semiconductor manufacturing is called an ______.",
+          "answer": "Ingot"
+        },
+        {
+          "question": "4.Thin circular slices cut from an ingot are called ______.",
+          "answer": "Wafers"
+        },
+        {
+          "question": "5.Silicon forms a high-quality insulating layer known as silicon ______ (SiO₂).",
+          "answer": "Dioxide"
+        },
+        {
+          "question": "6.______ semiconductors are formed by combining two or more elements.",
+          "answer": "Compound"
+        },
+        {
+          "question": "7.GaN stands for Gallium ______.",
+          "answer": "Nitride"
+        },
+        {
+          "question": "8.______ is widely used in electric vehicle power electronics.",
+          "answer": "Silicon Carbide (SiC)"
+        },
+        {
+          "question": "9.GaAs is commonly used in ______ and wireless communication applications.",
+          "answer": "RF"
+        },
+        {
+          "question": "10.Semiconductor wafers serve as the ______ for chip fabrication.",
+          "answer": "Substrate"
+        }
+      ],
+      "quiz_long": [
+        {
+          "question": "1. Why has silicon remained the dominant semiconductor material for decades?",
+          "answer": "Silicon remains dominant because it is abundant, inexpensive, chemically stable, and well suited for large-scale manufacturing. The semiconductor industry has also invested decades of research, infrastructure, and fabrication technology around silicon."
+        },
+        {
+          "question": "2. What advantages make silicon suitable for mass semiconductor manufacturing?",
+          "answer": "Silicon offers several advantages:\n\uF0B7Widely available and low cost\n\uF0B7High material purity can be achieved\n\uF0B7Good electrical properties\n\uF0B7Excellent thermal stability\n\uF0B7Compatible with advanced manufacturing processes\n\uF0B7Can form a high-quality silicon dioxide (SiO₂) insulating layer\nThese characteristics make silicon ideal for producing chips at high volume and low cost."
+        },
+        {
+          "question": "3. What is the role of a wafer in semiconductor fabrication?",
+          "answer": "A wafer serves as the substrate on which semiconductor devices and integrated circuits are built. During fabrication, multiple layers and structures are formed on the wafer to create transistors and other electronic components."
+        },
+        {
+          "question": "4. Why is silicon dioxide important in modern chip manufacturing?",
+          "answer": "Silicon dioxide (SiO₂) is an excellent electrical insulator. It is used to isolate different parts of a chip, protect devices, and form critical structures inside transistors. Its ability to grow naturally on silicon is one of silicon's biggest advantages."
+        },
+        {
+          "question": "5. What are the main differences between silicon and compound semiconductors?",
+          "answer": "Silicon is a single-element semiconductor that is cost-effective and suitable for most electronic applications. Compound semiconductors are made from two or more elements and typically provide higher performance in specific areas such as power handling, operating frequency, or temperature tolerance.\nExamples:\n\uF0B7Si: General-purpose chips, CPUs, memory\n\uF0B7GaN: Power electronics, fast chargers\n\uF0B7SiC: Electric vehicles, high-voltage systems\nGaAs: RF and wireless communications"
+        },
+        {
+          "question": "6. Why is SiC becoming increasingly important in electric vehicles?",
+          "answer": "SiC can operate at higher voltages, temperatures, and power levels than silicon. It also reduces power loss and improves energy efficiency, helping electric vehicles achieve better driving range and faster charging performance."
+        },
+        {
+          "question": "7. What makes GaN suitable for fast chargers and power electronics?",
+          "answer": "GaN devices can switch much faster than traditional silicon devices and have lower power losses. This enables smaller, lighter, and more efficient chargers and power conversion systems."
+        },
+        {
+          "question": "8. Why is GaAs commonly used in RF and wireless communication systems?",
+          "answer": "GaAs provides high electron mobility and excellent high-frequency performance, making it suitable for RF components used in smartphones, satellite communications, radar systems, and wireless networks."
+        },
+        {
+          "question": "9. Why can't compound semiconductors completely replace silicon today?",
+          "answer": "Although compound semiconductors offer superior performance in certain applications, they are generally more expensive and more difficult to manufacture at scale. Silicon benefits from a highly mature ecosystem, lower cost, and established fabrication infrastructure, making it the preferred choice for most semiconductor products."
+        },
+        {
+          "question": "10. How does semiconductor material selection affect device performance and application requirements?",
+          "answer": "The semiconductor material determines key characteristics such as:\n\uF0B7Speed\n\uF0B7Power efficiency\n\uF0B7Operating voltage\n\uF0B7Heat tolerance\n\uF0B7Frequency performance\n\uF0B7Manufacturing cost\nAs a result, engineers select different materials based on the requirements of the target application. For example, silicon is ideal for mainstream computing, SiC for EV power systems, GaN for efficient power conversion, and GaAs for RF communications."
+        }
+      ]
+    },
+{
+  "id": 3,
+  "title": "P-type and N-type Semiconductors",
+  "content": "Pure silicon, also known as an intrinsic semiconductor, has relatively low electrical conductivity because it contains only a limited number of free charge carriers. To improve conductivity, semiconductor manufacturers intentionally add small amounts of impurity atoms to pure silicon through a process called doping. Doping increases the number of charge carriers available for current flow and allows engineers to control the electrical properties of the semiconductor. An N-type semiconductor is created by adding donor impurities with five valence electrons, such as phosphorus, arsenic, or antimony. The extra electron becomes a free electron that can move through the crystal. As a result, electrons are the majority carriers and holes are the minority carriers. A P-type semiconductor is created by adding acceptor impurities with three valence electrons, such as boron, aluminum, or gallium. These atoms create holes within the crystal structure. Holes behave like positive charge carriers, so holes become the majority carriers while electrons become the minority carriers. P-type and N-type semiconductors form the foundation of modern semiconductor devices including diodes, transistors, solar cells, LEDs, and integrated circuits.",
+  "keywords": [
+    {
+      "english": "Intrinsic Semiconductor",
+      "chinese": "本徵半導體"
+    },
+    {
+      "english": "Extrinsic Semiconductor",
+      "chinese": "雜質半導體"
+    },
+    {
+      "english": "Doping",
+      "chinese": "摻雜"
+    },
+    {
+      "english": "Dopant",
+      "chinese": "摻雜物"
+    },
+    {
+      "english": "N-type Semiconductor",
+      "chinese": "N型半導體"
+    },
+    {
+      "english": "P-type Semiconductor",
+      "chinese": "P型半導體"
+    },
+    {
+      "english": "Donor",
+      "chinese": "施體"
+    },
+    {
+      "english": "Acceptor",
+      "chinese": "受體"
+    },
+    {
+      "english": "Electron",
+      "chinese": "電子"
+    },
+    {
+      "english": "Hole",
+      "chinese": "電洞"
+    },
+    {
+      "english": "Charge Carrier",
+      "chinese": "載子"
+    },
+    {
+      "english": "Majority Carrier",
+      "chinese": "多數載子"
+    },
+    {
+      "english": "Minority Carrier",
+      "chinese": "少數載子"
+    },
+    {
+      "english": "Conductivity",
+      "chinese": "導電性"
+    },
+    {
+      "english": "Phosphorus (P)",
+      "chinese": "磷"
+    },
+    {
+      "english": "Arsenic (As)",
+      "chinese": "砷"
+    },
+    {
+      "english": "Boron (B)",
+      "chinese": "硼"
+    },
+    {
+      "english": "Gallium (Ga)",
+      "chinese": "鎵"
+    },
+    {
+      "english": "Silicon Crystal",
+      "chinese": "矽晶體"
+    }
+  ],
+  "summary": [
+    "Pure silicon is called an intrinsic semiconductor.",
+    "Doping is the process of adding impurities to control semiconductor conductivity.",
+    "N-type semiconductors are created using donor atoms.",
+    "Electrons are the majority carriers in N-type materials.",
+    "P-type semiconductors are created using acceptor atoms.",
+    "Holes are the majority carriers in P-type materials.",
+    "Majority carriers are responsible for most current conduction.",
+    "Minority carriers are important for semiconductor device operation.",
+    "P-type and N-type materials are the building blocks of modern semiconductor devices.",
+    "Diodes, transistors, and integrated circuits depend on controlled P-type and N-type regions."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Pure silicon is known as an ______ semiconductor.",
+      "answer": "Intrinsic"
+    },
+    {
+      "question": "2. The process of adding impurities to silicon is called ______.",
+      "answer": "Doping"
+    },
+    {
+      "question": "3. An N-type semiconductor is created using ______ impurities.",
+      "answer": "Donor"
+    },
+    {
+      "question": "4. The majority carriers in an N-type semiconductor are ______.",
+      "answer": "Electrons"
+    },
+    {
+      "question": "5. A P-type semiconductor is created using ______ impurities.",
+      "answer": "Acceptor"
+    },
+    {
+      "question": "6. The majority carriers in a P-type semiconductor are ______.",
+      "answer": "Holes"
+    },
+    {
+      "question": "7. Phosphorus is commonly used to create ______-type semiconductors.",
+      "answer": "N"
+    },
+    {
+      "question": "8. Boron is commonly used to create ______-type semiconductors.",
+      "answer": "P"
+    },
+    {
+      "question": "9. A hole behaves as a ______ charge carrier.",
+      "answer": "Positive"
+    },
+    {
+      "question": "10. P-type and N-type materials are used to build semiconductor ______.",
+      "answer": "Devices"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is pure silicon not suitable for most electronic devices?",
+      "answer": "Pure silicon has relatively low conductivity because it contains very few free charge carriers. Doping is needed to increase conductivity and make it useful for electronic applications."
+    },
+    {
+      "question": "2. What is the purpose of doping in semiconductor manufacturing?",
+      "answer": "Doping introduces controlled impurities into silicon to increase the number of charge carriers and tailor the material's electrical properties."
+    },
+    {
+      "question": "3. How does a donor atom increase conductivity in silicon?",
+      "answer": "A donor atom contributes an extra electron that can move freely through the crystal, increasing the number of charge carriers available for conduction."
+    },
+    {
+      "question": "4. Why are electrons the majority carriers in N-type semiconductors?",
+      "answer": "N-type dopants provide extra electrons. These free electrons greatly outnumber holes and therefore become the primary current carriers."
+    },
+    {
+      "question": "5. How does a hole contribute to current flow in a P-type semiconductor?",
+      "answer": "A hole represents a missing electron. As neighboring electrons move to fill the hole, the hole appears to move through the crystal and acts as a positive charge carrier."
+    },
+    {
+      "question": "6. What is the difference between majority carriers and minority carriers?",
+      "answer": "Majority carriers are the dominant charge carriers responsible for most current flow, while minority carriers are present in much smaller numbers and play supporting roles in device operation."
+    },
+    {
+      "question": "7. Why are boron and phosphorus commonly used as dopants?",
+      "answer": "Boron has three valence electrons and creates P-type material, while phosphorus has five valence electrons and creates N-type material. Both are highly compatible with silicon."
+    },
+    {
+      "question": "8. How does doping allow engineers to control electrical properties?",
+      "answer": "By adjusting the type and concentration of dopants, engineers can precisely control carrier concentration, conductivity, and device behavior."
+    },
+    {
+      "question": "9. Why are both P-type and N-type materials necessary for semiconductor devices?",
+      "answer": "The interaction between P-type and N-type regions enables controlled current flow, which is essential for devices such as diodes and transistors."
+    },
+    {
+      "question": "10. How do P-type and N-type semiconductors enable the creation of modern electronic components?",
+      "answer": "They form the fundamental structures used in semiconductor devices, allowing engineers to build circuits for switching, amplification, computation, communication, and data storage."
+    }
+  ]
+},
+{
+  "id": 4,
+  "title": "PN Junction and Diodes",
+  "content": "A PN Junction is formed when a P-type semiconductor and an N-type semiconductor are joined together. The PN junction is one of the most important structures in semiconductor technology because it forms the foundation of many electronic devices including diodes, transistors, LEDs, solar cells, sensors, and integrated circuits. Before the junction is formed, the N-type region contains a large number of free electrons while the P-type region contains a large number of holes. When the two semiconductor materials are brought into contact, electrons naturally diffuse from the N-type region to the P-type region because of the concentration difference. At the same time, holes diffuse from the P-type region to the N-type region. Near the interface, electrons and holes recombine with each other. As recombination occurs, the region around the junction becomes depleted of mobile charge carriers. This region is known as the Depletion Region. The depletion region contains fixed positive ions on the N-side and fixed negative ions on the P-side. Since very few mobile carriers remain in this region, it behaves like an insulating barrier. The separation of charges inside the depletion region creates an internal electric field called the Built-in Electric Field. This field opposes additional carrier diffusion and eventually establishes equilibrium within the PN junction. At equilibrium, the diffusion force and electric-field force balance each other. The electrical barrier that develops across the junction is called the Barrier Potential. The behavior of a PN junction changes when an external voltage is applied. In Forward Bias, the positive terminal of a voltage source is connected to the P-side and the negative terminal is connected to the N-side. Forward bias reduces the width of the depletion region and lowers the barrier potential. As a result, electrons and holes can cross the junction more easily, allowing significant current flow. For a typical silicon diode, substantial conduction begins at approximately 0.7 volts. In Reverse Bias, the positive terminal is connected to the N-side and the negative terminal is connected to the P-side. Reverse bias widens the depletion region and increases the barrier potential. This makes it much more difficult for charge carriers to cross the junction, so current flow is largely blocked. Only a very small leakage current exists under normal reverse-bias conditions. The simplest semiconductor device built from a PN junction is the diode. A diode primarily allows current to flow in one direction while blocking current flow in the opposite direction. Because of this characteristic, a diode is often compared to a one-way valve for electricity. Diodes are widely used in electronic circuits for rectification, voltage protection, signal switching, power management, LED lighting, battery chargers, communication systems, and solar cells. A rectifier diode converts alternating current (AC) into direct current (DC), which is essential for most electronic devices. Light Emitting Diodes (LEDs) convert electrical energy into light, while solar cells operate as PN junction devices that convert light into electricity. Understanding PN junctions and diodes is essential because they provide the physical and electrical foundation for more advanced semiconductor devices such as transistors and integrated circuits.",
+  "keywords": [
+    {
+      "english": "PN Junction",
+      "chinese": "PN接面"
+    },
+    {
+      "english": "Diode",
+      "chinese": "二極體"
+    },
+    {
+      "english": "P-type Semiconductor",
+      "chinese": "P型半導體"
+    },
+    {
+      "english": "N-type Semiconductor",
+      "chinese": "N型半導體"
+    },
+    {
+      "english": "Depletion Region",
+      "chinese": "空乏區"
+    },
+    {
+      "english": "Built-in Electric Field",
+      "chinese": "內建電場"
+    },
+    {
+      "english": "Diffusion",
+      "chinese": "擴散"
+    },
+    {
+      "english": "Recombination",
+      "chinese": "復合"
+    },
+    {
+      "english": "Forward Bias",
+      "chinese": "順向偏壓"
+    },
+    {
+      "english": "Reverse Bias",
+      "chinese": "反向偏壓"
+    },
+    {
+      "english": "Barrier Potential",
+      "chinese": "位障電位"
+    },
+    {
+      "english": "Leakage Current",
+      "chinese": "漏電流"
+    },
+    {
+      "english": "Charge Carrier",
+      "chinese": "載子"
+    },
+    {
+      "english": "Electron",
+      "chinese": "電子"
+    },
+    {
+      "english": "Hole",
+      "chinese": "電洞"
+    },
+    {
+      "english": "Rectification",
+      "chinese": "整流"
+    },
+    {
+      "english": "LED",
+      "chinese": "發光二極體"
+    },
+    {
+      "english": "Solar Cell",
+      "chinese": "太陽能電池"
+    },
+    {
+      "english": "Current Flow",
+      "chinese": "電流流動"
+    },
+    {
+      "english": "One-Way Valve",
+      "chinese": "單向閥"
+    }
+  ],
+  "summary": [
+    "A PN junction is formed by joining P-type and N-type semiconductors.",
+    "Electrons and holes diffuse across the junction and recombine.",
+    "The depletion region contains very few mobile charge carriers.",
+    "The built-in electric field prevents further carrier diffusion.",
+    "Forward bias reduces the depletion region and allows current flow.",
+    "Reverse bias widens the depletion region and blocks current flow.",
+    "A diode is the simplest device built from a PN junction.",
+    "Diodes allow current to flow primarily in one direction.",
+    "Silicon diodes typically begin conducting around 0.7 V in forward bias.",
+    "PN junctions are the foundation of many semiconductor devices."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. A PN junction is formed by joining ______-type and ______-type semiconductors.",
+      "answer": "P, N"
+    },
+    {
+      "question": "2. The region near the junction that contains very few mobile carriers is called the ______ region.",
+      "answer": "Depletion"
+    },
+    {
+      "question": "3. Electrons and holes combine through a process called ______.",
+      "answer": "Recombination"
+    },
+    {
+      "question": "4. The internal electric field inside a PN junction is called the ______ electric field.",
+      "answer": "Built-in"
+    },
+    {
+      "question": "5. Applying a positive voltage to the P-side creates ______ bias.",
+      "answer": "Forward"
+    },
+    {
+      "question": "6. Forward bias causes the depletion region to ______.",
+      "answer": "Narrow"
+    },
+    {
+      "question": "7. Applying a positive voltage to the N-side creates ______ bias.",
+      "answer": "Reverse"
+    },
+    {
+      "question": "8. Reverse bias causes the depletion region to ______.",
+      "answer": "Widen"
+    },
+    {
+      "question": "9. A diode allows current to flow in ______ direction.",
+      "answer": "One"
+    },
+    {
+      "question": "10. A typical silicon diode begins conducting at approximately ______ volts.",
+      "answer": "0.7"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why do electrons and holes move when a PN junction is first formed?",
+      "answer": "Because there is a concentration difference between the N-type and P-type regions. Electrons diffuse from the N-side to the P-side, while holes diffuse from the P-side to the N-side."
+    },
+    {
+      "question": "2. What is the purpose of the depletion region in a PN junction?",
+      "answer": "The depletion region acts as an insulating barrier that controls the movement of charge carriers across the junction."
+    },
+    {
+      "question": "3. How does the built-in electric field help establish equilibrium?",
+      "answer": "The electric field opposes further carrier diffusion and balances the movement of electrons and holes, creating a stable equilibrium state."
+    },
+    {
+      "question": "4. Why does forward bias allow current to flow through a diode?",
+      "answer": "Forward bias reduces the barrier potential and narrows the depletion region, allowing charge carriers to cross the junction more easily."
+    },
+    {
+      "question": "5. Why does reverse bias block most current flow?",
+      "answer": "Reverse bias increases the barrier potential and widens the depletion region, making it difficult for charge carriers to cross the junction."
+    },
+    {
+      "question": "6. Why is a diode often compared to a one-way valve?",
+      "answer": "Because it allows current to flow easily in one direction while blocking current flow in the opposite direction."
+    },
+    {
+      "question": "7. What is the difference between forward bias and reverse bias?",
+      "answer": "Forward bias promotes current flow by reducing the barrier potential, while reverse bias restricts current flow by increasing the barrier potential."
+    },
+    {
+      "question": "8. Why is the PN junction considered one of the most important structures in semiconductor technology?",
+      "answer": "It serves as the fundamental building block for diodes, transistors, LEDs, solar cells, sensors, and many other semiconductor devices."
+    },
+    {
+      "question": "9. What are some real-world applications of diodes?",
+      "answer": "Applications include power adapters, battery chargers, LED lighting, solar panels, voltage-protection circuits, rectifiers, and communication systems."
+    },
+    {
+      "question": "10. How do PN junctions enable the operation of more advanced devices such as transistors?",
+      "answer": "Transistors are built using multiple PN junctions or structures derived from PN-junction principles, allowing them to switch, amplify, and control electrical signals."
+    }
+  ]
+},
+{
+  "id": 5,
+  "title": "Transistors (BJT vs MOSFET)",
+  "content": "A transistor is a semiconductor device used to control the flow of electrical current. Transistors can function as electronic switches or signal amplifiers and are the fundamental building blocks of modern electronic systems. Today, a single advanced microprocessor may contain tens of billions of transistors. Without transistors, technologies such as computers, smartphones, data centers, and AI systems would not exist. There are two major transistor families: Bipolar Junction Transistors (BJTs) and Metal-Oxide-Semiconductor Field-Effect Transistors (MOSFETs). A BJT is a current-controlled device consisting of an emitter, base, and collector. A small current entering the base controls a much larger current flowing between the collector and emitter, making BJTs useful for amplification. A MOSFET is a voltage-controlled device consisting of a source, drain, gate, and gate oxide. Applying a voltage to the gate creates an electric field that controls current flow between the source and drain. MOSFETs consume very little input power, switch quickly, and can be scaled to extremely small sizes. As a result, MOSFETs have become the dominant transistor technology used in integrated circuits such as CPUs, GPUs, memories, SoCs, and AI accelerators.",
+  "keywords": [
+    {
+      "english": "Transistor",
+      "chinese": "電晶體"
+    },
+    {
+      "english": "Bipolar Junction Transistor (BJT)",
+      "chinese": "雙極性接面電晶體"
+    },
+    {
+      "english": "MOSFET",
+      "chinese": "金氧半場效電晶體"
+    },
+    {
+      "english": "NPN Transistor",
+      "chinese": "NPN電晶體"
+    },
+    {
+      "english": "PNP Transistor",
+      "chinese": "PNP電晶體"
+    },
+    {
+      "english": "Emitter",
+      "chinese": "射極"
+    },
+    {
+      "english": "Base",
+      "chinese": "基極"
+    },
+    {
+      "english": "Collector",
+      "chinese": "集極"
+    },
+    {
+      "english": "Source",
+      "chinese": "源極"
+    },
+    {
+      "english": "Drain",
+      "chinese": "汲極"
+    },
+    {
+      "english": "Gate",
+      "chinese": "閘極"
+    },
+    {
+      "english": "Gate Oxide",
+      "chinese": "閘極氧化層"
+    },
+    {
+      "english": "Amplifier",
+      "chinese": "放大器"
+    },
+    {
+      "english": "Switch",
+      "chinese": "開關"
+    },
+    {
+      "english": "Current-Controlled",
+      "chinese": "電流控制"
+    },
+    {
+      "english": "Voltage-Controlled",
+      "chinese": "電壓控制"
+    },
+    {
+      "english": "Integrated Circuit (IC)",
+      "chinese": "積體電路"
+    },
+    {
+      "english": "Logic Chip",
+      "chinese": "邏輯晶片"
+    },
+    {
+      "english": "CMOS",
+      "chinese": "互補式金氧半導體"
+    }
+  ],
+  "summary": [
+    "A transistor is a semiconductor device that controls current flow.",
+    "Transistors act as switches and amplifiers.",
+    "BJT and MOSFET are the two major transistor types.",
+    "A BJT is a current-controlled device.",
+    "A MOSFET is a voltage-controlled device.",
+    "BJT uses emitter, base, and collector terminals.",
+    "MOSFET uses source, drain, and gate terminals.",
+    "MOSFETs consume less power and switch faster than BJTs.",
+    "Modern integrated circuits are primarily built using MOSFET technology.",
+    "Billions of transistors can be integrated onto a single semiconductor chip."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. A transistor can function as a switch or an ______.",
+      "answer": "Amplifier"
+    },
+    {
+      "question": "2. BJT stands for Bipolar Junction ______.",
+      "answer": "Transistor"
+    },
+    {
+      "question": "3. MOSFET is a ______-controlled device.",
+      "answer": "Voltage"
+    },
+    {
+      "question": "4. BJT is a ______-controlled device.",
+      "answer": "Current"
+    },
+    {
+      "question": "5. The three terminals of a BJT are emitter, base, and ______.",
+      "answer": "Collector"
+    },
+    {
+      "question": "6. The three main terminals of a MOSFET are source, drain, and ______.",
+      "answer": "Gate"
+    },
+    {
+      "question": "7. MOSFET stands for Metal-Oxide-Semiconductor Field-Effect ______.",
+      "answer": "Transistor"
+    },
+    {
+      "question": "8. Modern CPUs contain billions of ______.",
+      "answer": "Transistors"
+    },
+    {
+      "question": "9. MOSFETs generally consume ______ power than BJTs.",
+      "answer": "Less"
+    },
+    {
+      "question": "10. Most modern integrated circuits are built using ______ technology.",
+      "answer": "MOSFET"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is the transistor considered one of the most important inventions in modern technology?",
+      "answer": "Because transistors serve as the fundamental building blocks of modern electronic systems, enabling computing, communication, data storage, and signal processing."
+    },
+    {
+      "question": "2. What is the primary difference between a BJT and a MOSFET?",
+      "answer": "A BJT is controlled by current, while a MOSFET is controlled by voltage."
+    },
+    {
+      "question": "3. Why is a BJT called a current-controlled device?",
+      "answer": "A small current applied to the base controls a much larger current flowing between the collector and emitter."
+    },
+    {
+      "question": "4. Why is a MOSFET called a voltage-controlled device?",
+      "answer": "A voltage applied to the gate creates an electric field that controls current flow between the source and drain."
+    },
+    {
+      "question": "5. What advantages make MOSFETs suitable for modern integrated circuits?",
+      "answer": "MOSFETs offer low power consumption, fast switching speed, high integration density, and excellent scalability."
+    },
+    {
+      "question": "6. In what types of applications are BJTs still commonly used today?",
+      "answer": "BJTs are commonly used in analog amplifiers, audio circuits, RF applications, and certain power electronics systems."
+    },
+    {
+      "question": "7. Why does low power consumption matter in semiconductor design?",
+      "answer": "Lower power consumption reduces heat generation, extends battery life, lowers operating costs, and improves system efficiency."
+    },
+    {
+      "question": "8. How has transistor scaling enabled modern computing advances?",
+      "answer": "Smaller transistors allow more devices to be integrated onto a chip, improving performance while reducing power consumption and cost per function."
+    },
+    {
+      "question": "9. Why can modern chips contain billions of MOSFETs?",
+      "answer": "Advances in semiconductor manufacturing and lithography have continuously reduced transistor size, enabling extremely high transistor density."
+    },
+    {
+      "question": "10. How do transistors enable complex functions such as computing, communication, and AI?",
+      "answer": "By acting as tiny switches that process and control electrical signals. Billions of interconnected transistors can perform logical operations, store data, and execute complex algorithms."
+    }
+  ]
+},
+{
+  "id": 6,
+  "title": "Moore's Law",
+  "content": "Moore's Law is an observation made by Gordon Moore, co-founder of Intel, in 1965. Moore observed that the number of transistors that could be placed on an integrated circuit was increasing rapidly over time. He predicted that the number of transistors on a chip would approximately double every one to two years while the cost per transistor would decrease. Although Moore's Law is not a physical law of nature, it became a guiding principle for the semiconductor industry and accurately described industry progress for several decades. The key idea behind Moore's Law is transistor scaling. As semiconductor manufacturing technology improves, transistors become smaller, more transistors fit on a chip, computing performance increases, power efficiency improves, and cost per function decreases. Moore's Law has driven advances in personal computers, smartphones, cloud computing, artificial intelligence, and high-performance computing. However, as transistor dimensions approach atomic scales, maintaining Moore's Law becomes increasingly difficult due to quantum effects, heat generation, manufacturing complexity, and rising fabrication costs. Although traditional Moore's Law is slowing, the semiconductor industry continues to improve performance through advanced process nodes, FinFETs, Gate-All-Around transistors, advanced packaging, chiplets, and heterogeneous integration.",
+  "keywords": [
+    {
+      "english": "Moore's Law",
+      "chinese": "摩爾定律"
+    },
+    {
+      "english": "Gordon Moore",
+      "chinese": "高登摩爾"
+    },
+    {
+      "english": "Transistor",
+      "chinese": "電晶體"
+    },
+    {
+      "english": "Transistor Density",
+      "chinese": "電晶體密度"
+    },
+    {
+      "english": "Scaling",
+      "chinese": "微縮"
+    },
+    {
+      "english": "Integrated Circuit (IC)",
+      "chinese": "積體電路"
+    },
+    {
+      "english": "Semiconductor Industry",
+      "chinese": "半導體產業"
+    },
+    {
+      "english": "Computing Performance",
+      "chinese": "運算效能"
+    },
+    {
+      "english": "Cost per Transistor",
+      "chinese": "單位電晶體成本"
+    },
+    {
+      "english": "Lithography",
+      "chinese": "微影"
+    },
+    {
+      "english": "Process Node",
+      "chinese": "製程節點"
+    },
+    {
+      "english": "FinFET",
+      "chinese": "鰭式場效電晶體"
+    },
+    {
+      "english": "Gate-All-Around (GAA)",
+      "chinese": "環繞閘極"
+    },
+    {
+      "english": "Chiplet",
+      "chinese": "小晶片"
+    },
+    {
+      "english": "Advanced Packaging",
+      "chinese": "先進封裝"
+    },
+    {
+      "english": "Heterogeneous Integration",
+      "chinese": "異質整合"
+    },
+    {
+      "english": "Artificial Intelligence (AI)",
+      "chinese": "人工智慧"
+    },
+    {
+      "english": "Exponential Growth",
+      "chinese": "指數成長"
+    }
+  ],
+  "summary": [
+    "Moore's Law was proposed by Gordon Moore in 1965.",
+    "It predicts that transistor counts roughly double every one to two years.",
+    "Moore's Law served as a roadmap for the semiconductor industry for decades.",
+    "Smaller transistors enable higher transistor density.",
+    "Increased transistor density improves performance and power efficiency.",
+    "Moore's Law helped drive the growth of computers, smartphones, and the Internet.",
+    "Transistor scaling has become increasingly difficult at advanced nodes.",
+    "Manufacturing costs continue to rise for leading-edge technologies.",
+    "Traditional Moore's Law is slowing due to physical and economic limitations.",
+    "Future performance improvements increasingly depend on advanced packaging, chiplets, and new transistor architectures."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Moore's Law was proposed by ______ Moore in 1965.",
+      "answer": "Gordon"
+    },
+    {
+      "question": "2. Moore's Law states that the number of ______ on a chip tends to double over time.",
+      "answer": "Transistors"
+    },
+    {
+      "question": "3. Moore's Law is an observation rather than a physical ______.",
+      "answer": "Law"
+    },
+    {
+      "question": "4. As transistors become smaller, transistor ______ increases.",
+      "answer": "Density"
+    },
+    {
+      "question": "5. Higher transistor density generally improves computing ______.",
+      "answer": "Performance"
+    },
+    {
+      "question": "6. Moore's Law helped drive the growth of the semiconductor ______.",
+      "answer": "Industry"
+    },
+    {
+      "question": "7. One major challenge to Moore's Law is increasing manufacturing ______.",
+      "answer": "Costs"
+    },
+    {
+      "question": "8. Advanced lithography is required to continue transistor ______.",
+      "answer": "Scaling"
+    },
+    {
+      "question": "9. Chiplet architectures are one example of technologies that extend ______ Moore's Law.",
+      "answer": "Beyond"
+    },
+    {
+      "question": "10. Modern processors can contain billions of ______.",
+      "answer": "Transistors"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why did Moore's Law become so influential in the semiconductor industry?",
+      "answer": "Because it accurately predicted long-term transistor growth and provided a roadmap that guided semiconductor technology development for decades."
+    },
+    {
+      "question": "2. How has transistor scaling improved computing performance over time?",
+      "answer": "Smaller transistors allow more devices to be integrated onto a chip, increasing processing power while improving energy efficiency."
+    },
+    {
+      "question": "3. Why did Moore's Law remain accurate for several decades?",
+      "answer": "Continuous advances in lithography, materials, manufacturing processes, and transistor design enabled steady transistor scaling."
+    },
+    {
+      "question": "4. What economic benefits resulted from transistor scaling?",
+      "answer": "Higher transistor density reduced the cost per function, making computing devices more affordable and widely accessible."
+    },
+    {
+      "question": "5. Why is it becoming increasingly difficult to continue Moore's Law?",
+      "answer": "Transistors are approaching physical limits, and further scaling requires greater technological complexity and investment."
+    },
+    {
+      "question": "6. What physical limitations challenge further transistor scaling?",
+      "answer": "Challenges include quantum effects, leakage current, heat generation, and atomic-scale manufacturing constraints."
+    },
+    {
+      "question": "7. How do rising fab costs impact the semiconductor industry?",
+      "answer": "Only a small number of companies can afford advanced manufacturing, increasing barriers to entry and industry concentration."
+    },
+    {
+      "question": "8. What is the difference between Moore's Law and actual semiconductor physics?",
+      "answer": "Moore's Law is an observation about industry progress, while semiconductor physics describes the scientific principles governing device operation."
+    },
+    {
+      "question": "9. What technologies are helping the industry move beyond traditional Moore's Law?",
+      "answer": "FinFET, GAA, advanced packaging, chiplets, heterogeneous integration, and AI accelerators are all extending performance improvements beyond simple transistor scaling."
+    },
+    {
+      "question": "10. Do you think future computing improvements will depend more on transistor scaling or system-level innovations?",
+      "answer": "Increasingly, future gains will come from a combination of both, with system-level innovations playing a larger role as transistor scaling becomes more difficult."
+    }
+  ]
+},
+{
+  "id": 7,
+  "title": "Process Nodes (28nm → 2nm)",
+  "content": "A process node refers to a generation of semiconductor manufacturing technology. Historically, node names such as 90nm, 65nm, and 45nm were closely associated with certain physical transistor dimensions. However, in modern semiconductor manufacturing, node names such as 7nm, 5nm, 3nm, and 2nm are no longer direct measurements of transistor size. Today, a process node primarily serves as a technology-generation label and marketing designation that represents improvements in transistor density, performance, power efficiency, and manufacturing capability. It is important for new semiconductor learners to understand that a smaller node name does not necessarily mean a transistor is physically that exact size. Over the past several decades, semiconductor manufacturers have continuously reduced transistor dimensions and improved manufacturing technologies to place more transistors on a chip. Major process generations include 28nm, 22nm, 16nm, 14nm, 10nm, 7nm, 5nm, 3nm, and 2nm. Each generation generally delivers improvements compared to the previous generation. Smaller process nodes matter because they typically enable higher transistor density, allowing more transistors to fit within the same silicon area. Higher transistor density provides more computing capability, more cache memory, and greater functional integration. Smaller nodes also often improve performance because transistors can switch faster and signals can travel shorter distances. This can lead to higher processor performance, faster CPUs and GPUs, and stronger AI computing capability. Another important benefit is improved power efficiency. Advanced nodes generally consume less power for the same workload, helping extend battery life, reduce heat generation, and improve data-center efficiency. Smaller nodes may also reduce chip area, allowing the same functionality to be implemented on a smaller silicon die. The 28nm process node became one of the most successful and widely adopted semiconductor technologies. Even today, many automotive, industrial, microcontroller, networking, and IoT products continue to use 28nm because it provides a mature manufacturing ecosystem, strong reliability, good yields, and an excellent balance between cost and performance. Advanced nodes such as 7nm and 5nm enabled major improvements in smartphone processors, CPUs, GPUs, AI accelerators, and cloud-computing processors. Products from companies such as Apple, AMD, NVIDIA, Qualcomm, and MediaTek have utilized these technologies to achieve higher performance and improved energy efficiency. The latest generations, including 3nm and 2nm, target applications such as artificial-intelligence accelerators, high-performance computing systems, advanced mobile processors, and next-generation data-center chips. These nodes require cutting-edge manufacturing technologies, including EUV lithography and advanced transistor architectures. However, moving to smaller nodes becomes increasingly difficult. Challenges include rising manufacturing costs, greater process complexity, increased power density, yield-optimization difficulties, stricter design requirements, and enormous research-and-development investments. Modern leading-edge semiconductor fabs can cost tens of billions of dollars to build and operate. As a result, only a few companies possess the resources, expertise, and manufacturing capabilities necessary to produce chips at the leading edge. Another important concept is that modern node names are not directly comparable across companies. For example, TSMC 3nm, Samsung 3nm, and Intel 3 represent different technologies, transistor densities, and manufacturing approaches. Therefore, semiconductor engineers do not evaluate process technologies using node names alone. Instead, they compare transistor density, performance, power efficiency, manufacturing cost, technology maturity, and yield. Process-node advancement is closely connected to Moore's Law, which describes the long-term trend of increasing transistor density. As traditional scaling becomes more difficult, future progress will increasingly rely not only on smaller nodes but also on advanced packaging, chiplet architectures, heterogeneous integration, and other semiconductor innovations. Understanding process nodes provides a foundation for understanding how semiconductor technology evolves and why advanced manufacturing remains central to modern computing.",
+  "keywords": [
+    {
+      "english": "Process Node",
+      "chinese": "製程節點"
+    },
+    {
+      "english": "Technology Node",
+      "chinese": "技術節點"
+    },
+    {
+      "english": "Nanometer (nm)",
+      "chinese": "奈米"
+    },
+    {
+      "english": "Transistor Density",
+      "chinese": "電晶體密度"
+    },
+    {
+      "english": "Scaling",
+      "chinese": "微縮"
+    },
+    {
+      "english": "Semiconductor Manufacturing",
+      "chinese": "半導體製造"
+    },
+    {
+      "english": "Advanced Node",
+      "chinese": "先進製程"
+    },
+    {
+      "english": "Leading-Edge Process",
+      "chinese": "先進製程技術"
+    },
+    {
+      "english": "Performance",
+      "chinese": "效能"
+    },
+    {
+      "english": "Power Efficiency",
+      "chinese": "能源效率"
+    },
+    {
+      "english": "Chip Area",
+      "chinese": "晶片面積"
+    },
+    {
+      "english": "Yield",
+      "chinese": "良率"
+    },
+    {
+      "english": "EUV Lithography",
+      "chinese": "極紫外光微影"
+    },
+    {
+      "english": "Semiconductor Fab",
+      "chinese": "半導體晶圓廠"
+    },
+    {
+      "english": "AI Accelerator",
+      "chinese": "AI加速器"
+    },
+    {
+      "english": "High-Performance Computing (HPC)",
+      "chinese": "高效能運算"
+    },
+    {
+      "english": "Moore's Law",
+      "chinese": "摩爾定律"
+    },
+    {
+      "english": "Technology Generation",
+      "chinese": "技術世代"
+    },
+    {
+      "english": "Cost-Performance Balance",
+      "chinese": "成本效能平衡"
+    },
+    {
+      "english": "Marketing Label",
+      "chinese": "行銷命名標籤"
+    }
+  ],
+  "summary": [
+    "A process node represents a generation of semiconductor manufacturing technology.",
+    "Modern node names are no longer exact physical transistor dimensions.",
+    "Node names today function primarily as technology-generation and marketing labels.",
+    "Smaller nodes generally provide higher transistor density.",
+    "Higher transistor density enables greater computing capability and integration.",
+    "Advanced nodes often improve both performance and power efficiency.",
+    "28nm remains widely used because of its cost-effectiveness and maturity.",
+    "7nm, 5nm, and 3nm power modern CPUs, GPUs, smartphones, and AI processors.",
+    "Advanced nodes require massive investment and manufacturing expertise.",
+    "Engineers evaluate density, performance, power, cost, and yield rather than relying only on node names."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. A process node represents a semiconductor technology ______.",
+      "answer": "Generation"
+    },
+    {
+      "question": "2. Modern node names such as 5nm and 3nm are not exact physical ______.",
+      "answer": "Dimensions"
+    },
+    {
+      "question": "3. Smaller nodes generally increase transistor ______.",
+      "answer": "Density"
+    },
+    {
+      "question": "4. Higher transistor density allows more functionality on a ______.",
+      "answer": "Chip"
+    },
+    {
+      "question": "5. Advanced nodes typically improve performance and power ______.",
+      "answer": "Efficiency"
+    },
+    {
+      "question": "6. The unit \"nm\" stands for ______.",
+      "answer": "Nanometer"
+    },
+    {
+      "question": "7. ______ lithography is widely used in leading-edge semiconductor manufacturing.",
+      "answer": "EUV"
+    },
+    {
+      "question": "8. 28nm remains popular because of its good cost-to-______ balance.",
+      "answer": "Performance"
+    },
+    {
+      "question": "9. 3nm and 2nm are considered ______ nodes.",
+      "answer": "Advanced"
+    },
+    {
+      "question": "10. Engineers often compare power, performance, density, and ______ when evaluating process technologies.",
+      "answer": "Yield"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are process nodes important in semiconductor manufacturing?",
+      "answer": "Process nodes indicate a generation of manufacturing technology and strongly influence transistor density, performance, power consumption, chip area, and production cost."
+    },
+    {
+      "question": "2. Why do smaller process nodes generally improve chip performance?",
+      "answer": "Smaller transistors allow more devices to fit on a chip and often switch faster, enabling higher computing performance and improved efficiency."
+    },
+    {
+      "question": "3. Why is transistor density an important metric?",
+      "answer": "Higher transistor density enables more functionality, greater processing capability, larger cache capacity, and improved system integration within the same chip area."
+    },
+    {
+      "question": "4. Why is 28nm still widely used despite newer technologies?",
+      "answer": "Because it provides a mature, reliable, high-yield, and cost-effective manufacturing platform for automotive, industrial, networking, and IoT applications."
+    },
+    {
+      "question": "5. What challenges arise when moving from 28nm to advanced nodes such as 3nm and 2nm?",
+      "answer": "Challenges include higher manufacturing costs, increased process complexity, yield optimization, power-density management, advanced lithography requirements, and enormous R&D investments."
+    },
+    {
+      "question": "6. Why have process node names become less tied to physical dimensions?",
+      "answer": "Modern transistor structures are highly complex and use multiple critical dimensions, so node names have evolved into technology-generation labels rather than exact measurements."
+    },
+    {
+      "question": "7. Why are only a few companies capable of producing leading-edge chips?",
+      "answer": "Leading-edge manufacturing requires enormous capital investment, advanced equipment, specialized engineering talent, extensive process knowledge, and years of development."
+    },
+    {
+      "question": "8. How do advanced nodes support AI and high-performance computing applications?",
+      "answer": "They provide higher transistor density, improved performance, greater integration, and better energy efficiency required for demanding AI and HPC workloads."
+    },
+    {
+      "question": "9. What factors should engineers consider when comparing process technologies?",
+      "answer": "Engineers should evaluate transistor density, performance, power efficiency, yield, manufacturing cost, technology maturity, and overall system benefits."
+    },
+    {
+      "question": "10. As scaling becomes more difficult, what technologies may complement future process-node advancements?",
+      "answer": "Advanced packaging, chiplets, heterogeneous integration, next-generation transistor architectures, AI accelerators, and system-level optimization will play increasingly important roles."
+    }
+  ]
+},
+{
+  "id": 8,
+  "title": "FinFET and GAA Technology",
+  "content": "As semiconductor process nodes continue to shrink, traditional planar MOSFET transistors face serious challenges. When transistors become extremely small, leakage current increases, power consumption rises, short-channel effects become more severe, and gate control over the channel becomes weaker. To maintain transistor performance and continue scaling, the semiconductor industry introduced new transistor architectures. The two most important modern transistor structures are FinFET (Fin Field-Effect Transistor) and GAA (Gate-All-Around). Traditional planar MOSFETs are built on a flat silicon surface, but as dimensions shrink, the gate can no longer efficiently control current flowing through the channel. FinFET solves this problem by forming the channel as a vertical silicon fin with the gate wrapping around three sides of the channel. This provides stronger channel control, lower leakage current, improved performance, and better power efficiency. FinFET became the mainstream transistor structure from 22nm through 5nm process generations. As scaling continued, the industry developed GAA transistors. In a GAA structure, the gate completely surrounds the channel, providing even stronger electrostatic control than FinFET. Modern GAA implementations often use nanowire or nanosheet channels. Nanosheet-based GAA designs are preferred by many manufacturers because they provide higher drive current and better performance. Samsung introduced GAA production at 3nm, while TSMC and Intel are adopting GAA-based technologies for future advanced nodes. FinFET and GAA technologies are critical innovations that enable continued transistor scaling, improved performance, reduced power consumption, and support for future semiconductor generations.",
+  "keywords": [
+    {
+      "english": "FinFET",
+      "chinese": "鰭式場效電晶體"
+    },
+    {
+      "english": "Gate-All-Around (GAA)",
+      "chinese": "環繞閘極技術"
+    },
+    {
+      "english": "MOSFET",
+      "chinese": "金氧半場效電晶體"
+    },
+    {
+      "english": "Planar Transistor",
+      "chinese": "平面電晶體"
+    },
+    {
+      "english": "Gate",
+      "chinese": "閘極"
+    },
+    {
+      "english": "Channel",
+      "chinese": "通道"
+    },
+    {
+      "english": "Leakage Current",
+      "chinese": "漏電流"
+    },
+    {
+      "english": "Short-Channel Effect",
+      "chinese": "短通道效應"
+    },
+    {
+      "english": "Electrostatic Control",
+      "chinese": "靜電控制能力"
+    },
+    {
+      "english": "Transistor Scaling",
+      "chinese": "電晶體微縮"
+    },
+    {
+      "english": "Fin",
+      "chinese": "鰭片"
+    },
+    {
+      "english": "Nanowire",
+      "chinese": "奈米線"
+    },
+    {
+      "english": "Nanosheet",
+      "chinese": "奈米片"
+    },
+    {
+      "english": "RibbonFET",
+      "chinese": "緞帶場效電晶體"
+    },
+    {
+      "english": "Process Node",
+      "chinese": "製程節點"
+    },
+    {
+      "english": "Power Efficiency",
+      "chinese": "能源效率"
+    },
+    {
+      "english": "Transistor Density",
+      "chinese": "電晶體密度"
+    },
+    {
+      "english": "Advanced Semiconductor",
+      "chinese": "先進半導體"
+    }
+  ],
+  "summary": [
+    "Planar MOSFETs face scaling limitations at advanced nodes.",
+    "FinFET introduced a 3D transistor structure to improve gate control.",
+    "FinFET reduces leakage current and improves power efficiency.",
+    "FinFET became mainstream from 22nm through 5nm process generations.",
+    "GAA provides even stronger gate control than FinFET.",
+    "In GAA transistors, the gate completely surrounds the channel.",
+    "GAA reduces leakage current and improves scalability.",
+    "Nanosheet structures are widely used in modern GAA implementations.",
+    "Samsung, TSMC, and Intel are adopting GAA technologies for advanced nodes.",
+    "FinFET and GAA help extend transistor scaling beyond traditional planar designs."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. FinFET stands for Fin Field-Effect ______.",
+      "answer": "Transistor"
+    },
+    {
+      "question": "2. Traditional planar MOSFETs suffer from increased ______ current at advanced nodes.",
+      "answer": "Leakage"
+    },
+    {
+      "question": "3. In a FinFET, the channel is formed as a silicon ______.",
+      "answer": "Fin"
+    },
+    {
+      "question": "4. A FinFET gate wraps around ______ sides of the channel.",
+      "answer": "Three"
+    },
+    {
+      "question": "5. GAA stands for Gate-All-______.",
+      "answer": "Around"
+    },
+    {
+      "question": "6. In a GAA transistor, the gate ______ surrounds the channel.",
+      "answer": "Completely"
+    },
+    {
+      "question": "7. GAA provides better ______ control than FinFET.",
+      "answer": "Electrostatic"
+    },
+    {
+      "question": "8. A common GAA structure is called a nano______.",
+      "answer": "Sheet"
+    },
+    {
+      "question": "9. Intel's implementation of GAA technology is called ______FET.",
+      "answer": "Ribbon"
+    },
+    {
+      "question": "10. FinFET and GAA are designed to support continued transistor ______.",
+      "answer": "Scaling"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why did the semiconductor industry move away from traditional planar MOSFETs?",
+      "answer": "Because planar transistors experienced increasing leakage current and reduced gate control as dimensions shrank."
+    },
+    {
+      "question": "2. How does the FinFET structure improve transistor performance?",
+      "answer": "The gate wraps around three sides of the channel, providing stronger control over current flow and reducing leakage."
+    },
+    {
+      "question": "3. What causes leakage current to become a problem at advanced nodes?",
+      "answer": "As transistors become smaller, the channel becomes harder to control, allowing unwanted current to flow even when the transistor is off."
+    },
+    {
+      "question": "4. Why is gate control important in transistor operation?",
+      "answer": "Strong gate control enables precise switching, lower leakage current, improved performance, and better power efficiency."
+    },
+    {
+      "question": "5. What advantages does FinFET provide over planar transistor designs?",
+      "answer": "Lower leakage, higher performance, better power efficiency, and improved scalability."
+    },
+    {
+      "question": "6. Why was GAA developed after FinFET?",
+      "answer": "FinFET eventually encountered scaling limitations, and GAA provides even stronger channel control for future nodes."
+    },
+    {
+      "question": "7. How does GAA achieve better electrostatic control than FinFET?",
+      "answer": "The gate completely surrounds the channel, allowing more effective control from all directions."
+    },
+    {
+      "question": "8. What are the differences between nanowire and nanosheet GAA structures?",
+      "answer": "Nanowires use very narrow channels, while nanosheets use wider channels that can deliver higher drive current and better performance."
+    },
+    {
+      "question": "9. Why are GAA transistors important for future semiconductor nodes?",
+      "answer": "They improve power efficiency, reduce leakage, and support continued scaling at 3nm, 2nm, and beyond."
+    },
+    {
+      "question": "10. How do FinFET and GAA technologies help extend Moore's Law?",
+      "answer": "They enable continued transistor scaling and performance improvements when traditional planar transistor designs reach their physical limits."
+    }
+  ]
+},
+{
+  "id": 9,
+  "title": "Compound Semiconductors (GaN, SiC, GaAs)",
+  "content": "Most semiconductor devices today are manufactured using silicon (Si). However, silicon is not always the optimal material for every application. To achieve higher performance in areas such as power electronics, high-frequency communications, and harsh environments, the semiconductor industry increasingly uses compound semiconductors. A compound semiconductor is a semiconductor material formed by combining two or more elements from different groups of the periodic table. Common examples include Silicon Carbide (SiC), Gallium Nitride (GaN), and Gallium Arsenide (GaAs). These materials offer electrical properties that are difficult or impossible to achieve using traditional silicon. Silicon remains the dominant semiconductor material because it offers low cost, excellent manufacturability, high availability, a mature ecosystem, and large-scale production capability. However, silicon has limitations in applications requiring very high voltage, very high temperature, very high frequency, or extremely high power efficiency. Silicon Carbide (SiC) is a wide-bandgap semiconductor known for high breakdown voltage, high temperature tolerance, low power loss, and excellent thermal conductivity. It is widely used in electric vehicles, solar inverters, industrial motor drives, and energy storage systems. Gallium Nitride (GaN) is another wide-bandgap semiconductor offering high switching speed, high efficiency, and high-frequency operation. It is commonly used in fast chargers, power supplies, telecommunications equipment, and data centers. Gallium Arsenide (GaAs) is known for high electron mobility and excellent RF performance. It is widely used in smartphones, wireless communication systems, satellite communications, and radar systems. While compound semiconductors provide significant advantages in specialized applications, silicon continues to dominate logic chips, CPUs, GPUs, memory devices, and most integrated circuits. The future semiconductor industry will likely rely on both silicon and compound semiconductors, each serving applications where their material properties provide the greatest benefit.",
+  "keywords": [
+    {
+      "english": "Compound Semiconductor",
+      "chinese": "化合物半導體"
+    },
+    {
+      "english": "Silicon (Si)",
+      "chinese": "矽"
+    },
+    {
+      "english": "Silicon Carbide (SiC)",
+      "chinese": "碳化矽"
+    },
+    {
+      "english": "Gallium Nitride (GaN)",
+      "chinese": "氮化鎵"
+    },
+    {
+      "english": "Gallium Arsenide (GaAs)",
+      "chinese": "砷化鎵"
+    },
+    {
+      "english": "Wide-Bandgap Semiconductor",
+      "chinese": "寬能隙半導體"
+    },
+    {
+      "english": "Power Electronics",
+      "chinese": "功率電子"
+    },
+    {
+      "english": "RF (Radio Frequency)",
+      "chinese": "射頻"
+    },
+    {
+      "english": "High Electron Mobility",
+      "chinese": "高電子遷移率"
+    },
+    {
+      "english": "Breakdown Voltage",
+      "chinese": "崩潰電壓"
+    },
+    {
+      "english": "Thermal Conductivity",
+      "chinese": "熱導率"
+    },
+    {
+      "english": "Power Efficiency",
+      "chinese": "能源效率"
+    },
+    {
+      "english": "Fast Charging",
+      "chinese": "快速充電"
+    },
+    {
+      "english": "Electric Vehicle (EV)",
+      "chinese": "電動車"
+    },
+    {
+      "english": "Inverter",
+      "chinese": "逆變器"
+    },
+    {
+      "english": "Data Center",
+      "chinese": "資料中心"
+    },
+    {
+      "english": "Wireless Communication",
+      "chinese": "無線通訊"
+    },
+    {
+      "english": "Radar",
+      "chinese": "雷達"
+    },
+    {
+      "english": "Semiconductor Material",
+      "chinese": "半導體材料"
+    }
+  ],
+  "summary": [
+    "Compound semiconductors are made from two or more elements.",
+    "SiC, GaN, and GaAs are important compound semiconductor materials.",
+    "Silicon remains the dominant material for most semiconductor applications.",
+    "SiC is widely used in power electronics and electric vehicles.",
+    "GaN offers high switching speed and excellent power efficiency.",
+    "GaN is commonly used in fast chargers and power supplies.",
+    "GaAs provides excellent high-frequency and RF performance.",
+    "Wide-bandgap semiconductors can operate at higher voltages and temperatures than silicon.",
+    "Compound semiconductors complement rather than replace silicon.",
+    "Material selection depends on application requirements such as power, frequency, efficiency, and cost."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. A compound semiconductor is made from two or more ______.",
+      "answer": "Elements"
+    },
+    {
+      "question": "2. Silicon Carbide is commonly abbreviated as ______.",
+      "answer": "SiC"
+    },
+    {
+      "question": "3. Gallium Nitride is commonly abbreviated as ______.",
+      "answer": "GaN"
+    },
+    {
+      "question": "4. Gallium Arsenide is commonly abbreviated as ______.",
+      "answer": "GaAs"
+    },
+    {
+      "question": "5. SiC is widely used in ______ vehicles.",
+      "answer": "Electric"
+    },
+    {
+      "question": "6. GaN is commonly used in fast ______.",
+      "answer": "Chargers"
+    },
+    {
+      "question": "7. GaAs is widely used in ______ communication systems.",
+      "answer": "Wireless"
+    },
+    {
+      "question": "8. SiC and GaN are examples of ______-bandgap semiconductors.",
+      "answer": "Wide"
+    },
+    {
+      "question": "9. Silicon remains dominant because of its low cost and mature ______.",
+      "answer": "Ecosystem"
+    },
+    {
+      "question": "10. Compound semiconductors are often used when higher power or higher ______ performance is required.",
+      "answer": "Frequency"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why has silicon remained the dominant semiconductor material for decades?",
+      "answer": "Silicon is abundant, inexpensive, reliable, and supported by a highly mature manufacturing ecosystem."
+    },
+    {
+      "question": "2. What limitations of silicon led to the adoption of compound semiconductors?",
+      "answer": "Silicon faces challenges in very high-voltage, high-temperature, high-frequency, and high-efficiency applications."
+    },
+    {
+      "question": "3. Why is SiC becoming increasingly important in electric vehicles?",
+      "answer": "SiC reduces power loss, improves efficiency, supports higher voltages, and helps increase EV driving range."
+    },
+    {
+      "question": "4. What makes GaN suitable for fast chargers and power electronics?",
+      "answer": "GaN switches faster and operates more efficiently than silicon, enabling smaller and lighter power systems."
+    },
+    {
+      "question": "5. Why is GaAs commonly used in RF and wireless communication systems?",
+      "answer": "GaAs offers high electron mobility and excellent high-frequency performance, making it ideal for RF applications."
+    },
+    {
+      "question": "6. What are the advantages of wide-bandgap semiconductors?",
+      "answer": "They support higher voltage, higher temperature, faster switching speeds, and better energy efficiency."
+    },
+    {
+      "question": "7. Why can't compound semiconductors completely replace silicon today?",
+      "answer": "They are generally more expensive, more difficult to manufacture, and lack the massive ecosystem developed around silicon."
+    },
+    {
+      "question": "8. How does semiconductor material selection affect device performance?",
+      "answer": "Material properties influence efficiency, speed, operating voltage, thermal performance, and manufacturing cost."
+    },
+    {
+      "question": "9. What industries are expected to drive future demand for SiC and GaN devices?",
+      "answer": "Electric vehicles, renewable energy, industrial automation, telecommunications, AI infrastructure, and data centers."
+    },
+    {
+      "question": "10. How might compound semiconductors influence the future of energy-efficient electronics?",
+      "answer": "They can reduce energy loss, improve power conversion efficiency, and enable more compact, high-performance electronic systems."
+    }
+  ]
+},
+{
+  "id": 10,
+  "title": "Semiconductor Supply Chain Overview",
+  "content": "The semiconductor supply chain is a highly specialized and globally distributed ecosystem that transforms raw materials into finished semiconductor products. Unlike many traditional industries, semiconductor production requires collaboration among hundreds of companies across multiple countries. Each participant contributes specialized expertise to a specific stage of the value chain. A typical semiconductor supply chain consists of six major stages: Materials, Equipment, Design, Manufacturing, Packaging and Testing, and End Products. Material suppliers provide silicon wafers, photoresists, specialty gases, chemicals, and packaging materials. Equipment suppliers provide lithography, deposition, etching, metrology, inspection, and testing systems. Fabless companies focus on chip architecture, circuit design, verification, and product development. Foundries manufacture semiconductor wafers using advanced process technologies. OSAT companies provide assembly, packaging, testing, and quality verification services. Finally, semiconductor devices are integrated into products such as smartphones, personal computers, servers, automobiles, industrial equipment, and consumer electronics. The semiconductor supply chain is highly globalized, with materials, equipment, design, manufacturing, packaging, and final assembly often taking place in different countries. While this specialization improves efficiency and innovation, it also creates risks related to geopolitics, capacity constraints, logistics disruptions, natural disasters, and talent shortages. As semiconductors become increasingly important to the global economy, supply chain resilience has become a strategic priority for governments and companies worldwide.",
+  "keywords": [
+    {
+      "english": "Semiconductor Supply Chain",
+      "chinese": "半導體供應鏈"
+    },
+    {
+      "english": "Value Chain",
+      "chinese": "價值鏈"
+    },
+    {
+      "english": "Semiconductor Ecosystem",
+      "chinese": "半導體生態系"
+    },
+    {
+      "english": "Material Supplier",
+      "chinese": "材料供應商"
+    },
+    {
+      "english": "Equipment Supplier",
+      "chinese": "設備供應商"
+    },
+    {
+      "english": "Fabless",
+      "chinese": "無晶圓廠"
+    },
+    {
+      "english": "Foundry",
+      "chinese": "晶圓代工"
+    },
+    {
+      "english": "IDM",
+      "chinese": "整合元件製造商"
+    },
+    {
+      "english": "OSAT",
+      "chinese": "封裝測試代工"
+    },
+    {
+      "english": "Wafer Fabrication",
+      "chinese": "晶圓製造"
+    },
+    {
+      "english": "Packaging",
+      "chinese": "封裝"
+    },
+    {
+      "english": "Testing",
+      "chinese": "測試"
+    },
+    {
+      "english": "Semiconductor Fab",
+      "chinese": "半導體晶圓廠"
+    },
+    {
+      "english": "Integrated Circuit (IC)",
+      "chinese": "積體電路"
+    },
+    {
+      "english": "Yield",
+      "chinese": "良率"
+    },
+    {
+      "english": "Capacity",
+      "chinese": "產能"
+    },
+    {
+      "english": "Supply Chain Resilience",
+      "chinese": "供應鏈韌性"
+    },
+    {
+      "english": "Advanced Packaging",
+      "chinese": "先進封裝"
+    },
+    {
+      "english": "End Product",
+      "chinese": "終端產品"
+    },
+    {
+      "english": "Global Supply Chain",
+      "chinese": "全球供應鏈"
+    }
+  ],
+  "summary": [
+    "The semiconductor supply chain consists of multiple specialized stages.",
+    "Major stages include materials, equipment, design, manufacturing, packaging, testing, and end products.",
+    "Fabless companies focus on chip design.",
+    "Foundries manufacture chips based on customer designs.",
+    "OSAT companies provide packaging and testing services.",
+    "Equipment and material suppliers are essential to semiconductor production.",
+    "The semiconductor industry is highly globalized.",
+    "Advanced chips require close collaboration across the entire supply chain.",
+    "Supply chain disruptions can significantly impact global industries.",
+    "Supply chain resilience has become increasingly important for governments and semiconductor companies."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. The semiconductor supply chain begins with ______ suppliers.",
+      "answer": "Material"
+    },
+    {
+      "question": "2. Fabless companies primarily focus on chip ______.",
+      "answer": "Design"
+    },
+    {
+      "question": "3. Foundries specialize in semiconductor ______.",
+      "answer": "Manufacturing"
+    },
+    {
+      "question": "4. OSAT companies provide packaging and ______ services.",
+      "answer": "Testing"
+    },
+    {
+      "question": "5. ASML is a major semiconductor ______ supplier.",
+      "answer": "Equipment"
+    },
+    {
+      "question": "6. Silicon wafers are supplied by semiconductor ______ companies.",
+      "answer": "Material"
+    },
+    {
+      "question": "7. Advanced packaging is becoming increasingly important for ______ applications.",
+      "answer": "AI"
+    },
+    {
+      "question": "8. TSMC is a leading semiconductor ______.",
+      "answer": "Foundry"
+    },
+    {
+      "question": "9. The semiconductor industry relies on a highly ______ supply chain.",
+      "answer": "Globalized"
+    },
+    {
+      "question": "10. Supply chain resilience helps reduce the impact of supply chain ______.",
+      "answer": "Disruptions"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is the semiconductor supply chain more complex than many traditional manufacturing industries?",
+      "answer": "Because semiconductor production requires highly specialized materials, equipment, design expertise, manufacturing technologies, and testing capabilities distributed across multiple countries and companies."
+    },
+    {
+      "question": "2. What role do material suppliers play in semiconductor manufacturing?",
+      "answer": "They provide high-purity wafers, chemicals, gases, photoresists, and packaging materials that serve as the foundation of semiconductor production."
+    },
+    {
+      "question": "3. Why are equipment suppliers critical to advanced chip production?",
+      "answer": "Their tools enable lithography, deposition, etching, inspection, and testing processes that make advanced semiconductor manufacturing possible."
+    },
+    {
+      "question": "4. How do Fabless, Foundry, and OSAT companies interact within the supply chain?",
+      "answer": "Fabless companies design chips, Foundries manufacture wafers, and OSAT companies package and test finished devices before shipment."
+    },
+    {
+      "question": "5. Why is the semiconductor industry highly dependent on international collaboration?",
+      "answer": "No single country controls every stage of the supply chain. Different regions specialize in materials, equipment, design, manufacturing, and packaging."
+    },
+    {
+      "question": "6. What are the advantages and disadvantages of a global semiconductor supply chain?",
+      "answer": "Advantages include specialization, efficiency, and economies of scale. Disadvantages include geopolitical risk, logistics challenges, and supply disruptions."
+    },
+    {
+      "question": "7. Why are advanced packaging technologies becoming increasingly important?",
+      "answer": "They improve system performance, bandwidth, power efficiency, and enable chiplet-based architectures used in AI and HPC systems."
+    },
+    {
+      "question": "8. What lessons were learned from the semiconductor shortages during the COVID-19 period?",
+      "answer": "Supply chain disruptions can affect entire industries, highlighting the importance of visibility, diversification, inventory planning, and manufacturing capacity."
+    },
+    {
+      "question": "9. How can companies improve semiconductor supply chain resilience?",
+      "answer": "By diversifying suppliers, expanding manufacturing capacity, strengthening partnerships, improving forecasting, and reducing dependence on single points of failure."
+    },
+    {
+      "question": "10. Why is understanding the semiconductor supply chain important for business and technology professionals?",
+      "answer": "Because semiconductor supply chains influence technology innovation, product availability, business strategy, geopolitical policies, and the global economy."
+    }
+  ]
+}
+  ]
+}

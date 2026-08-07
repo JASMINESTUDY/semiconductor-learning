@@ -1,0 +1,920 @@
+{
+  "module_name": "Testing and Reliability",
+  "topics": [
+{
+  "id": 51,
+  "title": "Wafer Testing (CP)",
+  "content": "Wafer Testing, also known as Circuit Probe (CP), Wafer Probe, or Wafer Sort, is the first major electrical testing stage performed after wafer fabrication and before wafer dicing. The primary purpose of CP is to determine whether each die on a wafer functions correctly before entering expensive packaging and assembly processes. During wafer testing, Automatic Test Equipment (ATE) applies electrical stimuli to individual dies through a probe card and measures their responses to determine pass or fail status. Dies that meet predefined specifications are classified as Known Good Dies (KGD), while defective dies are marked and excluded from subsequent manufacturing steps. Wafer Testing serves as the first electrical quality gate in semiconductor manufacturing and plays a critical role in cost control, yield improvement, and process monitoring. A complete CP system consists of an Automatic Test Equipment (ATE), a wafer prober, a probe card, and a test program. The prober positions the wafer accurately, the probe card establishes electrical contact with die pads or bumps, and the ATE executes electrical tests. Typical CP process flow includes wafer loading, alignment, probe contact, electrical testing, die classification, wafer map generation, and wafer unloading. Functional testing verifies whether circuits operate as intended, while parametric testing measures electrical characteristics such as leakage current, voltage, current consumption, resistance, threshold voltage, and output drive capability. Wafer testing may also include DC testing, AC testing, memory tests, scan tests, and speed characterization. Test results are stored in a wafer map, which records the status of every die on the wafer. The wafer map is used during wafer dicing and assembly so that only qualified dies are packaged. Yield analysis is one of the most important outputs of wafer testing. Yield is calculated as the number of good dies divided by the total number of dies on a wafer. Yield information provides valuable feedback for identifying process issues, improving manufacturing quality, and increasing production efficiency. Wafer testing also supports binning and speed grading. Dies may be sorted into different performance categories based on operating frequency, power consumption, or other characteristics, allowing manufacturers to maximize product value. As semiconductor devices become more advanced, wafer testing has become increasingly complex due to shrinking geometries, higher operating frequencies, larger transistor counts, and advanced packaging technologies. Wafer Testing is especially important for chiplets, CoWoS, SoIC, HBM, and heterogeneous integration because only Known Good Dies should be assembled into high-value advanced packages. Without effective CP, packaging cost, yield loss, and field failure risks would increase significantly.",
+  "keywords": [
+    {
+      "english": "Wafer Testing",
+      "chinese": "晶圓測試"
+    },
+    {
+      "english": "Circuit Probe (CP)",
+      "chinese": "晶圓針測"
+    },
+    {
+      "english": "Wafer Sort",
+      "chinese": "晶圓分選"
+    },
+    {
+      "english": "Wafer Probe",
+      "chinese": "晶圓探測"
+    },
+    {
+      "english": "Known Good Die (KGD)",
+      "chinese": "已知良品晶粒"
+    },
+    {
+      "english": "Automatic Test Equipment (ATE)",
+      "chinese": "自動測試設備"
+    },
+    {
+      "english": "Prober",
+      "chinese": "探針機"
+    },
+    {
+      "english": "Probe Card",
+      "chinese": "探針卡"
+    },
+    {
+      "english": "Wafer Map",
+      "chinese": "晶圓圖"
+    },
+    {
+      "english": "Functional Test",
+      "chinese": "功能測試"
+    },
+    {
+      "english": "Parametric Test",
+      "chinese": "參數測試"
+    },
+    {
+      "english": "DC Test",
+      "chinese": "直流測試"
+    },
+    {
+      "english": "AC Test",
+      "chinese": "交流測試"
+    },
+    {
+      "english": "Leakage Current",
+      "chinese": "漏電流"
+    },
+    {
+      "english": "Yield",
+      "chinese": "良率"
+    },
+    {
+      "english": "Bin Sorting",
+      "chinese": "分Bin"
+    },
+    {
+      "english": "Speed Grading",
+      "chinese": "速度分級"
+    },
+    {
+      "english": "Test Vector",
+      "chinese": "測試向量"
+    },
+    {
+      "english": "Die Classification",
+      "chinese": "晶粒分類"
+    },
+    {
+      "english": "Advanced Packaging",
+      "chinese": "先進封裝"
+    }
+  ],
+  "summary": [
+    "Wafer Testing (CP) is performed after wafer fabrication and before wafer dicing.",
+    "The main purpose of CP is to identify Known Good Dies (KGDs) before packaging.",
+    "CP reduces manufacturing cost by preventing defective dies from entering assembly.",
+    "A complete CP system includes ATE, a prober, a probe card, and test programs.",
+    "Functional testing verifies circuit operation, while parametric testing measures electrical characteristics.",
+    "Wafer maps record pass/fail information for every die on the wafer.",
+    "Yield analysis is a critical output of wafer testing.",
+    "Bin sorting and speed grading maximize product value and market segmentation.",
+    "CP is especially important for advanced packaging, chiplets, CoWoS, SoIC, and HBM products.",
+    "Wafer Testing is the first electrical quality gate in semiconductor manufacturing."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. CP stands for Circuit ______.",
+      "answer": "Probe"
+    },
+    {
+      "question": "2. Wafer Testing is performed before wafer ______.",
+      "answer": "Dicing"
+    },
+    {
+      "question": "3. A die that passes CP is called a Known Good ______.",
+      "answer": "Die"
+    },
+    {
+      "question": "4. ATE stands for Automatic Test ______.",
+      "answer": "Equipment"
+    },
+    {
+      "question": "5. A ______ card provides electrical contact between the tester and wafer.",
+      "answer": "Probe"
+    },
+    {
+      "question": "6. A wafer ______ records the test results of all dies on a wafer.",
+      "answer": "Map"
+    },
+    {
+      "question": "7. Functional testing verifies circuit ______.",
+      "answer": "Operation"
+    },
+    {
+      "question": "8. Parametric testing measures electrical ______.",
+      "answer": "Parameters"
+    },
+    {
+      "question": "9. Yield is calculated by dividing good dies by total ______.",
+      "answer": "Dies"
+    },
+    {
+      "question": "10. Speed ______ classifies dies into different performance categories.",
+      "answer": "Grading"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is Wafer Testing performed before packaging?",
+      "answer": "Wafer Testing identifies defective dies before packaging, preventing unnecessary assembly costs and improving manufacturing efficiency."
+    },
+    {
+      "question": "2. What is a Known Good Die (KGD) and why is it important?",
+      "answer": "A Known Good Die is a die that has passed wafer testing and meets electrical specifications. KGD is critical for advanced packaging because defective dies can significantly reduce assembly yield."
+    },
+    {
+      "question": "3. What are the major components of a wafer test system?",
+      "answer": "The major components are Automatic Test Equipment (ATE), a wafer prober, a probe card, and test software that controls measurements and pass/fail criteria."
+    },
+    {
+      "question": "4. What is the difference between functional testing and parametric testing?",
+      "answer": "Functional testing verifies whether a circuit operates correctly, while parametric testing measures electrical characteristics such as current, voltage, leakage, resistance, and timing."
+    },
+    {
+      "question": "5. What is the purpose of a wafer map?",
+      "answer": "A wafer map records the test result of every die on a wafer and is used during dicing and assembly to select only qualified dies."
+    },
+    {
+      "question": "6. How is yield calculated during wafer testing?",
+      "answer": "Yield is calculated as the number of good dies divided by the total number of dies, multiplied by 100 percent."
+    },
+    {
+      "question": "7. What is bin sorting and why is it used?",
+      "answer": "Bin sorting classifies dies into different categories such as pass, fail, high-performance, or low-power grades to maximize product value and market segmentation."
+    },
+    {
+      "question": "8. Why is wafer testing important for advanced packaging technologies?",
+      "answer": "Advanced packages such as CoWoS, SoIC, HBM, and chiplet architectures require Known Good Dies because replacing defective dies after assembly is extremely difficult and expensive."
+    },
+    {
+      "question": "9. What challenges does modern wafer testing face?",
+      "answer": "Modern wafer testing faces challenges such as increasing test complexity, shrinking pad pitches, high-speed device characterization, longer test times, and large volumes of test data."
+    },
+    {
+      "question": "10. Why is yield analysis important in CP?",
+      "answer": "Yield analysis helps engineers identify manufacturing issues, improve fabrication processes, increase productivity, reduce costs, and improve overall semiconductor quality."
+    }
+  ]
+},
+{
+  "id": 52,
+  "title": "Final Testing (FT)",
+  "content": "Final Testing (FT), also called Package Test, Final Electrical Test, or End-of-Line Test, is the electrical test performed after semiconductor assembly and packaging are completed. The purpose of FT is to verify that the finished packaged device meets all electrical, functional, timing, power, and performance specifications before shipment to customers. Unlike Wafer Testing (CP), which tests bare dies on the wafer, FT evaluates the complete semiconductor product in its final package form. FT serves as one of the final quality gates in semiconductor manufacturing and protects customers from receiving defective products. Even if a die passes Wafer Testing, failures can still occur during assembly and packaging due to wire bond defects, flip-chip connection failures, solder joint problems, package cracks, contamination, ESD damage, assembly stress, or mechanical damage. Final Testing ensures that packaging has not introduced these defects. The main objectives of FT include functional verification, parametric verification, speed verification, and customer quality protection. Functional testing confirms that the device performs all intended operations correctly. Parametric testing verifies electrical characteristics such as voltage, current, leakage current, output drive strength, and power consumption. Performance characterization determines operating speed and product grade. A complete FT system consists of Automatic Test Equipment (ATE), a test handler, test sockets, and test programs. The handler automatically loads and unloads packaged devices, the test socket provides temporary electrical contact, and the ATE executes test sequences and measurements. A typical FT flow includes device loading, socket contact, functional testing, parametric testing, performance characterization, bin sorting, marking, and shipment preparation. Functional tests may evaluate logic execution, memory operation, communication interfaces, analog performance, and system functionality. Parametric tests verify current consumption, leakage, voltage levels, and output performance. DC testing measures static electrical characteristics, while AC testing evaluates timing, frequency, propagation delay, setup time, and hold time. One important outcome of FT is performance binning, where devices are sorted into different performance levels based on measured frequency, voltage, and power characteristics. Speed grading allows the same silicon design to be marketed as different product versions. Some products also undergo burn-in testing, where devices operate under elevated temperature and voltage conditions to accelerate early-life failures. Modern manufacturing often uses multi-site testing, which allows multiple devices to be tested simultaneously and improves throughput. Final Testing produces important metrics including final test yield and test coverage. As semiconductor devices become increasingly complex, FT faces challenges such as longer test times, higher test cost, advanced interface validation, thermal management, and growing data volumes. FT is especially important for advanced products such as AI accelerators, HBM devices, chiplets, CoWoS packages, SoIC structures, and heterogeneous integration platforms. Without effective Final Testing, packaging defects and electrical failures could escape to customers and significantly impact product quality and reliability.",
+  "keywords": [
+    {
+      "english": "Final Testing (FT)",
+      "chinese": "成品測試"
+    },
+    {
+      "english": "Final Electrical Test",
+      "chinese": "最終電性測試"
+    },
+    {
+      "english": "Package Test",
+      "chinese": "封裝測試"
+    },
+    {
+      "english": "Automatic Test Equipment (ATE)",
+      "chinese": "自動測試設備"
+    },
+    {
+      "english": "Test Handler",
+      "chinese": "測試搬運機"
+    },
+    {
+      "english": "Test Socket",
+      "chinese": "測試插座"
+    },
+    {
+      "english": "Functional Test",
+      "chinese": "功能測試"
+    },
+    {
+      "english": "Parametric Test",
+      "chinese": "參數測試"
+    },
+    {
+      "english": "AC Test",
+      "chinese": "交流測試"
+    },
+    {
+      "english": "DC Test",
+      "chinese": "直流測試"
+    },
+    {
+      "english": "Burn-In",
+      "chinese": "老化測試"
+    },
+    {
+      "english": "Multi-Site Testing",
+      "chinese": "多工位測試"
+    },
+    {
+      "english": "Performance Binning",
+      "chinese": "效能分Bin"
+    },
+    {
+      "english": "Speed Grading",
+      "chinese": "速度分級"
+    },
+    {
+      "english": "Yield",
+      "chinese": "良率"
+    },
+    {
+      "english": "Test Coverage",
+      "chinese": "測試覆蓋率"
+    },
+    {
+      "english": "Leakage Current",
+      "chinese": "漏電流"
+    },
+    {
+      "english": "Power Consumption",
+      "chinese": "功耗"
+    },
+    {
+      "english": "Known Good Die (KGD)",
+      "chinese": "已知良品晶粒"
+    },
+    {
+      "english": "Advanced Packaging",
+      "chinese": "先進封裝"
+    }
+  ],
+  "summary": [
+    "Final Testing (FT) is performed after assembly and packaging are completed.",
+    "FT verifies the electrical and functional quality of packaged semiconductor devices.",
+    "FT is the final electrical quality gate before shipment.",
+    "A complete FT system includes ATE, handlers, sockets, and test programs.",
+    "Functional, parametric, AC, and DC tests are all important components of FT.",
+    "FT detects defects introduced during packaging and assembly.",
+    "Performance binning and speed grading are major outputs of Final Testing.",
+    "Burn-in testing may be used to remove early-life failures in high-reliability products.",
+    "Advanced products such as AI accelerators, HBM systems, chiplets, CoWoS, and SoIC require sophisticated FT strategies.",
+    "FT plays a critical role in customer quality protection and product reliability."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. FT stands for Final ______.",
+      "answer": "Testing"
+    },
+    {
+      "question": "2. Final Testing is performed after ______ and packaging.",
+      "answer": "Assembly"
+    },
+    {
+      "question": "3. FT evaluates the complete ______ device.",
+      "answer": "Packaged"
+    },
+    {
+      "question": "4. A ______ automatically loads and unloads devices during FT.",
+      "answer": "Handler"
+    },
+    {
+      "question": "5. Functional testing verifies device ______.",
+      "answer": "Functionality"
+    },
+    {
+      "question": "6. Parametric testing measures electrical ______.",
+      "answer": "Parameters"
+    },
+    {
+      "question": "7. Devices are sorted into categories through ______.",
+      "answer": "Binning"
+    },
+    {
+      "question": "8. Burn-in testing applies high temperature and ______ stress.",
+      "answer": "Voltage"
+    },
+    {
+      "question": "9. Multi-site testing improves manufacturing ______.",
+      "answer": "Throughput"
+    },
+    {
+      "question": "10. FT is the final electrical quality gate before ______.",
+      "answer": "Shipment"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is Final Testing required even after Wafer Testing?",
+      "answer": "Wafer Testing verifies bare dies, but assembly and packaging can introduce defects such as wire bond failures, solder defects, package damage, or ESD events. FT ensures the final packaged product operates correctly."
+    },
+    {
+      "question": "2. What is the difference between CP and FT?",
+      "answer": "CP tests bare dies on the wafer before packaging, while FT tests fully packaged semiconductor devices after assembly and packaging."
+    },
+    {
+      "question": "3. What are the major components of a Final Test system?",
+      "answer": "A Final Test system consists of Automatic Test Equipment (ATE), a test handler, test sockets, and test programs used to control measurements and classify devices."
+    },
+    {
+      "question": "4. What is the difference between functional testing and parametric testing during FT?",
+      "answer": "Functional testing verifies that the device operates correctly, while parametric testing measures electrical parameters such as voltage, current, leakage, power consumption, and output performance."
+    },
+    {
+      "question": "5. Why is performance binning important in semiconductor manufacturing?",
+      "answer": "Performance binning allows manufacturers to classify devices based on speed, power, and electrical characteristics, maximizing product value and enabling market segmentation."
+    },
+    {
+      "question": "6. What is the purpose of burn-in testing?",
+      "answer": "Burn-in testing accelerates early-life failures by exposing devices to elevated temperature and voltage stress, helping remove weak devices before shipment."
+    },
+    {
+      "question": "7. What are AC and DC tests used for in FT?",
+      "answer": "DC tests measure static electrical characteristics such as leakage and current, while AC tests evaluate dynamic performance such as timing, frequency, and propagation delay."
+    },
+    {
+      "question": "8. Why does Final Testing become more challenging for advanced semiconductor products?",
+      "answer": "Modern devices contain billions of transistors, high-speed interfaces, chiplet architectures, and advanced packaging structures that require more complex testing methodologies."
+    },
+    {
+      "question": "9. What is multi-site testing and why is it used?",
+      "answer": "Multi-site testing allows multiple devices to be tested simultaneously, improving throughput, reducing test cost, and increasing manufacturing efficiency."
+    },
+    {
+      "question": "10. Why is Final Testing important for customer quality and reliability?",
+      "answer": "FT prevents defective or out-of-specification products from reaching customers, ensuring product functionality, quality, reliability, and compliance with specifications."
+    }
+  ]
+},
+{
+  "id": 53,
+  "title": "ATE and Probe Cards",
+  "content": "Automatic Test Equipment (ATE) and Probe Cards are two of the most critical technologies used in semiconductor electrical testing. Together they enable automated verification of semiconductor devices during Wafer Testing (CP) and Final Testing (FT). ATE is a specialized testing system that applies electrical stimuli to a semiconductor device, measures its responses, compares results against specifications, and determines pass or fail status. It is responsible for ensuring product quality, manufacturing yield, and reliable device operation. Modern semiconductor devices contain billions of transistors, thousands of I/O connections, embedded memory, and high-speed interfaces, making manual testing impossible. ATE automates this process and provides accurate, repeatable, and high-volume testing. The primary functions of ATE include stimulus generation, response measurement, pass/fail decision making, data collection, yield analysis, and product binning. ATE systems consist of several major components including a tester mainframe, test head, measurement instruments, power supplies, digital channels, analog channels, RF resources, timing generators, and test software. Different categories of ATE exist for specific applications. Digital ATE is used for processors, microcontrollers, GPUs, and logic devices. Memory ATE is optimized for DRAM, SRAM, NAND Flash, and HBM products. Mixed-Signal ATE supports analog and digital integrated circuits. RF ATE is designed for wireless communication and high-frequency devices. Test programs define test vectors, measurement limits, operating conditions, test flow, and binning criteria. During Wafer Testing, ATE operates together with a probe card. A Probe Card is a specialized interface that creates temporary electrical connections between the ATE and individual dies on a wafer. It enables electrical access to bond pads, solder bumps, or copper pillars before wafer dicing and packaging. A typical wafer test system consists of an ATE, a prober, a probe card, and a semiconductor wafer. The probe card acts as the physical bridge between tester channels and device contact points. Its main functions include electrical contact, signal transmission, power delivery, clock distribution, measurement support, and high-speed signal routing. A probe card typically contains a printed circuit board (PCB), a space transformer, probe structures, and contact tips. Several probe card technologies are used in production. Cantilever probe cards use needle-shaped probes and are commonly used for standard semiconductor devices. Vertical probe cards provide higher pin count capability and are widely used for memory products. MEMS probe cards provide very fine pitch capability and support advanced technology nodes. RF probe cards are optimized for high-frequency signal measurements. Probe cards must maintain extremely accurate alignment, low contact resistance, high signal integrity, thermal stability, and mechanical durability. As semiconductor technologies progress toward advanced nodes, probe card design becomes increasingly challenging due to shrinking pad pitches, higher I/O counts, faster operating frequencies, and advanced packaging structures. During wafer testing, ATE generates test vectors, the probe card delivers signals to the die, the device responds electrically, and measurement data is returned to the ATE for analysis. Both systems work together to generate Known Good Dies (KGD) and improve manufacturing yield. While ATE is used for both CP and FT, probe cards are only used during wafer testing. Advanced products such as chiplets, HBM, CoWoS, SoIC, AI accelerators, and heterogeneous integration systems require increasingly sophisticated ATE platforms and probe card technologies. These testing technologies form the foundation of semiconductor quality assurance, yield management, defect screening, and product qualification.",
+  "keywords": [
+    {
+      "english": "Automatic Test Equipment (ATE)",
+      "chinese": "自動測試設備"
+    },
+    {
+      "english": "Probe Card",
+      "chinese": "探針卡"
+    },
+    {
+      "english": "Wafer Probe",
+      "chinese": "晶圓探測"
+    },
+    {
+      "english": "Circuit Probe (CP)",
+      "chinese": "晶圓針測"
+    },
+    {
+      "english": "Test Head",
+      "chinese": "測試頭"
+    },
+    {
+      "english": "Tester Mainframe",
+      "chinese": "測試主機"
+    },
+    {
+      "english": "Test Program",
+      "chinese": "測試程式"
+    },
+    {
+      "english": "Test Vector",
+      "chinese": "測試向量"
+    },
+    {
+      "english": "Digital ATE",
+      "chinese": "數位測試機"
+    },
+    {
+      "english": "Memory ATE",
+      "chinese": "記憶體測試機"
+    },
+    {
+      "english": "Mixed-Signal ATE",
+      "chinese": "混合訊號測試機"
+    },
+    {
+      "english": "RF ATE",
+      "chinese": "射頻測試機"
+    },
+    {
+      "english": "Cantilever Probe Card",
+      "chinese": "懸臂式探針卡"
+    },
+    {
+      "english": "Vertical Probe Card",
+      "chinese": "垂直式探針卡"
+    },
+    {
+      "english": "MEMS Probe Card",
+      "chinese": "MEMS探針卡"
+    },
+    {
+      "english": "RF Probe Card",
+      "chinese": "RF探針卡"
+    },
+    {
+      "english": "Space Transformer",
+      "chinese": "空間轉換板"
+    },
+    {
+      "english": "Known Good Die (KGD)",
+      "chinese": "已知良品晶粒"
+    },
+    {
+      "english": "Signal Integrity",
+      "chinese": "訊號完整性"
+    },
+    {
+      "english": "Multi-Site Testing",
+      "chinese": "多工位測試"
+    }
+  ],
+  "summary": [
+    "ATE is the primary platform used for semiconductor electrical testing.",
+    "ATE is used during both Wafer Testing (CP) and Final Testing (FT).",
+    "ATE generates test signals, measures responses, and determines pass/fail results.",
+    "Probe cards provide temporary electrical connections between the tester and wafer.",
+    "Probe cards are essential for wafer-level testing before dicing and packaging.",
+    "Major ATE categories include Digital, Memory, Mixed-Signal, and RF testers.",
+    "Common probe card types include Cantilever, Vertical, MEMS, and RF probe cards.",
+    "Probe cards must provide accurate alignment, low contact resistance, and high signal integrity.",
+    "ATE and probe cards work together to generate Known Good Dies (KGDs).",
+    "Advanced semiconductor products require increasingly sophisticated ATE and probe card technologies."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. ATE stands for Automatic Test ______.",
+      "answer": "Equipment"
+    },
+    {
+      "question": "2. A probe card is primarily used during wafer ______.",
+      "answer": "Testing"
+    },
+    {
+      "question": "3. ATE determines device ______ or fail status.",
+      "answer": "Pass"
+    },
+    {
+      "question": "4. The software that controls testing is called a test ______.",
+      "answer": "Program"
+    },
+    {
+      "question": "5. ATE can generate test ______ that are applied to devices.",
+      "answer": "Vectors"
+    },
+    {
+      "question": "6. A vertical probe card is commonly used for high ______ count devices.",
+      "answer": "Pin"
+    },
+    {
+      "question": "7. MEMS probe cards support very fine ______.",
+      "answer": "Pitch"
+    },
+    {
+      "question": "8. Probe cards provide electrical ______ between the tester and wafer.",
+      "answer": "Contact"
+    },
+    {
+      "question": "9. Final Testing uses a handler and test ______ instead of a probe card.",
+      "answer": "Socket"
+    },
+    {
+      "question": "10. ATE is used during both CP and ______.",
+      "answer": "FT"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is ATE essential for semiconductor manufacturing?",
+      "answer": "ATE automates complex electrical testing, enabling accurate, repeatable, and high-volume verification of modern semiconductor devices that would be impossible to test manually."
+    },
+    {
+      "question": "2. What are the primary functions of an ATE system?",
+      "answer": "ATE generates test signals, measures device responses, analyzes results, determines pass/fail status, collects test data, and supports yield analysis and binning."
+    },
+    {
+      "question": "3. What is the role of a probe card during wafer testing?",
+      "answer": "A probe card provides temporary electrical connections between the ATE and individual dies on a wafer, allowing electrical measurements to be performed before packaging."
+    },
+    {
+      "question": "4. What are the major types of ATE and their applications?",
+      "answer": "Digital ATE tests logic devices, Memory ATE tests memory products, Mixed-Signal ATE supports analog and digital devices, and RF ATE is used for wireless and high-frequency products."
+    },
+    {
+      "question": "5. Why are probe cards critical for generating Known Good Dies (KGD)?",
+      "answer": "Probe cards provide electrical access to individual dies during wafer testing, allowing defective dies to be identified and only qualified dies to proceed to assembly."
+    },
+    {
+      "question": "6. What are the main components of a probe card?",
+      "answer": "A probe card typically contains a printed circuit board, a space transformer, probe structures, and contact tips used to connect to wafer pads or bumps."
+    },
+    {
+      "question": "7. Why are MEMS probe cards increasingly important?",
+      "answer": "MEMS probe cards support fine-pitch probing, higher accuracy, better planarity, and the requirements of advanced semiconductor process nodes."
+    },
+    {
+      "question": "8. How do ATE and probe cards work together during CP testing?",
+      "answer": "ATE generates test vectors, the probe card transfers signals to the die, the device responds electrically, and the probe card returns measurement data to the ATE for analysis."
+    },
+    {
+      "question": "9. What challenges do modern probe cards face?",
+      "answer": "Major challenges include shrinking pad pitch, higher pin counts, faster signal speeds, alignment accuracy, contact wear, thermal stability, and signal integrity requirements."
+    },
+    {
+      "question": "10. Why do advanced products such as HBM, CoWoS, SoIC, and chiplets require more sophisticated testing hardware?",
+      "answer": "These products have higher I/O density, more complex interconnects, faster communication interfaces, and stricter electrical requirements that demand advanced ATE capabilities and probe card technologies."
+    }
+  ]
+},
+{
+  "id": 54,
+  "title": "Reliability Testing",
+  "content": "Reliability Testing is a series of qualification and stress tests used to evaluate whether a semiconductor device can continue to function correctly throughout its intended lifetime under specified environmental, thermal, electrical, and mechanical conditions. Unlike Wafer Testing (CP) and Final Testing (FT), which determine whether a device works correctly at the time of testing, Reliability Testing evaluates long-term product durability and failure risk. The primary objective is to identify potential failure mechanisms and predict long-term reliability before volume production and customer shipment. Reliability testing is an essential part of product qualification, process qualification, technology qualification, automotive certification, and customer quality assurance. Semiconductor devices experience various stresses during their lifetime, including high temperature, temperature cycling, humidity exposure, voltage stress, current stress, vibration, and mechanical shock. Over time, these stresses may cause degradation and eventual failure. Reliability testing accelerates these mechanisms under controlled conditions to estimate long-term performance. A typical reliability qualification flow includes sample selection, initial electrical testing, stress testing, post-stress evaluation, failure analysis, and qualification review. Two important reliability concepts are failure mechanisms and failure modes. A failure mechanism is the physical process that causes degradation, such as electromigration, oxide breakdown, corrosion, or delamination. A failure mode is the observable result, such as an open circuit, short circuit, leakage increase, or performance degradation. Reliability testing commonly evaluates thermal stress, humidity stress, electrical stress, and mechanical stress. High Temperature Operating Life (HTOL) is considered the most important reliability test. Devices operate under elevated temperature and electrical bias for extended periods to accelerate wear-out mechanisms. High Temperature Storage Life (HTSL) evaluates long-term storage stability under elevated temperature without electrical bias. Temperature Cycling (TC) repeatedly exposes devices to alternating high and low temperatures to evaluate resistance to thermal expansion stress. Temperature Humidity Bias (THB) exposes devices to high temperature, high humidity, and electrical bias conditions to evaluate moisture-related reliability risks. Highly Accelerated Stress Test (HAST) is an accelerated version of moisture testing that uses elevated pressure, temperature, and humidity. Electrostatic Discharge (ESD) testing evaluates resistance to static electricity events using models such as Human Body Model (HBM) and Charged Device Model (CDM). Latch-Up testing evaluates susceptibility to excessive current flow in CMOS structures. Modern transistor-level reliability concerns include Electromigration (EM), Time-Dependent Dielectric Breakdown (TDDB), Bias Temperature Instability (BTI), and Hot Carrier Injection (HCI). Mechanical reliability testing may include package drop testing, vibration testing, and board-level reliability testing. Automotive applications often require compliance with standards such as AEC-Q100. Reliability engineers use statistical metrics such as Mean Time To Failure (MTTF), Failure Rate, and Failures In Time (FIT) to quantify expected reliability. Advanced packaging technologies such as CoWoS, SoIC, HBM, chiplets, TSVs, micro-bumps, and heterogeneous integration introduce additional reliability challenges including interconnect fatigue, thermal stress, and package-level reliability concerns. Reliability Testing ensures that semiconductor devices can maintain their specified performance and quality throughout their operational lifetime, reducing field failures, warranty costs, and customer risks.",
+  "keywords": [
+    {
+      "english": "Reliability Testing",
+      "chinese": "可靠度測試"
+    },
+    {
+      "english": "Qualification Test",
+      "chinese": "認證測試"
+    },
+    {
+      "english": "High Temperature Operating Life (HTOL)",
+      "chinese": "高溫操作壽命測試"
+    },
+    {
+      "english": "High Temperature Storage Life (HTSL)",
+      "chinese": "高溫儲存壽命測試"
+    },
+    {
+      "english": "Temperature Cycling (TC)",
+      "chinese": "溫度循環測試"
+    },
+    {
+      "english": "Temperature Humidity Bias (THB)",
+      "chinese": "溫濕度偏壓測試"
+    },
+    {
+      "english": "Highly Accelerated Stress Test (HAST)",
+      "chinese": "高加速應力測試"
+    },
+    {
+      "english": "Electrostatic Discharge (ESD)",
+      "chinese": "靜電放電"
+    },
+    {
+      "english": "Human Body Model (HBM)",
+      "chinese": "人體放電模型"
+    },
+    {
+      "english": "Charged Device Model (CDM)",
+      "chinese": "帶電器件模型"
+    },
+    {
+      "english": "Latch-Up",
+      "chinese": "閂鎖效應"
+    },
+    {
+      "english": "Electromigration (EM)",
+      "chinese": "電遷移"
+    },
+    {
+      "english": "Time-Dependent Dielectric Breakdown (TDDB)",
+      "chinese": "時間相關介電層崩潰"
+    },
+    {
+      "english": "Bias Temperature Instability (BTI)",
+      "chinese": "偏壓溫度不穩定性"
+    },
+    {
+      "english": "Hot Carrier Injection (HCI)",
+      "chinese": "熱載子注入"
+    },
+    {
+      "english": "Failure Mechanism",
+      "chinese": "失效機制"
+    },
+    {
+      "english": "Failure Mode",
+      "chinese": "失效模式"
+    },
+    {
+      "english": "Mean Time To Failure (MTTF)",
+      "chinese": "平均失效時間"
+    },
+    {
+      "english": "Failures In Time (FIT)",
+      "chinese": "十億小時失效率"
+    },
+    {
+      "english": "AEC-Q100",
+      "chinese": "車規可靠度標準"
+    }
+  ],
+  "summary": [
+    "Reliability Testing evaluates long-term semiconductor performance under accelerated stress conditions.",
+    "It differs from CP and FT by focusing on lifetime reliability rather than immediate functionality.",
+    "HTOL is the most important semiconductor reliability qualification test.",
+    "HTSL evaluates material and package stability under high-temperature storage conditions.",
+    "Temperature Cycling tests resistance to thermal expansion and contraction stress.",
+    "THB and HAST evaluate moisture and humidity-related reliability risks.",
+    "ESD and Latch-Up testing ensure devices can withstand electrical overstress conditions.",
+    "EM, TDDB, BTI, and HCI are major transistor-level reliability mechanisms.",
+    "Reliability metrics such as FIT and MTTF are used to quantify product reliability.",
+    "Advanced packaging technologies introduce new reliability challenges that require specialized qualification testing."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Reliability Testing evaluates long-term device ______ rather than immediate functionality.",
+      "answer": "Reliability"
+    },
+    {
+      "question": "2. HTOL stands for High Temperature Operating ______.",
+      "answer": "Life"
+    },
+    {
+      "question": "3. HTSL evaluates reliability under high-temperature ______ conditions.",
+      "answer": "Storage"
+    },
+    {
+      "question": "4. THB combines temperature, humidity, and electrical ______.",
+      "answer": "Bias"
+    },
+    {
+      "question": "5. HAST is a highly accelerated ______ test.",
+      "answer": "Stress"
+    },
+    {
+      "question": "6. ESD stands for Electrostatic ______.",
+      "answer": "Discharge"
+    },
+    {
+      "question": "7. Electromigration is caused by high current ______.",
+      "answer": "Density"
+    },
+    {
+      "question": "8. TDDB is related to dielectric ______.",
+      "answer": "Breakdown"
+    },
+    {
+      "question": "9. FIT stands for Failures In ______.",
+      "answer": "Time"
+    },
+    {
+      "question": "10. AEC-Q100 is a reliability standard for the ______ industry.",
+      "answer": "Automotive"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is Reliability Testing necessary even after CP and FT?",
+      "answer": "CP and FT verify that devices function correctly at the time of test, while Reliability Testing evaluates whether they can continue operating correctly over years of real-world use under environmental and electrical stress."
+    },
+    {
+      "question": "2. Why is HTOL considered the most important reliability qualification test?",
+      "answer": "HTOL accelerates long-term wear-out mechanisms using elevated temperature and electrical bias, allowing engineers to predict product lifetime and identify potential weaknesses."
+    },
+    {
+      "question": "3. What is the difference between a failure mechanism and a failure mode?",
+      "answer": "A failure mechanism is the physical process that causes degradation, while a failure mode is the observable result such as leakage increase, short circuit, open circuit, or performance degradation."
+    },
+    {
+      "question": "4. What are the major transistor-level reliability mechanisms in modern semiconductor devices?",
+      "answer": "Major mechanisms include Electromigration (EM), Time-Dependent Dielectric Breakdown (TDDB), Bias Temperature Instability (BTI), and Hot Carrier Injection (HCI)."
+    },
+    {
+      "question": "5. What is the purpose of Temperature Cycling testing?",
+      "answer": "Temperature Cycling evaluates the ability of semiconductor devices and packages to withstand repeated thermal expansion and contraction caused by changing temperatures."
+    },
+    {
+      "question": "6. How do THB and HAST differ?",
+      "answer": "Both evaluate moisture-related reliability risks, but HAST uses higher temperature, humidity, and pressure to accelerate failures more rapidly than THB."
+    },
+    {
+      "question": "7. Why is ESD testing important in semiconductor qualification?",
+      "answer": "ESD testing ensures that devices can withstand electrostatic discharge events that may occur during manufacturing, handling, assembly, or field operation."
+    },
+    {
+      "question": "8. What reliability metrics are commonly used to quantify semiconductor lifetime performance?",
+      "answer": "Common metrics include Failure Rate, Mean Time To Failure (MTTF), and Failures In Time (FIT)."
+    },
+    {
+      "question": "9. Why do advanced packaging technologies create additional reliability challenges?",
+      "answer": "Advanced packaging introduces new structures such as TSVs, micro-bumps, hybrid bonds, and stacked dies that experience additional thermal, mechanical, and interconnect stress."
+    },
+    {
+      "question": "10. Why is Reliability Testing critical for automotive semiconductor applications?",
+      "answer": "Automotive systems operate under severe environmental conditions and require extremely low failure rates, making rigorous qualification standards such as AEC-Q100 essential."
+    }
+  ]
+},
+{
+  "id": 55,
+  "title": "Quality Assurance in Semiconductors",
+  "content": "Quality Assurance (QA) is a systematic set of processes, controls, standards, and continuous improvement activities used to ensure that semiconductor products consistently meet defined quality, reliability, performance, and customer requirements throughout the entire product lifecycle. Unlike testing, which focuses on identifying defects in products, Quality Assurance focuses on preventing defects from occurring in the first place. QA covers every stage of the semiconductor value chain, including design, wafer fabrication, assembly and packaging, testing, reliability qualification, shipment, and customer support. The ultimate objective of QA is to ensure that customers receive reliable and defect-free semiconductor products. Semiconductor devices are used in applications such as smartphones, cloud servers, AI systems, automobiles, medical equipment, industrial controls, aerospace systems, and telecommunications infrastructure. Product failures can lead to financial losses, safety risks, warranty costs, customer dissatisfaction, and reputation damage. Therefore, quality assurance is a critical function in semiconductor manufacturing. Quality Assurance and Quality Control (QC) serve different but complementary roles. QA focuses on defect prevention through process control, standards, audits, training, and continuous improvement. QC focuses on defect detection through inspection, testing, measurement, and verification activities. Quality activities begin during product design through design verification and validation, continue through process control during fabrication and packaging, and extend to testing, reliability qualification, and post-shipment customer support. A Quality Management System (QMS) provides the framework for managing quality activities. Common standards include ISO 9001 for general quality management and IATF 16949 for automotive semiconductor applications. Semiconductor manufacturers rely heavily on Statistical Process Control (SPC) to monitor process stability and detect abnormal variation before defects occur. SPC uses tools such as control charts, trend analysis, and statistical monitoring. Process capability is commonly measured using Cp and Cpk indicators. A higher Cpk value indicates better process capability and tighter process control. Defect density is another important semiconductor quality metric because lower defect density directly improves yield, reliability, and manufacturing cost. Yield management is a major QA activity. Engineers continuously analyze yield trends, defect sources, and process variations to improve manufacturing performance. When quality problems occur, Root Cause Analysis (RCA) is performed using methods such as the 5 Whys technique and Fishbone Diagrams. Corrective and Preventive Action (CAPA) systems are used to eliminate existing problems and prevent recurrence. Out-of-Control Action Plans (OCAP) define immediate responses when manufacturing processes exceed control limits. Failure Analysis (FA) is another critical QA activity used to investigate defects, reliability issues, and customer returns. Common failure analysis techniques include optical microscopy, scanning electron microscopy (SEM), focused ion beam (FIB) analysis, energy dispersive X-ray spectroscopy (EDX), and cross-sectional analysis. Reliability qualification results from tests such as HTOL, HTSL, THB, HAST, ESD, and Latch-Up are reviewed as part of the quality assurance process. Customer quality is measured using indicators such as Defective Parts Per Million (DPPM), Return Material Authorization (RMA), field failure rates, and customer satisfaction metrics. Automotive semiconductor products require especially strict quality systems including AEC-Q100 qualification, PPAP documentation, IATF 16949 compliance, traceability control, and zero-defect initiatives. Modern quality systems emphasize continuous improvement methodologies such as PDCA (Plan-Do-Check-Act), Six Sigma, and Lean Manufacturing. As semiconductor technologies continue to evolve through EUV lithography, advanced packaging, CoWoS, SoIC, HBM, chiplets, and heterogeneous integration, QA systems must continuously adapt to manage increasing manufacturing complexity and stricter customer quality expectations. Quality Assurance serves as the foundation of semiconductor manufacturing excellence by enabling defect prevention, process stability, reliability assurance, yield improvement, customer satisfaction, and regulatory compliance.",
+  "keywords": [
+    {
+      "english": "Quality Assurance (QA)",
+      "chinese": "品質保證"
+    },
+    {
+      "english": "Quality Control (QC)",
+      "chinese": "品質控制"
+    },
+    {
+      "english": "Quality Management System (QMS)",
+      "chinese": "品質管理系統"
+    },
+    {
+      "english": "ISO 9001",
+      "chinese": "ISO 9001品質管理標準"
+    },
+    {
+      "english": "IATF 16949",
+      "chinese": "汽車業品質管理標準"
+    },
+    {
+      "english": "Statistical Process Control (SPC)",
+      "chinese": "統計製程管制"
+    },
+    {
+      "english": "Control Chart",
+      "chinese": "管制圖"
+    },
+    {
+      "english": "Process Capability (Cp/Cpk)",
+      "chinese": "製程能力指標"
+    },
+    {
+      "english": "Defect Density",
+      "chinese": "缺陷密度"
+    },
+    {
+      "english": "Yield",
+      "chinese": "良率"
+    },
+    {
+      "english": "Root Cause Analysis (RCA)",
+      "chinese": "根因分析"
+    },
+    {
+      "english": "Fishbone Diagram",
+      "chinese": "魚骨圖"
+    },
+    {
+      "english": "5 Whys",
+      "chinese": "五個為什麼分析法"
+    },
+    {
+      "english": "Corrective and Preventive Action (CAPA)",
+      "chinese": "矯正與預防措施"
+    },
+    {
+      "english": "Out-of-Control Action Plan (OCAP)",
+      "chinese": "製程失控處理計畫"
+    },
+    {
+      "english": "Failure Analysis (FA)",
+      "chinese": "失效分析"
+    },
+    {
+      "english": "Defective Parts Per Million (DPPM)",
+      "chinese": "百萬分之一不良率"
+    },
+    {
+      "english": "Return Material Authorization (RMA)",
+      "chinese": "客戶退貨管理"
+    },
+    {
+      "english": "PDCA Cycle",
+      "chinese": "PDCA循環"
+    },
+    {
+      "english": "Six Sigma",
+      "chinese": "六標準差管理"
+    }
+  ],
+  "summary": [
+    "Quality Assurance focuses on preventing defects rather than detecting them.",
+    "QA spans the entire semiconductor lifecycle from design to customer shipment.",
+    "QA and QC are complementary but have different objectives.",
+    "QMS provides the framework for managing semiconductor quality systems.",
+    "SPC is used to monitor and control manufacturing variation.",
+    "Process capability indicators such as Cp and Cpk evaluate process quality.",
+    "Root Cause Analysis helps identify and eliminate the source of quality problems.",
+    "CAPA ensures corrective actions and long-term prevention.",
+    "Customer quality metrics such as DPPM and RMA measure field quality performance.",
+    "Continuous improvement methodologies such as PDCA and Six Sigma are essential for maintaining world-class semiconductor quality."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. QA stands for Quality ______.",
+      "answer": "Assurance"
+    },
+    {
+      "question": "2. Quality Assurance focuses on defect ______ rather than defect detection.",
+      "answer": "Prevention"
+    },
+    {
+      "question": "3. QC stands for Quality ______.",
+      "answer": "Control"
+    },
+    {
+      "question": "4. SPC stands for Statistical Process ______.",
+      "answer": "Control"
+    },
+    {
+      "question": "5. Cpk is a measure of process ______.",
+      "answer": "Capability"
+    },
+    {
+      "question": "6. RCA stands for Root Cause ______.",
+      "answer": "Analysis"
+    },
+    {
+      "question": "7. CAPA stands for Corrective and Preventive ______.",
+      "answer": "Action"
+    },
+    {
+      "question": "8. DPPM stands for Defective Parts Per ______.",
+      "answer": "Million"
+    },
+    {
+      "question": "9. The PDCA cycle stands for Plan, Do, Check, and ______.",
+      "answer": "Act"
+    },
+    {
+      "question": "10. IATF 16949 is widely used in the ______ industry.",
+      "answer": "Automotive"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is Quality Assurance important in semiconductor manufacturing?",
+      "answer": "Quality Assurance prevents defects, improves process stability, increases yield, ensures reliability, supports regulatory compliance, and protects customers from receiving defective products."
+    },
+    {
+      "question": "2. What is the difference between QA and QC?",
+      "answer": "QA focuses on preventing defects through process management, standards, and continuous improvement, while QC focuses on detecting defects through inspection, testing, measurement, and verification activities."
+    },
+    {
+      "question": "3. What is a Quality Management System (QMS) and why is it important?",
+      "answer": "A QMS is a structured framework that standardizes quality processes, documentation, control systems, audits, and continuous improvement activities to ensure consistent product quality."
+    },
+    {
+      "question": "4. Why is Statistical Process Control important in semiconductor manufacturing?",
+      "answer": "SPC enables engineers to detect abnormal process variation early, reduce defects, improve yield, maintain process stability, and prevent manufacturing problems before products are affected."
+    },
+    {
+      "question": "5. What do Cp and Cpk indicate?",
+      "answer": "Cp and Cpk are process capability indicators that measure how well a manufacturing process can consistently meet specification limits and maintain process centering."
+    },
+    {
+      "question": "6. What is the purpose of Root Cause Analysis (RCA)?",
+      "answer": "RCA is used to identify the fundamental source of a quality problem so that effective corrective and preventive actions can be implemented."
+    },
+    {
+      "question": "7. How do CAPA and OCAP contribute to quality assurance?",
+      "answer": "CAPA eliminates existing issues and prevents recurrence, while OCAP provides predefined actions for responding quickly when processes move outside control limits."
+    },
+    {
+      "question": "8. Why is Failure Analysis important in semiconductor QA?",
+      "answer": "Failure Analysis helps engineers understand defect mechanisms, identify process weaknesses, improve reliability, support corrective actions, and prevent similar failures from recurring."
+    },
+    {
+      "question": "9. What customer quality metrics are commonly monitored by semiconductor companies?",
+      "answer": "Common metrics include DPPM, RMA rates, field failure rates, customer complaints, yield trends, and reliability performance indicators."
+    },
+    {
+      "question": "10. Why do advanced technologies such as CoWoS, SoIC, Chiplets, and HBM create additional QA challenges?",
+      "answer": "These technologies introduce greater integration density, more manufacturing steps, advanced interconnect structures, stricter tolerances, and additional reliability risks that require more sophisticated quality control and monitoring systems."
+    }
+  ]
+}
+  ]
+}

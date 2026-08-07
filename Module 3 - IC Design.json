@@ -1,0 +1,1477 @@
+{
+  "module_name": "IC Design",
+  "topics": [
+{
+  "id": 19,
+  "title": "Introduction to IC Design",
+  "content": "An Integrated Circuit (IC) is a semiconductor device that integrates millions or billions of transistors onto a single chip to perform specific functions. IC Design is the process of transforming a product concept or functional requirement into a manufacturable semiconductor chip. IC design is one of the most important activities in the semiconductor industry because it determines the functionality, performance, power consumption, area, and cost of a chip. Modern chips are used in smartphones, PCs, servers, AI accelerators, automotive systems, IoT devices, and consumer electronics. The IC design process involves engineers from multiple disciplines including architecture, logic design, verification, physical design, testing, and manufacturing. A typical IC design flow consists of System Specification, Architecture Design, RTL Design, Verification, Physical Design, Tape-Out, Manufacturing, and Testing. During System Specification, engineers define performance, power, cost, and functionality requirements. Architecture Design determines processing units, memory systems, interconnects, and I/O structures. RTL Design uses Hardware Description Languages such as Verilog, SystemVerilog, and VHDL to describe hardware behavior. Verification ensures the design operates correctly before manufacturing through simulation, debugging, and coverage analysis. Physical Design converts the logical design into a manufacturable layout through floorplanning, placement, clock tree synthesis, and routing. Tape-Out marks the completion of the design and the handoff to a foundry for fabrication. IC design is commonly divided into Front-End Design, which focuses on functionality, and Back-End Design, which focuses on physical implementation. Modern IC development relies heavily on Electronic Design Automation (EDA) tools from companies such as Synopsys, Cadence, and Siemens EDA. These tools automate design, synthesis, verification, timing analysis, and physical implementation. Successful IC design balances performance, power consumption, chip area, manufacturing feasibility, and product cost.",
+  "keywords": [
+    {
+      "english": "Integrated Circuit (IC)",
+      "chinese": "積體電路"
+    },
+    {
+      "english": "IC Design",
+      "chinese": "晶片設計"
+    },
+    {
+      "english": "Semiconductor Chip",
+      "chinese": "半導體晶片"
+    },
+    {
+      "english": "System Specification",
+      "chinese": "系統規格"
+    },
+    {
+      "english": "Architecture Design",
+      "chinese": "架構設計"
+    },
+    {
+      "english": "RTL (Register Transfer Level)",
+      "chinese": "暫存器傳輸層級"
+    },
+    {
+      "english": "Hardware Description Language (HDL)",
+      "chinese": "硬體描述語言"
+    },
+    {
+      "english": "Verilog",
+      "chinese": "Verilog"
+    },
+    {
+      "english": "SystemVerilog",
+      "chinese": "SystemVerilog"
+    },
+    {
+      "english": "VHDL",
+      "chinese": "VHDL"
+    },
+    {
+      "english": "Verification",
+      "chinese": "驗證"
+    },
+    {
+      "english": "Simulation",
+      "chinese": "模擬"
+    },
+    {
+      "english": "Physical Design",
+      "chinese": "實體設計"
+    },
+    {
+      "english": "Floorplanning",
+      "chinese": "佈局規劃"
+    },
+    {
+      "english": "Placement",
+      "chinese": "元件放置"
+    },
+    {
+      "english": "Routing",
+      "chinese": "佈線"
+    },
+    {
+      "english": "Tape-Out",
+      "chinese": "流片"
+    },
+    {
+      "english": "Foundry",
+      "chinese": "晶圓代工"
+    },
+    {
+      "english": "EDA Tool",
+      "chinese": "電子設計自動化工具"
+    },
+    {
+      "english": "Signoff",
+      "chinese": "設計簽核"
+    }
+  ],
+  "summary": [
+    "IC design transforms a product concept into a manufacturable semiconductor chip.",
+    "Modern ICs contain millions or billions of transistors.",
+    "The IC design flow begins with system specifications and architecture design.",
+    "RTL design describes circuit behavior using HDLs such as Verilog.",
+    "Verification ensures the design functions correctly before manufacturing.",
+    "Physical design converts logic into a manufacturable chip layout.",
+    "Tape-out marks the completion of chip design before fabrication.",
+    "Front-end design focuses on functionality, while back-end design focuses on implementation.",
+    "EDA tools are essential for designing modern complex chips.",
+    "IC design largely determines chip performance, power consumption, area, and cost."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. IC stands for Integrated ______.",
+      "answer": "Circuit"
+    },
+    {
+      "question": "2. The IC design process starts with system ______.",
+      "answer": "Specification"
+    },
+    {
+      "question": "3. RTL stands for Register Transfer ______.",
+      "answer": "Level"
+    },
+    {
+      "question": "4. Verilog is a Hardware Description ______.",
+      "answer": "Language"
+    },
+    {
+      "question": "5. Verification is used to ensure the design functions ______.",
+      "answer": "Correctly"
+    },
+    {
+      "question": "6. Physical design includes placement and ______.",
+      "answer": "Routing"
+    },
+    {
+      "question": "7. The final step before manufacturing is called ______-out.",
+      "answer": "Tape"
+    },
+    {
+      "question": "8. Chips are manufactured by semiconductor ______.",
+      "answer": "Foundries"
+    },
+    {
+      "question": "9. Synopsys and Cadence are major ______ tool providers.",
+      "answer": "EDA"
+    },
+    {
+      "question": "10. Front-end design focuses on functionality, while back-end design focuses on physical ______.",
+      "answer": "Implementation"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is IC design considered one of the most important activities in the semiconductor industry?",
+      "answer": "Because IC design determines what the chip does, how fast it operates, how much power it consumes, how large it is, and how competitive the final product will be."
+    },
+    {
+      "question": "2. Why does the IC design process begin with system specifications?",
+      "answer": "Because engineers must clearly define performance, functionality, power, and cost requirements before building the chip."
+    },
+    {
+      "question": "3. What role does architecture design play in IC development?",
+      "answer": "Architecture design determines how processing units, memory, interfaces, and interconnects work together to achieve product goals."
+    },
+    {
+      "question": "4. Why is RTL considered a key step in chip design?",
+      "answer": "RTL converts architectural ideas into a hardware description that can be simulated, verified, synthesized, and implemented as real silicon."
+    },
+    {
+      "question": "5. Why is verification often the most resource-intensive stage of IC design?",
+      "answer": "Because even a small design bug can cause an expensive silicon failure after manufacturing, verification is used extensively to detect errors before tape-out."
+    },
+    {
+      "question": "6. What is the difference between front-end and back-end IC design?",
+      "answer": "Front-end design focuses on logic and functionality, while back-end design focuses on physical implementation and manufacturability."
+    },
+    {
+      "question": "7. Why are EDA tools essential for modern chip development?",
+      "answer": "Modern chips contain billions of transistors and cannot be designed manually. EDA tools automate analysis, implementation, and verification tasks."
+    },
+    {
+      "question": "8. What is tape-out and why is it an important milestone?",
+      "answer": "Tape-out is the point at which the final chip layout is delivered to the foundry for manufacturing. After tape-out, design changes become extremely expensive."
+    },
+    {
+      "question": "9. How do IC designers and foundries work together?",
+      "answer": "IC designers create the chip design, while foundries provide process technologies and manufacture the physical semiconductor devices."
+    },
+    {
+      "question": "10. Why is understanding the IC design flow important for semiconductor professionals?",
+      "answer": "Because every semiconductor product follows this flow, and understanding it helps engineers, managers, and business professionals communicate more effectively across the industry."
+    }
+  ]
+},
+{
+  "id": 20,
+  "title": "RTL Design and Hardware Description Languages",
+  "content": "RTL (Register Transfer Level) is a design abstraction used to describe how digital circuits process and transfer data between registers under the control of a clock signal. RTL serves as the bridge between system architecture and physical hardware implementation. Instead of drawing transistor-level circuits, engineers describe hardware behavior using Hardware Description Languages (HDLs). RTL design is one of the most important stages of digital IC development because it defines the functionality that will eventually be implemented in silicon. Modern processors, GPUs, AI accelerators, networking chips, and SoCs are all designed using RTL methodologies. RTL focuses on data movement between registers, logic operations, clock-controlled behavior, and state transitions. Common Hardware Description Languages include Verilog, SystemVerilog, and VHDL. Verilog is the most widely used HDL and is known for its simple syntax and broad industry adoption. SystemVerilog extends Verilog with advanced design and verification features and has become the industry standard for modern digital design. VHDL is known for strong typing and high reliability. Digital circuits are composed of combinational logic and sequential logic. Combinational logic depends only on current inputs, while sequential logic depends on both current inputs and previous states. Registers store digital data and operate under clock control. Many complex hardware systems are modeled using Finite State Machines (FSMs), which consist of states, transitions, inputs, and outputs. A typical RTL design flow includes architecture definition, RTL coding, simulation, synthesis, verification, and signoff. During synthesis, RTL code is converted into gate-level hardware implementations that can be physically manufactured. RTL design directly impacts functionality, performance, power consumption, silicon area, verification effort, and overall chip quality.",
+  "keywords": [
+    {
+      "english": "RTL (Register Transfer Level)",
+      "chinese": "暫存器傳輸層級"
+    },
+    {
+      "english": "Hardware Description Language (HDL)",
+      "chinese": "硬體描述語言"
+    },
+    {
+      "english": "Verilog",
+      "chinese": "Verilog"
+    },
+    {
+      "english": "SystemVerilog",
+      "chinese": "SystemVerilog"
+    },
+    {
+      "english": "VHDL",
+      "chinese": "VHDL"
+    },
+    {
+      "english": "Register",
+      "chinese": "暫存器"
+    },
+    {
+      "english": "Clock Signal",
+      "chinese": "時脈訊號"
+    },
+    {
+      "english": "Clock Edge",
+      "chinese": "時脈邊緣"
+    },
+    {
+      "english": "Combinational Logic",
+      "chinese": "組合邏輯"
+    },
+    {
+      "english": "Sequential Logic",
+      "chinese": "循序邏輯"
+    },
+    {
+      "english": "Finite State Machine (FSM)",
+      "chinese": "有限狀態機"
+    },
+    {
+      "english": "Data Path",
+      "chinese": "資料路徑"
+    },
+    {
+      "english": "Control Logic",
+      "chinese": "控制邏輯"
+    },
+    {
+      "english": "Simulation",
+      "chinese": "模擬"
+    },
+    {
+      "english": "Testbench",
+      "chinese": "測試平台"
+    },
+    {
+      "english": "Synthesis",
+      "chinese": "邏輯合成"
+    },
+    {
+      "english": "Gate-Level Design",
+      "chinese": "閘級設計"
+    },
+    {
+      "english": "Standard Cell",
+      "chinese": "標準元件"
+    },
+    {
+      "english": "ASIC",
+      "chinese": "特定應用積體電路"
+    },
+    {
+      "english": "FPGA",
+      "chinese": "現場可程式化閘陣列"
+    }
+  ],
+  "summary": [
+    "RTL describes data transfer and logic operations between registers.",
+    "RTL serves as the bridge between architecture and silicon implementation.",
+    "HDL languages are used to describe hardware behavior and structure.",
+    "Verilog, SystemVerilog, and VHDL are the most common HDLs.",
+    "Digital circuits consist of combinational and sequential logic.",
+    "Registers store data and operate under clock control.",
+    "FSMs are commonly used to model hardware control behavior.",
+    "Simulation is used to verify RTL functionality before synthesis.",
+    "Synthesis converts RTL into gate-level hardware implementations.",
+    "RTL quality has a major impact on chip functionality, performance, power, and area."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. RTL stands for Register Transfer ______.",
+      "answer": "Level"
+    },
+    {
+      "question": "2. RTL describes the movement of data between ______.",
+      "answer": "Registers"
+    },
+    {
+      "question": "3. Verilog, SystemVerilog, and VHDL are examples of ______ languages.",
+      "answer": "Hardware Description"
+    },
+    {
+      "question": "4. HDL stands for Hardware Description ______.",
+      "answer": "Language"
+    },
+    {
+      "question": "5. Logic whose output depends only on current inputs is called ______ logic.",
+      "answer": "Combinational"
+    },
+    {
+      "question": "6. Logic that depends on previous states is called ______ logic.",
+      "answer": "Sequential"
+    },
+    {
+      "question": "7. A ______ is used to store digital data in a circuit.",
+      "answer": "Register"
+    },
+    {
+      "question": "8. FSM stands for Finite State ______.",
+      "answer": "Machine"
+    },
+    {
+      "question": "9. RTL code is converted into logic gates through ______.",
+      "answer": "Synthesis"
+    },
+    {
+      "question": "10. Most digital circuits operate according to a ______ signal.",
+      "answer": "Clock"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is RTL considered the foundation of digital IC design?",
+      "answer": "RTL defines how hardware behaves and how data moves through the system, making it the starting point for implementation and verification."
+    },
+    {
+      "question": "2. How is RTL different from software programming?",
+      "answer": "Software runs as instructions on a processor, while RTL describes hardware that physically becomes part of a semiconductor chip."
+    },
+    {
+      "question": "3. Why are HDLs needed instead of traditional programming languages?",
+      "answer": "HDLs are designed to model parallel hardware behavior, timing relationships, and digital logic structures."
+    },
+    {
+      "question": "4. Why is SystemVerilog widely adopted in modern semiconductor development?",
+      "answer": "It extends Verilog with more powerful design and verification features, improving productivity and design quality."
+    },
+    {
+      "question": "5. What is the difference between combinational and sequential logic?",
+      "answer": "Combinational logic depends only on current inputs, while sequential logic depends on both current inputs and stored states."
+    },
+    {
+      "question": "6. Why are clocks important in digital systems?",
+      "answer": "Clocks synchronize circuit operations and ensure that data moves through the system in an organized manner."
+    },
+    {
+      "question": "7. How do FSMs help hardware designers?",
+      "answer": "FSMs simplify complex control behavior by breaking system operation into well-defined states and transitions."
+    },
+    {
+      "question": "8. Why is simulation performed before synthesis?",
+      "answer": "Simulation helps detect functional bugs before hardware implementation, reducing costly design errors."
+    },
+    {
+      "question": "9. What happens during synthesis?",
+      "answer": "Synthesis converts RTL descriptions into gate-level circuits that can be physically implemented on silicon."
+    },
+    {
+      "question": "10. Why is high-quality RTL critical to chip success?",
+      "answer": "RTL directly affects functionality, performance, power consumption, silicon area, verification effort, and overall project cost."
+    }
+  ]
+},
+{
+  "id": 21,
+  "title": "Simulation and Verification",
+  "content": "Verification is the process of ensuring that a chip design functions correctly before manufacturing. In semiconductor development, finding and fixing bugs before tape-out is critical because post-silicon errors are extremely expensive and difficult to correct. The primary goal of verification is to answer a fundamental question: 'Did we design the chip correctly?' Verification is generally performed throughout the design cycle and often consumes more engineering effort than RTL coding itself. Although simulation and verification are closely related, they are not identical. Simulation executes the RTL design in a virtual environment, allowing engineers to observe circuit behavior, verify functionality, detect bugs, and analyze signal activity. Verification is the broader process of proving that the design meets all requirements. Verification includes simulation, testbench development, coverage collection, debugging, and formal verification. A testbench is a verification environment that stimulates the design and checks the results. Typical testbench components include input stimuli, reference models, monitors, checkers, and scoreboards. Functional verification confirms that RTL behavior matches design specifications by testing normal operation, corner cases, and error conditions. Engineers use coverage metrics to measure how thoroughly a design has been tested. Code coverage evaluates whether RTL code has been exercised, while functional coverage measures whether important operational scenarios have been tested. When failures occur, engineers use waveform analysis and debugging techniques to identify root causes. Formal verification complements simulation by using mathematical methods to prove correctness under defined conditions. A typical verification flow consists of understanding specifications, creating a verification plan, developing a testbench, running simulations, analyzing results, fixing bugs, measuring coverage, and completing verification signoff before tape-out. Effective verification improves product quality, reduces project risk, prevents costly silicon re-spins, and increases the likelihood of first-silicon success.",
+  "keywords": [
+    {
+      "english": "Verification",
+      "chinese": "驗證"
+    },
+    {
+      "english": "Simulation",
+      "chinese": "模擬"
+    },
+    {
+      "english": "Functional Verification",
+      "chinese": "功能驗證"
+    },
+    {
+      "english": "Testbench",
+      "chinese": "測試平台"
+    },
+    {
+      "english": "Debug",
+      "chinese": "除錯"
+    },
+    {
+      "english": "Coverage",
+      "chinese": "覆蓋率"
+    },
+    {
+      "english": "Code Coverage",
+      "chinese": "程式碼覆蓋率"
+    },
+    {
+      "english": "Functional Coverage",
+      "chinese": "功能覆蓋率"
+    },
+    {
+      "english": "Assertion",
+      "chinese": "斷言"
+    },
+    {
+      "english": "Waveform",
+      "chinese": "波形"
+    },
+    {
+      "english": "Scoreboard",
+      "chinese": "記分板比對機制"
+    },
+    {
+      "english": "Monitor",
+      "chinese": "監控器"
+    },
+    {
+      "english": "Checker",
+      "chinese": "檢查器"
+    },
+    {
+      "english": "Verification Plan",
+      "chinese": "驗證計畫"
+    },
+    {
+      "english": "Formal Verification",
+      "chinese": "形式驗證"
+    },
+    {
+      "english": "Equivalence Checking",
+      "chinese": "等價性檢查"
+    },
+    {
+      "english": "Corner Case",
+      "chinese": "邊界案例"
+    },
+    {
+      "english": "Signoff",
+      "chinese": "簽核"
+    },
+    {
+      "english": "Bug",
+      "chinese": "缺陷"
+    },
+    {
+      "english": "RTL Verification",
+      "chinese": "RTL驗證"
+    }
+  ],
+  "summary": [
+    "Verification ensures a chip design meets its specifications before manufacturing.",
+    "Simulation executes RTL designs in a virtual environment.",
+    "Verification is broader than simulation and includes planning, testing, coverage, and debugging.",
+    "Testbenches generate stimuli and check design behavior automatically.",
+    "Functional verification validates intended chip functionality.",
+    "Coverage measures how thoroughly a design has been tested.",
+    "Code coverage and functional coverage are both important metrics.",
+    "Debugging identifies and resolves design issues found during verification.",
+    "Formal verification uses mathematical techniques to prove design correctness.",
+    "Effective verification reduces the risk of costly post-silicon failures."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Verification ensures a chip design meets its ______.",
+      "answer": "Specifications"
+    },
+    {
+      "question": "2. Simulation executes RTL designs in a virtual ______.",
+      "answer": "Environment"
+    },
+    {
+      "question": "3. A ______ provides inputs and checks outputs during verification.",
+      "answer": "Testbench"
+    },
+    {
+      "question": "4. Functional verification confirms RTL behavior matches the ______.",
+      "answer": "Specification"
+    },
+    {
+      "question": "5. ______ coverage measures whether RTL code has been exercised.",
+      "answer": "Code"
+    },
+    {
+      "question": "6. Functional coverage measures whether important design ______ have been tested.",
+      "answer": "Scenarios"
+    },
+    {
+      "question": "7. Engineers analyze ______ to observe signal behavior over time.",
+      "answer": "Waveforms"
+    },
+    {
+      "question": "8. Debugging is used to identify and fix design ______.",
+      "answer": "Bugs"
+    },
+    {
+      "question": "9. Formal verification uses ______ methods to prove correctness.",
+      "answer": "Mathematical"
+    },
+    {
+      "question": "10. Verification signoff occurs before ______-out.",
+      "answer": "Tape"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is verification often more resource-intensive than RTL design?",
+      "answer": "Because modern chips contain enormous complexity and every functional requirement must be tested thoroughly before manufacturing."
+    },
+    {
+      "question": "2. What is the difference between simulation and verification?",
+      "answer": "Simulation executes the design to observe behavior, while verification is the complete process of proving that the design satisfies all requirements."
+    },
+    {
+      "question": "3. Why are testbenches important in verification?",
+      "answer": "They automate testing, generate input scenarios, monitor outputs, and help engineers detect design errors efficiently."
+    },
+    {
+      "question": "4. Why can't engineers rely only on simulation results?",
+      "answer": "Simulation can test only a limited number of scenarios. Coverage and formal methods help identify untested conditions."
+    },
+    {
+      "question": "5. What is the purpose of coverage metrics?",
+      "answer": "Coverage measures verification completeness and helps engineers determine whether enough testing has been performed."
+    },
+    {
+      "question": "6. Why is debugging a significant part of verification?",
+      "answer": "Most verification failures require detailed analysis to locate the root cause and determine whether the issue originates from RTL, testbench, or specifications."
+    },
+    {
+      "question": "7. What advantages does formal verification provide?",
+      "answer": "Formal methods can mathematically prove correctness for certain conditions and detect issues that simulation might miss."
+    },
+    {
+      "question": "8. Why are corner cases important during verification?",
+      "answer": "Many chip failures occur in rare operating conditions that may not be covered by normal testing."
+    },
+    {
+      "question": "9. What risks arise if verification is incomplete before tape-out?",
+      "answer": "Undetected bugs can result in silicon failures, costly re-spins, delayed product launches, and customer dissatisfaction."
+    },
+    {
+      "question": "10. How does effective verification improve semiconductor product quality?",
+      "answer": "It ensures that the manufactured chip behaves as intended, improves reliability, reduces risk, and increases the likelihood of first-silicon success."
+    }
+  ]
+},
+{
+  "id": 22,
+  "title": "EDA Tools",
+  "content": "Electronic Design Automation (EDA) refers to a collection of software tools used to design, verify, analyze, optimize, and prepare semiconductor chips for manufacturing. Modern integrated circuits often contain billions of transistors, making manual design impossible. EDA tools automate critical design tasks and enable engineers to transform product requirements into manufacturable semiconductor chips. EDA tools support nearly every stage of the IC design flow, including RTL design, simulation, verification, logic synthesis, timing analysis, physical design, power optimization, design-for-test implementation, and tape-out signoff. EDA acts as the bridge between engineering intent and physical silicon implementation. Simulation tools execute RTL designs in a virtual environment to verify functionality, analyze waveforms, and detect bugs. Synthesis tools convert RTL code into gate-level logic using standard cells while optimizing performance, power, and area. Physical design tools implement chip layouts through floorplanning, placement, clock tree synthesis, and routing. Static Timing Analysis (STA) tools verify that signals meet timing requirements by checking setup and hold timing constraints. Physical verification tools perform Design Rule Check (DRC) and Layout Versus Schematic (LVS) verification to ensure the design can be manufactured correctly. Power analysis tools evaluate dynamic and leakage power consumption. Design for Test (DFT) tools add scan chains and built-in self-test structures to improve manufacturability and fault detection. A typical EDA workflow includes RTL Design, Simulation, Verification, Logic Synthesis, Physical Design, Timing Analysis, Physical Verification, DFT Implementation, Signoff, and Tape-Out. The EDA industry is dominated by Synopsys, Cadence, and Siemens EDA, whose tools are essential for developing modern CPUs, GPUs, AI accelerators, networking chips, automotive processors, and advanced SoCs. As process nodes continue to shrink and chip complexity increases, EDA tools become increasingly important for achieving performance, power, area, timing, manufacturability, and reliability targets.",
+  "keywords": [
+    {
+      "english": "Electronic Design Automation (EDA)",
+      "chinese": "電子設計自動化"
+    },
+    {
+      "english": "EDA Tool",
+      "chinese": "EDA工具"
+    },
+    {
+      "english": "RTL Design",
+      "chinese": "RTL設計"
+    },
+    {
+      "english": "Simulation",
+      "chinese": "模擬"
+    },
+    {
+      "english": "Verification",
+      "chinese": "驗證"
+    },
+    {
+      "english": "Logic Synthesis",
+      "chinese": "邏輯合成"
+    },
+    {
+      "english": "Gate-Level Design",
+      "chinese": "閘級設計"
+    },
+    {
+      "english": "Physical Design",
+      "chinese": "實體設計"
+    },
+    {
+      "english": "Placement",
+      "chinese": "元件放置"
+    },
+    {
+      "english": "Routing",
+      "chinese": "佈線"
+    },
+    {
+      "english": "Static Timing Analysis (STA)",
+      "chinese": "靜態時序分析"
+    },
+    {
+      "english": "Setup Time",
+      "chinese": "建立時間"
+    },
+    {
+      "english": "Hold Time",
+      "chinese": "保持時間"
+    },
+    {
+      "english": "Design Rule Check (DRC)",
+      "chinese": "設計規則檢查"
+    },
+    {
+      "english": "Layout Versus Schematic (LVS)",
+      "chinese": "版圖與原理圖比對"
+    },
+    {
+      "english": "Design for Test (DFT)",
+      "chinese": "可測試性設計"
+    },
+    {
+      "english": "Scan Chain",
+      "chinese": "掃描鏈"
+    },
+    {
+      "english": "Tape-Out",
+      "chinese": "流片"
+    },
+    {
+      "english": "Synopsys",
+      "chinese": "新思科技"
+    },
+    {
+      "english": "Cadence",
+      "chinese": "益華電腦"
+    },
+    {
+      "english": "Siemens EDA",
+      "chinese": "西門子EDA"
+    },
+    {
+      "english": "Calibre",
+      "chinese": "Calibre驗證工具"
+    }
+  ],
+  "summary": [
+    "EDA tools automate semiconductor chip design and verification.",
+    "Modern chips cannot be developed manually due to design complexity.",
+    "EDA tools support every major stage of the IC design flow.",
+    "Simulation tools verify RTL functionality.",
+    "Synthesis tools convert RTL into gate-level hardware.",
+    "Physical design tools generate chip layouts.",
+    "STA tools verify timing correctness before manufacturing.",
+    "DRC and LVS ensure layouts meet foundry requirements.",
+    "DFT improves chip testability and manufacturing yield.",
+    "Synopsys, Cadence, and Siemens EDA dominate the global EDA market."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. EDA stands for Electronic Design ______.",
+      "answer": "Automation"
+    },
+    {
+      "question": "2. EDA tools help automate semiconductor chip ______.",
+      "answer": "Design"
+    },
+    {
+      "question": "3. Simulation tools are mainly used for ______ verification.",
+      "answer": "Functional"
+    },
+    {
+      "question": "4. Synthesis converts RTL into ______-level logic.",
+      "answer": "Gate"
+    },
+    {
+      "question": "5. Physical design includes placement and ______.",
+      "answer": "Routing"
+    },
+    {
+      "question": "6. STA stands for Static Timing ______.",
+      "answer": "Analysis"
+    },
+    {
+      "question": "7. DRC stands for Design Rule ______.",
+      "answer": "Check"
+    },
+    {
+      "question": "8. LVS compares layout and ______.",
+      "answer": "Schematic"
+    },
+    {
+      "question": "9. DFT stands for Design for ______.",
+      "answer": "Test"
+    },
+    {
+      "question": "10. Synopsys, Cadence, and Siemens EDA are major ______ vendors.",
+      "answer": "EDA"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why are EDA tools essential for modern semiconductor development?",
+      "answer": "Because modern chips contain billions of transistors and require automation to manage design complexity, verification, implementation, timing, power, and manufacturability."
+    },
+    {
+      "question": "2. How do EDA tools improve productivity for chip designers?",
+      "answer": "They automate repetitive engineering tasks, reduce manual errors, accelerate design cycles, and improve overall design quality."
+    },
+    {
+      "question": "3. Why is simulation an important part of the EDA workflow?",
+      "answer": "Simulation allows engineers to detect functional bugs before manufacturing, significantly reducing development risk and cost."
+    },
+    {
+      "question": "4. What happens during logic synthesis?",
+      "answer": "RTL descriptions are translated into gate-level implementations using standard cell libraries that can be physically implemented on silicon."
+    },
+    {
+      "question": "5. Why is timing analysis necessary before tape-out?",
+      "answer": "Timing violations can cause functional failures even when the logic design is correct, so timing must be verified before manufacturing."
+    },
+    {
+      "question": "6. What is the purpose of DRC and LVS checks?",
+      "answer": "They ensure chip layouts follow foundry manufacturing rules and accurately match the intended circuit design."
+    },
+    {
+      "question": "7. Why is DFT important in semiconductor manufacturing?",
+      "answer": "DFT improves defect detection, manufacturing test coverage, product quality, and production yield."
+    },
+    {
+      "question": "8. Why do advanced process nodes require increasingly sophisticated EDA tools?",
+      "answer": "Smaller geometries introduce more timing, power, variation, reliability, and manufacturability challenges that require advanced automation."
+    },
+    {
+      "question": "9. Why is the EDA industry dominated by only a few companies?",
+      "answer": "Developing EDA software requires decades of expertise, deep semiconductor knowledge, massive R&D investment, and close cooperation with foundries."
+    },
+    {
+      "question": "10. How do EDA tools contribute to successful tape-out and product quality?",
+      "answer": "They help ensure designs are functionally correct, timing-clean, manufacturable, testable, and optimized before fabrication, increasing the likelihood of first-pass silicon success."
+    }
+  ]
+},
+{
+  "id": 23,
+  "title": "Silicon IP and Licensing",
+  "content": "Silicon Intellectual Property (Silicon IP) refers to reusable, pre-designed semiconductor building blocks that can be integrated into an Integrated Circuit (IC) or System-on-Chip (SoC). Instead of designing every circuit from scratch, semiconductor companies often license proven IP blocks from third-party providers and integrate them into their chip designs. Silicon IP significantly reduces development time, engineering cost, design risk, and verification effort. Modern semiconductor products may contain dozens or even hundreds of licensed IP blocks. Modern chips have become extremely complex and often include CPU cores, GPU cores, memory controllers, USB controllers, PCIe interfaces, DDR interfaces, security modules, and AI accelerators. Designing all of these blocks internally would require enormous engineering resources. By reusing proven IPs, chip companies can focus on innovation and product differentiation while accelerating time-to-market. Silicon IP is generally divided into Soft IP and Hard IP. Soft IP is delivered as synthesizable RTL code in languages such as Verilog, SystemVerilog, or VHDL. It is flexible, portable across process technologies, and customizable. Hard IP is delivered as a fully implemented physical layout optimized for a specific process node. Hard IP provides higher performance, lower risk, and predictable implementation but is more difficult to modify. Common Silicon IP categories include Processor IP, Interface IP, Memory IP, and Analog/Mixed-Signal IP. Processor IP includes ARM Cortex cores and RISC-V cores. Interface IP includes USB, PCIe, Ethernet, and MIPI controllers. Memory IP includes SRAM macros and DRAM controllers. Analog and Mixed-Signal IP includes PLLs, ADCs, and DACs. The use of Silicon IP requires licensing agreements. Licensing models may involve upfront license fees, royalty-based payments, or hybrid models that combine both. ARM is one of the most successful examples of the Silicon IP business model. Rather than manufacturing chips, ARM licenses processor architectures and CPU cores to companies such as Apple, Qualcomm, MediaTek, Samsung, and NVIDIA. Silicon IP reuse helps reduce cost, shorten development schedules, improve reliability, and lower verification risks. However, challenges include licensing costs, integration complexity, dependency on external vendors, and verification of third-party IP quality. Today, Silicon IP is a foundational element of modern SoC development, enabling semiconductor companies to create highly complex chips more efficiently.",
+  "keywords": [
+    {
+      "english": "Silicon IP",
+      "chinese": "矽智財"
+    },
+    {
+      "english": "Intellectual Property (IP)",
+      "chinese": "智慧財產"
+    },
+    {
+      "english": "IP Core",
+      "chinese": "IP核心"
+    },
+    {
+      "english": "Soft IP",
+      "chinese": "軟IP"
+    },
+    {
+      "english": "Hard IP",
+      "chinese": "硬IP"
+    },
+    {
+      "english": "RTL",
+      "chinese": "暫存器傳輸層級"
+    },
+    {
+      "english": "SoC (System-on-Chip)",
+      "chinese": "系統單晶片"
+    },
+    {
+      "english": "IP Licensing",
+      "chinese": "IP授權"
+    },
+    {
+      "english": "Royalty",
+      "chinese": "權利金"
+    },
+    {
+      "english": "License Fee",
+      "chinese": "授權費"
+    },
+    {
+      "english": "CPU Core",
+      "chinese": "CPU核心"
+    },
+    {
+      "english": "GPU Core",
+      "chinese": "GPU核心"
+    },
+    {
+      "english": "Memory Controller",
+      "chinese": "記憶體控制器"
+    },
+    {
+      "english": "DDR PHY",
+      "chinese": "DDR實體介面"
+    },
+    {
+      "english": "SerDes",
+      "chinese": "串列解串列器"
+    },
+    {
+      "english": "PCI Express (PCIe)",
+      "chinese": "PCIe高速介面"
+    },
+    {
+      "english": "ARM",
+      "chinese": "安謀"
+    },
+    {
+      "english": "RISC-V",
+      "chinese": "RISC-V開放架構"
+    },
+    {
+      "english": "Time-to-Market",
+      "chinese": "上市時間"
+    },
+    {
+      "english": "IP Reuse",
+      "chinese": "IP重複使用"
+    }
+  ],
+  "summary": [
+    "Silicon IP consists of reusable semiconductor building blocks.",
+    "IP reuse reduces development cost, risk, and design time.",
+    "Modern SoCs are built from multiple IP blocks.",
+    "Soft IP is typically delivered as RTL code.",
+    "Hard IP is delivered as a physical layout optimized for a process node.",
+    "Processor, interface, memory, and analog IP are common IP categories.",
+    "Licensing allows companies to use third-party IP legally.",
+    "ARM is one of the most successful Silicon IP companies.",
+    "Royalty-based licensing is widely used in the semiconductor industry.",
+    "Silicon IP plays a critical role in accelerating modern chip development."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. Silicon IP stands for Silicon Intellectual ______.",
+      "answer": "Property"
+    },
+    {
+      "question": "2. Silicon IP allows engineers to ______ design blocks instead of creating everything from scratch.",
+      "answer": "Reuse"
+    },
+    {
+      "question": "3. Soft IP is commonly delivered as synthesizable ______ code.",
+      "answer": "RTL"
+    },
+    {
+      "question": "4. Hard IP is usually delivered as a physical ______.",
+      "answer": "Layout"
+    },
+    {
+      "question": "5. ARM is a well-known provider of processor ______.",
+      "answer": "IP"
+    },
+    {
+      "question": "6. PCIe and USB are examples of ______ IP.",
+      "answer": "Interface"
+    },
+    {
+      "question": "7. A royalty is a payment made for using licensed ______.",
+      "answer": "IP"
+    },
+    {
+      "question": "8. IP reuse helps reduce development ______.",
+      "answer": "Time"
+    },
+    {
+      "question": "9. Modern SoCs may contain dozens of reusable IP ______.",
+      "answer": "Blocks"
+    },
+    {
+      "question": "10. Licensing provides the legal right to use intellectual ______.",
+      "answer": "Property"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why do semiconductor companies use Silicon IP instead of designing everything internally?",
+      "answer": "Because modern chips are extremely complex. Reusing proven IP significantly reduces development time, engineering effort, verification cost, and project risk."
+    },
+    {
+      "question": "2. What is the difference between Soft IP and Hard IP?",
+      "answer": "Soft IP is delivered as RTL code and can be synthesized across different technologies, while Hard IP is delivered as a fixed physical implementation optimized for a specific process node."
+    },
+    {
+      "question": "3. Why is ARM considered one of the most successful IP companies?",
+      "answer": "ARM licenses CPU architectures and processor cores to a large number of semiconductor companies without manufacturing chips itself."
+    },
+    {
+      "question": "4. What are the advantages of IP reuse in chip development?",
+      "answer": "IP reuse accelerates development, improves reliability, lowers cost, reduces risk, and shortens time-to-market."
+    },
+    {
+      "question": "5. Why are interface IPs such as PCIe and USB frequently licensed?",
+      "answer": "Because industry-standard interfaces are complex, constantly evolving, and require extensive verification to ensure compliance."
+    },
+    {
+      "question": "6. What is a royalty-based licensing model?",
+      "answer": "Customers pay ongoing fees based on chip shipments, sales volume, or product revenue generated from the licensed IP."
+    },
+    {
+      "question": "7. What challenges can arise when integrating third-party IP into a chip?",
+      "answer": "Integration issues, compatibility problems, verification complexity, licensing restrictions, and security concerns may occur."
+    },
+    {
+      "question": "8. Why is Hard IP commonly used for high-speed interfaces?",
+      "answer": "Hard IP provides optimized physical implementations that deliver predictable performance, timing, and signal integrity."
+    },
+    {
+      "question": "9. How does Silicon IP affect time-to-market?",
+      "answer": "Using proven IP blocks allows companies to skip large portions of development and verification work, enabling faster product releases."
+    },
+    {
+      "question": "10. Why is Silicon IP considered a foundational element of modern SoC design?",
+      "answer": "Because modern SoCs combine numerous specialized IP blocks from multiple vendors, making IP reuse essential for managing complexity and development cost."
+    }
+  ]
+},
+{
+  "id": 24,
+  "title": "Placement and Routing",
+  "content": "After RTL design, verification, and logic synthesis are completed, the chip design exists as a gate-level netlist. However, the design still does not have a physical layout that can be manufactured. Placement and Routing (P&R) is the process of transforming a synthesized netlist into a physical chip layout that can be fabricated by a semiconductor foundry. P&R is one of the most important stages of physical design because it directly impacts performance, power consumption, chip area, signal integrity, and manufacturability. The output of P&R eventually becomes the physical database used for tape-out. Placement is the process of determining the physical locations of standard cells, memory macros, and IP blocks on a chip. The goals of placement include minimizing wire length, improving timing performance, reducing power consumption, minimizing routing congestion, and optimizing chip area. Before placement begins, engineers perform floorplanning, which defines chip dimensions, macro locations, power structures, and I/O placement. Clock Tree Synthesis (CTS) is then performed to distribute clock signals throughout the design while minimizing clock skew and controlling clock latency. After placement and CTS, routing creates the physical electrical connections between cells, registers, macros, IP blocks, and I/O interfaces using multiple metal interconnect layers. Modern semiconductor processes use many routing layers, with lower layers handling local connections and upper layers carrying long-distance signals, clock networks, and power distribution. One of the primary goals of P&R is achieving timing closure. Timing closure means that all setup time and hold time requirements have been satisfied. Designers must also manage congestion, signal integrity, crosstalk, noise, IR drop, power consumption, and routability. A typical P&R flow includes Floorplanning, Power Planning, Placement, Clock Tree Synthesis, Routing, Timing Optimization, Physical Verification, and Signoff. Successful placement and routing transform logical functionality into manufacturable silicon while meeting performance, power, area, reliability, and manufacturing requirements.",
+  "keywords": [
+    {
+      "english": "Placement",
+      "chinese": "元件放置"
+    },
+    {
+      "english": "Routing",
+      "chinese": "佈線"
+    },
+    {
+      "english": "Physical Design",
+      "chinese": "實體設計"
+    },
+    {
+      "english": "Floorplanning",
+      "chinese": "佈局規劃"
+    },
+    {
+      "english": "Standard Cell",
+      "chinese": "標準元件"
+    },
+    {
+      "english": "Netlist",
+      "chinese": "網表"
+    },
+    {
+      "english": "Clock Tree Synthesis (CTS)",
+      "chinese": "時脈樹合成"
+    },
+    {
+      "english": "Clock Skew",
+      "chinese": "時脈偏斜"
+    },
+    {
+      "english": "Clock Latency",
+      "chinese": "時脈延遲"
+    },
+    {
+      "english": "Timing Closure",
+      "chinese": "時序收斂"
+    },
+    {
+      "english": "Setup Time",
+      "chinese": "建立時間"
+    },
+    {
+      "english": "Hold Time",
+      "chinese": "保持時間"
+    },
+    {
+      "english": "Congestion",
+      "chinese": "佈線壅塞"
+    },
+    {
+      "english": "Signal Integrity",
+      "chinese": "訊號完整性"
+    },
+    {
+      "english": "Crosstalk",
+      "chinese": "串擾"
+    },
+    {
+      "english": "IR Drop",
+      "chinese": "電壓降"
+    },
+    {
+      "english": "Metal Layer",
+      "chinese": "金屬層"
+    },
+    {
+      "english": "Power Planning",
+      "chinese": "電源規劃"
+    },
+    {
+      "english": "DRC (Design Rule Check)",
+      "chinese": "設計規則檢查"
+    },
+    {
+      "english": "LVS (Layout Versus Schematic)",
+      "chinese": "版圖與原理圖比對"
+    }
+  ],
+  "summary": [
+    "Placement and Routing converts a synthesized netlist into a manufacturable chip layout.",
+    "Placement determines where cells and IP blocks are physically located.",
+    "Floorplanning establishes the high-level structure of the chip.",
+    "CTS distributes clock signals throughout the design.",
+    "Routing creates physical connections using metal layers.",
+    "Timing closure is a primary objective of physical design.",
+    "Setup and hold violations must be resolved before tape-out.",
+    "Congestion can negatively impact timing, power, and routability.",
+    "Signal integrity issues such as crosstalk and IR drop must be controlled.",
+    "Successful P&R is critical for achieving performance, power, area, and manufacturability goals."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. P&R stands for Placement and ______.",
+      "answer": "Routing"
+    },
+    {
+      "question": "2. Placement determines the physical locations of standard ______.",
+      "answer": "Cells"
+    },
+    {
+      "question": "3. The process of defining a chip's physical structure is called ______planning.",
+      "answer": "Floor"
+    },
+    {
+      "question": "4. CTS stands for Clock Tree ______.",
+      "answer": "Synthesis"
+    },
+    {
+      "question": "5. Routing creates physical connections using ______ layers.",
+      "answer": "Metal"
+    },
+    {
+      "question": "6. Timing closure ensures all ______ requirements are met.",
+      "answer": "Timing"
+    },
+    {
+      "question": "7. Data must arrive before the clock edge to satisfy ______ time.",
+      "answer": "Setup"
+    },
+    {
+      "question": "8. Data must remain stable after the clock edge to satisfy ______ time.",
+      "answer": "Hold"
+    },
+    {
+      "question": "9. Excessive routing demand in one area creates ______.",
+      "answer": "Congestion"
+    },
+    {
+      "question": "10. Crosstalk is a type of signal ______ issue.",
+      "answer": "Integrity"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is Placement and Routing necessary after logic synthesis?",
+      "answer": "Logic synthesis creates a gate-level representation of the design, but it does not define where circuit elements will physically exist on the chip. P&R transforms the logical design into a manufacturable physical layout."
+    },
+    {
+      "question": "2. Why is floorplanning important before placement?",
+      "answer": "Floorplanning determines the chip structure, macro locations, power distribution, and placement regions. Poor floorplanning can create congestion and timing problems later in the design flow."
+    },
+    {
+      "question": "3. What factors influence placement quality?",
+      "answer": "Wire length, timing requirements, power consumption, congestion, area utilization, routability, and signal integrity all influence placement quality."
+    },
+    {
+      "question": "4. Why is Clock Tree Synthesis critical in modern chips?",
+      "answer": "Clock signals must reach millions or billions of registers with minimal skew and controlled latency. Poor clock distribution can cause timing failures and unreliable operation."
+    },
+    {
+      "question": "5. What challenges occur during routing?",
+      "answer": "Routing must connect all signals while avoiding congestion, design rule violations, excessive wire length, timing degradation, and signal integrity problems."
+    },
+    {
+      "question": "6. Why is timing closure often difficult?",
+      "answer": "Modern chips contain billions of transistors operating at very high frequencies. Small delays can create setup or hold violations that require extensive optimization."
+    },
+    {
+      "question": "7. What is the impact of congestion on chip performance?",
+      "answer": "Congestion can increase routing difficulty, create longer paths, degrade timing, increase power consumption, and reduce overall design quality."
+    },
+    {
+      "question": "8. Why are signal integrity issues important at advanced process nodes?",
+      "answer": "As wires become smaller and closer together, interference, voltage drops, and noise become more significant and can affect reliable chip operation."
+    },
+    {
+      "question": "9. How do metal layers help routing?",
+      "answer": "Multiple metal layers allow signals to be routed efficiently without excessive conflicts, improving connectivity and routability."
+    },
+    {
+      "question": "10. Why is P&R considered one of the most challenging parts of ASIC physical design?",
+      "answer": "Because designers must simultaneously satisfy timing, power, area, congestion, signal integrity, manufacturability, and reliability requirements while implementing extremely complex designs."
+    }
+  ]
+},
+{
+  "id": 25,
+  "title": "Tape-Out Process",
+  "content": "Tape-Out is the final stage of the IC design process in which the completed chip layout is released to the semiconductor foundry for manufacturing. Historically, chip layout data was stored on magnetic tapes and physically delivered to fabrication facilities. Although modern data is transmitted electronically, the industry still uses the term Tape-Out. Tape-Out represents the transition from design to manufacturing. Once a design is taped out, making changes becomes extremely expensive and time-consuming. For this reason, Tape-Out is considered one of the most critical milestones in semiconductor development. A typical IC development flow consists of System Specification, Architecture Design, RTL Design, Verification, Logic Synthesis, Physical Design, Signoff, Tape-Out, Manufacturing, Packaging, and Testing. Before Tape-Out, the design must undergo signoff, a formal approval process that verifies functionality, timing, power integrity, reliability, and manufacturability. Functional signoff includes simulation, verification, formal verification, and coverage review. Timing signoff ensures all setup and hold timing requirements are met. Power signoff evaluates dynamic power, leakage power, IR drop, and electromigration risks. Physical signoff includes Design Rule Check (DRC), Layout Versus Schematic (LVS), antenna checks, and density verification. The final layout database is typically generated in GDSII or OASIS format, which serves as the manufacturing blueprint. These files are delivered to the foundry together with signoff reports and supporting documentation. After Tape-Out, the foundry generates photomasks used during lithography and begins wafer fabrication. The first manufactured chips are known as First Silicon. Engineers perform Silicon Bring-Up by powering on the chips, loading firmware, testing interfaces, and debugging issues. Silicon Validation then verifies functionality, performance, power consumption, reliability, and product quality before mass production. If major problems are discovered after fabrication, a Silicon Re-Spin may be required. Re-spins involve design modifications, new masks, additional wafer production, increased cost, and schedule delays. Successful Tape-Out is a major achievement because it represents the successful completion of the design process and the beginning of manufacturing.",
+  "keywords": [
+    {
+      "english": "Tape-Out",
+      "chinese": "流片"
+    },
+    {
+      "english": "Signoff",
+      "chinese": "設計簽核"
+    },
+    {
+      "english": "Foundry",
+      "chinese": "晶圓代工"
+    },
+    {
+      "english": "GDSII",
+      "chinese": "GDSII版圖格式"
+    },
+    {
+      "english": "OASIS",
+      "chinese": "OASIS版圖格式"
+    },
+    {
+      "english": "Mask Generation",
+      "chinese": "光罩製作"
+    },
+    {
+      "english": "Photomask",
+      "chinese": "光罩"
+    },
+    {
+      "english": "First Silicon",
+      "chinese": "首批晶片"
+    },
+    {
+      "english": "Silicon Bring-Up",
+      "chinese": "晶片啟動驗證"
+    },
+    {
+      "english": "Silicon Validation",
+      "chinese": "晶片驗證"
+    },
+    {
+      "english": "Silicon Re-Spin",
+      "chinese": "晶片重製"
+    },
+    {
+      "english": "Functional Signoff",
+      "chinese": "功能簽核"
+    },
+    {
+      "english": "Timing Signoff",
+      "chinese": "時序簽核"
+    },
+    {
+      "english": "Power Signoff",
+      "chinese": "功耗簽核"
+    },
+    {
+      "english": "Physical Signoff",
+      "chinese": "實體簽核"
+    },
+    {
+      "english": "DRC (Design Rule Check)",
+      "chinese": "設計規則檢查"
+    },
+    {
+      "english": "LVS (Layout Versus Schematic)",
+      "chinese": "版圖與原理圖比對"
+    },
+    {
+      "english": "IR Drop",
+      "chinese": "電壓降"
+    },
+    {
+      "english": "Electromigration (EM)",
+      "chinese": "電遷移"
+    },
+    {
+      "english": "Manufacturing Readiness",
+      "chinese": "製造就緒"
+    }
+  ],
+  "summary": [
+    "Tape-Out is the final handoff from chip design to manufacturing.",
+    "Tape-Out occurs after design, verification, physical implementation, and signoff are completed.",
+    "Signoff verifies functionality, timing, power, and manufacturability.",
+    "GDSII and OASIS are standard layout formats used for Tape-Out.",
+    "Foundries use Tape-Out data to generate photomasks and manufacture chips.",
+    "First Silicon refers to the first manufactured samples of a new chip.",
+    "Silicon Bring-Up evaluates whether the chip operates correctly.",
+    "Silicon Validation confirms functionality, performance, and reliability.",
+    "Silicon Re-Spins are costly and can significantly delay product schedules.",
+    "Successful Tape-Out is one of the most critical milestones in semiconductor development."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. ______-Out is the final stage before chip manufacturing begins.",
+      "answer": "Tape"
+    },
+    {
+      "question": "2. Before Tape-Out, the design must pass design ______.",
+      "answer": "Signoff"
+    },
+    {
+      "question": "3. ______ signoff verifies that all timing requirements are satisfied.",
+      "answer": "Timing"
+    },
+    {
+      "question": "4. GDSII and OASIS are layout file ______.",
+      "answer": "Formats"
+    },
+    {
+      "question": "5. Foundries use Tape-Out data to generate photo______.",
+      "answer": "Masks"
+    },
+    {
+      "question": "6. The first manufactured chips are called First ______.",
+      "answer": "Silicon"
+    },
+    {
+      "question": "7. Silicon ______ is the process of powering on and testing first silicon.",
+      "answer": "Bring-Up"
+    },
+    {
+      "question": "8. Physical signoff typically includes DRC and ______ checks.",
+      "answer": "LVS"
+    },
+    {
+      "question": "9. A silicon ______ is required when major design issues are found after Tape-Out.",
+      "answer": "Re-Spin"
+    },
+    {
+      "question": "10. Tape-Out marks the transition from design to ______.",
+      "answer": "Manufacturing"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why is Tape-Out considered one of the most important milestones in IC development?",
+      "answer": "Because it marks the point where years of design work are handed over for manufacturing, and design changes become extremely expensive afterwards."
+    },
+    {
+      "question": "2. Why must signoff be completed before Tape-Out?",
+      "answer": "Signoff ensures the design meets functional, timing, power, reliability, and manufacturability requirements before fabrication begins."
+    },
+    {
+      "question": "3. What is the purpose of GDSII or OASIS files?",
+      "answer": "They serve as the manufacturing blueprint that describes the physical layout of the chip."
+    },
+    {
+      "question": "4. Why are photomasks important after Tape-Out?",
+      "answer": "Photomasks transfer circuit patterns onto silicon wafers during lithography and are essential for manufacturing integrated circuits."
+    },
+    {
+      "question": "5. What is First Silicon and why is it significant?",
+      "answer": "First Silicon is the first manufactured version of a chip. It determines whether the design works correctly in actual hardware."
+    },
+    {
+      "question": "6. What activities occur during Silicon Bring-Up?",
+      "answer": "Engineers power on the chip, load firmware, test interfaces, run diagnostics, and debug any issues discovered."
+    },
+    {
+      "question": "7. Why is validation necessary after First Silicon is available?",
+      "answer": "Validation confirms that performance, functionality, power consumption, reliability, and quality requirements are met before volume production."
+    },
+    {
+      "question": "8. What causes a Silicon Re-Spin?",
+      "answer": "Major design flaws, timing issues, functionality errors, or manufacturability problems discovered after fabrication."
+    },
+    {
+      "question": "9. Why are Silicon Re-Spins expensive?",
+      "answer": "They require redesign, new mask sets, additional fabrication cycles, and often delay market launch by months."
+    },
+    {
+      "question": "10. How do verification and signoff contribute to successful Tape-Out?",
+      "answer": "They help detect and correct issues before manufacturing, increasing the probability of achieving First Silicon success and reducing project risk."
+    }
+  ]
+},
+{
+  "id": 26,
+  "title": "ASIC vs FPGA",
+  "content": "An ASIC (Application-Specific Integrated Circuit) is a custom semiconductor chip designed for a specific application or product. An FPGA (Field-Programmable Gate Array) is a programmable integrated circuit that can be configured and reconfigured by users after manufacturing. Both ASICs and FPGAs can implement digital logic and execute hardware designs described using RTL languages such as Verilog, SystemVerilog, and VHDL. However, they differ significantly in architecture, performance, cost, power consumption, and flexibility. An ASIC is fabricated for a specific purpose and its functionality is fixed after manufacturing. Examples include smartphone processors, AI accelerators, networking chips, automotive SoCs, and cryptocurrency mining devices. ASIC development requires a complete IC design flow including RTL design, verification, synthesis, physical design, tape-out, manufacturing, packaging, and testing. In contrast, an FPGA contains programmable logic resources such as logic blocks, lookup tables (LUTs), flip-flops, embedded memory, DSP blocks, and programmable routing networks. Engineers can configure FPGA functionality by loading a configuration file called a bitstream. The same FPGA can be reprogrammed multiple times, making it ideal for prototyping, development, and applications requiring flexibility. ASICs generally provide higher performance, lower latency, lower power consumption, and lower unit cost at high production volumes because the hardware is optimized for a specific application. FPGAs offer faster development cycles, lower upfront costs, and the ability to modify designs after deployment. ASIC development requires significant investment in tape-out, photomasks, fabrication, and validation, while FPGA development avoids manufacturing costs. Many semiconductor companies use FPGA prototyping before ASIC tape-out to validate RTL, enable software development, and reduce project risk. Common FPGA vendors include AMD (formerly Xilinx) and Intel FPGA. ASICs are preferred for high-volume products where performance and power efficiency are critical, while FPGAs are preferred when flexibility, rapid development, and lower production volumes are required. The choice between ASIC and FPGA depends on performance targets, power requirements, development budget, production volume, risk tolerance, and time-to-market goals.",
+  "keywords": [
+    {
+      "english": "ASIC",
+      "chinese": "特定應用積體電路"
+    },
+    {
+      "english": "FPGA",
+      "chinese": "現場可程式化閘陣列"
+    },
+    {
+      "english": "Application-Specific Integrated Circuit",
+      "chinese": "特定應用積體電路"
+    },
+    {
+      "english": "Field-Programmable Gate Array",
+      "chinese": "現場可程式化閘陣列"
+    },
+    {
+      "english": "RTL",
+      "chinese": "暫存器傳輸層級"
+    },
+    {
+      "english": "Verilog",
+      "chinese": "Verilog"
+    },
+    {
+      "english": "VHDL",
+      "chinese": "VHDL"
+    },
+    {
+      "english": "Bitstream",
+      "chinese": "組態檔"
+    },
+    {
+      "english": "Logic Block",
+      "chinese": "邏輯區塊"
+    },
+    {
+      "english": "Lookup Table (LUT)",
+      "chinese": "查找表"
+    },
+    {
+      "english": "Flip-Flop",
+      "chinese": "正反器"
+    },
+    {
+      "english": "DSP Block",
+      "chinese": "數位訊號處理區塊"
+    },
+    {
+      "english": "Prototyping",
+      "chinese": "原型驗證"
+    },
+    {
+      "english": "Tape-Out",
+      "chinese": "流片"
+    },
+    {
+      "english": "Reconfigurable",
+      "chinese": "可重新配置"
+    },
+    {
+      "english": "Time-to-Market",
+      "chinese": "上市時間"
+    },
+    {
+      "english": "Power Consumption",
+      "chinese": "功耗"
+    },
+    {
+      "english": "Unit Cost",
+      "chinese": "單位成本"
+    },
+    {
+      "english": "Xilinx",
+      "chinese": "賽靈思"
+    },
+    {
+      "english": "Intel FPGA",
+      "chinese": "Intel FPGA"
+    }
+  ],
+  "summary": [
+    "ASICs are custom chips designed for specific applications.",
+    "FPGAs are programmable devices that can be reconfigured after manufacturing.",
+    "Both ASICs and FPGAs can implement RTL designs.",
+    "ASICs generally provide higher performance and lower power consumption.",
+    "FPGAs offer greater flexibility and faster development cycles.",
+    "ASIC development requires tape-out and semiconductor manufacturing.",
+    "FPGA designs can be updated by loading a new bitstream.",
+    "ASICs are more cost-effective for high-volume products.",
+    "FPGA prototyping is commonly used before ASIC tape-out.",
+    "Technology selection depends on requirements for performance, power, cost, flexibility, and volume."
+  ],
+  "quiz_short": [
+    {
+      "question": "1. ASIC stands for Application-Specific Integrated ______.",
+      "answer": "Circuit"
+    },
+    {
+      "question": "2. FPGA stands for Field-Programmable Gate ______.",
+      "answer": "Array"
+    },
+    {
+      "question": "3. FPGA devices can be ______ after manufacturing.",
+      "answer": "Reconfigured"
+    },
+    {
+      "question": "4. ASIC functionality is generally ______ after fabrication.",
+      "answer": "Fixed"
+    },
+    {
+      "question": "5. FPGA configurations are typically stored in a ______ file.",
+      "answer": "Bitstream"
+    },
+    {
+      "question": "6. FPGA logic resources include LUTs and flip-______.",
+      "answer": "Flops"
+    },
+    {
+      "question": "7. ASICs typically consume less ______ than FPGAs.",
+      "answer": "Power"
+    },
+    {
+      "question": "8. ASIC development requires a ______-Out process.",
+      "answer": "Tape"
+    },
+    {
+      "question": "9. FPGA prototyping helps reduce development ______.",
+      "answer": "Risk"
+    },
+    {
+      "question": "10. ASICs are often more economical at high production ______.",
+      "answer": "Volumes"
+    }
+  ],
+  "quiz_long": [
+    {
+      "question": "1. Why would a company choose an ASIC over an FPGA?",
+      "answer": "ASICs provide higher performance, lower power consumption, and lower unit cost when shipped in high volumes."
+    },
+    {
+      "question": "2. Why are FPGAs commonly used during product development?",
+      "answer": "Because they are programmable, allowing engineers to test and modify hardware without manufacturing a new chip."
+    },
+    {
+      "question": "3. What is the main architectural difference between ASICs and FPGAs?",
+      "answer": "ASICs contain fixed custom hardware, while FPGAs contain programmable logic and routing resources."
+    },
+    {
+      "question": "4. Why do ASICs usually offer better power efficiency?",
+      "answer": "ASIC circuits are optimized for a specific application and do not include programmable routing overhead."
+    },
+    {
+      "question": "5. What advantages do FPGAs provide for rapidly changing requirements?",
+      "answer": "FPGAs can be reprogrammed, updated, and adapted without redesigning or manufacturing new silicon."
+    },
+    {
+      "question": "6. Why is ASIC development more expensive than FPGA development?",
+      "answer": "ASICs require physical design, mask generation, fabrication, packaging, and testing, all of which add substantial cost."
+    },
+    {
+      "question": "7. What is FPGA prototyping and why is it useful?",
+      "answer": "FPGA prototyping implements ASIC RTL on FPGA hardware before tape-out, enabling earlier testing and debugging."
+    },
+    {
+      "question": "8. When does an ASIC become more cost-effective than an FPGA?",
+      "answer": "When production volumes are high enough that the upfront ASIC development cost can be spread across many units."
+    },
+    {
+      "question": "9. What types of products commonly use ASICs and FPGAs?",
+      "answer": "ASICs are common in smartphones and AI chips, while FPGAs are common in prototyping, telecommunications, aerospace, and industrial systems."
+    },
+    {
+      "question": "10. How should engineers choose between ASIC and FPGA?",
+      "answer": "They should evaluate performance, power, flexibility, development cost, production volume, risk, and time-to-market requirements."
+    }
+  ]
+}
+  ]
+}
