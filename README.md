@@ -1,19 +1,17 @@
 # Semiconductor Learning with Jasmine
 
-A personal learning project developed using Python and JSON.
+A personal learning project built with Python and JSON to review and consolidate semiconductor knowledge through structured modules and interactive quizzes.
 
 ## Objective
 
-To review and consolidate semiconductor knowledge through structured modules and active recall quizzes.
+This project organizes semiconductor concepts into structured, bilingual (English-Chinese) learning modules, paired with an active recall quiz system to reinforce retention.
 
 ## Features
 
-- 11 learning modules
-- 100 semiconductor topics
-- English-Chinese terminology
-- Topic review
-- Key takeaways
-- Interactive quiz system
+- 11 learning modules covering 100 semiconductor topics
+- English-Chinese terminology for each concept
+- Concise topic reviews and key takeaways
+- Interactive quiz system for active recall
 
 ## Modules
 
@@ -29,7 +27,7 @@ To review and consolidate semiconductor knowledge through structured modules and
 10. Companies and Market
 11. Sustainability and Future
 
-## Technologies
+## Tech Stack
 
 - Python
 - JSON
