@@ -813,7 +813,7 @@ def render_about(filenames):
     st.html(
         f'<div class="footer">'
         f'{esc(AUTHOR).upper()} &middot; PYTHON + STREAMLIT &middot; '
-        f'CONTENT WRITTEN BY HAND &middot; {esc(AUTHOR_CONTACT)}</div>'
+        f'CONTENT  Study notes - In progress &middot; {esc(AUTHOR_CONTACT)}</div>'
     )
 
 
